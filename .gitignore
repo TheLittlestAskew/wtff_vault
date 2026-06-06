@@ -1,0 +1,32 @@
+# ══════════════════════════════════════════════════════════════
+# Where the Flowers Remember — Vault .gitignore
+# Created: 2026-06-05
+# ══════════════════════════════════════════════════════════════
+
+# ── API Keys & Secrets ───────────────────────────────────────
+# Environment file for API keys (Supabase, AssemblyAI, etc.)
+.env
+
+# ── Session Recordings (voices of real people) ───────────────
+Session_Sources/Recordings/
+
+# ── Copyrighted D&D Source PDFs ──────────────────────────────
+DND_Sources/*.pdf
+
+# ── Obsidian Internal Config ─────────────────────────────────
+.obsidian/
+.smart-env/
+.claude/
+.trash/
+
+# ── OS / Editor Junk ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ── Node / Build Artifacts ───────────────────────────────────
+node_modules/
+package-lock.json
