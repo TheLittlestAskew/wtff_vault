@@ -18,8 +18,7 @@
 | Page templates | ✅ |
 | Campaign-Hub trackers | ✅ |
 | Mechanics scaffolds | ✅ |
-| Player-character pages | 🟡 [[Vega Bloodroot]] done (class/level pending); other PCs pending names |
-| Backstory pages from Vega's sheet | ✅ NPCs (Varro, Harkon, Graza, Kael Virethorn), Locations (Mossmere, Hollowbarrow), Region (Thornshade Forest) |
+| Player-character pages | ⏳ pending names |
 | DM identified / DM Notes file named | ⏳ pending |
 | DDB roll archive wired (game_id) | ⏳ pending live game |
-| DM world-lore pages | ⏳ pending lore drop |
+| World-lore pages (pre-launch lore) | ⏳ pending lore drop |
