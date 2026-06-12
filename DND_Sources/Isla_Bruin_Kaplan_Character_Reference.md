@@ -1,6 +1,6 @@
 # Isla "Bruin" Kaplan — Character Reference
 
-*Where the Flowers Forget (WTFR) · Continent of Artemesia · DMs: Adam & Alec*
+*Where the Flowers Forget (WTFF) · Continent of Artemesia · DMs: Adam & Alec*
 *Last compiled: June 6, 2026*
 
 > **How to read this doc:** Confirmed details are stated plainly. Anything still

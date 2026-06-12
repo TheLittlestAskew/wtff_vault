@@ -1,8 +1,8 @@
 # Where the Flowers Forget — Obsidian Vault Structure & Content Guide
 
-> **Vault name:** `wtfr_vault`
-> **Local path:** `C:\Users\theli\wtfr_vault`
-> **GitHub repo:** https://github.com/TheLittlestAskew/wtfr_vault (private)
+> **Vault name:** `wtff_vault`
+> **Local path:** `C:\Users\theli\wtff_vault`
+> **GitHub repo:** https://github.com/TheLittlestAskew/wtff_vault (private)
 > **Campaign launch:** 2026-06-14
 
 Defines every folder, file, and section in this vault. Mirrors the Sky Is The Limit vault structure. Authoritative reference for what goes where during post-session updates.
@@ -12,7 +12,7 @@ Defines every folder, file, and section in this vault. Mirrors the Sky Is The Li
 ## Vault Map
 
 ```
-wtfr_vault/
+wtff_vault/
 ├── 00-Campaign-Hub/
 │   ├── Campaign Dashboard.md
 │   ├── House Rules & Rulings.md

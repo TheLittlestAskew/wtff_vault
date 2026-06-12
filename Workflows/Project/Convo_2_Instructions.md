@@ -1,4 +1,4 @@
-# WTFR Convo 2 Instructions — Vault Updates
+# WTFF Convo 2 Instructions — Vault Updates
 
 **Status:** Seeded starter (pre-launch). Companion to `Project_Instructions.md` (master ruleset — to be created); all shared rules and constraints from that file apply here.
 
@@ -10,16 +10,16 @@ This document defines the workflow for **Convo 2**: updating the Where the Flowe
 
 1. **The Convo 2 Handoff Block** — pasted from the end of Convo 1.
 2. **The completed session notes** — `.docx` or pasted/uploaded content from Convo 1.
-3. **Obsidian MCP connected and responsive** — vault name is `wtfr_vault`. If unresponsive, say so immediately; do not draft from memory without verifying vault state. GitHub (`TheLittlestAskew/wtfr_vault`) is the fallback write path.
+3. **Obsidian MCP connected and responsive** — vault name is `wtff_vault`. If unresponsive, say so immediately; do not draft from memory without verifying vault state. GitHub (`TheLittlestAskew/wtff_vault`) is the fallback write path.
 
 ---
 
 ## VAULT REFERENCE
 
-**Vault name:** `wtfr_vault` · **Local path:** `C:\Users\theli\wtfr_vault`
+**Vault name:** `wtff_vault` · **Local path:** `C:\Users\theli\wtff_vault`
 
 ```
-wtfr_vault/
+wtff_vault/
 ├── 00-Campaign-Hub/
 │   ├── Campaign Dashboard.md
 │   ├── House Rules & Rulings.md
@@ -63,7 +63,7 @@ Separate reads from writes so a timeout never loses progress. Log progress to `/
 
 ### PHASE 1: READ
 
-0. Read the Handoff Block. Confirm the MCP: `obsidian:list-available-vaults` shows `wtfr_vault`.
+0. Read the Handoff Block. Confirm the MCP: `obsidian:list-available-vaults` shows `wtff_vault`.
 1. **Required reads every session:**
    - `Workflows/Project/_Campaign_Setup.md` — **read first.** Holds current campaign specifics (DM, roster, POV character, format decisions) and open unknowns. If the handoff or notes reveal a pending input, **record it here and update what it unblocks** before continuing. This is how the pipeline fills itself in.
    - `DND_Sources/DM Notes.md` — **top authority for in-game content; read before drafting.**
@@ -114,4 +114,4 @@ Order: Creates → Appends → Edits → Vault Sync Status last. Log each write.
 
 - Does not re-read transcripts, generate `.docx`, or spell-check (all Convo 1).
 - Does not modify files outside the vault.
-- May query the DDB roll archive if/when WTFR's `game_id` is live (separate connection; does not affect MCP stability).
+- May query the DDB roll archive if/when WTFF's `game_id` is live (separate connection; does not affect MCP stability).

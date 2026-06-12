@@ -77,7 +77,7 @@ Track the session through the lens of the POV character ([POV CHARACTER — name
 
 **[ENCOUNTER SUMMARY]** — Brief summary of results and implications after the tables.
 
-**[FULL ROLL LOG]** (table): Character/NPC | Roll/Check | Result | Context/Outcome. Attribute every roll to the correct PC/NPC. Background-fill rows associated with combat/initiative rounds. Identify individual and party-wide roll trends. (WTFR roll archive is not wired until a live `game_id` exists — until then, log results confirmed in the transcript, marked `physical/verbal`.)
+**[FULL ROLL LOG]** (table): Character/NPC | Roll/Check | Result | Context/Outcome. Attribute every roll to the correct PC/NPC. Background-fill rows associated with combat/initiative rounds. Identify individual and party-wide roll trends. (WTFF roll archive is not wired until a live `game_id` exists — until then, log results confirmed in the transcript, marked `physical/verbal`.)
 
 ---
 

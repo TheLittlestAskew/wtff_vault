@@ -5,7 +5,7 @@ Session [##], Convo 2: Vault updates
 
 **Session Title:** [Final chosen title]
 **Session Date:** [MM/DD/YYYY]
-**Session File:** WTFR_[##]_[MMDDYY]_[Title].docx (or markdown notes, per the WTFR pipeline — generated in Convo 1)
+**Session File:** WTFF_[##]_[MMDDYY]_[Title].docx (or markdown notes, per the WTFF pipeline — generated in Convo 1)
 
 **Corrected transcript location:** Session_Sources/Transcripts/Corrected/[filename]
 
@@ -27,7 +27,7 @@ Session [##], Convo 2: Vault updates
 
 **Flags from Convo 1:**
 - [Any continuity issues, ambiguities, or items needing the user's input]
-- [Any DDB archive discrepancies — note that WTFR roll archive is not wired until a live game_id exists]
+- [Any DDB archive discrepancies — note that WTFF roll archive is not wired until a live game_id exists]
 - [Anything the Archivist flagged for follow-up]
 
-**DDB Roll Archive status:** [X rolls cross-referenced / or: roll archive not yet live for WTFR — physical/verbal results only]
+**DDB Roll Archive status:** [X rolls cross-referenced / or: roll archive not yet live for WTFF — physical/verbal results only]

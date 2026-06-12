@@ -6,7 +6,7 @@ starts (2026-06-14), with a `--discover` mode so you never collect character IDs
 ## The two-step game-day flow
 
 ```powershell
-cd C:\Users\theli\wtfr_vault\Workflows\scripts
+cd C:\Users\theli\wtff_vault\Workflows\scripts
 node ddb_party_sync.js --discover    # 1. auto-build the roster (run once, after joining)
 node ddb_party_sync.js               # 2. fetch every PC's sheet
 ```
@@ -41,11 +41,11 @@ effect the moment you `git init`.
 
 ## Pipeline watcher — already wired in
 
-`wtfr_pipeline_watch.js` is scaffolded in this folder and **already calls
+`wtff_pipeline_watch.js` is scaffolded in this folder and **already calls
 `node ddb_party_sync.js`** each session (right after the keyterms step, non-fatal). So once
 the roster is discovered, every session auto-refreshes the party's sheets.
 
 Flow: run `node ddb_party_sync.js --discover` once (after session 1, when you've joined the
 campaign page) to populate the roster — then the watcher keeps everyone's sheets fresh on its
 own. See `TRIGGERABLE_ACTIONS.md` for the full watcher action list and the remaining
-prerequisite (the transcriber at `wtfr_transcribe\transcribe.js`).
+prerequisite (the transcriber at `wtff_transcribe\transcribe.js`).

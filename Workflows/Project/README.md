@@ -36,9 +36,9 @@ These are **seeded starter docs** adapted from the Sky Is The Limit standard, pl
 | `_Campaign_Setup.md` | ✅ Living bootstrap — the self-building engine (pending inputs + decisions log). Read first by Convo 1 & 2. |
 | `Project_Instructions.md` | ✅ Lean seed — role, source authority, non-negotiable constraints, and the self-building loop. Grows into a full ruleset as `_Campaign_Setup.md` resolves. |
 | `Convo_1_Instructions.md` | ✅ Seeded starter (placeholders: roster, roll archive / `game_id`, notes generator, POV character, spelling reference) |
-| `Convo_2_Instructions.md` | ✅ Seeded starter (aligned to the WTFR vault structure guide) |
+| `Convo_2_Instructions.md` | ✅ Seeded starter (aligned to the WTFF vault structure guide) |
 | `Session_Notes_Section_Breakdown.md` | ✅ Seeded starter (campaign-agnostic; examples neutralized) |
-| `Session_Notes_Template_Instructions.md` | ➖ n/a for now — WTFR uses `Templates/Session Notes Template.md` (an Obsidian template), not a code generator. Revisit if a generator is adopted. |
+| `Session_Notes_Template_Instructions.md` | ➖ n/a for now — WTFF uses `Templates/Session Notes Template.md` (an Obsidian template), not a code generator. Revisit if a generator is adopted. |
 | `Convo2_Handoff_Template.md` | ✅ Seeded starter |
 
 ### How it fills itself in
@@ -49,9 +49,9 @@ These are the inputs the bootstrap file is waiting on:
 
 - **Player names + DDB user IDs** → roster, roll attribution, physical-dice players
 - **DM identity** → source-authority references, `DND_Sources/DM Notes.md` rename
-- **Live DDB `game_id`** → roll archive wiring (`wtfr_session_rolls` view, currently not live)
+- **Live DDB `game_id`** → roll archive wiring (`wtff_session_rolls` view, currently not live)
 - **POV character (your PC)** → POV journal voice + the POV section of Convo 1
-- **Campaign canonical spellings** → a WTFR spelling reference for spell check
+- **Campaign canonical spellings** → a WTFF spelling reference for spell check
 - **Notes output format** → markdown via `Templates/Session Notes Template.md`, or a `.docx` generator
 
 ## Sync discipline

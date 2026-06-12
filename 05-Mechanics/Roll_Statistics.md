@@ -6,7 +6,7 @@
 This campaign cannot sync DDB rolls until it has a live D&D Beyond **game_id**.
 
 - In `ddb_campaigns`: **id 4**, sheet_name `Where the Flowers Forget`, **game_id `0`**, status **paused**.
-- Once the DDB game exists, update `ddb_campaigns` row 4 with the real `game_id` and flip status to `active`, then a `wtfr_session_rolls` view can be created (mirror of `sitl_session_rolls`).
+- Once the DDB game exists, update `ddb_campaigns` row 4 with the real `game_id` and flip status to `active`, then a `wtff_session_rolls` view can be created (mirror of `sitl_session_rolls`).
 - Sync uses `ddb_sync_supabase.js` → `await syncCampaign('Where the Flowers Forget', 'BEARER_TOKEN')`.
 
 _Pending: DDB game_id, player DDB user IDs for attribution._
