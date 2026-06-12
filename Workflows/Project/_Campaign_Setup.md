@@ -24,7 +24,7 @@ Update Status to ✅ and fill Value the moment the campaign reveals it. Note the
 |---|---|---|---|---|
 | DM identity | ❓ unknown | | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from [DM].md` | |
 | Player roster (names) | ❓ unknown | | PC pages; party-present lists | |
-| DDB user IDs (per player) | ❓ unknown | | Roll attribution; `user_id` → character map | |
+| DDB user IDs (per player) | ❓ unknown | _local only — kept in gitignored `Workflows/scripts/ddb_party.json`; do NOT record IDs/usernames in this PUBLIC file (first names only)_ | Roll attribution; `user_id` → character map | |
 | Live DDB `game_id` | ❓ unknown | | Roll archive wiring; `wtfr_session_rolls` view; rectrixcaedere page | |
 | Your POV character (your PC) | ❓ unknown | | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | |
 | System / ruleset | ❓ unknown | | Rules references in notes | |

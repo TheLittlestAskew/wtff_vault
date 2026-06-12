@@ -36,9 +36,9 @@ Do all of the following without stopping:
 
 4. Update 00-Campaign-Hub/Vault Sync Status.md LAST: ✅ / ➖ for every checklist column plus a dated change-log entry.
 
-5. Commit and push. This repo is PRIVATE (github.com/TheLittlestAskew/wtfr_vault), but still verify no secrets are staged. From the vault root run:
-   git status --porcelain | grep -i "\.env" || true   (must show nothing)
+5. Commit and push. ⚠️ This repo is PUBLIC (github.com/TheLittlestAskew/wtfr_vault) — anything committed is world-readable. Before committing, verify NO secrets or other players' data are staged. From the vault root run:
+   git status --porcelain | grep -iE "\.env|Party Character Sheets/(_raw|.*\(DDB\))|ddb_party\.json" || true   (must show nothing)
    git add -A && git commit -m "S{{NN}} — automated session sync" && git push
-   (.env, the auto-fetched party sheets, recordings, and DND_Sources/*.pdf are gitignored — confirm none slipped through before committing.)
+   (.env, the auto-fetched party sheets, ddb_party.json, recordings, and DND_Sources/*.pdf are gitignored — confirm none slipped through. PII rule: use players' FIRST NAMES only in vault files; never commit DDB usernames or numeric user IDs. DM Notes.md IS tracked/public by choice.)
 
 6. Print a final summary: every file created or modified, whether any _Campaign_Setup.md pending input was resolved, and confirmation that the push succeeded.

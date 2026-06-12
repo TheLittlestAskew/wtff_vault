@@ -32,6 +32,7 @@ Do all of the following without stopping:
 5. Do NOT generate any .docx. The markdown note above is the canonical artifact.
 
 6. If this session resolves a Pending Input in _Campaign_Setup.md (e.g., confirms the POV character, a player name, or the DM), record the value in that file's Pending Inputs table and update what it unblocks — per the file's self-build rules. Never invent a value; only record what the session actually supplies.
+   ⚠️ PUBLIC-REPO PII RULE: this repo is public. Use players' FIRST NAMES only in _Campaign_Setup.md, the session note, the Dashboard, and every tracked vault file. Never write DDB usernames or numeric DDB user IDs into them — those live only in the gitignored Workflows/scripts/ddb_party.json.
 
 7. Write the Convo 2 handoff block per Workflows/Project/Convo2_Handoff_Template.md to {{PIPELINE_DIR}}/handoff.md. The FIRST line of handoff.md must be the exact path of the session note you created, so Convo 2 can find it. Include the corrected-transcript location, key events, the "Character Descriptors Surfaced This Session" list, Convo 1 flags, and roll-archive status (not yet wired).
 
