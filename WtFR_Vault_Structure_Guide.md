@@ -1,4 +1,4 @@
-# Where the Flowers Remember — Obsidian Vault Structure & Content Guide
+# Where the Flowers Forget — Obsidian Vault Structure & Content Guide
 
 > **Vault name:** `wtfr_vault`
 > **Local path:** `C:\Users\theli\wtfr_vault`

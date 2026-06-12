@@ -1,4 +1,4 @@
-# Location Index — Where the Flowers Remember
+# Location Index — Where the Flowers Forget
 
 > Master quick-reference of every location, backlinked. Detail pages live in `04-World-Lore/Locations/`.
 

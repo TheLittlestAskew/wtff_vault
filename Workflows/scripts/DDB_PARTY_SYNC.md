@@ -1,4 +1,4 @@
-# DDB Party Sheet Sync — Where the Flowers Remember
+# DDB Party Sheet Sync — Where the Flowers Forget
 
 Pulls the party's D&D Beyond character sheets into the vault. Built **before** the campaign
 starts (2026-06-14), with a `--discover` mode so you never collect character IDs by hand.

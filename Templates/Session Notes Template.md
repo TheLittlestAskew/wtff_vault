@@ -1,6 +1,6 @@
 # Session {{number}} — {{title}}
 > **Date:** {{date}}
-> **Campaign:** Where the Flowers Remember
+> **Campaign:** Where the Flowers Forget
 
 ## Session Metadata
 | Field | Detail |

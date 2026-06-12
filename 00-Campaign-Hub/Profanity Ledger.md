@@ -1,4 +1,4 @@
-# Profanity Ledger — Where the Flowers Remember
+# Profanity Ledger — Where the Flowers Forget
 
 > Tracks all profanity across the campaign. Running totals at top; one section per session below.
 

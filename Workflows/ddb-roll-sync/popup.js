@@ -9,7 +9,7 @@ const CAMPAIGNS = {
   'Sky Is The Limit':           { supabaseId: 1, gameId: 6907990, status: 'active' },
   'Pacts & Power':              { supabaseId: 2, gameId: 3661522, status: 'active' },
   'Ashfall Brittania':          { supabaseId: 3, gameId: 7170962, status: 'active' },
-  'Where the Flowers Remember': { supabaseId: 4, gameId: 0,       status: 'paused' },
+  'Where the Flowers Forget': { supabaseId: 4, gameId: 0,       status: 'paused' },
 };
 
 // ─── Logging ─────────────────────────────────────────────────────

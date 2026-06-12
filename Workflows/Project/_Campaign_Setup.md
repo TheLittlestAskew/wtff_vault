@@ -1,4 +1,4 @@
-# _Campaign_Setup.md — Where the Flowers Remember
+# _Campaign_Setup.md — Where the Flowers Forget
 
 **This is the living bootstrap file for the documentation pipeline.** The Convo 1 and Convo 2 workflows read it *first* and update it as the campaign reveals information. Its job: hold what we already know, flag what we still need, and record decisions as they're made — so the instruction docs fill themselves in instead of waiting on a manual pass.
 
@@ -47,7 +47,7 @@ Append a row whenever a convention is chosen, so the pipeline stays consistent a
 
 ## Known now (seed)
 
-- **Campaign:** Where the Flowers Remember. Launch **2026-06-14**.
+- **Campaign:** Where the Flowers Forget. Launch **2026-06-14**.
 - **Vault:** `wtfr_vault`; structure per `WtFR_Vault_Structure_Guide.md`.
 - **Your role:** player — you have a POV character / your own PC page; the DM is someone else (identity pending). *(Confirm if this changes.)*
 - **Roll archive:** registered as paused (`game_id 0`) until a live game exists.

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
- * DDB Party Sheet Sync  —  Where the Flowers Remember
+ * DDB Party Sheet Sync  —  Where the Flowers Forget
  * ---------------------------------------------------
  *   node ddb_party_sync.js --discover    (game day, once: auto-build the roster)
  *   node ddb_party_sync.js               (fetch every PC's sheet)

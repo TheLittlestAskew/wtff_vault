@@ -1,4 +1,4 @@
-# Loot Tracker — Where the Flowers Remember
+# Loot Tracker — Where the Flowers Forget
 
 > Cumulative record of every item the party acquires, loses, or interacts with. One section per session, newest first.
 
