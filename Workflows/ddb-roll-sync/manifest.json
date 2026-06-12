@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "DDB Roll Sync",
+  "version": "1.0",
+  "description": "Syncs D&D Beyond dice roll history to Supabase.",
+  "permissions": [
+    "storage",
+    "declarativeNetRequestWithHostAccess",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://*.dndbeyond.com/*",
+    "https://vtrtyagltwdrbastpppl.supabase.co/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}

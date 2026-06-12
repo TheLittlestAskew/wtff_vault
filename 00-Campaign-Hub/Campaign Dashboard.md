@@ -6,7 +6,7 @@
 
 - **Campaign launch:** 2026-06-14
 - **DM:** _[pending]_
-- **Party roster:** _[pending player names — see 03-Characters/PCs/]_
+- **Party roster:** _[pending player names — see 03-Characters/01 PCs/]_
 
 ---
 
