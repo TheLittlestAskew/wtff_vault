@@ -1,0 +1,7 @@
+{
+  "_README": "Where the Flowers Remember party roster. 'characters' starts EMPTY — once the campaign is live and your PC is joined to the campaign page (game day, 2026-06-14), run `node ddb_party_sync.js --discover` to auto-populate it from your own sheet's embedded campaign roster (no manual ID collection). Then `node ddb_party_sync.js` fetches everyone. selfCharacterId is your PC; gameId is the campaign/game id (for reference + the roll-sync extension). Requires DDB_COBALT in ../../.env for discover and for Campaign-Only fetches.",
+  "campaign": "Where the Flowers Remember",
+  "gameId": 7853407,
+  "selfCharacterId": 165368339,
+  "characters": []
+}

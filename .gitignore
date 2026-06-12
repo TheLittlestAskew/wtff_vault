@@ -1,32 +1,36 @@
 # ══════════════════════════════════════════════════════════════
 # Where the Flowers Remember — Vault .gitignore
-# Created: 2026-06-05
 # ══════════════════════════════════════════════════════════════
 
-# ── API Keys & Secrets ───────────────────────────────────────
-# Environment file for API keys (Supabase, AssemblyAI, etc.)
+# ── Secrets ───────────────────────────────────────────────────
+# Never commit credentials. Covers .env and name.env.
 .env
+*.env
 
-# ── Session Recordings (voices of real people) ───────────────
+# ── Session Recordings (voices of real people) ────────────────
 Session_Sources/Recordings/
+*.mp3
 
-# ── Copyrighted D&D Source PDFs ──────────────────────────────
+# ── Copyrighted D&D Source PDFs ───────────────────────────────
 DND_Sources/*.pdf
 
-# ── Obsidian Internal Config ─────────────────────────────────
-.obsidian/
+# ── Auto-fetched DDB party sheets (other players' data) ───────
+# ddb_party_sync.js pulls full character sheets players shared only
+# "Campaign Only" on D&D Beyond. Kept local-only by default. If this repo
+# stays private and you want them committed, remove these two lines.
+03-Characters/01 PCs/Party Character Sheets/_raw/
+03-Characters/01 PCs/Party Character Sheets/*(DDB).md
+
+# ── Obsidian / tooling ────────────────────────────────────────
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
 .smart-env/
 .claude/
-.trash/
 
-# ── OS / Editor Junk ────────────────────────────────────────
+# ── Node / OS junk ────────────────────────────────────────────
+node_modules/
+package-lock.json
 .DS_Store
 Thumbs.db
 desktop.ini
-*.swp
-*.swo
-*~
-
-# ── Node / Build Artifacts ───────────────────────────────────
-node_modules/
-package-lock.json
