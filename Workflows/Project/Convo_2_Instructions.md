@@ -2,7 +2,7 @@
 
 **Status:** Seeded starter (pre-launch). Companion to `Project_Instructions.md` (master ruleset — to be created); all shared rules and constraints from that file apply here.
 
-This document defines the workflow for **Convo 2**: updating the Where the Flowers Remember Obsidian vault after session notes are generated in Convo 1. The vault is the campaign wiki — if it isn't in the vault, it doesn't exist for future reference.
+This document defines the workflow for **Convo 2**: updating the Where the Flowers Forget Obsidian vault after session notes are generated in Convo 1. The vault is the campaign wiki — if it isn't in the vault, it doesn't exist for future reference.
 
 ---
 

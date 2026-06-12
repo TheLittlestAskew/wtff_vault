@@ -1,4 +1,4 @@
-# Quote Board Master — Where the Flowers Remember
+# Quote Board Master — Where the Flowers Forget
 
 > Cumulative collection of notable quotes from every session. **Verbatim only.** One section per session, newest first.
 

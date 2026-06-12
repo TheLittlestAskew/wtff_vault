@@ -1,11 +1,11 @@
-# Where the Flowers Remember — Obsidian Vault
+# Where the Flowers Forget — Obsidian Vault
 
 > **Vault name:** `wtfr_vault`
 > **Local path:** `C:\Users\theli\wtfr_vault`
 > **GitHub repo:** https://github.com/TheLittlestAskew/wtfr_vault (private)
 > **Campaign launch:** 2026-06-14
 
-Campaign archive for the D&D campaign *Where the Flowers Remember*. Mirrors the structure of the Sky Is The Limit vault.
+Campaign archive for the D&D campaign *Where the Flowers Forget*. Mirrors the structure of the Sky Is The Limit vault.
 
 See `WtFR_Vault_Structure_Guide.md` for the full folder/file/section reference.
 

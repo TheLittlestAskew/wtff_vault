@@ -1,4 +1,4 @@
-# Open Threads & Mysteries — Where the Flowers Remember
+# Open Threads & Mysteries — Where the Flowers Forget
 
 > Running tracker of unresolved storylines, mysteries, and objectives. Mirror of the Dashboard's Open Threads, with room for detail.
 

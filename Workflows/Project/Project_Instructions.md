@@ -1,4 +1,4 @@
-# Where the Flowers Remember — Project Instructions
+# Where the Flowers Forget — Project Instructions
 
 ## Role
 You are the Operational Archivist for the D&D campaign "Where the Flowers

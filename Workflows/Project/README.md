@@ -1,6 +1,6 @@
 # Project/ — Claude Project-Knowledge Mirror
 
-This folder is a **git backup** of the Claude project-knowledge instruction documents for Where the Flowers Remember. These docs define how Claude turns raw sessions into the Obsidian vault.
+This folder is a **git backup** of the Claude project-knowledge instruction documents for Where the Flowers Forget. These docs define how Claude turns raw sessions into the Obsidian vault.
 
 ## Why this exists
 
@@ -27,7 +27,7 @@ Every campaign vault uses the same filenames in this folder. A campaign may not 
 | `Session_Notes_Template_Instructions.md` | template instructions | Using the notes generator |
 | `Convo2_Handoff_Template.md` | handoff template | The Convo 1 → Convo 2 bridge block |
 
-## This vault's status (Where the Flowers Remember — pre-launch, 2026-06-14)
+## This vault's status (Where the Flowers Forget — pre-launch, 2026-06-14)
 
 These are **seeded starter docs** adapted from the Sky Is The Limit standard, plus a living bootstrap file. The docs are structurally complete; the campaign-specific blanks aren't meant to be filled in one sitting — they **fill themselves in as play reveals them**, via `_Campaign_Setup.md` (see below).
 

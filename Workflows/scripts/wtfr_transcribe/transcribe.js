@@ -1,6 +1,6 @@
 /**
  * ============================================================
- * WHERE THE FLOWERS REMEMBER (WtFR) AssemblyAI Transcriber
+ * WHERE THE FLOWERS FORGET (WtFR) AssemblyAI Transcriber
  * ============================================================
  *
  * Transcribes WtFR D&D session recordings using AssemblyAI with
@@ -76,7 +76,7 @@ const AUDIO_EXTENSIONS = [".mp3", ".mp4", ".m4a", ".wav", ".webm", ".ogg", ".fla
 const WTFR_KEYTERMS = [
 
   // ── Campaign / Setting ──
-  "Where the Flowers Remember",
+  "Where the Flowers Forget",
   "Aretemesia",            // folder spelling
   "Artemesia",             // file spelling (kept until canonical spelling is settled)
   "The Flower Court",
@@ -244,7 +244,7 @@ function formatTimestamp(ms) {
 
 function formatTranscript(transcriptData, sourceFileName) {
   const lines = [];
-  lines.push("# Where the Flowers Remember — Session Transcript");
+  lines.push("# Where the Flowers Forget — Session Transcript");
   lines.push(`# Source: ${sourceFileName}`);
   lines.push(`# Transcribed: ${new Date().toISOString()}`);
   lines.push(`# Audio duration: ${Math.round(transcriptData.audio_duration / 60)} minutes`);
@@ -286,7 +286,7 @@ async function main() {
     console.log(`
 ╔══════════════════════════════════════════════╗
 ║   WtFR AssemblyAI Transcriber                ║
-║   Where the Flowers Remember                 ║
+║   Where the Flowers Forget                 ║
 ╚══════════════════════════════════════════════╝
 `);
     console.log(`Recordings folder: ${RECORDINGS_DIR}`);

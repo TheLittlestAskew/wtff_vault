@@ -1,4 +1,4 @@
-# Vault Sync Status — Where the Flowers Remember
+# Vault Sync Status — Where the Flowers Forget
 
 > Tracks which sessions are fully processed into the vault and which artifacts exist for each.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
- * Where the Flowers Remember — Pipeline Watcher  (Option B, review checkpoint)
+ * Where the Flowers Forget — Pipeline Watcher  (Option B, review checkpoint)
  * ---------------------------------------------------------------------------
  * WATCH MODE (default):  node wtfr_pipeline_watch.js
  *   Watches the Recordings folder. When a new .mp3 finishes copying it:

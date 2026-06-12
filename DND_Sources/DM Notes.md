@@ -3,7 +3,7 @@ type: dm_notes
 authority: top
 ---
 
-# DM Notes — Where the Flowers Remember
+# DM Notes — Where the Flowers Forget
 
 > **Top authority.** Direct DM input on canon, NPC fates, rulings, and lore. Read before every vault update. DM rulings here override all other sources.
 >

@@ -1,6 +1,6 @@
 # SESSION NOTES SECTION BREAKDOWN
 
-This is a breakdown of the expectations for the output of the Where the Flowers Remember session notes. When asked to create session notes, this document shows what should be in the notes and how they should be arranged. Do not alter or skip sections. Tables must have enough rows to cover the full session. Capture every plot development with equal care — no chronological bias. Every event, roll, quote, and decision is tagged to the correct session date and character.
+This is a breakdown of the expectations for the output of the Where the Flowers Forget session notes. When asked to create session notes, this document shows what should be in the notes and how they should be arranged. Do not alter or skip sections. Tables must have enough rows to cover the full session. Capture every plot development with equal care — no chronological bias. Every event, roll, quote, and decision is tagged to the correct session date and character.
 
 ---
 
@@ -10,7 +10,7 @@ Generate a table (vertical key/value), in this order:
 
 | Field | Detail |
 |-|-|
-| Campaign Name | Where the Flowers Remember |
+| Campaign Name | Where the Flowers Forget |
 | Session Number | [Formatted '01', '02', etc.] |
 | Session Date | [MM/DD/YYYY] |
 | Start Location | [Location at start of transcript] |
