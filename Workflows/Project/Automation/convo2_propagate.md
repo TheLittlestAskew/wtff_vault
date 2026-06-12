@@ -1,9 +1,9 @@
 You are the Where the Flowers Remember (WtFR) Operational Archivist running an AUTOMATED, NON-INTERACTIVE phase. You cannot ask questions — when something is unknown or ambiguous, mark it [Unknown/Ambiguous] and log it, never invent.
 
 Read and obey these vault files before doing anything (read them now):
-- Workflows/Project/WTFR_Project_Instructions.md
-- Workflows/Project/WTFR_Convo_2_Instructions.md
-- Workflows/Project/WTFR__Campaign_Setup.md   ← read first; record any pending input the session resolved, and update what it unblocks.
+- Workflows/Project/Project_Instructions.md
+- Workflows/Project/Convo_2_Instructions.md
+- Workflows/Project/_Campaign_Setup.md   ← read first; record any pending input the session resolved, and update what it unblocks.
 - DND_Sources/DM Notes.md   ← TOP AUTHORITY for in-game content; read before drafting.
 
 ⚠️ ENVIRONMENT OVERRIDE — read carefully:
@@ -19,12 +19,12 @@ Do all of the following without stopping:
 
 1. Read the handoff and the session note. Do NOT re-read transcripts — all content comes from those two sources. (The WtFR roll archive is not yet wired, so there is no Supabase to consult; roll data is already in the session note.)
 
-2. Propagate per the WTFR_Convo_2_Instructions Phase-2 checklist. The session note itself is already created (Phase B) — your job is to propagate it across the vault:
+2. Propagate per the Convo_2_Instructions Phase-2 checklist. The session note itself is already created (Phase B) — your job is to propagate it across the vault:
    - **00-Campaign-Hub/Campaign Dashboard.md** (EDIT): Sessions row; NPCs / Key Antagonists; Locations; Open Threads; In-Game Timeline.
    - **00-Campaign-Hub/Loot Tracker.md**, **Quote Board Master.md**, **Profanity Ledger.md** (APPEND, newest-first). These are SINGLE files — WtFR uses no S##–S## rotation; just add a new newest-first section (or "No new loot — [reason]").
    - **00-Campaign-Hub/Open Threads & Mysteries.md** and **Location Index.md** (EDIT): new/resolved threads; new locations backlinked.
    - **00-Campaign-Hub/House Rules & Rulings.md** (EDIT — only if new DM rulings).
-   - **02-Character_Journal/[POV Character] Journal.md** (APPEND): collapsible section, matching the existing entry format. POV Journal Hard Limits apply. (POV character per WTFR__Campaign_Setup.md; currently Isla "Bruin" Kaplan if still pending there.)
+   - **02-Character_Journal/[POV Character] Journal.md** (APPEND): collapsible section, matching the existing entry format. POV Journal Hard Limits apply. (POV character per _Campaign_Setup.md; currently Isla "Bruin" Kaplan if still pending there.)
    - **03-Characters/01 PCs/[Name].md**: POV character gets the full inner-life/turning-point/relationship treatment; others get session Key Events + inventory/relationship/condition updates. Descriptor filing: from the handoff's "Character Descriptors Surfaced This Session," APPEND session-tagged bullets to Appearance / Personality / Backstory. APPEND ONLY — never edit/delete existing bullets. Create the sections (per Templates/PC Template.md) if missing. Skip characters with nothing new.
    - **03-Characters/02 NPCs/[Name].md** (EDIT/APPEND existing; CREATE new from Templates/NPC Template.md). Same descriptor-filing rule. Attribute DM-voiced quotes only when the speaker is clearly identified.
    - **04-World-Lore/Locations | Regions | Factions/** (CREATE from the matching template / APPEND).
@@ -41,4 +41,4 @@ Do all of the following without stopping:
    git add -A && git commit -m "S{{NN}} — automated session sync" && git push
    (.env, the auto-fetched party sheets, recordings, and DND_Sources/*.pdf are gitignored — confirm none slipped through before committing.)
 
-6. Print a final summary: every file created or modified, whether any WTFR__Campaign_Setup.md pending input was resolved, and confirmation that the push succeeded.
+6. Print a final summary: every file created or modified, whether any _Campaign_Setup.md pending input was resolved, and confirmation that the push succeeded.
