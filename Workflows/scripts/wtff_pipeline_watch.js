@@ -2,24 +2,24 @@
 /*
  * Where the Flowers Forget — Pipeline Watcher  (Option B, review checkpoint)
  * ---------------------------------------------------------------------------
- * WATCH MODE (default):  node wtfr_pipeline_watch.js
+ * WATCH MODE (default):  node wtff_pipeline_watch.js
  *   Watches the Recordings folder. When a new .mp3 finishes copying it:
- *     1. refreshes keyterms (if wtfr_keyterms_sync.js exists) + party sheets
- *     2. transcribes it (wtfr_transcribe\transcribe.js)
+ *     1. refreshes keyterms (if wtff_keyterms_sync.js exists) + party sheets
+ *     2. transcribes it (wtff_transcribe\transcribe.js)
  *     3. runs Convo 1 — Phase A (spell-check ONLY) via headless Claude Code
  *     4. STOPS and pings you. Nothing is applied yet.
  *
- * APPROVE MODE:  node wtfr_pipeline_watch.js --approve
+ * APPROVE MODE:  node wtff_pipeline_watch.js --approve
  *   After you've reviewed (and optionally edited) the spell-check file, this:
  *     5. runs Convo 1 — Phase B (apply corrections + generate the markdown note)
  *     6. runs Convo 2 (propagate across the vault + git commit/push)
  *
  * Processes one session at a time. Markdown-only — no .docx is produced.
  *
- * Scaffolded 1:1 from ashfall_pipeline_watch.js (WTFR paths/branding).
+ * Scaffolded 1:1 from ashfall_pipeline_watch.js (WTFF paths/branding).
  *
  * ⚠️ PREREQUISITES before this can run end-to-end:
- *    - A transcriber at Workflows\scripts\wtfr_transcribe\transcribe.js
+ *    - A transcriber at Workflows\scripts\wtff_transcribe\transcribe.js
  *      (accepting:  node transcribe.js <mp3> <output.md>).
  *    - The 3 prompt templates in Workflows\Project\Automation\ (copied in as
  *      starting points — tune them for this campaign).
@@ -36,7 +36,7 @@ const chokidar = require('chokidar');
 // ══════════════════════════════════════════════════════════════════
 //  CONFIG
 // ══════════════════════════════════════════════════════════════════
-const VAULT_ROOT    = 'C:\\Users\\theli\\wtfr_vault';
+const VAULT_ROOT    = 'C:\\Users\\theli\\wtff_vault';
 const RECORDINGS    = path.join(VAULT_ROOT, 'Session_Sources', 'Recordings');
 
 // Where the transcriber writes the raw transcript.
@@ -50,15 +50,15 @@ const PROMPTS_DIR   = path.join(VAULT_ROOT, 'Workflows', 'Project', 'Automation'
 
 // Transcriber location + entry file (CLI: node transcribe.js <mp3> <output.md>).
 // NOTE: create this transcriber before the first real run (see PREREQUISITES).
-const TRANSCRIBE_CWD = path.join(VAULT_ROOT, 'Workflows', 'scripts', 'wtfr_transcribe');
+const TRANSCRIBE_CWD = path.join(VAULT_ROOT, 'Workflows', 'scripts', 'wtff_transcribe');
 const TRANSCRIBE_JS  = 'transcribe.js';
 
 // Toast notifier + approve launcher.
-const NOTIFY_PS   = path.join(__dirname, 'wtfr_notify.ps1');
-const APPROVE_CMD = path.join(__dirname, 'Approve-WTFR.cmd');
+const NOTIFY_PS   = path.join(__dirname, 'wtff_notify.ps1');
+const APPROVE_CMD = path.join(__dirname, 'Approve-WTFF.cmd');
 
 // Persistent status window (WPF), decoupled via STATUS_FILE.
-const STATUS_WIN_PS = path.join(__dirname, 'wtfr_status_window.ps1');
+const STATUS_WIN_PS = path.join(__dirname, 'wtff_status_window.ps1');
 
 const LOG_FILE = path.join(PIPELINE_DIR, 'watcher.log');
 const STATUS_FILE = path.join(PIPELINE_DIR, 'status.json');
@@ -87,7 +87,7 @@ function toast(title, message, opts = {}) {
 function notify(message) {
   banner(message);
   process.stdout.write('\x07');
-  toast('WTFR pipeline', message.split('\n')[0]);
+  toast('WTFF pipeline', message.split('\n')[0]);
 }
 
 // ── Status feed for the persistent window ────────────────────────────
@@ -209,15 +209,15 @@ function processRecording(mp3) {
   const sess = nextSession(mp3);
   initStatus(sess.nn);
   launchStatusWindow();
-  toast('WTFR pipeline', `Processing ${path.basename(mp3)} — transcribing…`);
+  toast('WTFF pipeline', `Processing ${path.basename(mp3)} — transcribing…`);
 
   fs.mkdirSync(RAW_DIR, { recursive: true });
   const transcriptOut = path.join(RAW_DIR, `${sess.nn}-${sess.mmddyy}_raw_transcript.md`);
 
-  const keytermsScript = path.join(TRANSCRIBE_CWD, 'wtfr_keyterms_sync.js');
+  const keytermsScript = path.join(TRANSCRIBE_CWD, 'wtff_keyterms_sync.js');
   if (fs.existsSync(keytermsScript)) {
     log('Refreshing keyterms from vault…');
-    spawnSync('node "wtfr_keyterms_sync.js"', { cwd: TRANSCRIBE_CWD, shell: true, stdio: 'inherit' });
+    spawnSync('node "wtff_keyterms_sync.js"', { cwd: TRANSCRIBE_CWD, shell: true, stdio: 'inherit' });
   }
 
   // Refresh party sheets from D&D Beyond (non-fatal). Run `node ddb_party_sync.js
@@ -234,7 +234,7 @@ function processRecording(mp3) {
   setStage('transcribe', 'running', 'AssemblyAI — uploading & transcribing…');
   const t = spawnSync(`node "${TRANSCRIBE_JS}" "${mp3}" "${transcriptOut}"`,
     { cwd: TRANSCRIBE_CWD, shell: true, stdio: 'inherit' });
-  if (t.status !== 0) { setStage('transcribe', 'failed', 'See watcher.log'); return notify('Transcription FAILED — see _pipeline\\watcher.log. (Is wtfr_transcribe\\transcribe.js created?)'); }
+  if (t.status !== 0) { setStage('transcribe', 'failed', 'See watcher.log'); return notify('Transcription FAILED — see _pipeline\\watcher.log. (Is wtff_transcribe\\transcribe.js created?)'); }
 
   const transcript = fs.existsSync(transcriptOut) ? transcriptOut : newestTranscript(RAW_DIR);
   if (!transcript) { setStage('transcribe', 'failed', 'No transcript produced'); return notify(`No transcript produced in ${RAW_DIR} — check the transcriber (watcher.log).`); }
@@ -266,7 +266,7 @@ function processRecording(mp3) {
   process.stdout.write('\x07');
   const msg = `Session ${sess.nn}: ${total} proposed correction${total === 1 ? '' : 's'}` +
               `, ${low} at/under 60% confidence. Review them, or approve to apply.`;
-  toast(`WTFR S${sess.nn} — ready for review`, msg, { review: spellcheck, approve: APPROVE_CMD });
+  toast(`WTFF S${sess.nn} — ready for review`, msg, { review: spellcheck, approve: APPROVE_CMD });
   log(`READY — review: ${spellcheck} | approve: double-click ${APPROVE_CMD} (or run --approve)`);
 }
 
@@ -314,7 +314,7 @@ function approve() {
 if (process.argv.includes('--approve')) { approve(); process.exit(0); }
 
 fs.mkdirSync(PIPELINE_DIR, { recursive: true });
-banner('WTFR Pipeline Watcher — Option B  (watching for new .mp3)');
+banner('WTFF Pipeline Watcher — Option B  (watching for new .mp3)');
 log(`Watching: ${RECORDINGS}`);
 log('Leave this window open. Ctrl+C to stop.');
 

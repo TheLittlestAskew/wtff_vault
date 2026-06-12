@@ -31,7 +31,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const VAULT_ROOT = 'C:\\Users\\theli\\wtfr_vault';
+const VAULT_ROOT = 'C:\\Users\\theli\\wtff_vault';
 const CONFIG     = path.join(__dirname, 'ddb_party.json');
 const ENV_FILE   = path.join(VAULT_ROOT, '.env');
 const OUT_DIR    = path.join(VAULT_ROOT, '03-Characters', '01 PCs', 'Party Character Sheets');

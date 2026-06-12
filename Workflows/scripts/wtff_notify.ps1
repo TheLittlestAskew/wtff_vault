@@ -1,8 +1,8 @@
-# WTFR toast notifier. Called by wtfr_pipeline_watch.js.
+# WTFF toast notifier. Called by wtff_pipeline_watch.js.
 # Shows a Windows toast; if -ReviewPath/-ApprovePath are given it adds buttons
 # that open the spell-check file or launch the approve step.
 param(
-  [string]$Title       = 'WTFR pipeline',
+  [string]$Title       = 'WTFF pipeline',
   [string]$Message     = '',
   [string]$ReviewPath  = '',
   [string]$ApprovePath = ''

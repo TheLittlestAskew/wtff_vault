@@ -25,7 +25,7 @@ Update Status to ✅ and fill Value the moment the campaign reveals it. Note the
 | DM identity | ❓ unknown | | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from [DM].md` | |
 | Player roster (names) | ❓ unknown | | PC pages; party-present lists | |
 | DDB user IDs (per player) | ❓ unknown | _local only — kept in gitignored `Workflows/scripts/ddb_party.json`; do NOT record IDs/usernames in this PUBLIC file (first names only)_ | Roll attribution; `user_id` → character map | |
-| Live DDB `game_id` | ❓ unknown | | Roll archive wiring; `wtfr_session_rolls` view; rectrixcaedere page | |
+| Live DDB `game_id` | ❓ unknown | | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | |
 | Your POV character (your PC) | ❓ unknown | | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | |
 | System / ruleset | ❓ unknown | | Rules references in notes | |
 | Setting basics | ❓ partial | (lore lives in `04-World-Lore/`) | Locations / Regions / Factions seeding | |
@@ -48,7 +48,7 @@ Append a row whenever a convention is chosen, so the pipeline stays consistent a
 ## Known now (seed)
 
 - **Campaign:** Where the Flowers Forget. Launch **2026-06-14**.
-- **Vault:** `wtfr_vault`; structure per `WtFR_Vault_Structure_Guide.md`.
+- **Vault:** `wtff_vault`; structure per `WtFF_Vault_Structure_Guide.md`.
 - **Your role:** player — you have a POV character / your own PC page; the DM is someone else (identity pending). *(Confirm if this changes.)*
 - **Roll archive:** registered as paused (`game_id 0`) until a live game exists.
 - **World lore + your character info** already exist in the vault; everything else accrues from play.

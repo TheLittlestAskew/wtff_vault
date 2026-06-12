@@ -1,4 +1,4 @@
-# WTFR Convo 1 Instructions — Session Notes Generation
+# WTFF Convo 1 Instructions — Session Notes Generation
 
 **Status:** Seeded starter (pre-launch). Companion to `Project_Instructions.md` (master ruleset — to be created); all shared rules, constraints, and the Source Authority Hierarchy from that file apply here.
 
@@ -16,8 +16,8 @@ Convo 1 turns a raw session transcript (plus roll data and source files) into ac
 
 1. **The raw transcript** — from `Session_Sources/Transcripts/Raw_Unedited/` or pasted in. Filename: `[##]-[MMddyy]_raw_transcript.md`.
 2. **Session identity** — session number, real-world play date, party present, absent players.
-3. **Roll data** — see Step 3. *WTFR's DDB roll archive is not wired until a live `game_id` exists; until then, rolls come from the transcript (physical/verbal).*
-4. **The notes template/generator** — see Step 6. WTFR currently uses `Templates/Session Notes Template.md`.
+3. **Roll data** — see Step 3. *WTFF's DDB roll archive is not wired until a live `game_id` exists; until then, rolls come from the transcript (physical/verbal).*
+4. **The notes template/generator** — see Step 6. WTFF currently uses `Templates/Session Notes Template.md`.
 
 If the transcript is missing, say so immediately. Do not draft from memory.
 
@@ -42,7 +42,7 @@ Step 2  Spell Check & Transcript Correction   ← review-before-apply, then save
 Step 3  Roll Data Cross-Reference             ← roll archive once game_id is live; transcript until then
 Step 4  Session Notes Drafting                ← sections per the Section Breakdown
 Step 5  Title Selection                       ← 5 options, confirm final
-Step 6  Notes Generation                      ← build from the WTFR notes template
+Step 6  Notes Generation                      ← build from the WTFF notes template
 Step 7  Convo 2 Handoff Block
 ```
 
@@ -75,7 +75,7 @@ Read `_Campaign_Setup.md` first. It holds this campaign's specifics (DM, roster,
 2. **Correction rules:**
    - **Source-material spelling overrides** DM pronunciation and speech-to-text.
    - **[PENDING ROSTER] Non-native English speakers:** note any players with heavy accents and prefer context over auto-correction.
-   - **Canonical spellings:** cross-check against **[WTFR campaign spelling reference — to be built]** (PC/NPC names, locations, regions, factions, setting terms). Until that reference exists, flag uncertain proper nouns rather than guessing.
+   - **Canonical spellings:** cross-check against **[WTFF campaign spelling reference — to be built]** (PC/NPC names, locations, regions, factions, setting terms). Until that reference exists, flag uncertain proper nouns rather than guessing.
    - **Line-specific replacements** where a word is both a feature and a name — never global find-replace these.
    - **Word-boundary regex** to avoid partial corruption: `re.sub(r'\bterm\b', …)`.
    - **DM audio drops:** mark clipped/garbled audio `[inaudible/cut off]` and flag — never guess.
@@ -88,11 +88,11 @@ Read `_Campaign_Setup.md` first. It holds this campaign's specifics (DM, roster,
 
 ## STEP 3 — ROLL DATA CROSS-REFERENCE
 
-**The DDB roll archive is the gold standard for roll verification — once WTFR has a live `game_id`.** Until then, this step relies on the transcript.
+**The DDB roll archive is the gold standard for roll verification — once WTFF has a live `game_id`.** Until then, this step relies on the transcript.
 
 **When the archive is live:**
-1. Confirm sync: `SELECT MAX(timestamp_iso) FROM wtfr_session_rolls;` — if the session date isn't covered, flag the gap and ask before assuming. Do not fabricate.
-2. Pull the session's rolls by `session_date` (Eastern Time) via the `wtfr_session_rolls` view (pre-filtered to WTFR's `game_id`/`campaign_id`).
+1. Confirm sync: `SELECT MAX(timestamp_iso) FROM wtff_session_rolls;` — if the session date isn't covered, flag the gap and ask before assuming. Do not fabricate.
+2. Pull the session's rolls by `session_date` (Eastern Time) via the `wtff_session_rolls` view (pre-filtered to WTFF's `game_id`/`campaign_id`).
 3. **Cross-reference rules:** use the archive for exact values/timing/who-rolled; the transcript for narrative context, DM rulings, in-fiction outcomes, dialogue.
    - Roll in transcript but not archive → flag "transcript-only."
    - Roll in archive but not transcript → likely a quick mechanical roll.
@@ -121,11 +121,11 @@ The POV Journal (section 2) is the storytelling exception. In-character, in-worl
 
 ## STEP 6 — NOTES GENERATION
 
-**[DECISION PENDING — confirm WTFR's output format.]** SITL renders a styled `.docx` via a code generator. WTFR currently has `Templates/Session Notes Template.md` (an Obsidian template), which suggests markdown-first notes. Options:
+**[DECISION PENDING — confirm WTFF's output format.]** SITL renders a styled `.docx` via a code generator. WTFF currently has `Templates/Session Notes Template.md` (an Obsidian template), which suggests markdown-first notes. Options:
 - **Markdown:** build the notes directly from `Templates/Session Notes Template.md`, ready to drop into `01-Sessions/` in Convo 2.
 - **`.docx`:** if a generator is later adopted, document its pipeline here (build → validate → deliver) and do not hardcode styles from memory.
 
-Whichever is chosen: build from the template exactly, validate, then deliver. **File naming:** `WTFR_[##]_[MMDDYY]_[Title]` (matches the handoff block).
+Whichever is chosen: build from the template exactly, validate, then deliver. **File naming:** `WTFF_[##]_[MMDDYY]_[Title]` (matches the handoff block).
 
 ---
 

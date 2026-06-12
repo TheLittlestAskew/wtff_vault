@@ -1,12 +1,12 @@
 # ════════════════════════════════════════════════════════════════════
-#  WTFR Pipeline — persistent status window
+#  WTFF Pipeline — persistent status window
 # --------------------------------------------------------------------
 #  A small, minimizable WPF panel that shows where the pipeline is:
 #  Transcription → Spell-check (Convo 1A) → [your review] → Apply/notes
 #  (Convo 1B) → Propagate + push (Convo 2).
 #
 #  It is DRIVEN ENTIRELY off _pipeline\status.json (written by
-#  wtfr_pipeline_watch.js) plus a tail of _pipeline\watcher.log, polled
+#  wtff_pipeline_watch.js) plus a tail of _pipeline\watcher.log, polled
 #  ~every 0.75s. Nothing here talks to the pipeline directly, so you can
 #  close and reopen this window any time without disturbing a run.
 #
@@ -14,18 +14,18 @@
 #  shows an animated "working" bar + live elapsed time, and the header
 #  shows a real "Step N of 4" counter. Nothing ever fakes a percentage.
 #
-#  Launched (hidden host) by the watcher, or by Show-WTFR-Status.cmd.
+#  Launched (hidden host) by the watcher, or by Show-WTFF-Status.cmd.
 # ════════════════════════════════════════════════════════════════════
 
 # ── Single instance: a second launch just exits ──────────────────────
 $createdNew = $false
-$mutex = New-Object System.Threading.Mutex($true, 'WTFR_STATUS_WINDOW_SINGLETON', [ref]$createdNew)
+$mutex = New-Object System.Threading.Mutex($true, 'WTFF_STATUS_WINDOW_SINGLETON', [ref]$createdNew)
 if (-not $createdNew) { return }
 
 Add-Type -AssemblyName PresentationFramework, PresentationCore, WindowsBase
 
 # ── Paths (derive the vault root from this script's location) ────────
-$vaultRoot  = Split-Path (Split-Path $PSScriptRoot)        # ...\wtfr_vault
+$vaultRoot  = Split-Path (Split-Path $PSScriptRoot)        # ...\wtff_vault
 $statusFile = Join-Path $vaultRoot '_pipeline\status.json'
 $logFile    = Join-Path $vaultRoot '_pipeline\watcher.log'
 
@@ -43,14 +43,14 @@ $STEP_NO = @{ transcribe = 1; phaseA = 2; phaseB = 3; convo2 = 4 }
 [xml]$xaml = @'
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="WTFR Pipeline" Height="540" Width="470"
+        Title="WTFF Pipeline" Height="540" Width="470"
         MinHeight="380" MinWidth="400"
         WindowStartupLocation="CenterScreen"
         Background="#1E1F26" UseLayoutRounding="True" SnapsToDevicePixels="True">
   <DockPanel>
     <Border DockPanel.Dock="Top" Background="#252731" Padding="16,12">
       <StackPanel>
-        <TextBlock x:Name="HeaderTitle" Foreground="#E8E6E0" FontSize="16" FontWeight="SemiBold" Text="WTFR Pipeline"/>
+        <TextBlock x:Name="HeaderTitle" Foreground="#E8E6E0" FontSize="16" FontWeight="SemiBold" Text="WTFF Pipeline"/>
         <TextBlock x:Name="HeaderSub" Foreground="#8A8A96" FontSize="12" Margin="0,3,0,0" Text="Idle &#8212; watching for a new recording"/>
       </StackPanel>
     </Border>
@@ -205,7 +205,7 @@ function Refresh {
 
   if (-not $st) {
     $HeaderSub.Text = 'Idle ' + [char]0x2014 + ' watching for a new recording'
-    $win.Title = 'WTFR Pipeline'
+    $win.Title = 'WTFF Pipeline'
     Tail-Log
     return
   }
@@ -250,9 +250,9 @@ function Refresh {
   }
 
   $HeaderSub.Text  = $sess + $sub
-  $HeaderTitle.Text = if ($st.session) { "WTFR Pipeline  " + [char]0x00B7 + "  S$($st.session)" } else { 'WTFR Pipeline' }
+  $HeaderTitle.Text = if ($st.session) { "WTFF Pipeline  " + [char]0x00B7 + "  S$($st.session)" } else { 'WTFF Pipeline' }
   # Taskbar button text reflects state even when minimized
-  $win.Title = 'WTFR ' + [char]0x00B7 + ' ' + $sub
+  $win.Title = 'WTFF ' + [char]0x00B7 + ' ' + $sub
 
   Tail-Log
 }
@@ -276,9 +276,9 @@ $win.Add_Closed({ $timer.Stop(); try { $mutex.ReleaseMutex() } catch {} })
 
 Refresh                       # paint immediately, don't wait for first tick
 
-# Self-test hook: WTFR_STATUS_SELFTEST=1 auto-closes after ~2.5s so the window
+# Self-test hook: WTFF_STATUS_SELFTEST=1 auto-closes after ~2.5s so the window
 # can be exercised headlessly in CI/smoke runs. No effect in normal use.
-if ($env:WTFR_STATUS_SELFTEST -eq '1') {
+if ($env:WTFF_STATUS_SELFTEST -eq '1') {
   $closer = New-Object Windows.Threading.DispatcherTimer
   $closer.Interval = [TimeSpan]::FromMilliseconds(2500)
   $closer.Add_Tick({ $closer.Stop(); $win.Close() })

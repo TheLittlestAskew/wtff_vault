@@ -1,24 +1,24 @@
 /**
  * ============================================================
- * WHERE THE FLOWERS FORGET (WtFR) AssemblyAI Transcriber
+ * WHERE THE FLOWERS FORGET (WtFF) AssemblyAI Transcriber
  * ============================================================
  *
- * Transcribes WtFR D&D session recordings using AssemblyAI with
+ * Transcribes WtFF D&D session recordings using AssemblyAI with
  * campaign-specific vocabulary boosting + custom spelling
  * corrections pre-loaded. Cloned from the Ashfall transcriber.
  *
  * LOCATION:
- *   C:\Users\theli\wtfr_vault\Workflows\scripts\wtfr_transcribe\transcribe.js
+ *   C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js
  *
  * PREREQUISITES:
  *   1. Node.js v18+
  *   2. AssemblyAI API key (https://www.assemblyai.com/app/account)
- *   3. ASSEMBLYAI_API_KEY in .env at the wtfr_vault root,
+ *   3. ASSEMBLYAI_API_KEY in .env at the wtff_vault root,
  *      OR it falls back to the sitl_vault root .env.
- *   4. Session recordings in: wtfr_vault\Session_Sources\Recordings\
+ *   4. Session recordings in: wtff_vault\Session_Sources\Recordings\
  *
  * USAGE:
- *   cd C:\Users\theli\wtfr_vault\Workflows\scripts\wtfr_transcribe
+ *   cd C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe
  *   node transcribe.js                              (interactive picker)
  *   node transcribe.js "session01.mp3"              (by filename)
  *   node transcribe.js <mp3> <output.md>            (explicit output — used by the watcher)
@@ -34,7 +34,7 @@ const path = require("path");
 // ── CONFIG ──────────────────────────────────────────────────
 const BASE_URL = "https://api.assemblyai.com";
 
-const VAULT_ROOT = String.raw`C:\Users\theli\wtfr_vault`;
+const VAULT_ROOT = String.raw`C:\Users\theli\wtff_vault`;
 const RECORDINGS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Recordings");
 const TRANSCRIPTS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Transcripts", "Raw_Unedited");
 
@@ -43,7 +43,7 @@ const TRANSCRIPTS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Transcripts", 
 const DEFAULT_SPEAKERS = 6;
 
 // ── Load ASSEMBLYAI_API_KEY (no dotenv dependency) ──────────
-// Checks wtfr_vault\.env first, then falls back to sitl_vault\.env.
+// Checks wtff_vault\.env first, then falls back to sitl_vault\.env.
 function loadApiKey() {
   if (process.env.ASSEMBLYAI_API_KEY) return process.env.ASSEMBLYAI_API_KEY;
   const candidates = [
@@ -62,22 +62,22 @@ function loadApiKey() {
 const API_KEY = loadApiKey();
 if (!API_KEY) {
   console.error("ERROR: Missing ASSEMBLYAI_API_KEY.");
-  console.error("Set it in .env at the wtfr_vault root (or sitl_vault root).");
+  console.error("Set it in .env at the wtff_vault root (or sitl_vault root).");
   process.exit(1);
 }
 
 const AUDIO_EXTENSIONS = [".mp3", ".mp4", ".m4a", ".wav", ".webm", ".ogg", ".flac"];
 
-// ── WtFR CAMPAIGN VOCABULARY ────────────────────────────────
-// AssemblyAI keyterms boost. WtFR is an original setting (Aretemesia) with
+// ── WtFF CAMPAIGN VOCABULARY ────────────────────────────────
+// AssemblyAI keyterms boost. WtFF is an original setting (Artemesia) with
 // no published lore — this list is seeded ONLY from CONFIRMED vault content
 // (the worldbuilding pages, factions, regions, and PC). Grow it session by
 // session as proper nouns are confirmed; never add guessed/unconfirmed terms.
-const WTFR_KEYTERMS = [
+const WTFF_KEYTERMS = [
 
   // ── Campaign / Setting ──
   "Where the Flowers Forget",
-  "Aretemesia",            // folder spelling
+  "Artemesia",            // folder spelling
   "Artemesia",             // file spelling (kept until canonical spelling is settled)
   "The Flower Court",
   "The Petal Cycle",
@@ -148,9 +148,9 @@ const WTFR_KEYTERMS = [
 // word. Start sparse — grow from each session's spell-check log. Do NOT add
 // common-word mishears (global replace would corrupt real words); those stay
 // in the per-session spell-check cycle.
-const WTFR_CUSTOM_SPELLING = [
+const WTFF_CUSTOM_SPELLING = [
   // Setting (single-word only)
-  { from: ["Artemisia", "Aretemisia"], to: "Aretemesia" },
+  { from: ["Artemisia", "Aretemisia"], to: "Artemesia" },
   // Add confirmed character/NPC mishears here as they surface.
 ];
 
@@ -195,12 +195,12 @@ async function uploadFile(filePath) {
 }
 
 async function submitTranscription(audioUrl, speakersExpected) {
-  log(`Submitting transcription with WtFR vocabulary (${speakersExpected} speakers expected)...`);
+  log(`Submitting transcription with WtFF vocabulary (${speakersExpected} speakers expected)...`);
   const requestBody = {
     audio_url: audioUrl,
     speech_models: ["universal-3-pro", "universal-2"],
-    keyterms_prompt: WTFR_KEYTERMS,
-    custom_spelling: WTFR_CUSTOM_SPELLING,
+    keyterms_prompt: WTFF_KEYTERMS,
+    custom_spelling: WTFF_CUSTOM_SPELLING,
     speaker_labels: true,
     speakers_expected: speakersExpected,
     language_code: "en_us",
@@ -285,13 +285,13 @@ async function main() {
   if (args.length === 0) {
     console.log(`
 ╔══════════════════════════════════════════════╗
-║   WtFR AssemblyAI Transcriber                ║
+║   WtFF AssemblyAI Transcriber                ║
 ║   Where the Flowers Forget                 ║
 ╚══════════════════════════════════════════════╝
 `);
     console.log(`Recordings folder: ${RECORDINGS_DIR}`);
-    console.log(`Vocabulary loaded:  ${WTFR_KEYTERMS.length} keyterms`);
-    console.log(`Custom spellings:   ${WTFR_CUSTOM_SPELLING.length} correction rules\n`);
+    console.log(`Vocabulary loaded:  ${WTFF_KEYTERMS.length} keyterms`);
+    console.log(`Custom spellings:   ${WTFF_CUSTOM_SPELLING.length} correction rules\n`);
 
     const recordings = listRecordings();
     if (recordings.length === 0) {
