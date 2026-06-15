@@ -90,9 +90,22 @@ Read `_Campaign_Setup.md` first. It holds this campaign's specifics (DM, roster,
 
 **The DDB roll archive is the gold standard for roll verification — once WTFF has a live `game_id`.** Until then, this step relies on the transcript.
 
-**When the archive is live:**
+**When the archive is live** — the queries below are a COMMENTED template; **they are NOT wired until a `game_id` roll-archive exists for WtFF.** WtFF's `game_id` is `7853407` and the view will be `wtff_session_rolls` (pre-filtered to `campaign_id = 4`, with `session_date` derived in Eastern Time). Do not run these until the view exists.
+
+```sql
+-- NOT WIRED YET — template only. Enable once the wtff_session_rolls view exists (game_id 7853407, campaign_id 4).
+-- 1. Confirm sync (latest synced roll):
+-- SELECT MAX(timestamp_iso) FROM wtff_session_rolls;
+-- 2. Pull the session's rolls (Eastern Time session_date):
+-- SELECT * FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD';
+-- per character:
+-- SELECT * FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' AND character = 'Isla ''Bruin'' Kaplan';
+-- counts:
+-- SELECT character, COUNT(*) AS rolls FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' GROUP BY character ORDER BY rolls DESC;
+```
+
 1. Confirm sync: `SELECT MAX(timestamp_iso) FROM wtff_session_rolls;` — if the session date isn't covered, flag the gap and ask before assuming. Do not fabricate.
-2. Pull the session's rolls by `session_date` (Eastern Time) via the `wtff_session_rolls` view (pre-filtered to WTFF's `game_id`/`campaign_id`).
+2. Pull the session's rolls by `session_date` (Eastern Time) via the `wtff_session_rolls` view (pre-filtered to WTFF's `game_id` 7853407 / `campaign_id` 4).
 3. **Cross-reference rules:** use the archive for exact values/timing/who-rolled; the transcript for narrative context, DM rulings, in-fiction outcomes, dialogue.
    - Roll in transcript but not archive → flag "transcript-only."
    - Roll in archive but not transcript → likely a quick mechanical roll.
@@ -121,11 +134,16 @@ The POV Journal (section 2) is the storytelling exception. In-character, in-worl
 
 ## STEP 6 — NOTES GENERATION
 
-**[DECISION PENDING — confirm WTFF's output format.]** SITL renders a styled `.docx` via a code generator. WTFF currently has `Templates/Session Notes Template.md` (an Obsidian template), which suggests markdown-first notes. Options:
-- **Markdown:** build the notes directly from `Templates/Session Notes Template.md`, ready to drop into `01-Sessions/` in Convo 2.
-- **`.docx`:** if a generator is later adopted, document its pipeline here (build → validate → deliver) and do not hardcode styles from memory.
+**WtFF is markdown-first — there is NO `.docx` generator.** Author the finished notes as a markdown note directly, using `Templates/Session Notes Template.md` (the Obsidian template) as the structural skeleton. (SITL renders a styled `.docx` via a code generator; WtFF deliberately does not — do not invent or hardcode a `.docx` pipeline. If one is ever adopted, record that decision in `_Campaign_Setup.md` first, then document its build → validate → deliver pipeline here.)
 
-Whichever is chosen: build from the template exactly, validate, then deliver. **File naming:** `WTFF_[##]_[MMDDYY]_[Title]` (matches the handoff block).
+This is the 8-section notes content from Step 4, rendered to markdown with frontmatter and Obsidian backlinks:
+
+- **Source of structure:** `Templates/Session Notes Template.md` — follow its section order and headings exactly. **Content authority** remains `Session_Notes_Section_Breakdown.md`.
+- **Frontmatter** — tags, aliases, session date, session number.
+- **Backlinks** — `[[Character Name]]` for every PC and NPC, `[[Location Name]]` for every location/region/faction, `[[Session ## — Title]]` for cross-session references.
+- **Target / file naming:** write into `01-Sessions/`. Filename convention `WTFF_[##]_[MMDDYY]_[Title]` (must match the handoff block). Title matches the final chosen title from Step 5 exactly.
+
+Convo 1 authors this note; Convo 2 verifies it and propagates everything else into the rest of the vault. Build from the template exactly, validate, then record the note's path for the handoff block.
 
 ---
 

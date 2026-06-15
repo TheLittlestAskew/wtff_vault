@@ -1,12 +1,28 @@
+---
+game_id: "7853407"
+start_date: 06/142026
+session_count:
+dm: Adam, pascalnoelrossi
+---
 # Campaign Dashboard — Where the Flowers Forget
 
 > Central hub for the campaign. Every other vault file links back here. Updated after every session.
 
+
+
 **Quick links:** [[House Rules & Rulings]] · [[Loot Tracker]] · [[Quote Board Master]] · [[Profanity Ledger]] · [[Open Threads & Mysteries]] · [[Location Index]] · [[Vault Sync Status]] · [[Vault Format Reference]]
 
 - **Campaign launch:** 2026-06-14
-- **DM:** _[pending]_
-- **Party roster:** _[pending player names — see 03-Characters/01 PCs/]_
+- **DM:** Adam
+- **Party roster:** 
+
+| Player | character_name | username | player_id | character_id | race/species | class |
+| ------ | -------------- | -------- | --------- | ------------ | ------------ | ----- |
+| Taylor |                |          |           |              |              |       |
+| Rachel |                |          |           |              |              |       |
+| Lydia  |                |          |           |              |              |       |
+| Will   |                |          |           |              |              |       |
+
 
 ---
 

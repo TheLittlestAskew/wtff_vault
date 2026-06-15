@@ -7,6 +7,11 @@
 .env
 *.env
 
+# Local REST API plugin regenerates an API key + RSA private key into its
+# data.json on first Obsidian launch. obsidian-git auto-commits, and this repo
+# is PUBLIC — keep that credential local. (Re-pairs itself per machine.)
+.obsidian/plugins/obsidian-local-rest-api/data.json
+
 # ── Session Recordings (voices of real people) ────────────────
 Session_Sources/Recordings/
 *.mp3

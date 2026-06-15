@@ -26,4 +26,4 @@ Today, nearly every home, train station, tavern, and Court hall keeps a Petal Ca
 As an old Flower Court inscription reads:
 > *"Count not the days that pass beneath your feet. Count the blooms, the harvests, the rests, and the awakenings. Time is not something we spend. It is something we cultivate."* 🌸
 
-![[Pasted image 20260601000839.png]]
+![[The_Calendar_of_Artemesia.png]]

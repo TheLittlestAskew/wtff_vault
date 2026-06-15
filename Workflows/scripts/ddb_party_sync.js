@@ -11,6 +11,12 @@
  *   03-Characters/01 PCs/Party Character Sheets/_raw/<CharacterName>.json   (full raw JSON)
  *   03-Characters/01 PCs/Party Character Sheets/<CharacterName> (DDB).md    (readable sheet)
  *
+ * After writing each sheet it also writes a CHANGE-ONLY snapshot row to Supabase
+ * (table ddb_character_snapshots, campaign_id 4). It fetches the character's most
+ * recent snapshot and inserts a new row ONLY if a tracked stat (level / AC / max
+ * HP / proficiency / any ability score / class string / race) changed — so every
+ * row is a real event. Supabase failures are non-fatal (file sync still succeeds).
+ *
  * ── --discover ──────────────────────────────────────────────────────────────
  * Run this ONCE after the campaign is live and your PC is joined to the campaign
  * page. It fetches YOUR own sheet (selfCharacterId), reads the embedded campaign
@@ -38,6 +44,22 @@ const OUT_DIR    = path.join(VAULT_ROOT, '03-Characters', '01 PCs', 'Party Chara
 const RAW_DIR    = path.join(OUT_DIR, '_raw');
 const CHAR_API   = (id) => `https://character-service.dndbeyond.com/character/v5/character/${id}`;
 const COBALT_API = 'https://auth-service.dndbeyond.com/v1/cobalt-token';
+
+// ─── Supabase snapshot sink (time-series character history) ──────────
+// Same project + anon key as ddb_sync_supabase.js. RLS on ddb_character_snapshots
+// allows all roles (matches ddb_rolls), so the anon key can insert/select.
+// THIS VAULT = Where the Flowers Forget → campaign_id 4. (SITL = 1, P&P = 2, Ashfall = 3.)
+const SUPABASE_URL = 'https://vtrtyagltwdrbastpppl.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0cnR5YWdsdHdkcmJhc3RwcHBsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNTY5NTAsImV4cCI6MjA5MTkzMjk1MH0.hnpwjHGIqiUN_VmmIkOAAFGGCKsyYgl7AO3FW5vDIeM';
+const SUPABASE_CAMPAIGN_ID = 4;
+
+// Tracked fields = the change-detection set. A new snapshot is written only if
+// any of these differs from the character's most recent snapshot.
+const SNAPSHOT_FIELDS = [
+  'level', 'ac', 'hp_max', 'pb',
+  'str_score', 'dex_score', 'con_score', 'int_score', 'wis_score', 'cha_score',
+  'class_string', 'race',
+];
 
 const ABILITIES = [
   { id: 1, key: 'strength',     abbr: 'STR' },
@@ -158,13 +180,152 @@ function spellNames(char) {
   const seen = new Set();
   return out.filter((s) => (seen.has(s.name) ? false : seen.add(s.name)));
 }
-function renderMarkdown(char, meta) {
+// AC, computed to MATCH the DDB sheet (deterministic, no rules engine):
+// equipped armor + shield + Dex (capped for medium) + class Unarmored Defense.
+// Returns { ac, breakdown } so the sheet shows the math. Deliberately ignores
+// item AC *modifiers* (e.g. Bracers of Defense, which DDB only applies when
+// unarmored) so the number matches the sheet. Trade-off: a genuine magic AC
+// item (Ring of Protection, +1 armor) won't be added — flag by hand if equipped.
+const ARMOR_TYPE = { 1: 'light', 2: 'medium', 3: 'heavy', 4: 'shield' };
+
+function armorClass(char, scores) {
+  const dexMod = mod(scores.DEX);
+  const worn = (char.inventory || []).filter(
+    (i) => i.equipped && i.definition?.filterType === 'Armor'
+  );
+  const body   = worn.find((i) => ARMOR_TYPE[i.definition.armorTypeId] !== 'shield');
+  const shield = worn.find((i) => ARMOR_TYPE[i.definition.armorTypeId] === 'shield');
+
+  const parts = [];
+  let ac;
+  if (body) {
+    const type    = ARMOR_TYPE[body.definition.armorTypeId];
+    const armorAC = body.definition.armorClass || 10;
+    const name    = body.definition.name || 'Armor';
+    if (type === 'heavy') {
+      ac = armorAC;
+      parts.push(`${name} ${armorAC} (heavy, no Dex)`);
+    } else if (type === 'medium') {
+      const dexAdd = Math.min(dexMod, 2);
+      ac = armorAC + dexAdd;
+      parts.push(`${name} ${armorAC}`, `Dex ${signed(dexAdd)}${dexMod > 2 ? ' (capped)' : ''}`);
+    } else {
+      ac = armorAC + dexMod;
+      parts.push(`${name} ${armorAC}`, `Dex ${signed(dexMod)}`);
+    }
+  } else {
+    const cls = (char.classes || []).map((c) => c.definition?.name);
+    if (cls.includes('Barbarian')) {
+      const conMod = mod(scores.CON);
+      ac = 10 + dexMod + conMod;
+      parts.push('Unarmored Defense 10', `Dex ${signed(dexMod)}`, `Con ${signed(conMod)}`);
+    } else if (cls.includes('Monk')) {
+      const wisMod = mod(scores.WIS);
+      ac = 10 + dexMod + wisMod;
+      parts.push('Unarmored Defense 10', `Dex ${signed(dexMod)}`, `Wis ${signed(wisMod)}`);
+    } else {
+      ac = 10 + dexMod;
+      parts.push('Base 10', `Dex ${signed(dexMod)}`);
+    }
+  }
+  if (shield) {
+    const sAC = shield.definition.armorClass || 2;
+    ac += sAC;
+    parts.push(`${shield.definition.name || 'Shield'} ${signed(sAC)}`);
+  }
+  return { ac, breakdown: parts.join(' + ') };
+}
+
+// Single source of truth for every derived number. Both renderMarkdown and the
+// Supabase snapshot row read from this, so the sheet and the history can't drift.
+function computeSheet(char) {
   const level = totalLevel(char);
   const pb = profBonus(level);
   const scores = {};
   ABILITIES.forEach((ab) => (scores[ab.abbr] = computeAbility(char, ab)));
   const conMod = mod(scores.CON);
   const hp = maxHp(char, conMod, level);
+  const acInfo = armorClass(char, scores);
+  return {
+    level, pb, scores, hp,
+    ac: acInfo.ac, acBreakdown: acInfo.breakdown,
+    classString: classLine(char),
+    race: raceLine(char),
+  };
+}
+
+// ─── Supabase snapshot helpers ──────────────────────────────────────
+async function supaGet(pathAndQuery) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/${pathAndQuery}`, {
+    headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` },
+  });
+  if (!res.ok) throw new Error(`GET ${res.status} ${await res.text()}`);
+  return res.json();
+}
+
+async function supaInsert(table, row) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/${table}`, {
+    method: 'POST',
+    headers: {
+      apikey: SUPABASE_KEY,
+      Authorization: `Bearer ${SUPABASE_KEY}`,
+      'Content-Type': 'application/json',
+      Prefer: 'return=minimal',
+    },
+    body: JSON.stringify(row),
+  });
+  if (!res.ok) throw new Error(`POST ${res.status} ${await res.text()}`);
+}
+
+function buildSnapshotRow(meta, sheet) {
+  // captured_at defaults to now() in the DB; session_date is resolved in the
+  // per-campaign view (left null here) unless you later pin it by hand.
+  return {
+    campaign_id: SUPABASE_CAMPAIGN_ID,
+    character_name: meta.name,
+    ddb_character_id: meta.characterId,
+    level: sheet.level,
+    ac: sheet.ac,
+    hp_max: sheet.hp,
+    pb: sheet.pb,
+    str_score: sheet.scores.STR,
+    dex_score: sheet.scores.DEX,
+    con_score: sheet.scores.CON,
+    int_score: sheet.scores.INT,
+    wis_score: sheet.scores.WIS,
+    cha_score: sheet.scores.CHA,
+    class_string: sheet.classString,
+    race: sheet.race,
+    details: { ac_breakdown: sheet.acBreakdown },
+  };
+}
+
+// Change-only: compare against the MOST RECENT snapshot (not all history), so a
+// stat that returns to a prior value still records as a new event.
+function snapshotChanged(latest, row) {
+  if (!latest) return true;
+  return SNAPSHOT_FIELDS.some((f) => (latest[f] ?? null) !== (row[f] ?? null));
+}
+
+async function writeSnapshotIfChanged(meta, char) {
+  const sheet = computeSheet(char);
+  const row = buildSnapshotRow(meta, sheet);
+  const prior = await supaGet(
+    `ddb_character_snapshots?campaign_id=eq.${SUPABASE_CAMPAIGN_ID}` +
+    `&ddb_character_id=eq.${meta.characterId}` +
+    `&select=${SNAPSHOT_FIELDS.join(',')}` +
+    `&order=captured_at.desc&limit=1`
+  );
+  if (snapshotChanged(prior[0], row)) {
+    await supaInsert('ddb_character_snapshots', row);
+    return 'new';
+  }
+  return 'same';
+}
+
+function renderMarkdown(char, meta) {
+  const sheet = computeSheet(char);
+  const { level, pb, scores, hp } = sheet;
   const L = [];
   L.push('---');
   L.push('type: pc-sheet');
@@ -185,6 +346,7 @@ function renderMarkdown(char, meta) {
   L.push(`- **Total Level:** ${level}  ·  **Proficiency Bonus:** ${signed(pb)}`);
   L.push(`- **Background:** ${backgroundLine(char)}`);
   L.push(`- **Max HP (approx):** ${hp}`);
+  L.push(`- **AC:** ${sheet.ac}  ·  *${sheet.acBreakdown}*`);
   if (char.currencies) {
     const c = char.currencies;
     L.push(`- **Currency:** ${c.pp || 0}pp ${c.gp || 0}gp ${c.ep || 0}ep ${c.sp || 0}sp ${c.cp || 0}cp`);
@@ -320,6 +482,7 @@ async function sync() {
   fs.mkdirSync(RAW_DIR, { recursive: true });
   const syncedIso = new Date().toISOString();
   let ok = 0, priv = 0, fail = 0;
+  let snapNew = 0, snapSame = 0, snapErr = 0;
 
   for (const c of chars) {
     process.stdout.write(`• ${c.name} (#${c.characterId})… `);
@@ -338,12 +501,24 @@ async function sync() {
       fs.writeFileSync(path.join(OUT_DIR, `${fileBase} (DDB).md`), renderMarkdown(char, { ...c, syncedIso }));
       log(`✅ ${char.name || c.name} → JSON + markdown`);
       ok++;
+
+      // ── Time-series snapshot (change-only). Isolated so a Supabase failure
+      //    never corrupts the file-sync accounting or stops the run. ──
+      try {
+        const result = await writeSnapshotIfChanged({ name: char.name || c.name, characterId: c.characterId }, char);
+        if (result === 'new') { snapNew++; log('    📸 snapshot saved (sheet changed)'); }
+        else { snapSame++; }
+      } catch (e) {
+        snapErr++;
+        log(`    ⚠️ snapshot skipped (Supabase): ${e.message}`);
+      }
     } catch (e) { log(`❌ ${e.message}`); fail++; }
     await new Promise((r) => setTimeout(r, 300));
   }
 
   log('───────────────────────────────────────────');
   log(`Done. ${ok} synced, ${priv} skipped, ${fail} failed, ${unset.length} unset.`);
+  log(`Snapshots: ${snapNew} new, ${snapSame} unchanged, ${snapErr} errored.`);
   if (priv) log(authed
     ? 'Skipped sheets are genuinely Private — only their owner or the DM can pull them.'
     : 'Add DDB_COBALT to .env to fetch Campaign-Only sheets.');
