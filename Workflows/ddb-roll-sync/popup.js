@@ -9,7 +9,7 @@ const CAMPAIGNS = {
   'Sky Is The Limit':           { supabaseId: 1, gameId: 6907990, status: 'active' },
   'Pacts & Power':              { supabaseId: 2, gameId: 3661522, status: 'active' },
   'Ashfall Brittania':          { supabaseId: 3, gameId: 7170962, status: 'active' },
-  'Where the Flowers Forget': { supabaseId: 4, gameId: 0,       status: 'paused' },
+  'Where the Flowers Forget':   { supabaseId: 4, gameId: 7853407, status: 'active' },
 };
 
 // ─── Logging ─────────────────────────────────────────────────────
@@ -102,14 +102,35 @@ async function getLastSyncedUnix(campaignId) {
 }
 
 async function upsertRolls(rows) {
+  // Collapse rows that share the composite conflict key. A single game-log
+  // message can hold several rolls with the same rollId+rollType+notation, which
+  // would make Postgres try to ON CONFLICT-update the same row twice in one
+  // statement (error 21000). The unique constraint only keeps one such row
+  // anyway, so we keep the last occurrence. Rows with a null dice_notation are
+  // left as-is (NULLs are treated as distinct by the unique key).
+  const byKey = new Map();
+  const deduped = [];
+  for (const r of rows) {
+    if (r.dice_notation == null) { deduped.push(r); continue; }
+    const key = `${r.campaign_id}|${r.roll_id}|${r.roll_type}|${r.dice_notation}`;
+    if (byKey.has(key)) deduped[byKey.get(key)] = r;
+    else { byKey.set(key, deduped.length); deduped.push(r); }
+  }
+
   const BATCH = 500;
   let inserted = 0;
-  for (let i = 0; i < rows.length; i += BATCH) {
-    const chunk = rows.slice(i, i + BATCH);
-    await supabaseRequest('ddb_rolls', 'POST', chunk);
+  for (let i = 0; i < deduped.length; i += BATCH) {
+    const chunk = deduped.slice(i, i + BATCH);
+    // Upsert against the composite unique key (not the PK), so re-seeing an
+    // already-synced roll merges instead of throwing a 23505 duplicate-key 409.
+    await supabaseRequest(
+      'ddb_rolls?on_conflict=campaign_id,roll_id,roll_type,dice_notation',
+      'POST',
+      chunk
+    );
     inserted += chunk.length;
-    if (rows.length > BATCH) {
-      log(`  ↳ Upserted ${inserted}/${rows.length} rolls...`);
+    if (deduped.length > BATCH) {
+      log(`  ↳ Upserted ${inserted}/${deduped.length} rolls...`);
     }
   }
   return inserted;
@@ -125,16 +146,24 @@ async function updateCampaignSync(campaignId, lastUnix) {
 }
 
 // ─── DDB API helpers ─────────────────────────────────────────────
+// The live game-log endpoint is /v1/getmessages (the old /v1/game-log/{id}/rolls
+// path is dead and returns a 403 from the API gateway). It returns the whole
+// game log newest-first, paginated by a `lastKey` cursor. We fetch messages,
+// keep only dice rolls (eventType "dice/roll/fulfilled"), and stop once we reach
+// rolls we've already synced (afterUnix).
 async function fetchDDBRolls(gameId, bearerToken, afterUnix = 0) {
-  const allRolls = [];
-  let nextUrl = `https://game-log-rest-live.dndbeyond.com/v1/game-log/${gameId}/rolls?userId=${DDB_USER_ID}&limit=100`;
+  const messages = [];
+  let lastEvaluatedKey = null;
   let page = 0;
   let done = false;
 
-  while (nextUrl && !done) {
+  while (!done) {
     page++;
     log(`  ↳ Fetching page ${page}...`);
-    const res = await fetch(nextUrl, {
+    let url = `https://game-log-rest-live.dndbeyond.com/v1/getmessages?gameId=${gameId}&userId=${DDB_USER_ID}`;
+    if (lastEvaluatedKey) url += `&lastEvaluatedKey=${encodeURIComponent(lastEvaluatedKey)}`;
+
+    const res = await fetch(url, {
       headers: { 'Authorization': `Bearer ${bearerToken}` },
     });
 
@@ -143,49 +172,72 @@ async function fetchDDBRolls(gameId, bearerToken, afterUnix = 0) {
       throw new Error(`DDB API error: ${res.status} ${errText}`);
     }
 
-    const data = await res.json();
-    const rolls = data.data || [];
-    if (rolls.length === 0) break;
+    const json = await res.json();
+    const batch = json.data || [];
+    if (batch.length === 0) break;
 
-    for (const roll of rolls) {
-      const ts = roll.dateTime ? new Date(roll.dateTime).getTime() : (roll.timestamp || 0);
+    for (const msg of batch) {
+      const ts = parseInt(msg.dateTime, 10) || 0;
       if (ts <= afterUnix) { done = true; break; }
-      allRolls.push(roll);
+      if (msg.eventType === 'dice/roll/fulfilled' && msg.data?.rolls?.length) {
+        messages.push(msg);
+      }
     }
 
-    nextUrl = data.pagination?.next || null;
-    if (page > 200) { log('  ⚠️ Hit 200 page limit', 'warn'); break; }
-    await new Promise(r => setTimeout(r, 300));
+    // Pagination: the response hands back the next cursor in `lastKey`.
+    const nextKey = json.lastKey?.dateTime_eventType_userId || null;
+    if (!nextKey) break;
+    lastEvaluatedKey = nextKey;
+    if (page > 300) { log('  ⚠️ Hit 300 page limit', 'warn'); break; }
+    await new Promise(r => setTimeout(r, 250));
   }
 
-  return allRolls;
+  return messages;
 }
 
-function normalizeDDBRoll(raw, campaignId) {
-  const ts = raw.dateTime ? new Date(raw.dateTime).getTime() : (raw.timestamp || 0);
-  let individualValues = null;
-  if (raw.rolls && Array.isArray(raw.rolls)) {
-    individualValues = raw.rolls.flatMap(r => (r.dice || []).flatMap(d => d.results || []));
-  } else if (raw.result?.values) {
-    individualValues = raw.result.values;
-  }
-  return {
+// Reconstruct a readable dice formula like "2d20+10" or "1d6+1d4" from the
+// structured diceNotation object, matching the format already in the archive.
+function buildDiceNotation(dn) {
+  if (!dn) return null;
+  const parts = (dn.set || []).map(s => {
+    const die = s.dieType || (s.dice && s.dice[0] && s.dice[0].dieType) || '';
+    const count = s.count || (s.dice ? s.dice.length : 1);
+    return `${count}${die}`;
+  });
+  let notation = parts.join('+');
+  const c = dn.constant || 0;
+  if (c > 0) notation += `+${c}`;
+  else if (c < 0) notation += `${c}`;
+  return notation || null;
+}
+
+// One game-log message can contain several rolls (e.g. a to-hit + a damage
+// roll sharing one rollId). Emit ONE row per roll so they map cleanly onto the
+// composite unique key (campaign_id, roll_id, roll_type, dice_notation).
+function normalizeMessage(msg, campaignId) {
+  const ts = parseInt(msg.dateTime, 10) || 0;
+  const d = msg.data || {};
+  const ctx = d.context || {};
+  const base = {
     campaign_id: campaignId,
     timestamp_iso: new Date(ts).toISOString(),
     timestamp_unix: ts,
-    character: raw.context?.characterName || raw.characterName || null,
-    user_id: raw.userId || raw.context?.userId || null,
-    action: raw.context?.action || raw.action || 'custom',
-    roll_type: raw.rollType || raw.context?.rollType || 'roll',
-    roll_kind: raw.rollKind || raw.context?.rollKind || '',
-    dice_notation: raw.diceNotation || raw.notation || null,
-    modifier: raw.modifier || 0,
-    total: raw.result?.total ?? raw.total ?? null,
-    individual_values: individualValues ? JSON.stringify(individualValues) : null,
-    source: raw.source || 'web',
-    set_id: raw.setId || null,
-    roll_id: raw.rollId || raw.id || null,
+    character: ctx.name || null,
+    user_id: msg.userId ? parseInt(msg.userId, 10) : null,
+    action: d.action || 'custom',
+    source: (msg.source || 'web').toLowerCase(),
+    set_id: d.setId || null,
+    roll_id: d.rollId || msg.id || null,
   };
+  return (d.rolls || []).map(r => ({
+    ...base,
+    roll_type: r.rollType || 'roll',
+    roll_kind: r.rollKind || '',
+    dice_notation: buildDiceNotation(r.diceNotation),
+    modifier: (r.diceNotation && r.diceNotation.constant) || 0,
+    total: r.result?.total ?? null,
+    individual_values: r.result?.values ? JSON.stringify(r.result.values) : null,
+  }));
 }
 
 // ─── Sync logic ──────────────────────────────────────────────────
@@ -221,7 +273,7 @@ async function syncCampaign(campaignName, bearerToken) {
       return;
     }
 
-    const rows = rawRolls.map(r => normalizeDDBRoll(r, cfg.supabaseId));
+    const rows = rawRolls.flatMap(m => normalizeMessage(m, cfg.supabaseId));
     const count = await upsertRolls(rows);
     const maxUnix = Math.max(...rows.map(r => r.timestamp_unix));
     await updateCampaignSync(cfg.supabaseId, maxUnix);

@@ -143,6 +143,28 @@ const WTFF_KEYTERMS = [
   "armor class",
 ];
 
+// ── AUTO-DISCOVERED VAULT KEYTERMS ──────────────────────────
+// keyterms_extra.json (maintained add-only by wtff_keyterms_sync.js) holds
+// proper nouns scraped from the vault's NPC/Location/Faction/Region/Pantheon/
+// Flora-Fauna pages. Merge it with the curated base list so newly-added canon
+// is boosted automatically. Missing/empty file is harmless.
+function loadExtraKeyterms() {
+  try {
+    const arr = JSON.parse(fs.readFileSync(path.join(__dirname, "keyterms_extra.json"), "utf-8"));
+    return Array.isArray(arr) ? arr.filter((t) => typeof t === "string" && t.trim()) : [];
+  } catch { return []; }
+}
+const EXTRA_KEYTERMS = loadExtraKeyterms();
+// De-duplicate case-insensitively while preserving the base list's casing.
+const ALL_KEYTERMS = (() => {
+  const seen = new Set(WTFF_KEYTERMS.map((t) => t.toLowerCase()));
+  const merged = [...WTFF_KEYTERMS];
+  for (const t of EXTRA_KEYTERMS) {
+    if (!seen.has(t.toLowerCase())) { seen.add(t.toLowerCase()); merged.push(t); }
+  }
+  return merged;
+})();
+
 // ── CUSTOM SPELLING CORRECTIONS ─────────────────────────────
 // Post-transcription find-and-replace. AssemblyAI requires 'to' to be ONE
 // word. Start sparse — grow from each session's spell-check log. Do NOT add
@@ -199,7 +221,7 @@ async function submitTranscription(audioUrl, speakersExpected) {
   const requestBody = {
     audio_url: audioUrl,
     speech_models: ["universal-3-pro", "universal-2"],
-    keyterms_prompt: WTFF_KEYTERMS,
+    keyterms_prompt: ALL_KEYTERMS,
     custom_spelling: WTFF_CUSTOM_SPELLING,
     speaker_labels: true,
     speakers_expected: speakersExpected,
@@ -290,7 +312,7 @@ async function main() {
 ╚══════════════════════════════════════════════╝
 `);
     console.log(`Recordings folder: ${RECORDINGS_DIR}`);
-    console.log(`Vocabulary loaded:  ${WTFF_KEYTERMS.length} keyterms`);
+    console.log(`Vocabulary loaded:  ${ALL_KEYTERMS.length} keyterms (${WTFF_KEYTERMS.length} base + ${EXTRA_KEYTERMS.length} auto from vault)`);
     console.log(`Custom spellings:   ${WTFF_CUSTOM_SPELLING.length} correction rules\n`);
 
     const recordings = listRecordings();

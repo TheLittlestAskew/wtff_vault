@@ -23,10 +23,10 @@ Update Status to ✅ and fill Value the moment the campaign reveals it. Note the
 | Input | Status | Value (once known) | Unblocks | First captured |
 |---|---|---|---|---|
 | DM identity | ❓ unknown | | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from [DM].md` | |
-| Player roster (names) | ❓ unknown | | PC pages; party-present lists | |
-| DDB user IDs (per player) | ❓ unknown | _local only — kept in gitignored `Workflows/scripts/ddb_party.json`; do NOT record IDs/usernames in this PUBLIC file (first names only)_ | Roll attribution; `user_id` → character map | |
-| Live DDB `game_id` | ❓ unknown | | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | |
-| Your POV character (your PC) | ❓ unknown | | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | |
+| Player roster (names) | ❓ partial | Taylor (Isla), Lydia (Eliza), Rachel (Zarna); players behind Artie / BE-BO / Tobias not yet known by first name | PC pages; party-present lists | Session 1 (2026-06-14) |
+| DDB user IDs (per player) | ✅ captured | _local only — all 6 PCs' usernames/userIds + characterIds are in gitignored `Workflows/scripts/ddb_party.json` (Artie's characterId still missing). Do NOT record IDs/usernames in this PUBLIC file (first names only)._ | Roll attribution; `user_id` → character map | Session 1 (2026-06-14) |
+| Live DDB `game_id` | ✅ known | `7853407` | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | Session 1 (2026-06-14) |
+| Your POV character (your PC) | ✅ known | Isla 'Bruin' Kaplan — Shifter Barbarian (Path of the Totem Warrior) | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | Session 1 (2026-06-14) |
 | System / ruleset | ❓ unknown | | Rules references in notes | |
 | Setting basics | ❓ partial | (lore lives in `04-World-Lore/`) | Locations / Regions / Factions seeding | |
 | Campaign spelling terms | ❓ unknown | | Convo 1 spell-check canon | |
@@ -50,5 +50,5 @@ Append a row whenever a convention is chosen, so the pipeline stays consistent a
 - **Campaign:** Where the Flowers Forget. Launch **2026-06-14**.
 - **Vault:** `wtff_vault`; structure per `WtFF_Vault_Structure_Guide.md`.
 - **Your role:** player — you have a POV character / your own PC page; the DM is someone else (identity pending). *(Confirm if this changes.)*
-- **Roll archive:** registered as paused (`game_id 0`) until a live game exists.
+- **Roll archive:** live `game_id` is `7853407` (captured Session 1, 2026-06-14). Update the roll-archive registration / rectrixcaedere wiring from the paused `game_id 0` placeholder to `7853407`.
 - **World lore + your character info** already exist in the vault; everything else accrues from play.
