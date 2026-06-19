@@ -1,5 +1,5 @@
 ---
-player:
+player: Seth
 user_id: "3660808"
 character_id: "167073342"
 username: Sparker1988
