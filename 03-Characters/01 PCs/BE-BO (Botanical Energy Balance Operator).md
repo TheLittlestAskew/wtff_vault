@@ -29,10 +29,10 @@ sub_class:
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Interviewed for [[The Uprooters]]; danced badly but joyfully during the mingling. Selected into the WtFF party (Group K). |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Interviewed for [[The Uprooters]]; danced badly but joyfully during the mingling. Selected into the WtFF party (Group K). |
 
 ## Key Quotes
-> **[[Session 01 — A Railway Requires Everyone]]**
+> **[[Session 01 — Winds in the East, Mist comin' in...]]**
 > "the goal was not to dance well, the goal was to dance." — *Poignant / Funny*
 
 ## Related

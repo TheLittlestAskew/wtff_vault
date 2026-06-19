@@ -31,7 +31,7 @@ dm: Adam
 ## Sessions
 | Session # | Date | Title | Notes Link | Summary |
 |---|---|---|---|---|
-| 01 | 06/14/2026 | A Railway Requires Everyone | [[Session 01 — A Railway Requires Everyone]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
+| 01 | 06/14/2026 | A Railway Requires Everyone | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
 
 ## NPC Companions
 | Name | Status | Joined | Notes |
@@ -46,9 +46,9 @@ dm: Adam
 ## Locations
 | Location | Region | First Visited | Status | Notes |
 |---|---|---|---|---|
-| [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — A Railway Requires Everyone\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. |
-| [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — A Railway Requires Everyone\|S01]] | Explored | Valley capital. |
-| [[The Petal Line]] | Continent-wide | [[Session 01 — A Railway Requires Everyone\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
+| [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. |
+| [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Valley capital. |
+| [[The Petal Line]] | Continent-wide | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
 
 ## Open Threads
 | Thread | Introduced | Status | Related |

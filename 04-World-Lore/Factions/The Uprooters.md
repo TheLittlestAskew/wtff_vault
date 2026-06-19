@@ -3,13 +3,13 @@ type: faction
 status: Active
 territory: "[Unknown/Ambiguous] — operating out of the [[Rhus Valley]] at launch"
 relationship_to_party: Allied (the WtFF party are provisional recruits)
-first_encountered: "[[Session 01 — A Railway Requires Everyone]]"
+first_encountered: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 ---
 
 # The Uprooters
 
 ## Overview
-The **Uprooters** are the organization at the center of the campaign's launch. In [[Session 01 — A Railway Requires Everyone]] their two recruiters ran an interview gauntlet at the [[Hearthread Hall]] in [[Rhusatatiam]] to assemble new members from a crowd of candidates. Each candidate was asked to introduce themselves and answer two core questions — *"Why the Uprooters?"* and *"How do you define good and evil?"* — plus an idiosyncratic follow-up. Their specific mandate and methods were not spelled out this session; recruitment, the changing world, and the broader balance of Artemesia are the threads in play. *(Purpose beyond recruitment: [Unknown/Ambiguous] as of S01.)*
+The **Uprooters** are the organization at the center of the campaign's launch. In [[Session 01 — Winds in the East, Mist comin' in...]] their two recruiters ran an interview gauntlet at the [[Hearthread Hall]] in [[Rhusatatiam]] to assemble new members from a crowd of candidates. Each candidate was asked to introduce themselves and answer two core questions — *"Why the Uprooters?"* and *"How do you define good and evil?"* — plus an idiosyncratic follow-up. Their specific mandate and methods were not spelled out this session; recruitment, the changing world, and the broader balance of Artemesia are the threads in play. *(Purpose beyond recruitment: [Unknown/Ambiguous] as of S01.)*
 
 ## Leadership
 Two recruiters ran the selection, each ultimately taking their own group:
@@ -34,7 +34,7 @@ The six WtFF PCs are now Aiph's provisional recruits (Group K). Aiph specificall
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Recruiters Aiph & Mags ran the interview gauntlet at the [[Hearthread Hall]]; selected two groups and split them. WtFF party became Group K under Aiph. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Recruiters Aiph & Mags ran the interview gauntlet at the [[Hearthread Hall]]; selected two groups and split them. WtFF party became Group K under Aiph. |
 
 ## Related
 - [[Campaign Dashboard]]

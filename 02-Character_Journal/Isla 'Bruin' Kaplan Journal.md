@@ -16,7 +16,7 @@ tags:
 ---
 
 > [!quote]- Session 01 — The Hall That Never Lets Its Fire Die (06/14/2026)
-> *[[Session 01 — A Railway Requires Everyone|The night I agreed to walk into it]]*
+> *[[Session 01 — Winds in the East, Mist comin' in...|The night I agreed to walk into it]]*
 >
 > I have never been so far from the water and felt it so loudly.
 >

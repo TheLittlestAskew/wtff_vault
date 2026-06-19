@@ -30,9 +30,9 @@ sub_class:
 ## Inventory / Loot
 | Item | Status | Session Acquired |
 |---|---|---|
-| Overflowing duffel of oddments | Carried | [[Session 01 — A Railway Requires Everyone]] |
-| Bag/pinch of sand that ignites & changes color | Carried/used | [[Session 01 — A Railway Requires Everyone]] |
-| Stoppered bottle; small potted plant; chalk; water-stained notes | Carried | [[Session 01 — A Railway Requires Everyone]] |
+| Overflowing duffel of oddments | Carried | [[Session 01 — Winds in the East, Mist comin' in...]] |
+| Bag/pinch of sand that ignites & changes color | Carried/used | [[Session 01 — Winds in the East, Mist comin' in...]] |
+| Stoppered bottle; small potted plant; chalk; water-stained notes | Carried | [[Session 01 — Winds in the East, Mist comin' in...]] |
 
 > *Do not infer properties of Aiph's items beyond what was shown.*
 
@@ -45,10 +45,10 @@ sub_class:
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Co-ran the [[The Uprooters]] interview gauntlet at the [[Hearthread Hall]]; ejected brawling candidates; revealed his history with Mags upstairs; selected the WtFF party as **Group K**. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Co-ran the [[The Uprooters]] interview gauntlet at the [[Hearthread Hall]]; ejected brawling candidates; revealed his history with Mags upstairs; selected the WtFF party as **Group K**. |
 
 ## Key Quotes
-> **[[Session 01 — A Railway Requires Everyone]]**
+> **[[Session 01 — Winds in the East, Mist comin' in...]]**
 > "off with you, animatronic nightmare." *(to [[BE-BO (Botanical Energy Balance Operator)|Bebo]])*
 >
 > "normal ducks didn't change history… it was only odd ducks that moved the timeline." *(to [[Tobias Wolfe|Tobias]])*

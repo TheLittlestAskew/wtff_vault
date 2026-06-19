@@ -3,7 +3,7 @@ type: companion
 species: White fox
 companion_of: "[[Tobias Wolfe]]"
 status: Active
-first_appearance: "[[Session 01 — A Railway Requires Everyone]]"
+first_appearance: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 ---
 
 # Nero
@@ -20,7 +20,7 @@ first_appearance: "[[Session 01 — A Railway Requires Everyone]]"
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Present on Tobias's shoulders throughout the [[Hearthread Hall]] interviews; fetched a bowl of food for Tobias during the mingling. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Present on Tobias's shoulders throughout the [[Hearthread Hall]] interviews; fetched a bowl of food for Tobias during the mingling. |
 
 ## Related
 - [[Campaign Dashboard]]

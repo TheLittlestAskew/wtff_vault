@@ -40,7 +40,7 @@ The Petal of Veil sees truths the others do not always want revealed.
 ## Campaign Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Named in the opening monologue. **Rumor:** the [[The Pistil\|Pistil]] has begun "acting alone" — raised alongside the crater "growing stronger" and Bug Island stirring. An open mystery. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Named in the opening monologue. **Rumor:** the [[The Pistil\|Pistil]] has begun "acting alone" — raised alongside the crater "growing stronger" and Bug Island stirring. An open mystery. |
 
 ## Related
 - [[Campaign Dashboard]]
