@@ -1,5 +1,5 @@
 ---
-title: "Session 01 — A Railway Requires Everyone"
+title: "Session 01 — Winds in the East"
 campaign: Where the Flowers Forget
 session_number: "01"
 session_date: 2026-06-14
