@@ -8,4 +8,6 @@
 
 ---
 
-_No loot logged yet — first entry goes here after Session 01._
+## Session 01 — A Railway Requires Everyone (06/14/2026)
+
+**No new loot — recruitment session; no items acquired, no combat.** Signature personal gear surfaced in character introductions is catalogued on the individual character pages and in the [[Session 01 — A Railway Requires Everyone|session note]]'s Artifacts section (properties not invented).

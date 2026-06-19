@@ -8,9 +8,9 @@ Read and obey these vault files before doing anything (read them now):
 
 CAMPAIGN STRUCTURE — TWO PARALLEL CAMPAIGNS (decisive for this phase):
 This vault is **Where the Flowers Forget (WtFF)**, DM **Adam**. A separate, full campaign — **Where the Flowers Remember (WtFR)**, DM **Alec** — runs in parallel and occasionally crosses over. Some sessions (joint launches / crossovers) contain BOTH parties and up to ~14 speakers; a regular WtFF session has ~7.
-- WtFR is **NOT canon in this vault.** Treat every WtFR PC/NPC/location as a first-seen *crossover* proper noun: cap at ≤60% and FLAG in flags.md — never silently correct it, never propose it as established canon.
+- WtFR **story/lore** is not canon here. But Taylor maintains a **WtFR roster** under `03-Characters/01 PCs/Where The Flowers Remember/` (one card per WtFR character: name = filename, plus player/race/class). **Read those cards.** A WtFR name that HAS a card is canonical reference — correct transcript STT to that spelling at normal canon confidence (85–95%), same as a WtFF PC. Only a WtFR name with **no** card stays ≤60% first-seen / flagged. Never create or edit the WtFR roster cards — they are user-maintained.
+- Current WtFR roster cards: **Lute** (Jordan), **Nyx** (Holly), **Rowan** (Josh), **Auriron** (Huey), **Kidu** (Kevin), **Dolm** (CJ); recruiter NPC **Margaret "Mags" HoneyThatcher** (Alec). The WtFF recruiter NPC is **Aiphrumfite "Aiph"** (Adam's; page `03-Characters/01 PCs/Aiphrumfite 'Aiph'.md`) — WtFF canon; normalize STT "Am from Fright / Aeth / Aife / Faith…" to **Aiphrumfite / Aiph**.
 - In flags.md, identify which speakers/characters belong to **WtFF** vs **WtFR** for this session (and whether it is a joint/crossover session).
-- Known WtFR crossover contacts (still ≤60%, crossover-only): PCs Lute, Nyx, Rowan, Auroran, Kidu, Dolm; NPC Margaret "Mags" Honeythatch. The WtFF recruiter NPC **Aeth / Amprum Fright** (Adam's NPC) IS WtFF canon.
 See `_Campaign_Setup.md` → "Campaign structure" for the full rule.
 
 This run performs Convo 1 ONLY through the spell-check stage, then STOPS for human review.

@@ -1,6 +1,6 @@
 ---
 player: Huey
-race: " Fire Genasi"
+race: Fire Ganassi
 class: Paladin
 sub_class:
 ---
