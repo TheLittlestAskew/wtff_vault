@@ -23,7 +23,7 @@ pov_character: "Isla 'Bruin' Kaplan"
 > **Date:** 06/14/2026 · **Campaign:** [[Artemesia|Where the Flowers Forget]] · **Session type:** Joint / crossover launch (both parties, both DMs, ~14 speakers)
 
 > [!note] Crossover note
-> This was the **joint launch** of two parallel campaigns. **Where the Flowers Forget (WtFF)** — this vault — is run by [[Adam]] (who voices [[Aiphrumfite ‘Aiph‘|Aiph]]). **Where the Flowers Remember (WtFR)** is a separate campaign run by [[Alec]] (who voices [[Margaret “Mags” HoneyThatcher|Mags]]). WtFR characters appear here **only as crossover, witnessed from the WtFF party's point of view**; their roster cards are canonical reference and are not expanded from this note.
+> This was the **joint launch** of two parallel campaigns. **Where the Flowers Forget (WtFF)** — this side — is run by [[Adam]] (who voices [[Aiphrumfite ‘Aiph‘|Aiph]]). **Where the Flowers Remember (WtFR)** is a separate campaign run by [[Alec]] (who voices [[Margaret “Mags” HoneyThatcher|Mags]]). WtFR characters appear here **only as crossover, witnessed from the WtFF party's point of view**; their roster cards are canonical reference and are not expanded from this note.
 
 ---
 
