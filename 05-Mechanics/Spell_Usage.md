@@ -4,8 +4,9 @@
 
 | Caster | Spell | Level | Session | Context / Effect |
 |---|---|---|---|---|
-| | | | | |
+| [[Dolm]] | Mending | Cantrip | [[Session 01 — A Railway Requires Everyone]] | Repaired a chair he had broken during his interview (crossover). |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] | [Unknown/Ambiguous] — a silence/chalk-circle effect | [Unknown] | [[Session 01 — A Railway Requires Everyone]] | Drew a chalk circle that created a **bubble of silence** around her interview table. DM described it via the chalk circle; not explicitly named as a spell — preserved as ambiguous. |
 
 ---
 
-_No spells logged yet._
+> S01 was a social/roleplay session; few spells were cast by name. Most magic was descriptive (e.g. [[Aiphrumfite ‘Aiph‘|Aiph]]'s color-changing igniting sand; floating the brawling candidates apart) and is **not** logged here as named spells to avoid invention.

@@ -1,9 +1,13 @@
-# Where the Flowers Forget — Session Transcript
+# Where the Flowers Forget — Session 01 — CORRECTED Transcript
 # Source: 01 061426 WTFF.mp3
 # Transcribed: 2026-06-19T18:01:39.689Z
 # Audio duration: 145 minutes
-# Model: universal-3-pro
-# Confidence: 92.8%
+# Model: universal-3-pro · STT confidence: 92.8%
+# Play date: 06/14/2026 (MM/DD/YYYY) · ISO: 2026-06-14
+# Corrections: ONLY the approved table in _pipeline/S01/spellcheck.md (word-boundary, line-specific exceptions honored).
+#   Unapproved STT variants of "Aiph" left VERBATIM (not in approved table): "Eeth", "Eighth", "Ava", "Eiff", "8th" — flagged for review.
+#   Verbatim keepers (in-character / first-seen, not corrected): "Liriope Valley" (L514), Taylor's own old PC "Nix" (L564), "A-U-Roran" letter-spelling (L628), "Botanical Engineering" acronym (L254), Avonbright, Tilo/T'Lo, Brindle, Nero.
+#   Speaker labels are raw STT diarization (e.g. "AURORION(HUEY)" not corrected); attribution is inferred — see _pipeline/S01/flags.md.
 
 ---
 
@@ -23,7 +27,7 @@
 
 [00:00:56] ALEC(DM): I have scary guys for PBEGs.
 
-[00:00:58] ADAM(DM): Eric and I do have like 8 sessions planned already, so only 8? Yeah, well, because we don't know what the fuck you guys are gonna do. For real?
+[00:00:58] ADAM(DM): Alec and I do have like 8 sessions planned already, so only 8? Yeah, well, because we don't know what the fuck you guys are gonna do. For real?
 
 [00:01:10] BRUIN (TAYLOR(ME)): Okay, good. I'm all set up.
 
@@ -99,25 +103,25 @@
 
 [00:09:27] ADAM(DM): I do feel really emotional.
 
-[00:09:30] ALEC(DM): Adam's going to start crying. We're going to have to do— get your tissues. Go get them. All right, here we go. Let's kick it off. The intro of our campaign. Before we begin, there is something you should understand about Artemesia. Our history is not the story of kings. It is not the story of empires. And despite what old songs might tell you, it is not The story of heroes. There was a time when this continent believed salvation would always arrive in the hands of extraordinary people. The Old World was an age of singular greatness. Warriors who split mountains, mages redirected rivers, saints calmed plagues with a touch. Entire cities grew around individuals so remarkable that their names carried more weight than nations. We call that era the First Blooming. Those figures were celebrated beyond reason. Children dreamed of becoming them. Regions competed to produce greater champions than their neighbors. History itself seemed to move forward on the backs of exceptional individuals. And for a time, it worked. The heroes defeated horrors from the sea. They sealed living storms within mountains. They cast ancient terrors into the depths of the crater and built monuments atop their victories. Trade flourished. Discovery accelerated. Art and culture blossomed across the continent. Artemesia entered a golden age. But every golden age hides a shadow. Because eventually, the world learned the truth it never wanted to face. The people carrying it forward were still people. And people break. The beginning of our downfall did not come from invasion. It did not come from monsters. It came from grief. One of the greatest heroes who ever lived lost someone they could not save. History no longer agrees on what the person was. Some say a lover, others a child. Some say it was an entire city. The details have faded, the consequences have not. That hero became known as the Hollow King. For the first time in recorded history, a hero refused the natural cycle of return. Death was challenged. Balance was denied. The Hollow King turned their unimaginable power against the very laws that governed life itself. Rivers were drained and redirected. Forests were stripped bare, entire valleys burned to fuel rituals meant to reclaim what had been lost. And when the world resisted, heroes chose sides. Some opposed the Hollow King. Some sympathized. Some believed they could control the situation. They were all wrong. The wars that followed scarred Artemesia forever. The region we now call The Burn was once fertile land before firestorms blackened it beyond recognition. Mountains were broken, cities vanished, even the crater itself is said to have widened during the final battles. For generations, heroes had saved the world. Then they nearly destroyed it. When the wars finally ended, the surviving legends disappeared. Some died, some fled, some willingly returned themselves to the land in shame. Others simply vanished into history, or maybe they hid. And the people left behind looked upon the devastation and came to a realization that would reshape the continent forever. The world could not survive another age of heroes. Not because heroes were evil, because no single person should ever possess enough power to decide the fate of everyone else. From those ashes, modern Artemesia was born. The survivors dismantled the old system. No crowns, no dynasty, no chosen saviors. Instead, they built something new, something fragile, something deliberate. They created balance. The regions we know today emerged from that philosophy: The Burn, Rhus Valley, the Liriope River Net, The Bloom, and Salvia Forest. Each region embraced a different truth. Each became a piece of a larger whole. No philosophy was allowed to dominate the others, and above them, they established The Flower Court. Even the title of Pistol was chosen carefully. He was not a ruler, not a monarch, not a hero, but a connector. The Petals never intended to create greatness. They were meant to preserve stability. That same belief gave rise to one of our media— Artemesia's greatest achievements, The Petal Line. The founders remembered what isolation had done during the Ashfall Wars. Entire regions suffered because they stood alone. So they built something stronger than walls, connection. Rails stretching across the continent, trade, communication, travel, understanding. A hero stands alone. A railway requires everyone. Over the centuries, the philosophy seeped into every corner of Artemesian life. Our art is communal, our music is participatory, our literature belongs to generations rather than individuals. Our justice seeks restoration before punishment, Even our leaders are expected to guide rather than command because beneath everything lies a question. What happens when one person becomes more important than the whole? That question has guarded Artemesia for centuries. And yet history has a habitat of circling back upon itself. The phrase world post-heroes does not mean heroes no longer exist. It means we no longer believe heroes, will save us. But lately, the crater grows stronger. Bug Island stirs. The balance between regions strains in ways many would rather ignore. Some whisper that The Flower Court itself is changing. Some claim the pistol has begun acting alone. Most dismiss such rumors. Yet old questions have begun resurfacing in quiet places, questions our ancestors hoped would never need answering again. Questions that sound suspiciously like hope. Because if the world truly faces another crisis, if balance begins to fail, if Artemesia once again finds itself standing on the edge of something vast and terrible, then we may be forced to confront a possibility that has frightened this continent for generations. What happens when the world needs a hero again and no one remembers how to become one. Welcome to Artemesia. You will be able to find that monologue shared with everyone later, and for a quick reference in the world lore, I have shared a visual representation of that monologue. You will have that for your reference. It is in visual form. Adam, kick off our campaign.
+[00:09:30] ALEC(DM): Adam's going to start crying. We're going to have to do— get your tissues. Go get them. All right, here we go. Let's kick it off. The intro of our campaign. Before we begin, there is something you should understand about Artemesia. Our history is not the story of kings. It is not the story of empires. And despite what old songs might tell you, it is not The story of heroes. There was a time when this continent believed salvation would always arrive in the hands of extraordinary people. The Old World was an age of singular greatness. Warriors who split mountains, mages redirected rivers, saints calmed plagues with a touch. Entire cities grew around individuals so remarkable that their names carried more weight than nations. We call that era the First Blooming. Those figures were celebrated beyond reason. Children dreamed of becoming them. Regions competed to produce greater champions than their neighbors. History itself seemed to move forward on the backs of exceptional individuals. And for a time, it worked. The heroes defeated horrors from the sea. They sealed living storms within mountains. They cast ancient terrors into the depths of the crater and built monuments atop their victories. Trade flourished. Discovery accelerated. Art and culture blossomed across the continent. Artemesia entered a golden age. But every golden age hides a shadow. Because eventually, the world learned the truth it never wanted to face. The people carrying it forward were still people. And people break. The beginning of our downfall did not come from invasion. It did not come from monsters. It came from grief. One of the greatest heroes who ever lived lost someone they could not save. History no longer agrees on what the person was. Some say a lover, others a child. Some say it was an entire city. The details have faded, the consequences have not. That hero became known as the Hollow King. For the first time in recorded history, a hero refused the natural cycle of return. Death was challenged. Balance was denied. The Hollow King turned their unimaginable power against the very laws that governed life itself. Rivers were drained and redirected. Forests were stripped bare, entire valleys burned to fuel rituals meant to reclaim what had been lost. And when the world resisted, heroes chose sides. Some opposed the Hollow King. Some sympathized. Some believed they could control the situation. They were all wrong. The wars that followed scarred Artemesia forever. The region we now call The Burn was once fertile land before firestorms blackened it beyond recognition. Mountains were broken, cities vanished, even the crater itself is said to have widened during the final battles. For generations, heroes had saved the world. Then they nearly destroyed it. When the wars finally ended, the surviving legends disappeared. Some died, some fled, some willingly returned themselves to the land in shame. Others simply vanished into history, or maybe they hid. And the people left behind looked upon the devastation and came to a realization that would reshape the continent forever. The world could not survive another age of heroes. Not because heroes were evil, because no single person should ever possess enough power to decide the fate of everyone else. From those ashes, modern Artemesia was born. The survivors dismantled the old system. No crowns, no dynasty, no chosen saviors. Instead, they built something new, something fragile, something deliberate. They created balance. The regions we know today emerged from that philosophy: The Burn, Rhus Valley, the Liriope River Net, The Bloom, and Salvia Forest. Each region embraced a different truth. Each became a piece of a larger whole. No philosophy was allowed to dominate the others, and above them, they established The Flower Court. Even the title of Pistil was chosen carefully. He was not a ruler, not a monarch, not a hero, but a connector. The Petals never intended to create greatness. They were meant to preserve stability. That same belief gave rise to one of our media— Artemesia's greatest achievements, The Petal Line. The founders remembered what isolation had done during the Ashfall Wars. Entire regions suffered because they stood alone. So they built something stronger than walls, connection. Rails stretching across the continent, trade, communication, travel, understanding. A hero stands alone. A railway requires everyone. Over the centuries, the philosophy seeped into every corner of Artemesian life. Our art is communal, our music is participatory, our literature belongs to generations rather than individuals. Our justice seeks restoration before punishment, Even our leaders are expected to guide rather than command because beneath everything lies a question. What happens when one person becomes more important than the whole? That question has guarded Artemesia for centuries. And yet history has a habitat of circling back upon itself. The phrase world post-heroes does not mean heroes no longer exist. It means we no longer believe heroes, will save us. But lately, the crater grows stronger. Bug Island stirs. The balance between regions strains in ways many would rather ignore. Some whisper that The Flower Court itself is changing. Some claim the Pistil has begun acting alone. Most dismiss such rumors. Yet old questions have begun resurfacing in quiet places, questions our ancestors hoped would never need answering again. Questions that sound suspiciously like hope. Because if the world truly faces another crisis, if balance begins to fail, if Artemesia once again finds itself standing on the edge of something vast and terrible, then we may be forced to confront a possibility that has frightened this continent for generations. What happens when the world needs a hero again and no one remembers how to become one. Welcome to Artemesia. You will be able to find that monologue shared with everyone later, and for a quick reference in the world lore, I have shared a visual representation of that monologue. You will have that for your reference. It is in visual form. Adam, kick off our campaign.
 
-[00:17:15] ADAM(DM): Like most major icons in history, you don't all arrive at the same time. Some of you are early, some of you are late, some of you somewhere in the middle, but you've all traveled to the Rhus Valley, to Rhusitacium, the capital city of the Rhus Valley. And at the heart of Rhusitacium, where the market roads converge beneath hanging lantern vines and flowing terraces, stands a sprawling tavern known as the Hearthread Hall. Most of you heard this by way of a mentor or a letter or otherwise about history. It's more than a business. It's considered one of the social anchors of the Rhus Valley. It's a place where farmers sell their goods. It's a place where musicians perform and make names for themselves. It's a place where train conductors take a load off and relax in between travel. It's a place where storytellers pull out their notebooks and wet the tips of their quills. Merchants and wandering travelers all eventually find themselves seated beneath the same roof. The building itself feels grown as much as built. Thick timber beams wrapped in living ivy support a wide, warm structure of carved wood and river stone. Its many additions layer over generations rather than planned all at once. Quills from dozens of valley towns hang from the rafters, each stitched with family patterns, seasonal symbols, fragments of history. No two chairs match. No one seems to care about that. The hall is famous for immense central— for the immense central hearth known as the Common Fire, which is never allowed to die. Tradition says every major town in the Rhus Valley contributed ash, wood, and flame to its first lighting. Travelers often leave a small offering there before meals: a spring— a sprig of herb, a written a memory, a coin, or even a song. Alec, are you able to send that photo, or should I copy and paste in the—
+[00:17:15] ADAM(DM): Like most major icons in history, you don't all arrive at the same time. Some of you are early, some of you are late, some of you somewhere in the middle, but you've all traveled to the Rhus Valley, to Rhusatatiam, the capital city of the Rhus Valley. And at the heart of Rhusatatiam, where the market roads converge beneath hanging lantern vines and flowing terraces, stands a sprawling tavern known as the Hearthread Hall. Most of you heard this by way of a mentor or a letter or otherwise about history. It's more than a business. It's considered one of the social anchors of the Rhus Valley. It's a place where farmers sell their goods. It's a place where musicians perform and make names for themselves. It's a place where train conductors take a load off and relax in between travel. It's a place where storytellers pull out their notebooks and wet the tips of their quills. Merchants and wandering travelers all eventually find themselves seated beneath the same roof. The building itself feels grown as much as built. Thick timber beams wrapped in living ivy support a wide, warm structure of carved wood and river stone. Its many additions layer over generations rather than planned all at once. Quills from dozens of valley towns hang from the rafters, each stitched with family patterns, seasonal symbols, fragments of history. No two chairs match. No one seems to care about that. The hall is famous for immense central— for the immense central hearth known as the Common Fire, which is never allowed to die. Tradition says every major town in the Rhus Valley contributed ash, wood, and flame to its first lighting. Travelers often leave a small offering there before meals: a spring— a sprig of herb, a written a memory, a coin, or even a song. Alec, are you able to send that photo, or should I copy and paste in the—
 
 [00:19:16] ALEC(DM): Already done.
 
-[00:19:18] ADAM(DM): Great. You find yourself at the Hearthread Hall. Whenever you arrived, however you arrived, is irrelevant to the fact that you are now all here. On the main floor, there is the common fire, and it is bustling. It's in the evening. You are here on the 75th year post-Heroes. Now, the era of Heroes didn't die one day. The gods were not that kind. The era of Heroes sputtered out over ages. But the official end of the Age of Heroes is now being celebrated as 75 years post this year. You are in the first of Veradin, for those of you who have looked at our world order. Lore, we have split our world into seasons, so this is the first of Verdan. There is a Bloom Festival coming up. You've all arrived here. On the first floor is the common fire and most of the drinkers. However, to the right, if you look at this photo, there is a staircase, and up that staircase is the second floor where there is mostly an open floor plan and a small stage, and behind one of the curtains On stage left, audience right, enters Alec, or who Alec is about to describe.
+[00:19:18] ADAM(DM): Great. You find yourself at the Hearthread Hall. Whenever you arrived, however you arrived, is irrelevant to the fact that you are now all here. On the main floor, there is the common fire, and it is bustling. It's in the evening. You are here on the 75th year post-Heroes. Now, the era of Heroes didn't die one day. The gods were not that kind. The era of Heroes sputtered out over ages. But the official end of the Age of Heroes is now being celebrated as 75 years post this year. You are in the first of Veriden, for those of you who have looked at our world order. Lore, we have split our world into seasons, so this is the first of Veriden. There is a Bloom Festival coming up. You've all arrived here. On the first floor is the common fire and most of the drinkers. However, to the right, if you look at this photo, there is a staircase, and up that staircase is the second floor where there is mostly an open floor plan and a small stage, and behind one of the curtains On stage left, audience right, enters Alec, or who Alec is about to describe.
 
-[00:20:38] ALEC(DM): You all see who is clearly a druid. There is no guessing. It is obvious from aesthetic, and it's also obvious from a companion who never leaves her side. You watch as Margaret Honeythatch, affectionately known as Mags, steps to the stage. She steps out onto the stage and her companion has a seat right next to her. Eyes with visuals of protection. Nothing will happen to Mags. Mags looks out at the audience.
+[00:20:38] ALEC(DM): You all see who is clearly a druid. There is no guessing. It is obvious from aesthetic, and it's also obvious from a companion who never leaves her side. You watch as Margaret HoneyThatcher, affectionately known as Mags, steps to the stage. She steps out onto the stage and her companion has a seat right next to her. Eyes with visuals of protection. Nothing will happen to Mags. Mags looks out at the audience.
 
 [00:21:19] ADAM(DM): Huh.
 
-[00:21:20] ALEC(DM): I'm disappointed. This— this is our audience? These are our interviewees to be uprooters? This is disappointing. Aeth, join me on stage to look at this.
+[00:21:20] ALEC(DM): I'm disappointed. This— this is our audience? These are our interviewees to be uprooters? This is disappointing. Aiph, join me on stage to look at this.
 
-[00:21:42] ADAM(DM): Am from Fright, otherwise known as Aeth. Stumbles in front of the curtain. A bottle drops. She picks it up and kind of like shoves the liquid back in and stoppers it, puts it in. She's got this massive duffel bag forward to her left and she pulls the thing out. There's a little plant in it. She goes, "Now that's interesting. Mags, what are we— Oh, oh, oh, right. Yes, of course." interviews. And then she pauses and he goes, no, you're right, they look very disappointing anyway. And she sits down at the table. I am going to send the other character, Amprum Fright, AKA Aeth, um, right Now they, they take their duffel bag, clearly overflowing with like just the randomest shit you've ever seen, uh, and just kind of plop it on the table, uh, and they pull out just like a couple of different things and they're like mixing something, uh, and then like Max kind of looks at her and she's like, yeah, no, no, you're right, sorry, and then throws it on the ground and goes, please continue.
+[00:21:42] ADAM(DM): Aiphrumfite, otherwise known as Aiph. Stumbles in front of the curtain. A bottle drops. She picks it up and kind of like shoves the liquid back in and stoppers it, puts it in. She's got this massive duffel bag forward to her left and she pulls the thing out. There's a little plant in it. She goes, "Now that's interesting. Mags, what are we— Oh, oh, oh, right. Yes, of course." interviews. And then she pauses and he goes, no, you're right, they look very disappointing anyway. And she sits down at the table. I am going to send the other character, Aiphrumfite, AKA Aiph, um, right Now they, they take their duffel bag, clearly overflowing with like just the randomest shit you've ever seen, uh, and just kind of plop it on the table, uh, and they pull out just like a couple of different things and they're like mixing something, uh, and then like Mags kind of looks at her and she's like, yeah, no, no, you're right, sorry, and then throws it on the ground and goes, please continue.
 
-[00:23:06] ALEC(DM): You're all here because you wish to be part of the Uprooters. It's laughable. Not all of you will be a part of the Uprooters. Today you get to prove yourself. Today you get to show us why. This will be a series of interviews conducted with myself or She looks over at Aeth.
+[00:23:06] ALEC(DM): You're all here because you wish to be part of the Uprooters. It's laughable. Not all of you will be a part of the Uprooters. Today you get to prove yourself. Today you get to show us why. This will be a series of interviews conducted with myself or She looks over at Aiph.
 
-[00:23:34] ADAM(DM): Aeth starts counting people in the room, which is— there's more than you, right? There's like 10 to 15 other people than everybody in this chat. And then she leans over, um, and goes, I don't think more than 5 are gonna make it.
+[00:23:34] ADAM(DM): Aiph starts counting people in the room, which is— there's more than you, right? There's like 10 to 15 other people than everybody in this chat. And then she leans over, um, and goes, I don't think more than 5 are gonna make it.
 
 [00:23:49] ALEC(DM): I was guessing 2.
 
@@ -133,7 +137,7 @@
 
 [00:26:19] ADAM(DM): But yeah, I help Wizard Artie.
 
-[00:26:25] ALEC(DM): As Artie approaches the stage, you climb the steps to the stage, and it is loud in this place. This tavern is alive. And you see two tables, two tables, one Efe sits at and one that Mag sits at. You were summoned to come sit at Mag's table and you are immediately curious of how anyone can have a conversation in the noise that is happening in this space. How is this an appropriate location for an interview? As you approach the table, do you have a seat?
+[00:26:25] ALEC(DM): As Artie approaches the stage, you climb the steps to the stage, and it is loud in this place. This tavern is alive. And you see two tables, two tables, one Aiph sits at and one that Mags sits at. You were summoned to come sit at Mags's table and you are immediately curious of how anyone can have a conversation in the noise that is happening in this space. How is this an appropriate location for an interview? As you approach the table, do you have a seat?
 
 [00:27:00] ARTIE(WILL): I do. I sit down.
 
@@ -155,9 +159,9 @@
 
 [00:29:29] ARTIE(WILL): He just gets up and walks away.
 
-[00:29:31] ALEC(DM): As you walk away from the table, you take a couple steps and the noise erupts again. Um, you almost like step out of whatever this zone is and you were just hit by the noise. As you step out, you hear An accordion has come to life that wasn't alive when you had entered the circle. So maybe some live music has begun. Mags will cross her hands over her knee and look at Eif.
+[00:29:31] ALEC(DM): As you walk away from the table, you take a couple steps and the noise erupts again. Um, you almost like step out of whatever this zone is and you were just hit by the noise. As you step out, you hear An accordion has come to life that wasn't alive when you had entered the circle. So maybe some live music has begun. Mags will cross her hands over her knee and look at Aiph.
 
-[00:29:59] ADAM(DM): Eif is like, set up her rocks glass and she keeps touching a small bag of sand and like running it on the edge of her rocks glass and it keeps lighting on fire. And then she like does this. And then it changes color, and then it changes color, and then it changes color, and she looks up and sees Mags, right? She opens— plops her thing back on the table, opens it up, and pulls a piece of paper out, and it's like, it's crumpled, right? Like, it's clearly— it looks like it's wet at a certain point, and she like Lute? Is there a lute here? Are you actually a musical instrument? I'm here. I'm— That one. Yes, you. Here, your turn. Your turn. Let's go.
+[00:29:59] ADAM(DM): Aiph is like, set up her rocks glass and she keeps touching a small bag of sand and like running it on the edge of her rocks glass and it keeps lighting on fire. And then she like does this. And then it changes color, and then it changes color, and then it changes color, and she looks up and sees Mags, right? She opens— plops her thing back on the table, opens it up, and pulls a piece of paper out, and it's like, it's crumpled, right? Like, it's clearly— it looks like it's wet at a certain point, and she like Lute? Is there a lute here? Are you actually a musical instrument? I'm here. I'm— That one. Yes, you. Here, your turn. Your turn. Let's go.
 
 [00:30:59] LUTE(JORDAN): Kind of skip on up.
 
@@ -197,7 +201,7 @@
 
 [00:34:44] LUTE(JORDAN): See you later.
 
-[00:34:47] ALEC(DM): Mags is gonna look over at Efe, and the look on Mags's face is very like, I don't like that one. Like, Efe looks at Mags and goes, uh, and then, uh, Mags will like turn back to the audience, uh, Nix, Nix, please approach the stage. Holly, describe your character.
+[00:34:47] ALEC(DM): Mags is gonna look over at Aiph, and the look on Mags's face is very like, I don't like that one. Like, Aiph looks at Mags and goes, uh, and then, uh, Mags will like turn back to the audience, uh, Nyx, Nyx, please approach the stage. Holly, describe your character.
 
 [00:35:15] NYX(HOLLY): Okay, my character is an Aasimar Paladin. Her name's Nyx. She has long, um, silvery hair that flows, I would say, probably around her to her hip level. Um, she has golden eyes that seem kind of dimmed. Um, her— when light shines on her skin, it kind of gives a, like, a rainbowish effect. Um, she's wearing, like, a very clean, polished, um, not a speck of dirt on it armor that has, like, a sun symbol on her chest. I would say she's quite tall too.
 
@@ -247,11 +251,11 @@
 
 [00:39:03] ADAM(DM): So you see the symbol on, uh, this character's, um, chest, and you're like, do I No, I don't know what that is. Nope.
 
-[00:39:12] ALEC(DM): Nope. Uh, Nix, as you begin to walk away from the table, uh, the noise once again returns. You hear banter between a couple patrons, something about, uh, uh, coin that needed to be exchanged. As you walk away, Mags will look at Eith, and then Mags will, after making eye contact, will follow you as you walk away, like with with her eyes and then look back at Eif, almost saying something to you only, Eif, um, and then will gesture for you to take the next one.
+[00:39:12] ALEC(DM): Nope. Uh, Nyx, as you begin to walk away from the table, uh, the noise once again returns. You hear banter between a couple patrons, something about, uh, uh, coin that needed to be exchanged. As you walk away, Mags will look at Aiph, and then Mags will, after making eye contact, will follow you as you walk away, like with with her eyes and then look back at Aiph, almost saying something to you only, Aiph, um, and then will gesture for you to take the next one.
 
-[00:39:49] ADAM(DM): Eif says, "Bram Hollowbarrel," and you guys see a small, uh, dwarven man hobble up, um, and then she says, "Why do you want to join the Uprooters?" And he goes, "Well, I thought that I should," and then she immediately like takes the chalk and is like, nope, you're not going to hear this, and draws an X on the table. And they have a conversation, and then she sort of like does this and hobbles them away. And then 8th, they go, no fucking way. No, no. There's no way that there's a person in this room whose name is Bebo. There's no way. Beebo! Oh, that's me. No way. No, no. Hey, you hold on. What are you? Beebo hobbles up to the stage. Beebo, describe yourself.
+[00:39:49] ADAM(DM): Aiph says, "Bram Hollowbarrel," and you guys see a small, uh, dwarven man hobble up, um, and then she says, "Why do you want to join the Uprooters?" And he goes, "Well, I thought that I should," and then she immediately like takes the chalk and is like, nope, you're not going to hear this, and draws an X on the table. And they have a conversation, and then she sort of like does this and hobbles them away. And then 8th, they go, no fucking way. No, no. There's no way that there's a person in this room whose name is Bebo. There's no way. Bebo! Oh, that's me. No way. No, no. Hey, you hold on. What are you? Bebo hobbles up to the stage. Bebo, describe yourself.
 
-[00:40:50] BE-BO(EVAN): Yes. So Beebo is a compact self-fashioned construct made of obsidian black and bark brown shell plates fused together into one deliberate form. His body is marked by vivid kintsugi, I believe that's how it's said, like repair seams with blues, greens, reds, and purples, and warm amber tones, making him look less like something built but more something shaped through repeated repair. So you've seen the character art, that is essentially him. So Bebo stands for Botanical Engineering Balance Operator.
+[00:40:50] BE-BO(EVAN): Yes. So Bebo is a compact self-fashioned construct made of obsidian black and bark brown shell plates fused together into one deliberate form. His body is marked by vivid kintsugi, I believe that's how it's said, like repair seams with blues, greens, reds, and purples, and warm amber tones, making him look less like something built but more something shaped through repeated repair. So you've seen the character art, that is essentially him. So Bebo stands for Botanical Engineering Balance Operator.
 
 [00:41:30] ADAM(DM): You are fascinating. Are you sentient? I am. Okay, um, what's 1 1? 2.
 
@@ -265,15 +269,15 @@
 
 [00:42:02] BE-BO(EVAN): Close to 7.
 
-[00:42:03] ADAM(DM): Oh no, that was so racist because you're a mechanical being and I just— I'm asking you about numbers. Oh no, it's so bad. All right. Why, Beebo, do you want to be an uprooter?
+[00:42:03] ADAM(DM): Oh no, that was so racist because you're a mechanical being and I just— I'm asking you about numbers. Oh no, it's so bad. All right. Why, Bebo, do you want to be an uprooter?
 
 [00:42:19] BE-BO(EVAN): So he's not sitting. He'll kind of move the chair in and he'll kind of lower himself on his 3 legs. Uh, and just to be eye level, um, he'll kind of clasp his hands together and kind of titter with his fingers, or what could be considered fingers. I would like to learn.
 
-[00:42:44] ADAM(DM): Uh, Eith is like playing with one of her, um, pieces of hair that's like fallen down because they're hair is in an updo, and she goes, I would also like to learn, Beebo. Interesting.
+[00:42:44] ADAM(DM): Uh, Aiph is like playing with one of her, um, pieces of hair that's like fallen down because they're hair is in an updo, and she goes, I would also like to learn, Bebo. Interesting.
 
 [00:43:02] BE-BO(EVAN): I would like to survive.
 
-[00:43:14] ADAM(DM): Beebo, how would you define good and evil?
+[00:43:14] ADAM(DM): Bebo, how would you define good and evil?
 
 [00:43:18] BE-BO(EVAN): He'll pause for a minute and kind of have his eyelids kind of look down at the table. I think it's a matter of perspective. I think good can be defined as what we do in moments of conflict. I think it is the choices we make, the sacrifices we make. But I think it is ultimately a matter of perspective.
 
@@ -283,13 +287,13 @@
 
 [00:44:19] ADAM(DM): Thank you. She takes her chalk and— all right, off with you, animatronic nightmare. Mags!
 
-[00:44:30] ALEC(DM): Mags will, uh, re-enter the stage, stepping behind the desk, sitting down, uh, looks over at Aith. Looks back to the audience, and upon looking at the audience, look down at her notes. Marnie Willowstep. You're going to watch a fairy just flitter to the front of the stage and just kind of hover over the desk. The conversation is unheard from within the bubble before Marnie flitters out and Marnie is crying. When Marnie flitters out, she flitters out and leaves the tavern, just fluttering right out. Mags will rub her temple slowly, and then she will look back up into the audience and say, "Ahem, ahem, Eliza." Lydia, describe your character.
+[00:44:30] ALEC(DM): Mags will, uh, re-enter the stage, stepping behind the desk, sitting down, uh, looks over at Aiph. Looks back to the audience, and upon looking at the audience, look down at her notes. Marnie Willowstep. You're going to watch a fairy just flitter to the front of the stage and just kind of hover over the desk. The conversation is unheard from within the bubble before Marnie flitters out and Marnie is crying. When Marnie flitters out, she flitters out and leaves the tavern, just fluttering right out. Mags will rub her temple slowly, and then she will look back up into the audience and say, "Ahem, ahem, Eliza." Lydia, describe your character.
 
 [00:45:35] ELIZA(LYDIA): Um, you see this very young elf. She has catastrophic curly brown hair that she has tied on the side of— or braided to the side of her neck. And she has this gray and tan robe that basically has like vines kind of all in it. She's a druid, so she looks like she's lived in the forest her entire life. She is very timid, so she is just kind of walking very slowly up to where she needs to go. And she has trinkets all over. She has necklaces, bracelets, just everything you think of she's wearing. Like, you feel like she would be like on the ground with how much she is wearing and the weight that is holding her down. Um, and that is it. She walks very slowly up to them.
 
 [00:46:29] ADAM(DM): Eliza, roll me a nature check. 14. Eliza, you've never been in this bar before, but you swear you know where you are. Alec, go ahead.
 
-[00:47:03] ALEC(DM): As you step into Mag's zone on the stage, do you have a seat?
+[00:47:03] ALEC(DM): As you step into Mags's zone on the stage, do you have a seat?
 
 [00:47:11] ELIZA(LYDIA): No, she just kind of sits there with her hand— or stands there with her hands in front of her, and she's just kind of not really sure what she's supposed to do.
 
@@ -327,9 +331,9 @@
 
 [00:50:14] ELIZA(LYDIA): And she kind of like scurries off to where she was sitting before.
 
-[00:50:18] ALEC(DM): As you step out, the noise is slightly overwhelming. As you return, as you return to what is the chaos, Mags will look at Eith.
+[00:50:18] ALEC(DM): As you step out, the noise is slightly overwhelming. As you return, as you return to what is the chaos, Mags will look at Aiph.
 
-[00:50:28] ADAM(DM): Eith makes eye contact, and there's a moment where the two of them— anybody in my party can make an Insight check.
+[00:50:28] ADAM(DM): Aiph makes eye contact, and there's a moment where the two of them— anybody in my party can make an Insight check.
 
 [00:50:41] ALEC(DM): If you're in my party, don't roll dice.
 
@@ -371,11 +375,11 @@
 
 [00:53:14] ROWAN(JOSH): So Rowan is a Wood Elf. He's a ranger. He has the look of someone who definitely belongs more to the roads and the forest setting. He's lean, guarded, he's kind of weather-worn. He has like dark uneven hair, sharp elven features. He definitely, he has a dark mask that covers his lower half of his face. It makes him just harder to read if you are talking to him. His clothes are very practical. They're like worn leather, fur-lined edges, straps, pouches, you know, all that stuff. Everything on him is just very used, like he's just Lives in the wilderness. Two important features. He has a lantern on his belt and near him coils a pale blue serpent, calm enough to suggest trust rather than control. Yeah, that's Rowan.
 
-[00:54:18] ADAM(DM): Rowan, will you roll me a performance check? Yes. 2. You approach. Eef grabs the chalk, draws the circle. Eef draws the circle, glaring at Mags. It's like— does it like 3 times. And then goes, all right, pretty boy, why do you want to join the Uprooters?
+[00:54:18] ADAM(DM): Rowan, will you roll me a performance check? Yes. 2. You approach. Aiph grabs the chalk, draws the circle. Aiph draws the circle, glaring at Mags. It's like— does it like 3 times. And then goes, all right, pretty boy, why do you want to join the Uprooters?
 
 [00:55:03] ROWAN(JOSH): He's going to kind of like glance around at the room. He doesn't really, of course, have an expression. You can only just see his eyes.
 
-[00:55:11] ADAM(DM): You look around and Aif goes, listen, handsome, they cannot hear you. In fact, they actually cannot see you do this.
+[00:55:11] ADAM(DM): You look around and Aiph goes, listen, handsome, they cannot hear you. In fact, they actually cannot see you do this.
 
 [00:55:21] TOBIAS(SETH): You're—
 
@@ -415,15 +419,15 @@
 
 [00:57:22] ROWAN(JOSH): He's gonna roll his eyes and just walk.
 
-[00:57:31] ALEC(DM): Mags will look into the audience, will look over at Aith.
+[00:57:31] ALEC(DM): Mags will look into the audience, will look over at Aiph.
 
-[00:57:35] ADAM(DM): Aith does not look. Aith is like looking the other way and like looking at her, looking at their nails.
+[00:57:35] ADAM(DM): Aiph does not look. Aiph is like looking the other way and like looking at her, looking at their nails.
 
-[00:57:42] ALEC(DM): Will look back into the audience. Here we go. I believe it's pronounced Kiddu.
+[00:57:42] ALEC(DM): Will look back into the audience. Here we go. I believe it's pronounced Kidu.
 
 [00:57:57] KIDU(KEVIN): So, Kidu is sitting at a table, uh, that is completely and utterly covered with origami creations at this point, as he is just like folding them neurotically, uh, while a pen and paper is writing itself next to him. Yes. If you have not seen a tortle before, he's kind of off-putting, and he looks huge because he's a 4.5-foot turtle. If you have seen Turtles before, he's very small and obviously very young. But when his name is called, he looks up and he's just like, and then he makes his way up to the stage and the origami just like floats and moves with him. So now there's just like an array of like little creatures and flowers just like floating up to the stage with him. And he just looks around and he goes, Yes, up here.
 
-[00:58:56] ADAM(DM): Oh, Heedo, can you make a perception check? That is 13. You see Aeth hold up a sign that says, I like them. Aeth is like pointing. And then Aeth comes up, he's like, and then goes.
+[00:58:56] ADAM(DM): Oh, Kidu, can you make a perception check? That is 13. You see Aiph hold up a sign that says, I like them. Aiph is like pointing. And then Aiph comes up, he's like, and then goes.
 
 [00:59:25] KIDU(KEVIN): He doesn't really know what to do with them, so he just sort of like hands them out. He makes them just sort of float over to people. And, you know, you get like a flower that blooms as you, as you get it. If you get an animal, it moves slightly for a few seconds before it loses life.
 
@@ -433,7 +437,7 @@
 
 [00:59:56] AURORION(HUEY): Sure.
 
-[00:59:59] ALEC(DM): Kiru, why do you want to join the Uprooters?
+[00:59:59] ALEC(DM): Kidu, why do you want to join the Uprooters?
 
 [01:00:05] KIDU(KEVIN): I've often thought that I need to learn more about the world, and this seems like a good way to do it?
 
@@ -441,7 +445,7 @@
 
 [01:00:42] KIDU(KEVIN): Uh, that is a 13. Uh, no, 12.
 
-[01:00:45] ALEC(DM): A 12. Mag's eye twitches, uh, the entire time that you answered that one question. Um, Mags will then— Very good. Kidu, that's all the questions that I have. Thank you. Thank you so much for coming up here and answering my question. I appreciate it.
+[01:00:45] ALEC(DM): A 12. Mags's eye twitches, uh, the entire time that you answered that one question. Um, Mags will then— Very good. Kidu, that's all the questions that I have. Thank you. Thank you so much for coming up here and answering my question. I appreciate it.
 
 [01:01:13] ADAM(DM): Oh, okay.
 
@@ -457,13 +461,13 @@
 
 [01:01:39] DOLM(CJ): Okay.
 
-[01:01:39] ALEC(DM): She will look down at it and then she'll look over at Eith.
+[01:01:39] ALEC(DM): She will look down at it and then she'll look over at Aiph.
 
-[01:01:44] ADAM(DM): Eith goes, Tessil Goldpetal. And then a small halfling woman gets up and then you hear a, no fucking way you're going to be an abruta. And then a larger halfling woman stands up and Pella Bramblewine goes, no, there's no fucking way you're going to be an Pella pulls out a dagger and charges over, and Eith puts their hand up and they both float in the air and they're both kind of like trying to hit each other. And Eith leans in and gets deathly serious and goes, this is not a fucking joke. What we're doing here is really fucking serious, okay? I do not find this amusing. And then she goes, and they're gone. Zhanna, is there a Zhanna here? No Zhanna here.
+[01:01:44] ADAM(DM): Aiph goes, Tessil Goldpetal. And then a small halfling woman gets up and then you hear a, no fucking way you're going to be an abruta. And then a larger halfling woman stands up and Pella Bramblewine goes, no, there's no fucking way you're going to be an Pella pulls out a dagger and charges over, and Aiph puts their hand up and they both float in the air and they're both kind of like trying to hit each other. And Aiph leans in and gets deathly serious and goes, this is not a fucking joke. What we're doing here is really fucking serious, okay? I do not find this amusing. And then she goes, and they're gone. Zarna, is there a Zarna here? No Zarna here.
 
 [01:02:56] ZARNA(RACHEL): Um, a half-orc woman who has been kind of sitting in the back, not really expecting anything, um gets up and I guess just starts walking towards the stage.
 
-[01:03:09] ADAM(DM): Um, she's walking towards the stage. Zorna, please describe what you look like.
+[01:03:09] ADAM(DM): Um, she's walking towards the stage. Zarna, please describe what you look like.
 
 [01:03:14] ZARNA(RACHEL): For being an almost 7-foot-tall half-orc woman, she almost is inviting. Like, she does not carry any of that terrifying, like, commanding aura around her that you'd expect with most—
 
@@ -483,13 +487,13 @@
 
 [01:05:27] ZARNA(RACHEL): I want to see if I can find any interesting artifacts.
 
-[01:05:30] ADAM(DM): Hm. In Zana, how do you define good and evil?
+[01:05:30] ADAM(DM): Hm. In Zarna, how do you define good and evil?
 
 [01:05:42] ZARNA(RACHEL): Definitely anything that hurts others, I think, is pretty easy to define evil.
 
 [01:05:50] ELIZA(LYDIA): Hmm.
 
-[01:05:51] ADAM(DM): Zana, bonus question: what if you have to do evil to do good?
+[01:05:51] ADAM(DM): Zarna, bonus question: what if you have to do evil to do good?
 
 [01:05:59] ZARNA(RACHEL): Then is it really good?
 
@@ -497,7 +501,7 @@
 
 [01:06:15] ZARNA(RACHEL): She looks a little confused, kind of expecting it to be a longer interview, and then just kind of walks off and sits back at the back of the back of the tavern.
 
-[01:06:24] ADAM(DM): And then Eilf goes, "Aldin Forgehill," and a big goliath being pops up. Eilf asks them about why they want to join the Uprooters, and Aldin talks about I'm just fucking strong, dude, and I want to be strong. I want people to know that I'm strong. And then Aeth says, good and evil. And, uh, Alden goes, there's no difference, we are all human. And then Aeth rolls their eyes and shoos them off and then looks towards Mags.
+[01:06:24] ADAM(DM): And then Aiph goes, "Aldin Forgehill," and a big goliath being pops up. Aiph asks them about why they want to join the Uprooters, and Aldin talks about I'm just fucking strong, dude, and I want to be strong. I want people to know that I'm strong. And then Aiph says, good and evil. And, uh, Alden goes, there's no difference, we are all human. And then Aiph rolls their eyes and shoos them off and then looks towards Mags.
 
 [01:06:59] BRUIN (TAYLOR(ME)): Bruin. Um, Bruin will, uh, rise slowly. She looks a little skittish, um, and, uh, walk towards the front, and she will, um, stand quietly, um, and anybody that she passes by will notice or not notice her footsteps, um, because she's very light on her feet and she, um, doesn't really make a sound.
 
@@ -531,7 +535,7 @@
 
 [01:10:45] BRUIN (TAYLOR(ME)): What do you call it? Um, she's been wearing the pelt of a bear, um, the ears right around the crown of her head, and she'll— the fangs kind of coming down over her brow, and she'll take it down, and that's when you'll see a kind of intricate braid, and she will She'll say, I know, I can smell it from here.
 
-[01:11:27] ADAM(DM): There's a moment where this happens and it's palpable. Most of you can't hear it. Eef has been locked in to anybody who's watching. And Eef is like, ahem, ahem, next! Next on the docket is you! Ahem. Looks towards Mags really quickly to see what Mags does.
+[01:11:27] ADAM(DM): There's a moment where this happens and it's palpable. Most of you can't hear it. Aiph has been locked in to anybody who's watching. And Aiph is like, ahem, ahem, next! Next on the docket is you! Ahem. Looks towards Mags really quickly to see what Mags does.
 
 [01:11:52] ALEC(DM): Mags puts a hand up to ask you to stop.
 
@@ -559,7 +563,7 @@
 
 [01:14:08] KIDU(KEVIN): just want to share that I rolled a natural twenty.
 
-[01:14:11] ADAM(DM): Fuck Kevin! Okay, so Kevin's one. Kev. CJ? No, no, no. Huey, no. Evan, no. Oh yeah, I know Kevin, so it's just Kevin right now. Oh, Lydia, yes! So it's Lydia and Kevin. Nix? You're cute.
+[01:14:11] ADAM(DM): Fuck Kevin! Okay, so Kevin's one. Kev. CJ? No, no, no. Huey, no. Evan, no. Oh yeah, I know Kevin, so it's just Kevin right now. Oh, Lydia, yes! So it's Lydia and Kevin. Nyx? You're cute.
 
 [01:14:47] BRUIN (TAYLOR(ME)): No, can I just say Nix is gonna be a little confusing for me for a minute. I had a character named Nix and Alec was my DM at the time. I feel like I need to answer.
 
@@ -581,7 +585,7 @@
 
 [01:15:39] TOBIAS(SETH): That's something I can sort of do.
 
-[01:15:44] ADAM(DM): Uh, 16. You got it. So Seth, Lydia, Josh, Will, Kevin, you will hear the following conversation as Aeth gets up, walks over to Maddox, and goes, 'What was that?' But they won't hear the following conversation because I'm in a bubble of no sound. So Aeth walks over and you hear Ave say, what was that?
+[01:15:44] ADAM(DM): Uh, 16. You got it. So Seth, Lydia, Josh, Will, Kevin, you will hear the following conversation as Aiph gets up, walks over to Mags, and goes, 'What was that?' But they won't hear the following conversation because I'm in a bubble of no sound. So Aiph walks over and you hear Aiph say, what was that?
 
 [01:16:06] ALEC(DM): And then, what was what?
 
@@ -591,7 +595,7 @@
 
 [01:16:27] ADAM(DM): All right. Interesting.
 
-[01:16:31] ALEC(DM): She said there was a scent, Faith.
+[01:16:31] ALEC(DM): She said there was a scent, Aiph.
 
 [01:16:37] ADAM(DM): Hmm, a scent from you?
 
@@ -621,15 +625,15 @@
 
 [01:18:10] BRUIN (TAYLOR(ME)): Can I say Bruin will have been sitting amongst the people before, but, uh, when you told her to go away, she would have perched right next to the door.
 
-[01:18:22] ADAM(DM): Yeah, so Kevin, Lydia, Josh, Will, and Seth heard Aave start that conversation, and then it disappeared. And then you saw a very heated, excited exchange between the two people, and then we moved on. And then Aave goes, all right, all Auroran.
+[01:18:22] ADAM(DM): Yeah, so Kevin, Lydia, Josh, Will, and Seth heard Aiph start that conversation, and then it disappeared. And then you saw a very heated, excited exchange between the two people, and then we moved on. And then Aiph goes, all right, all Auriron.
 
-[01:18:42] ROWAN(JOSH): Auroran.
+[01:18:42] ROWAN(JOSH): Auriron.
 
-[01:18:42] ADAM(DM): I don't know how to fucking say your name. Auroran. A-U-Roran. It would be Auroran. Auroran! Yes, of course. Please join me. Please describe your character, Huey.
+[01:18:42] ADAM(DM): I don't know how to fucking say your name. Auriron. A-U-Roran. It would be Auriron. Auriron! Yes, of course. Please join me. Please describe your character, Huey.
 
-[01:19:02] AURORION(HUEY): Uh, Auroran is a Just over 6 foot, perfectly bald, red skin, fire genasi, in what appears to be like a black obsidian heavy armor of some kind. And in the center, very prominently displayed in the center of the chest piece is a large deep kind of red-orange open eye surrounded by an outline of fire. And on his back is a very large greataxe, double-sided greataxe. And he is largely expressionless as he gets up and walks up to the table.
+[01:19:02] AURORION(HUEY): Uh, Auriron is a Just over 6 foot, perfectly bald, red skin, fire genasi, in what appears to be like a black obsidian heavy armor of some kind. And in the center, very prominently displayed in the center of the chest piece is a large deep kind of red-orange open eye surrounded by an outline of fire. And on his back is a very large greataxe, double-sided greataxe. And he is largely expressionless as he gets up and walks up to the table.
 
-[01:19:53] ADAM(DM): Auroran, first question: Are you single?
+[01:19:53] ADAM(DM): Auriron, first question: Are you single?
 
 [01:19:57] AURORION(HUEY): Well, actually, yes. Yes, I am.
 
@@ -643,15 +647,15 @@
 
 [01:20:51] ADAM(DM): And who decides what needs to be purified?
 
-[01:20:59] AURORION(HUEY): Well, that would be following the tenets of Morteron, and it is left to my discretion what is evil and what is not.
+[01:20:59] AURORION(HUEY): Well, that would be following the tenets of Mortheon, and it is left to my discretion what is evil and what is not.
 
 [01:21:08] ADAM(DM): All right, if we were in a scenario in which we were fighting and— what was it again?
 
-[01:21:16] AURORION(HUEY): Auroran? Auroran?
+[01:21:16] AURORION(HUEY): Auriron? Auriron?
 
-[01:21:18] ADAM(DM): No, no, no, no. Your, your, your god, Morthael, said kill Avonbright. What would you do? I would kill you. How would you do it?
+[01:21:18] ADAM(DM): No, no, no, no. Your, your, your god, Mortheon, said kill Avonbright. What would you do? I would kill you. How would you do it?
 
-[01:21:38] AURORION(HUEY): Ideally, I would burn out of you all that was evil, because Mordran would only ask me to kill you if you were evil on the inside. There was more evil— if there was more evil in you than there was humanity, then it would burn you away with it.
+[01:21:38] AURORION(HUEY): Ideally, I would burn out of you all that was evil, because Mortheon would only ask me to kill you if you were evil on the inside. There was more evil— if there was more evil in you than there was humanity, then it would burn you away with it.
 
 [01:22:02] ALEC(DM): Huey, roll a perception check.
 
@@ -663,17 +667,17 @@
 
 [01:22:47] AURORION(HUEY): Uh, I stand and walk away.
 
-[01:22:55] ALEC(DM): Mags will look at Ace. Mags will look at the audience. Dolm, please, please approach the stage.
+[01:22:55] ALEC(DM): Mags will look at Aiph. Mags will look at the audience. Dolm, please, please approach the stage.
 
 [01:23:16] DOLM(CJ): Um, if you aren't somebody that is like taking in every person in the crowd, somehow you miss this individual, but all of a sudden you hear a crash and a fumble, and you see this 7-foot-4 Goliath wearing green robes with a moss scarf around the top, carrying a large staff and shield on his back, slowly get up from a broken chair on the ground and, um, I can, I can fix, I can fix that if, um, if you give me a second, I can— I'll come back to it. I'll fix this. Um, and he slowly grabs their hand and goes, okay, go ahead. Oh, um, okay. And he casts Mending then on, uh, on the chair to piece it back together.
 
 [01:24:12] DOLM(CJ): again, I'm really sorry about that.
 
-[01:24:16] ADAM(DM): Abe turns to his mag and goes, oh my god, they weren't lying, they weren't lying. They can do it.
+[01:24:16] ADAM(DM): Aiph turns to Mags and goes, oh my god, they weren't lying, they weren't lying. They can do it.
 
 [01:24:21] ALEC(DM): It's so cute. Yes, I, uh, cute. Yes, that's the word I'd use.
 
-[01:24:28] ADAM(DM): Dolma.
+[01:24:28] ADAM(DM): Dolm.
 
 [01:24:31] DOLM(CJ): And you see he tries his best to squeeze his way through the crowd, uh, occasionally bumping into people as he does. So, I'm sorry, um, excuse me, sorry, um, sorry. And just walks his way up to the chair.
 
@@ -689,7 +693,7 @@
 
 [01:25:14] DOLM(CJ): I'll sit, um, and again, if it— if it breaks, uh, I'm sorry. And he, as small as he can get, kind of like sits down onto this chair best he can.
 
-[01:25:29] ALEC(DM): Tom, why do you want to join the Uprooters?
+[01:25:29] ALEC(DM): Dolm, why do you want to join the Uprooters?
 
 [01:25:34] DOLM(CJ): Oh, um, Well, Tilo had told me that it is— it's my turn to, uh, what's the word, to bloom. It's my turn to bloom, and, and so I, I have to, to go out and find a, a journey that will allow me to bloom.
 
@@ -715,13 +719,13 @@
 
 [01:28:06] ALEC(DM): What would Dolm say?
 
-[01:28:11] DOLM(CJ): Oh. I, I don't know. I think Tom would, would say that that sounds right, but maybe that's part of me growing, is learning what I would say to that.
+[01:28:11] DOLM(CJ): Oh. I, I don't know. I think Dolm would, would say that that sounds right, but maybe that's part of me growing, is learning what I would say to that.
 
 [01:28:35] ALEC(DM): Are you afraid of growing?
 
 [01:28:39] DOLM(CJ): Well, I already hit my head a lot on, on a lot of door frames, so I would hope I don't grow anymore. Um, so afraid, no. Uh, worried a little bit, then, yeah.
 
-[01:28:57] ALEC(DM): Dom, you, you've done such a nice job. Go, go somewhere, anywhere, and literally anywhere that's not here.
+[01:28:57] ALEC(DM): Dolm, you, you've done such a nice job. Go, go somewhere, anywhere, and literally anywhere that's not here.
 
 [01:29:09] ADAM(DM): Good, go, go. Goodbye, goodbye.
 
@@ -731,9 +735,9 @@
 
 [01:29:46] TOBIAS(SETH): No.
 
-[01:29:46] ALEC(DM): Um, and as, as you guys exit the circle, it is a wave of noise that takes you in. She will look at Eith and she will kind of hold up a finger like a 1, as though like you might have one more, like, and then, and then gestures to you.
+[01:29:46] ALEC(DM): Um, and as, as you guys exit the circle, it is a wave of noise that takes you in. She will look at Aiph and she will kind of hold up a finger like a 1, as though like you might have one more, like, and then, and then gestures to you.
 
-[01:30:11] ADAM(DM): Eith kind of nods. She pulls out her pack and like pulls out a glass and is like playing with it and throwing stuff in it. Goes, "Elaria Thorne." Nobody responds. She goes, "Elaria Thorne!" Coward.
+[01:30:11] ADAM(DM): Aiph kind of nods. She pulls out her pack and like pulls out a glass and is like playing with it and throwing stuff in it. Goes, "Elaria Thorne." Nobody responds. She goes, "Elaria Thorne!" Coward.
 
 [01:30:32] ELIZA(LYDIA): Great.
 
@@ -753,9 +757,9 @@
 
 [01:32:59] ALEC(DM): Okay, you repeat to yourself, we can do this, we can do this, we can do this. And somewhere inside of you, maybe it's yourself, agrees.
 
-[01:33:15] ADAM(DM): Okay. As you, as you feel that, Aif looks to you and says, who's that?
+[01:33:15] ADAM(DM): Okay. As you, as you feel that, Aiph looks to you and says, who's that?
 
-[01:33:26] TOBIAS(SETH): Oh, this is my friend. Nero. Nero, this is Aeth, I think you said.
+[01:33:26] TOBIAS(SETH): Oh, this is my friend. Nero. Nero, this is Aiph, I think you said.
 
 [01:33:34] ADAM(DM): No, yeah, that— yes, that is my name.
 
@@ -765,7 +769,7 @@
 
 [01:33:50] TOBIAS(SETH): Oh, well, I wish it was for some grand or his heroic reason, but I really just want to see what the world has to offer. See other cultures, eat other foods, drink other drinks, dance with other people. I want to see it all. I want to live it all.
 
-[01:34:14] ADAM(DM): Eif grabs the chalk and slams it on the table, drags it across. And everybody else here, so, okay, you want to see other people?
+[01:34:14] ADAM(DM): Aiph grabs the chalk and slams it on the table, drags it across. And everybody else here, so, okay, you want to see other people?
 
 [01:34:33] TOBIAS(SETH): Yeah, I want to see them. I want to draw them. I want to paint them.
 
@@ -807,9 +811,9 @@
 
 [01:37:39] TOBIAS(SETH): Uh, Tobias will just kind of like bow his head slightly and walk out.
 
-[01:37:43] ADAM(DM): Looks towards, uh, Max and goes—
+[01:37:43] ADAM(DM): Looks towards, uh, Mags and goes—
 
-[01:37:47] ALEC(DM): Max is going to get up and walk across the stage and gesture for you to meet her in the middle. Walks up to you, um, and she's gonna look at you and she's gonna say, we have a lot to discuss. And then she's gonna look out at the crowd, place a hand on Mags, and the two of them will vanish. Um, and as the two of them vanish from the stage, we're actually going to take our break for tonight. So you're going to take, take 5 minutes, go take a bio break. Adam and I are going to disappear for a little bit, and we'll see you back in a couple minutes. See you in 5. Enjoy your break. Keep going, Adam. I'm gonna call you.
+[01:37:47] ALEC(DM): Mags is going to get up and walk across the stage and gesture for you to meet her in the middle. Walks up to you, um, and she's gonna look at you and she's gonna say, we have a lot to discuss. And then she's gonna look out at the crowd, place a hand on Mags, and the two of them will vanish. Um, and as the two of them vanish from the stage, we're actually going to take our break for tonight. So you're going to take, take 5 minutes, go take a bio break. Adam and I are going to disappear for a little bit, and we'll see you back in a couple minutes. See you in 5. Enjoy your break. Keep going, Adam. I'm gonna call you.
 
 [01:38:22] ADAM(DM): Great.
 
@@ -823,7 +827,7 @@
 
 [01:45:08] ALEC(DM): Yeah, and then they vanish. Yep, they vanish. Um, and, um, after, after they, after they vanish, we are going to open up the space for some mingling in the tavern. But because there's so many of you, just throw a hand up if your character wants to do something.
 
-[01:45:33] ADAM(DM): So you interviewed there, you all had interactions. Aeth and Mags disappear. You were all in this tavern. There's a three-tiered tavern. You appeared at the bottom where the common flame is, and there's a lot of people. Second floor is mostly y'all interviewing. There is a third layer, but You're here now. Mags and Ave are gone. What do you do?
+[01:45:33] ADAM(DM): So you interviewed there, you all had interactions. Aiph and Mags disappear. You were all in this tavern. There's a three-tiered tavern. You appeared at the bottom where the common flame is, and there's a lot of people. Second floor is mostly y'all interviewing. There is a third layer, but You're here now. Mags and Aiph are gone. What do you do?
 
 [01:46:04] AURORION(HUEY): Chewy, I think I don't necessarily go to talk to anybody, but I do want to look at the symbol on, um, Nyx's armor. And that was my first thought as I walked her— walk, walk walk up is, who is— what is that symbol? Because obviously we're dressed fairly similarly in armor with symbols on our breastplates. And so my first thought is, is, who is that? Um, as far as the symbol?
 
@@ -885,7 +889,7 @@
 
 [01:51:32] BE-BO(EVAN): the goal was not to dance well, the goal was to dance.
 
-[01:51:36] ADAM(DM): Bebo is engulfed. Bibo is doing this thing and it's confusing, and most people looking are like, what the fuck are you doing? But Bibo seems to be entranced, and Bibo seems to be like at peace with what they are doing.
+[01:51:36] ADAM(DM): Bebo is engulfed. Bebo is doing this thing and it's confusing, and most people looking are like, what the fuck are you doing? But Bebo seems to be entranced, and Bebo seems to be like at peace with what they are doing.
 
 [01:51:59] NYX(HOLLY): I think if anything, Nyx would probably stand there with her arms crossed, so like just kind of like nodding, and instead of dancing, she's just gonna like kind of tap her foot to the rhythm, like standing in place.
 
@@ -893,7 +897,7 @@
 
 [01:52:28] ALEC(DM): Uh, Jordan?
 
-[01:52:30] LUTE(JORDAN): Uh, I kind of messaged Lydia on the side, but Immediately when Eliza goes describing the trinkets, I, uh, Lute picked up on it and she immediately went right over deciding that Eliza and her are best friends and they are trading, uh, trinket— or not trading, but comparing trinkets and, and, and showing off the little doodle, like little stuff all over the place and I don't know if Liza's actually participating in the conversation or not, or how she's feeling about it, but Lou thinks they're best friends and she's all for it.
+[01:52:30] LUTE(JORDAN): Uh, I kind of messaged Lydia on the side, but Immediately when Eliza goes describing the trinkets, I, uh, Lute picked up on it and she immediately went right over deciding that Eliza and her are best friends and they are trading, uh, trinket— or not trading, but comparing trinkets and, and, and showing off the little doodle, like little stuff all over the place and I don't know if Liza's actually participating in the conversation or not, or how she's feeling about it, but Lute thinks they're best friends and she's all for it.
 
 [01:53:13] ALEC(DM): Like, she's all in. Eliza, are you participating?
 
@@ -971,13 +975,13 @@
 
 [02:01:38] ADAM(DM): You said that's Nero? Nero kind of like chuckles in your ear, uh, and then goes down around and zips around, grabs some food for you, and then you like stumble away. Like, you're like, you sit down, do your thing, and then like 30 seconds later Nero shows up with a small bowl of food.
 
-[02:02:02] TOBIAS(SETH): All right, uh, so he'll sit down, take the bowl, and make sure Nero gets fed first, and then, uh Zobias leads the rest with a piece of chalk in his hand, sketching the room that he's seeing.
+[02:02:02] TOBIAS(SETH): All right, uh, so he'll sit down, take the bowl, and make sure Nero gets fed first, and then, uh Tobias leads the rest with a piece of chalk in his hand, sketching the room that he's seeing.
 
 [02:02:18] ADAM(DM): So you're—
 
 [02:02:19] TOBIAS(SETH): I'm just doing my thing. He's watching, he's observing the way an artist does.
 
-[02:02:33] ALEC(DM): It zooms out. And 3 floors up, standing next to each other, looking down on all of you, is Mags and Aethon. They stand there. Mags leans against the railing and looks down. Okay, fine, I guess we say none of them and we move on.
+[02:02:33] ALEC(DM): It zooms out. And 3 floors up, standing next to each other, looking down on all of you, is Mags and Aiph. They stand there. Mags leans against the railing and looks down. Okay, fine, I guess we say none of them and we move on.
 
 [02:03:05] ADAM(DM): If we keep— if we keep telling them they're not ready, we're not going to do anything.
 
@@ -989,9 +993,9 @@
 
 [02:04:25] ADAM(DM): What? What'd you say? What if we are wrong?
 
-[02:04:35] ALEC(DM): We've been wrong before. Look at us now. Let me tell you, my, my anticipation for life What is recruiting Uprooters, Aeth? Was it yours?
+[02:04:35] ALEC(DM): We've been wrong before. Look at us now. Let me tell you, my, my anticipation for life What is recruiting Uprooters, Aiph? Was it yours?
 
-[02:05:01] ADAM(DM): They all remind me of them. Aeth, stop it. No, no, no, you're right, you're right, you're right. No, you're right.
+[02:05:01] ADAM(DM): They all remind me of them. Aiph, stop it. No, no, no, you're right, you're right, you're right. No, you're right.
 
 [02:05:14] ALEC(DM): You're going to pick a few of them, I'm going to pick a few of them, and we are going to go do what we have to do.
 
@@ -1013,13 +1017,13 @@
 
 [02:07:06] ADAM(DM): We only disappoint people who don't know what the fuck we're doing.
 
-[02:07:10] ALEC(DM): I know, and I want to be very clear about something, Aife. I love you. But I will fucking kill you if you get in my way.
+[02:07:10] ALEC(DM): I know, and I want to be very clear about something, Aiph. I love you. But I will fucking kill you if you get in my way.
 
 [02:07:31] ADAM(DM): This is only funny because I'll kill you too.
 
 [02:07:35] ALEC(DM): Uh, she's gonna kiss you.
 
-[02:07:39] ADAM(DM): Um, there's a moment where Ape is like, what the fuck? And then Ape like weaves their hand in your hair, and it's intense, and then pulls your head away and is like, if we don't die from this— if we don't die from this, then I hope that I'm not the one that Bends it. Always.
+[02:07:39] ADAM(DM): Um, there's a moment where Aiph is like, what the fuck? And then Aiph like weaves their hand in your hair, and it's intense, and then pulls your head away and is like, if we don't die from this— if we don't die from this, then I hope that I'm not the one that Bends it. Always.
 
 [02:08:19] ALEC(DM): Is this gay?
 
@@ -1027,17 +1031,17 @@
 
 [02:08:25] ALEC(DM): She is going to kind of brush down the front of her and she's going to step away. Please don't make me have to kill you. I'm gonna go let my team know.
 
-[02:08:44] ADAM(DM): You, you walk away and she grabs your wrist, pulls you back in and pulls you closer and says, I don't know which one of us is right. I really don't. I like to believe it's me, but also there's a part of me that likes to believe it's you. If one of us gets to the point where we are convinced we know enough that we're right, we should Ave.
+[02:08:44] ADAM(DM): You, you walk away and she grabs your wrist, pulls you back in and pulls you closer and says, I don't know which one of us is right. I really don't. I like to believe it's me, but also there's a part of me that likes to believe it's you. If one of us gets to the point where we are convinced we know enough that we're right, we should Aiph.
 
 [02:09:38] ALEC(DM): I already know I'm right.
 
 [02:09:48] ADAM(DM): I hope you're right. Goodbye.
 
-[02:09:55] ALEC(DM): She's gonna walk away. Sometime later, downstairs, Efe and Mags will walk onto the stage from opposite sides. They look to be the best of friends. Their nonverbal banter, their casualness to which they approach this scenario. They enter the center of the stage, and Mags will look to Aeth. You or I go first?
+[02:09:55] ALEC(DM): She's gonna walk away. Sometime later, downstairs, Aiph and Mags will walk onto the stage from opposite sides. They look to be the best of friends. Their nonverbal banter, their casualness to which they approach this scenario. They enter the center of the stage, and Mags will look to Aiph. You or I go first?
 
 [02:10:48] TOBIAS(SETH): Go ahead.
 
-[02:10:52] ALEC(DM): Good evening to this room full of candidates. Aife and I have selected Group J and Group K of the Uprooters, leading you to believe that there are others of you out there. I will oversee Group J in this endeavor. When you hear your name, you've been selected, and I ask you to meet me on this, uh, on the first floor, because you guys are on the second right now, so you'll, you'll head downstairs if Aife says your name. You will go to the third floor. You will go upstairs. To those who don't get selected, enjoy life. Group J, with me downstairs.
+[02:10:52] ALEC(DM): Good evening to this room full of candidates. Aiph and I have selected Group J and Group K of the Uprooters, leading you to believe that there are others of you out there. I will oversee Group J in this endeavor. When you hear your name, you've been selected, and I ask you to meet me on this, uh, on the first floor, because you guys are on the second right now, so you'll, you'll head downstairs if Aiph says your name. You will go to the third floor. You will go upstairs. To those who don't get selected, enjoy life. Group J, with me downstairs.
 
 [02:12:04] LUTE(JORDAN): Lute, I start heading Up to the second floor.
 
@@ -1055,11 +1059,11 @@
 
 [02:12:54] KIDU(KEVIN): He is going to look up from his notes and seem confused. And in the light, if you're looking at him, you'll see that his, uh, skin sort of shimmers like a metallic blue, uh, in the light and when he gets excited. And then he's going to stand and make his way downstairs.
 
-[02:13:15] ADAM(DM): Orion, I really probably should Me?
+[02:13:15] ADAM(DM): Auriron, I really probably should Me?
 
 [02:13:29] ALEC(DM): Yes.
 
-[02:13:31] AURORION(HUEY): Aurora and—
+[02:13:31] AURORION(HUEY): Auriron and—
 
 [02:13:32] BE-BO(EVAN): and—
 
@@ -1067,7 +1071,7 @@
 
 [02:13:35] ALEC(DM): walks downstairs, and she will pause for a second as she looks around.
 
-[02:13:53] DOLM(CJ): And Dom, I think Dom jumps.
+[02:13:53] DOLM(CJ): And Dolm, I think Dolm jumps.
 
 [02:14:03] ADAM(DM): Oh boy.
 
@@ -1081,7 +1085,7 @@
 
 [02:14:19] ADAM(DM): Bias. Tobias. Okay, yeah. Artie, he doesn't say anything, he just gets up and goes, don't care, Bruin. Zarna. Bebo. Eliza, you all join me.
 
-[02:14:50] ALEC(DM): Two groups will make their way out of this room. One group that descends, one group that ascends separate ways. Mags will look to Aife. I'll see you soon.
+[02:14:50] ALEC(DM): Two groups will make their way out of this room. One group that descends, one group that ascends separate ways. Mags will look to Aiph. I'll see you soon.
 
 [02:15:07] ADAM(DM): Um, anyone who's in my campaign can roll Insight.
 
@@ -1103,7 +1107,7 @@
 
 [02:15:58] TOBIAS(SETH): Uh, Tobias got a 24.
 
-[02:16:02] ADAM(DM): 24, Tobias. Mags says this, looks towards Eith. There's a moment where you— your breath is taken away because you see, um, you see an intensity between the two of them. Um, you see a common desire. And then your name is called as you move.
+[02:16:02] ADAM(DM): 24, Tobias. Mags says this, looks towards Aiph. There's a moment where you— your breath is taken away because you see, um, you see an intensity between the two of them. Um, you see a common desire. And then your name is called as you move.
 
 [02:16:39] TOBIAS(SETH): Uh, Tobias will put Nero back on his shoulder and whisper, that's how Rowan used to look at me. I think. I'm not sure. Okay, we're going. And he'll just shove his sketchbook and his charcoal back in his bag.
 
@@ -1141,7 +1145,7 @@
 
 [02:18:28] ZARNA(RACHEL): I was like, oh my God, I forgot to write it down.
 
-[02:18:30] ADAM(DM): So you You all get grouped. Um, you sort of like mosey over to where Ave points. Um, you all look at each other, you size each other up. Um, and as you all have the moment of— people— that's where we end session. Um, if you have questions, please ask them now. Otherwise, we begin session 2 in the joint tab and we move from there. However, this group has been grouped together by A'ife. The other group has been grouped together by Mags. Um, That's it. Sweet. I think that's it.
+[02:18:30] ADAM(DM): So you You all get grouped. Um, you sort of like mosey over to where Aiph points. Um, you all look at each other, you size each other up. Um, and as you all have the moment of— people— that's where we end session. Um, if you have questions, please ask them now. Otherwise, we begin session 2 in the joint tab and we move from there. However, this group has been grouped together by Aiph. The other group has been grouped together by Mags. Um, That's it. Sweet. I think that's it.
 
 [02:19:36] ROWAN(JOSH): I don't have any questions.
 
@@ -1163,7 +1167,7 @@
 
 [02:20:17] LUTE(JORDAN): Oh, you did great.
 
-[02:20:19] ADAM(DM): You did great. It's actually awesome. Um, you have no idea what the fuck is about to happen, and it's awesome. Um, Alec and I have spent so much time putting whatever the hell is about to happen together. Um, we love this shit so much. Um, And so I hope you all also love it. Uh, if you don't, do something else. Because Alec and I have like spent our lives trying to make what we do here cool, and we decided what if we did it together? So, uh, it's gonna be crazy. Um, so I hope you're having fun. I hope that you guys are locked in. If you're not, let's talk, let's figure out how to get you locked in. If not, um, Aeth grouped you in one group, so we will open next session with everybody as Aeth grouped you and Mags grouped them. That's how we open next session in the tavern.
+[02:20:19] ADAM(DM): You did great. It's actually awesome. Um, you have no idea what the fuck is about to happen, and it's awesome. Um, Alec and I have spent so much time putting whatever the hell is about to happen together. Um, we love this shit so much. Um, And so I hope you all also love it. Uh, if you don't, do something else. Because Alec and I have like spent our lives trying to make what we do here cool, and we decided what if we did it together? So, uh, it's gonna be crazy. Um, so I hope you're having fun. I hope that you guys are locked in. If you're not, let's talk, let's figure out how to get you locked in. If not, um, Aiph grouped you in one group, so we will open next session with everybody as Aiph grouped you and Mags grouped them. That's how we open next session in the tavern.
 
 [02:21:32] TOBIAS(SETH): I have to admit, I love that the naive teenager picked up on the sexual tension and has no idea what he's looking at.
 
@@ -1219,7 +1223,7 @@
 
 [02:23:53] ADAM(DM): It's gonna be so good.
 
-[02:23:55] ARTIE(WILL): I didn't say it while we were doing the raising our hands thing because Artie would have been alone, but Artie was just staring at Bibo while he was dancing. Fascinated, or like, I'm scared, like, what the fuck is this?
+[02:23:55] ARTIE(WILL): I didn't say it while we were doing the raising our hands thing because Artie would have been alone, but Artie was just staring at Bebo while he was dancing. Fascinated, or like, I'm scared, like, what the fuck is this?
 
 [02:24:11] BRUIN (TAYLOR(ME)): Yeah, I definitely wasn't expecting that.
 

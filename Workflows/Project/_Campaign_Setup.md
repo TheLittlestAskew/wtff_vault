@@ -23,14 +23,14 @@ Update Status to ✅ and fill Value the moment the campaign reveals it. Note the
 | Input | Status | Value (once known) | Unblocks | First captured |
 |---|---|---|---|---|
 | DM identity | ✅ known | **Adam** runs WtFF (this campaign). **Alec** runs the parallel campaign *Where the Flowers Remember* (WtFR). | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from Adam.md` | Session 1 (2026-06-14) |
-| Player roster (names) | ❓ partial | Taylor (Isla), Lydia (Eliza), Rachel (Zarna); players behind Artie / BE-BO / Tobias not yet known by first name | PC pages; party-present lists | Session 1 (2026-06-14) |
+| Player roster (names) | ✅ known | Taylor (Isla "Bruin"), Lydia (Eliza), Rachel (Zarna), **Will (Artie), Evan (BE-BO), Seth (Tobias)** | PC pages; party-present lists | Session 1 (2026-06-14) |
 | DDB user IDs (per player) | ✅ captured | _local only — all 6 PCs' usernames/userIds + characterIds are in gitignored `Workflows/scripts/ddb_party.json` (Artie's characterId still missing). Do NOT record IDs/usernames in this PUBLIC file (first names only)._ | Roll attribution; `user_id` → character map | Session 1 (2026-06-14) |
 | Live DDB `game_id` | ✅ known | `7853407` | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | Session 1 (2026-06-14) |
 | Your POV character (your PC) | ✅ known | Isla 'Bruin' Kaplan — Shifter Barbarian (Path of the Totem Warrior) | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | Session 1 (2026-06-14) |
 | System / ruleset | ✅ known | D&D 5e (D&D Beyond back-end; ability checks, advantage/disadvantage, classes/subclasses) | Rules references in notes | Session 1 (2026-06-14) |
 | Setting basics | ❓ partial | (lore lives in `04-World-Lore/`) | Locations / Regions / Factions seeding | |
-| Campaign spelling terms | ❓ unknown | | Convo 1 spell-check canon | |
-| Notes output format | ❓ undecided | | Convo 1 Step 6 — markdown via `Templates/Session Notes Template.md`, or a `.docx` generator | |
+| Campaign spelling terms | ❓ partial | S01 proper nouns now seeded as lore pages (Hearthread Hall, Rhusatatiam, The Uprooters, Petal Line, Hollow King, Pistil). **Pending Taylor's approval:** Aiph STT variants "Eeth/Eighth/Ava/Eiff/8th"; "Auriron" vs DM "A-U-Roran"; "Liriope Valley" vs "Liriope River Net"; Bebo "Engineering" vs "Energy". | Convo 1 spell-check canon | S01 (2026-06-14) |
+| Notes output format | ✅ decided | **Markdown-first** — canonical note authored from `Templates/Session Notes Template.md` into `01-Sessions/`. No `.docx` generator. | Convo 1 Step 6 | Session 1 (2026-06-14) |
 | Physical-dice players | ❓ unknown | | Roll-log "physical dice" marking | |
 
 ---
@@ -41,7 +41,10 @@ Append a row whenever a convention is chosen, so the pipeline stays consistent a
 
 | Date | Decision | Rationale |
 |---|---|---|
-| | | |
+| 2026-06-14 | Session notes are **markdown-first**: author the canonical note from `Templates/Session Notes Template.md` into `01-Sessions/Session ## — <Title>.md` (em dash). No `.docx`. | Matches Convo 1 Step 6; SITL's styled `.docx` generator is deliberately not ported to WtFF. |
+| 2026-06-14 | When the transcript contains **STT name-variants not in the approved spell-check table**, leave them verbatim and flag them — do not extend the correction beyond the approved table. | Honors "apply ONLY approved corrections / no silent fixes." (S01: Aiph variants "Eeth/Eighth/Ava/Eiff/8th" left verbatim, flagged.) |
+| 2026-06-14 (Convo 2) | Seeded the **first lore/faction/NPC pages** from S01: [[The Uprooters]] (faction), [[Hearthread Hall]] & [[Rhusatatiam]] & [[The Petal Line]] (locations), [[The Hollow King]] & [[The Pistil]] (NPC stubs). Expanded [[Aiphrumfite ‘Aiph‘|Aiph]] and [[Nero]]. PC pages given descriptor/key-event sections. | First propagation pass; built from `Templates/`. No `_Campaign_Setup` pending input was newly *resolved* (POV/DM/roster/game_id already set in setup). |
+| 2026-06-14 (Convo 2) | **Scrubbed DDB `username`/`user_id`/`character_id` from the tracked PC-page frontmatter** (kept first name + race + class). IDs live only in gitignored `ddb_party.json`. | Public-repo PII rule. NOTE: these values remain in prior git history — recommend history scrub + credential review (see Vault Sync Status change-log). |
 
 ---
 
@@ -52,13 +55,13 @@ This world is told as **two full, parallel campaigns** that occasionally **cross
 - **Where the Flowers Forget (WtFF)** — *this vault's campaign.* DM: **Adam**. Taylor plays here (PC: Isla "Bruin" Kaplan). Full canon lives in this vault.
 - **Where the Flowers Remember (WtFR)** — a **separate full campaign**, DM: **Alec**. **Taylor has no access to it except where it crosses over with WtFF.**
 
-**Operating rule for the pipeline:** WtFR is **NOT** built out as canon here. Capture WtFR people, places, and events **only as crossover touchpoints, from the WtFF party's point of view** — lightweight stubs, never full character sheets or lore pages. Do not infer WtFR-internal facts; if WtFF characters weren't present to witness it, it doesn't get recorded.
+**Operating rule for the pipeline:** WtFR **story/lore is NOT built out here.** Capture WtFR events **only as crossover touchpoints, from the WtFF party's point of view** — do not infer WtFR-internal facts; if WtFF characters weren't present to witness it, it doesn't get recorded. **However, the WtFR roster IS known reference:** Taylor maintains roster cards (name, player, race, class, portrait) for the WtFR characters under `03-Characters/01 PCs/Where The Flowers Remember/`. These are **user-maintained — read them for canonical names/players, never overwrite or auto-generate them.** A WtFR name that has a roster card there is canonical (use it to correct transcript STT at normal canon confidence); only a WtFR name with *no* card stays ≤60% first-seen.
 
 **Session types & speaker counts:**
 - **Regular WtFF session:** 1 DM (Adam) + 6 PCs = **~7 speakers**. Transcribe at `--speakers 7` (the new default).
 - **Joint / crossover session:** both DMs + both parties = **up to ~14 speakers**. Transcribe at `--speakers 14`. (Session 1 / 2026-06-14 was one of these.)
 
-**WtFR contacts seen in crossover so far (stubs only):** PCs — Lute, Nyx (Holly), Rowan (Josh), Auroran (Huey), Kidu, Dolm; recruiter NPC — Margaret "Mags" Honeythatch. File crossover stubs under `03-Characters/05 Crossover (WtFR)/`. The WtFF-side recruiter NPC is **Aeth / Amprum Fright** (Adam's NPC) — that one IS WtFF canon.
+**WtFR roster (Taylor's cards, `01 PCs/Where The Flowers Remember/`):** Lute (Jordan), Nyx (Holly), Rowan (Josh), **Auriron** (Huey), Kidu (Kevin), Dolm (CJ); recruiter NPC **Margaret "Mags" HoneyThatcher** (run by Alec). The WtFF-side recruiter NPC is **Aiphrumfite "Aiph"** (Adam's NPC; page `03-Characters/01 PCs/Aiphrumfite 'Aiph'.md`) — that one IS WtFF canon. The transcript's "Am from Fright / Aeth" STT variants normalize to **Aiphrumfite / Aiph**.
 
 ---
 

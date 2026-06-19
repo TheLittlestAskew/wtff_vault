@@ -16,4 +16,61 @@
 
 ---
 
-_No quotes logged yet._
+## Session 01 — A Railway Requires Everyone (06/14/2026)
+
+**[[Alec]] (opening monologue) · [Important to Story]**
+> "A hero stands alone. A railway requires everyone."
+
+**[[Alec]] (monologue) · [Important to Story]**
+> "What happens when the world needs a hero again and no one remembers how to become one."
+
+**[[Margaret “Mags” HoneyThatcher|Mags]] · [Serious]**
+> "This— this is our audience? These are our interviewees to be uprooters? This is disappointing."
+
+**[[Aiphrumfite ‘Aiph‘|Aiph]] & [[Margaret “Mags” HoneyThatcher|Mags]] · [Funny]**
+> "I don't think more than 5 are gonna make it." / "I was guessing 2."
+
+**[[Lute]] · [Funny]**
+> "you are allowed to hand out flowers as long as they're not poison. As long as they're not poison flowers, you can do that. That's good too."
+
+**[[Aiphrumfite ‘Aiph‘|Aiph]] · [DM Quip]**
+> "off with you, animatronic nightmare."
+
+**[[Rowan]] · [Poignant]**
+> "I think good people are the ones who notice the harm they cause and try to carry the weight of it."
+
+**[[Tobias Wolfe|Tobias]] · [Poignant]**
+> "Every life is amazing. They all deserve someone who sees them."
+
+**[[Aiphrumfite ‘Aiph‘|Aiph]] · [Poignant]**
+> "normal ducks didn't change history… it was only odd ducks that moved the timeline."
+
+**[[Isla 'Bruin' Kaplan|Bruin]] · [Important to Story]**
+> "I know, I can smell it from here."
+
+**[[Margaret “Mags” HoneyThatcher|Mags]] · [Important to Story]**
+> "Bruin, whether you're an uprooter or not, trust your nose. Now go away."
+
+**[[Margaret “Mags” HoneyThatcher|Mags]] (re: Bruin) · [Serious]**
+> "if you pick her, that is the only reason she leaves this tavern alive."
+
+**[[Aiphrumfite ‘Aiph‘|Aiph]] · [Important to Story]**
+> "Nobody's a hero. You and I know the last hero to ever exist."
+
+**[[Margaret “Mags” HoneyThatcher|Mags]] & [[Aiphrumfite ‘Aiph‘|Aiph]] · [Serious]**
+> "I love you. But I will fucking kill you if you get in my way." / "This is only funny because I'll kill you too."
+
+**[[Dolm]] · [Funny]**
+> "I wouldn't eat them to grow though, because that would, that would probably be, be wrong."
+
+**[[BE-BO (Botanical Energy Balance Operator)|Bebo]] · [Poignant]**
+> "the goal was not to dance well, the goal was to dance."
+
+**[[Tobias Wolfe|Tobias]] (to [[Nero]]; a *different* Rowan — see session note) · [Poignant]**
+> "that's how Rowan used to look at me. I think."
+
+**Seth (Tobias's player, OOC) · [Banter]**
+> "I love that the naive teenager picked up on the sexual tension and has no idea what he's looking at."
+
+**[[Adam]] (OOC, on [[Alec]]'s style) · [Banter]**
+> "what if I improv? And I was like, what if you did?"
