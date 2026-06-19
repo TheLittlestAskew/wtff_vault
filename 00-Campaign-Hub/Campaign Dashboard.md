@@ -31,7 +31,7 @@ dm: Adam
 ## Sessions
 | Session # | Date | Title | Notes Link | Summary |
 |---|---|---|---|---|
-| 01 | 06/14/2026 | A Railway Requires Everyone | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
+| 01 | 06/14/2026 | Winds in the East | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
 
 ## NPC Companions
 | Name | Status | Joined | Notes |
