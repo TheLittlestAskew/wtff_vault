@@ -59,7 +59,7 @@ Two of them were running this gauntlet up on the stage. One drew a circle in cha
 
 When my name was called I looked for a sign before I sat. She gave me one. And then she asked how far home was, and something in me decided to be honest. I told her the water doesn't run like it used to. That there's a scent on the air, and most people don't know it's there, and I need to know what it is and why it's reaching my home.
 
-She went still. *You smell like that scent,* she said — as if I were the strange one. So I took the bear down off my head and let her see the rest of my face, and I told her the truth I'd been carrying since the road: *I know. I can smell it from here.*
+She went still. *I smell like that scent,* she said — as if I were the strange one. So I took the bear down off my head and let her see the rest of my face, and I told her the truth I'd been carrying since the road: *I know. I can smell it from here.*
 
 For just a breath the whole table changed. Whatever they'd planned, I'd stepped off the edge of it. The cold one and the storm had a quarrel after I left — quiet, but I felt the heat of it on my neck. Before I went she told me the only thing that has stayed with me all night: *trust your nose.* Then she told me to go away, so I did. I perched by the door. When the room got loud and warm and people started pressing in to learn each other's names, I slipped outside, where I could breathe and listen.
 
