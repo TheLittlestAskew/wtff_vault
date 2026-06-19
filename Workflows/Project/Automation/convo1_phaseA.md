@@ -6,6 +6,13 @@ Read and obey these vault files before doing anything (read them now):
 - Workflows/Project/_Campaign_Setup.md   ← Step 0: the living bootstrap; pull current values (roster, POV character, physical-dice players, spelling terms) from here. Do NOT edit it in this read-only phase — record any newly-revealed pending input in flags.md instead.
 - DND_Sources/DM Notes.md   ← top authority for in-game content + proper-noun spellings (if present).
 
+CAMPAIGN STRUCTURE — TWO PARALLEL CAMPAIGNS (decisive for this phase):
+This vault is **Where the Flowers Forget (WtFF)**, DM **Adam**. A separate, full campaign — **Where the Flowers Remember (WtFR)**, DM **Alec** — runs in parallel and occasionally crosses over. Some sessions (joint launches / crossovers) contain BOTH parties and up to ~14 speakers; a regular WtFF session has ~7.
+- WtFR is **NOT canon in this vault.** Treat every WtFR PC/NPC/location as a first-seen *crossover* proper noun: cap at ≤60% and FLAG in flags.md — never silently correct it, never propose it as established canon.
+- In flags.md, identify which speakers/characters belong to **WtFF** vs **WtFR** for this session (and whether it is a joint/crossover session).
+- Known WtFR crossover contacts (still ≤60%, crossover-only): PCs Lute, Nyx, Rowan, Auroran, Kidu, Dolm; NPC Margaret "Mags" Honeythatch. The WtFF recruiter NPC **Aeth / Amprum Fright** (Adam's NPC) IS WtFF canon.
+See `_Campaign_Setup.md` → "Campaign structure" for the full rule.
+
 This run performs Convo 1 ONLY through the spell-check stage, then STOPS for human review.
 You must NOT: apply any corrections, generate session notes, query Supabase, produce any .docx, or do any Convo 2 work. Write nothing outside {{PIPELINE_DIR}}.
 

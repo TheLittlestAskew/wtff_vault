@@ -38,9 +38,11 @@ const VAULT_ROOT = String.raw`C:\Users\theli\wtff_vault`;
 const RECORDINGS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Recordings");
 const TRANSCRIPTS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Transcripts", "Raw_Unedited");
 
-// Default speaker count (DM + party). The roster isn't finalized yet —
-// adjust this once the table is set, or override per-run with --speakers N.
-const DEFAULT_SPEAKERS = 6;
+// Default speaker count for a REGULAR WtFF session: 1 DM (Adam) + 6 party = 7.
+// JOINT / crossover sessions run both campaigns (WtFF + Where the Flowers Remember,
+// two DMs and both parties) — up to ~14 speakers. Override those per-run with
+// `--speakers 14`. See Workflows/Project/_Campaign_Setup.md → "Campaign structure".
+const DEFAULT_SPEAKERS = 7;
 
 // ── Load ASSEMBLYAI_API_KEY (no dotenv dependency) ──────────
 // Checks wtff_vault\.env first, then falls back to sitl_vault\.env.
