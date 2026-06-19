@@ -39,6 +39,9 @@ Workflows/scripts/ddb_party.json
 .smart-env/
 .claude/
 
+# ── Pipeline scratch (transient: review files, state, logs, prompts) ──
+_pipeline/
+
 # ── Node / OS junk ────────────────────────────────────────────
 node_modules/
 package-lock.json
