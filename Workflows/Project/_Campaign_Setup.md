@@ -22,12 +22,12 @@ Update Status to ✅ and fill Value the moment the campaign reveals it. Note the
 
 | Input | Status | Value (once known) | Unblocks | First captured |
 |---|---|---|---|---|
-| DM identity | ❓ unknown | | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from [DM].md` | |
+| DM identity | ✅ known | **Adam** runs WtFF (this campaign). **Alec** runs the parallel campaign *Where the Flowers Remember* (WtFR). | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from Adam.md` | Session 1 (2026-06-14) |
 | Player roster (names) | ❓ partial | Taylor (Isla), Lydia (Eliza), Rachel (Zarna); players behind Artie / BE-BO / Tobias not yet known by first name | PC pages; party-present lists | Session 1 (2026-06-14) |
 | DDB user IDs (per player) | ✅ captured | _local only — all 6 PCs' usernames/userIds + characterIds are in gitignored `Workflows/scripts/ddb_party.json` (Artie's characterId still missing). Do NOT record IDs/usernames in this PUBLIC file (first names only)._ | Roll attribution; `user_id` → character map | Session 1 (2026-06-14) |
 | Live DDB `game_id` | ✅ known | `7853407` | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | Session 1 (2026-06-14) |
 | Your POV character (your PC) | ✅ known | Isla 'Bruin' Kaplan — Shifter Barbarian (Path of the Totem Warrior) | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | Session 1 (2026-06-14) |
-| System / ruleset | ❓ unknown | | Rules references in notes | |
+| System / ruleset | ✅ known | D&D 5e (D&D Beyond back-end; ability checks, advantage/disadvantage, classes/subclasses) | Rules references in notes | Session 1 (2026-06-14) |
 | Setting basics | ❓ partial | (lore lives in `04-World-Lore/`) | Locations / Regions / Factions seeding | |
 | Campaign spelling terms | ❓ unknown | | Convo 1 spell-check canon | |
 | Notes output format | ❓ undecided | | Convo 1 Step 6 — markdown via `Templates/Session Notes Template.md`, or a `.docx` generator | |
@@ -45,9 +45,26 @@ Append a row whenever a convention is chosen, so the pipeline stays consistent a
 
 ---
 
+## Campaign structure — TWO parallel campaigns (read before processing any session)
+
+This world is told as **two full, parallel campaigns** that occasionally **cross over**:
+
+- **Where the Flowers Forget (WtFF)** — *this vault's campaign.* DM: **Adam**. Taylor plays here (PC: Isla "Bruin" Kaplan). Full canon lives in this vault.
+- **Where the Flowers Remember (WtFR)** — a **separate full campaign**, DM: **Alec**. **Taylor has no access to it except where it crosses over with WtFF.**
+
+**Operating rule for the pipeline:** WtFR is **NOT** built out as canon here. Capture WtFR people, places, and events **only as crossover touchpoints, from the WtFF party's point of view** — lightweight stubs, never full character sheets or lore pages. Do not infer WtFR-internal facts; if WtFF characters weren't present to witness it, it doesn't get recorded.
+
+**Session types & speaker counts:**
+- **Regular WtFF session:** 1 DM (Adam) + 6 PCs = **~7 speakers**. Transcribe at `--speakers 7` (the new default).
+- **Joint / crossover session:** both DMs + both parties = **up to ~14 speakers**. Transcribe at `--speakers 14`. (Session 1 / 2026-06-14 was one of these.)
+
+**WtFR contacts seen in crossover so far (stubs only):** PCs — Lute, Nyx (Holly), Rowan (Josh), Auroran (Huey), Kidu, Dolm; recruiter NPC — Margaret "Mags" Honeythatch. File crossover stubs under `03-Characters/05 Crossover (WtFR)/`. The WtFF-side recruiter NPC is **Aeth / Amprum Fright** (Adam's NPC) — that one IS WtFF canon.
+
+---
+
 ## Known now (seed)
 
-- **Campaign:** Where the Flowers Forget. Launch **2026-06-14**.
+- **Campaign:** Where the Flowers Forget. Launch **2026-06-14**. (Parallel campaign: *Where the Flowers Remember*, DM Alec — crossover-only; see "Campaign structure" above.)
 - **Vault:** `wtff_vault`; structure per `WtFF_Vault_Structure_Guide.md`.
 - **Your role:** player — you have a POV character / your own PC page; the DM is someone else (identity pending). *(Confirm if this changes.)*
 - **Roll archive:** live `game_id` is `7853407` (captured Session 1, 2026-06-14). Update the roll-archive registration / rectrixcaedere wiring from the paused `game_id 0` placeholder to `7853407`.

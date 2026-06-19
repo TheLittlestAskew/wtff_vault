@@ -7,6 +7,8 @@ Read and obey these vault files before doing anything (read them now):
 - Workflows/Project/_Campaign_Setup.md   ← Step 0: pull pending values (POV character, roster, physical-dice players) from here.
 - DND_Sources/DM Notes.md   ← TOP AUTHORITY for in-game content; read before drafting.
 
+CAMPAIGN STRUCTURE — TWO PARALLEL CAMPAIGNS: This vault is **Where the Flowers Forget (WtFF)**, DM Adam. **Where the Flowers Remember (WtFR)**, DM Alec, is a separate full campaign captured here ONLY as crossover, from the WtFF party's point of view. File any WtFR character as a **lightweight crossover stub** under `03-Characters/05 Crossover (WtFR)/` — never a full PC/NPC sheet, never WtFR lore pages. The session note records crossover interactions only as the WtFF party witnessed them; do not infer WtFR-internal facts. See `_Campaign_Setup.md` → "Campaign structure".
+
 The spell-check at {{PIPELINE_DIR}}/spellcheck.md has been REVIEWED AND APPROVED by Taylor (she may have edited the table). Treat that table as final and authoritative.
 
 Session number: {{NN}}    Session date (MMddyy): {{DATE}}    ISO date: {{ISO_DATE}}

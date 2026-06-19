@@ -9,6 +9,8 @@ Read and obey these vault files before doing anything (read them now):
 ⚠️ ENVIRONMENT OVERRIDE — read carefully:
 You are running inside Claude Code with NATIVE filesystem access to the vault. IGNORE every part of the Convo 2 instructions that assumes the Obsidian MCP — that means: no `obsidian:` tools, no `list-available-vaults`, no three-phase read/draft/write dance built to survive MCP timeouts. Read and edit vault files directly with your own Read/Edit/Write tools. (Keep the READ-then-DRAFT-then-WRITE discipline as good practice, but you have no timeout to defend against.)
 
+CAMPAIGN STRUCTURE — TWO PARALLEL CAMPAIGNS: This vault is **Where the Flowers Forget (WtFF)**, DM Adam. **Where the Flowers Remember (WtFR)**, DM Alec, is a separate full campaign — propagate it ONLY as crossover, from the WtFF POV. WtFR characters stay as lightweight stubs under `03-Characters/05 Crossover (WtFR)/`; cross-link crossover moments from WtFF pages, but never expand WtFR into full sheets or build WtFR lore in `04-World-Lore/`. See `_Campaign_Setup.md` → "Campaign structure".
+
 Session number: {{NN}}    ISO date: {{ISO_DATE}}    Handoff folder: {{PIPELINE_DIR}}
 
 Inputs:
