@@ -13,7 +13,7 @@ In an age when the Rhus Valley’s abundance first drew envy from beyond its bor
 ## Campaign Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | The campaign's joint launch took place in the valley capital, [[Rhusatatiam]], at the [[Hearthread Hall]]. It was the **first of [[The Petal Cycle\|Veriden]], 75th year post-Heroes**, with a **Bloom Festival** approaching. [[The Uprooters]] recruited here. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | The campaign's joint launch took place in the valley capital, [[Rhusatatiam]], at the [[Hearthread Hall]]. It was the **first of [[The Petal Cycle\|Veriden]], 75th year post-Heroes**, with a **Bloom Festival** approaching. [[The Uprooters]] recruited here. |
 
 ## Related
 - [[Campaign Dashboard]]

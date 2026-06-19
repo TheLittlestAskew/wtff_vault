@@ -1,7 +1,7 @@
 ---
 type: location
 region: "[[Rhus Valley]]"
-first_visited: "[[Session 01 — A Railway Requires Everyone]]"
+first_visited: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 status: Explored
 ---
 
@@ -17,7 +17,7 @@ A sprawling, generations-old tavern in **[[Rhusatatiam]]**, capital of the **[[R
 - **The Common Fire** — a central hearth "never allowed to die," first lit with ash, wood, and flame contributed by every major [[Rhus Valley]] town. Travelers leave offerings: an herb sprig, a written memory, a coin, a song.
 
 ## Inhabitants
-A mixed crowd of travelers, farmers, musicians, and scribes. In [[Session 01 — A Railway Requires Everyone]] it hosted the candidates and recruiters of [[The Uprooters]].
+A mixed crowd of travelers, farmers, musicians, and scribes. In [[Session 01 — Winds in the East, Mist comin' in...]] it hosted the candidates and recruiters of [[The Uprooters]].
 
 ## History
 [Unknown/Ambiguous] — generations old; its Common Fire predates living memory as a communal symbol of the valley.
@@ -25,7 +25,7 @@ A mixed crowd of travelers, farmers, musicians, and scribes. In [[Session 01 —
 ## Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Joint launch site. [[The Uprooters]] ran their recruitment gauntlet here; [[Isla 'Bruin' Kaplan|Bruin]]'s scent reveal to [[Margaret “Mags” HoneyThatcher|Mags]]; the recruiters split the candidates into two groups. No combat. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Joint launch site. [[The Uprooters]] ran their recruitment gauntlet here; [[Isla 'Bruin' Kaplan|Bruin]]'s scent reveal to [[Margaret “Mags” HoneyThatcher|Mags]]; the recruiters split the candidates into two groups. No combat. |
 
 ## Connections
 - In [[Rhusatatiam]], capital of the [[Rhus Valley]].

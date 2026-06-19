@@ -26,7 +26,7 @@ sub_class:
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Interviewed; both recruiters felt they knew her. Watched Lute's inner-voice moment. Selected into the WtFF party (Group K). |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Interviewed; both recruiters felt they knew her. Watched Lute's inner-voice moment. Selected into the WtFF party (Group K). |
 
 ## Related
 - [[Campaign Dashboard]]

@@ -1,7 +1,7 @@
 ---
 type: location
 region: "[[Rhus Valley]]"
-first_visited: "[[Session 01 — A Railway Requires Everyone]]"
+first_visited: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 status: Explored
 ---
 
@@ -15,7 +15,7 @@ The **capital city of the [[Rhus Valley]]** — the first city named in play. It
 - Known for deep-rooted communal traditions; decisions made in open forums beneath canopy trees.
 
 ## Inhabitants
-Valley folk: farmers, herbalists, traders, and community elders. During [[Session 01 — A Railway Requires Everyone]] the city drew candidates from across the continent for [[The Uprooters]]' recruitment.
+Valley folk: farmers, herbalists, traders, and community elders. During [[Session 01 — Winds in the East, Mist comin' in...]] the city drew candidates from across the continent for [[The Uprooters]]' recruitment.
 
 ## History
 It is the **75th year post-Heroes**, the first of [[The Petal Cycle|Veriden]], with a **Bloom Festival** approaching at the time of the session. (Regional history: see [[Rhus Valley]] — the Covenant of Seven Harvests.)
@@ -23,7 +23,7 @@ It is the **75th year post-Heroes**, the first of [[The Petal Cycle|Veriden]], w
 ## Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | The joint campaign launch unfolded here, at the [[Hearthread Hall]]. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | The joint campaign launch unfolded here, at the [[Hearthread Hall]]. |
 
 ## Connections
 - Capital of the [[Rhus Valley]].

@@ -42,10 +42,10 @@ Bruin came to the [[Hearthread Hall]] meaning to be "a draft under a door" — i
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | The **scent reveal** to Mags; lowered her bear pelt. Selected by Aiph into the WtFF party (Group K). Eased outside during the mingling to breathe and listen. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | The **scent reveal** to Mags; lowered her bear pelt. Selected by Aiph into the WtFF party (Group K). Eased outside during the mingling to breathe and listen. |
 
 ## Key Quotes
-> **[[Session 01 — A Railway Requires Everyone]]**
+> **[[Session 01 — Winds in the East, Mist comin' in...]]**
 > "I know, I can smell it from here." — *Important to story*
 
 ## Related

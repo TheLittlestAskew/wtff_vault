@@ -32,7 +32,7 @@ sub_class:
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Interviewed first ("why the fuck do I have to go first?"); gave his reason for joining (magic misbehaving). Selected into Group K. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Interviewed first ("why the fuck do I have to go first?"); gave his reason for joining (magic misbehaving). Selected into Group K. |
 
 ## Related
 - [[Campaign Dashboard]]

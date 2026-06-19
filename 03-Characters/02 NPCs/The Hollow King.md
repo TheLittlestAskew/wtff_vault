@@ -33,10 +33,10 @@ Stands as the cautionary origin behind the campaign's "world post-heroes" thesis
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Named in the opening monologue as the Old World's grieving hero whose war against death triggered the Ashfall Wars. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Named in the opening monologue as the Old World's grieving hero whose war against death triggered the Ashfall Wars. |
 
 ## Key Quotes
-> **[[Session 01 — A Railway Requires Everyone]]**
+> **[[Session 01 — Winds in the East, Mist comin' in...]]**
 > *(Referenced, not voiced — no direct quote.)*
 
 ## Related

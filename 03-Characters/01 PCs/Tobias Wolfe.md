@@ -33,10 +33,10 @@ sub_class: Frost Sorcery
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Interviewed; tracked down food (Nero fetched a bowl) and sketched the room. The WtFF party's strongest perceiver — and the **only** WtFF PC to read the charged look between the recruiters at the split. Selected into Group K. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Interviewed; tracked down food (Nero fetched a bowl) and sketched the room. The WtFF party's strongest perceiver — and the **only** WtFF PC to read the charged look between the recruiters at the split. Selected into Group K. |
 
 ## Key Quotes
-> **[[Session 01 — A Railway Requires Everyone]]**
+> **[[Session 01 — Winds in the East, Mist comin' in...]]**
 > "Every life is amazing. They all deserve someone who sees them." — *Poignant*
 >
 > "that's how Rowan used to look at me. I think." *(spoken to [[Nero]]; refers to a **different** Rowan than [[Rowan]] the WtFR PC — flagged in the session note.)*

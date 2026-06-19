@@ -4,8 +4,8 @@
 
 | Caster | Spell | Level | Session | Context / Effect |
 |---|---|---|---|---|
-| [[Dolm]] | Mending | Cantrip | [[Session 01 — A Railway Requires Everyone]] | Repaired a chair he had broken during his interview (crossover). |
-| [[Margaret “Mags” HoneyThatcher\|Mags]] | [Unknown/Ambiguous] — a silence/chalk-circle effect | [Unknown] | [[Session 01 — A Railway Requires Everyone]] | Drew a chalk circle that created a **bubble of silence** around her interview table. DM described it via the chalk circle; not explicitly named as a spell — preserved as ambiguous. |
+| [[Dolm]] | Mending | Cantrip | [[Session 01 — Winds in the East, Mist comin' in...]] | Repaired a chair he had broken during his interview (crossover). |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] | [Unknown/Ambiguous] — a silence/chalk-circle effect | [Unknown] | [[Session 01 — Winds in the East, Mist comin' in...]] | Drew a chalk circle that created a **bubble of silence** around her interview table. DM described it via the chalk circle; not explicitly named as a spell — preserved as ambiguous. |
 
 ---
 

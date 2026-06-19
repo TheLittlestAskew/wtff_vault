@@ -31,7 +31,7 @@ sub_class:
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — A Railway Requires Everyone]] | Interviewed; tried to read Nyx's chest symbol (failed). Read the Mags/Aiph eye-contact moment successfully. Selected into Group K. |
+| [[Session 01 — Winds in the East, Mist comin' in...]] | Interviewed; tried to read Nyx's chest symbol (failed). Read the Mags/Aiph eye-contact moment successfully. Selected into Group K. |
 
 ## Related
 - [[Campaign Dashboard]]
