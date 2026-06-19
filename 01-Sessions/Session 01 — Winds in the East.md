@@ -19,7 +19,7 @@ aliases:
 pov_character: "Isla 'Bruin' Kaplan"
 ---
 
-# Session 01 — A Railway Requires Everyone
+# Session 01 — Winds in the East
 > **Date:** 06/14/2026 · **Campaign:** [[Artemesia|Where the Flowers Forget]] · **Session type:** Joint / crossover launch (both parties, both DMs, ~14 speakers)
 
 > [!note] Crossover note
