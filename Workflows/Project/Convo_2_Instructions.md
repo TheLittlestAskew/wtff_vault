@@ -9,7 +9,7 @@ This document defines the workflow for **Convo 2**: updating the Where the Flowe
 ## PREREQUISITES
 
 1. **The Convo 2 Handoff Block** — pasted from the end of Convo 1.
-2. **The completed session notes** — `.docx` or pasted/uploaded content from Convo 1.
+2. **The completed session note** — the markdown note created in Convo 1. Its exact path is the **first line of `handoff.md`** (e.g. `01-Sessions/Session ## — Title.md`). Read that file; do not look for `.docx` or pasted/uploaded content — WtFF is markdown-only.
 3. **Obsidian MCP connected and responsive** — vault name is `wtff_vault`. If unresponsive, say so immediately; do not draft from memory without verifying vault state. GitHub (`TheLittlestAskew/wtff_vault`) is the fallback write path.
 
 ---
@@ -96,11 +96,31 @@ Draft every update as a structured block, organized by file. Present the full pl
 11. **Mechanics** → `05-Mechanics/Spell_Usage.md` (spells cast); `Roll_Statistics.md` **only once a live `game_id` exists** — until then skip and note the gap.
 12. **Vault Sync Status** (EDIT — always last): matrix row + change-log entry.
 
-Present the plan (Creates / Appends / Edits / Skipped) and wait for confirmation.
+Present the plan (Creates / Appends / Edits / Skipped) and wait for confirmation. Use this format:
+
+```
+## Update Plan — Session [##]
+
+**Creates:** [count] new files
+  - [list each new file with path]
+
+**Appends:** [count] files
+  - [list each file]
+
+**Edits:** [count] files
+  - [list each file + brief description of what changes]
+
+**Skipped (N/A this session):**
+  - [list any skipped items and why — e.g. Roll_Statistics.md (roll archive not yet wired)]
+
+Ready to execute writes?
+```
+
+Confirm, then proceed to Phase 3.
 
 ### PHASE 3: WRITE
 
-Order: Creates → Appends → Edits → Vault Sync Status last. Log each write. On timeout: do not retry blindly — verify with `search-vault`, retry once, then add to a "manual apply" block.
+Order: Creates → Appends → Edits → Vault Sync Status last. Log each write. On a failed/incomplete write: do not retry blindly — verify the content landed (re-read the file or `search-vault`), retry once, then add to a "manual apply" block.
 
 ---
 
@@ -109,6 +129,52 @@ Order: Creates → Appends → Edits → Vault Sync Status last. Log each write.
 - **Backlinks:** `[[Character]]`, `[[Location]]`, `[[Session 01 — Title]]`; display override `[[Session 11 — Long_Title|Session 11]]`. Backlink on first mention within a section.
 - **File naming:** sessions `Session ## — Title.md` (em dash); PCs/NPCs/locations by name; trackers single files.
 - **Source authority:** `DND_Sources/DM Notes.md` → transcript → published rules. DM rulings supersede rulebook text.
+
+## ENVIRONMENT & MCP-FAILURE RECOVERY
+
+WtFF normally runs Convo 2 **inside Claude Code with native filesystem access** to the vault (see the ENVIRONMENT OVERRIDE in the `convo2_propagate.md` runner): read and edit vault files directly, no `obsidian:` tools, no MCP-timeout dance. Keep the READ → DRAFT → WRITE discipline regardless — it is good practice, not just timeout defense.
+
+The protocol below is a **fallback** for the legacy/manual path where Convo 2 runs through the Obsidian MCP instead of native filesystem access:
+
+1. **Phase 1 (reads):** If a read times out, ask Taylor to restart. Use `search-vault` as a fallback — line numbers and content snippets are often enough to proceed. Log every successful read so restarts don't repeat work.
+2. **Phase 2 (drafting):** No MCP calls. Cannot fail.
+3. **Phase 3 (writes):** If a write times out, do NOT retry blindly. Verify first with `search-vault`. If the content is there, move on. If not, retry once. Two failures on the same file → add it to a "manual apply" block.
+4. **If the MCP is completely down for the session:** draft all updates in Phase 2 and present them as **manual-apply blocks** (file path, operation, full content) so Taylor can apply them by hand or the next Convo 2 can execute them. Under native filesystem access this case does not arise — write directly.
+5. **Progress tracking:** `/home/claude/convo2_progress.md` tracks completed reads and writes across restarts.
+
+---
+
+## CATCH-UP SESSIONS
+
+If `Vault Sync Status.md` shows gaps for prior sessions, process sessions in **chronological order** (oldest gap first) so backlinks and timeline entries land in sequence.
+
+Taylor may also ask to catch up a **single file across multiple sessions** (e.g. "Loot Tracker is 3 sessions behind"). In that case focus on that one file across the gap sessions — append a newest-first section per missing session — rather than running full propagation for each.
+
+---
+
+## COMPLETION CRITERIA
+
+A session is fully synced when ALL of the following are ✅ (or ➖ if not applicable):
+
+| # | Item | Target File | "Done" Means |
+|---|---|---|---|
+| 1 | Session Note | `01-Sessions/Session ## — Title.md` | Full markdown, all sections, backlinks (created in Convo 1 Phase B) |
+| 2 | Corrected Transcript | `Session_Sources/Transcripts/Corrected/` | Confirmed present in vault (from Convo 1) |
+| 3 | Dashboard | `00-Campaign-Hub/Campaign Dashboard.md` | Sessions row, NPCs / Key Antagonists, locations, threads, timeline updated |
+| 4 | Loot Tracker | `00-Campaign-Hub/Loot Tracker.md` | Newest-first session section added (or "No new loot — [reason]") |
+| 5 | Quote Board | `00-Campaign-Hub/Quote Board Master.md` | Newest-first section with all verbatim quotes, tagged |
+| 6 | Profanity Ledger | `00-Campaign-Hub/Profanity Ledger.md` | Newest-first section added, running totals updated |
+| 7 | Roll Stats | `05-Mechanics/Roll_Statistics.md` | ➖ until a live `game_id` / `wtff_session_rolls` view exists; note the gap |
+| 8 | POV Journal | `02-Character_Journal/[POV Character] Journal.md` | Collapsible section added for this session (Hard Limits respected) |
+| 9 | PC Pages | `03-Characters/01 PCs/*.md` | All present PCs updated; descriptors APPEND-only |
+| 10 | NPC Pages | `03-Characters/02 NPCs/*.md` | New NPCs created from template, existing NPCs updated |
+| 11 | World-Lore | `04-World-Lore/Locations\|Regions\|Factions/*.md` | New pages created from templates, revisited pages updated |
+| 12 | Flora/Fauna | `07-Flora_Fauna/Creatures\|Plants_Fungi/*.md` | New creatures/plants created, existing updated (➖ if none) |
+| 13 | Mechanics / Rulings | `05-Mechanics/Spell_Usage.md`; `00-Campaign-Hub/House Rules & Rulings.md` | Spells cast logged; new DM rulings added (➖ if none) |
+
+`Vault Sync Status.md` is updated **LAST**: ✅/➖ for every per-session column (Transcript · Spell Check · Session Notes (md) · Vault Markdown · POV Journal · Rolls Synced) plus a dated change-log entry.
+
+---
 
 ## WHAT CONVO 2 DOES NOT DO
 

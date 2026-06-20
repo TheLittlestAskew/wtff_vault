@@ -78,6 +78,106 @@ Central command center. Every other file links back here. Updated after every se
 - **Vault Format Reference.md** — conventions (backlinks, naming, status vocab).
 - **Trackers/** — supplementary trackers as needed.
 
+#### Hub Table Schemas
+
+Column schemas for the hub files. Header format for any per-session section is `## Session [##] — [Title] ([MM/DD/YYYY])`, newest first.
+
+**Campaign Dashboard — Sessions**
+
+| Column | Content |
+|---|---|
+| Session # | Zero-padded (01, 02, …) |
+| Date | MM/DD/YYYY |
+| Title | Final chosen session title (must match the session notes file exactly) |
+| Notes Link | `[[Session ## — Title]]` |
+| Summary | 1–2 sentence session summary |
+
+**Campaign Dashboard — NPC Companions** (NPCs currently traveling with or allied to the party)
+
+| Column | Content |
+|---|---|
+| Name | NPC name, backlinked: `[[NPC Name]]` |
+| Status | Active / Left / Dead / Missing / Captured |
+| Joined | Session # when they joined (or "Pre-existing") |
+| Notes | Current role, relationship to party, notable changes |
+
+**Campaign Dashboard — Key Antagonists** (known enemies, threats, opposing forces)
+
+| Column | Content |
+|---|---|
+| Name | Antagonist name, backlinked |
+| Affiliation | Faction, group, or independent |
+| Status | Active / Defeated / Unknown / Fled |
+| Last Seen | Session # and location |
+| Notes | Threat level, motives, abilities observed |
+
+**Campaign Dashboard — Locations** (all locations visited or learned about)
+
+| Column | Content |
+|---|---|
+| Location | Name, backlinked: `[[Location Name]]` |
+| Region | Parent region, backlinked, if applicable |
+| First Visited | Session # (link with display alias, e.g. `[[Session 01 — Title\|S01]]`) |
+| Status | Explored / Partially Explored / Known But Unvisited / Hostile / Safe |
+| Notes | Key details, who/what is there |
+
+**Campaign Dashboard — Open Threads** (unresolved storylines, mysteries, objectives)
+
+| Column | Content |
+|---|---|
+| Thread | Description of the open question or objective |
+| Introduced | Session # |
+| Status | Open / In Progress / Completed (Session #) / Abandoned |
+| Related | Backlinks to characters, locations, sessions involved |
+
+**Campaign Dashboard — In-Game Timeline** (elapsed in-story time)
+
+| Column | Content |
+|---|---|
+| Phase | Narrative phase description (e.g., "The Uprooter Interviews") |
+| Sessions | Session range (e.g., S01, S03–S04) |
+| In-Game Time | Estimated elapsed time / calendar reference |
+| Notes | Special rules or context |
+
+**Loot Tracker.md** — one section per session, newest first. Section header as above.
+
+| Column | Content |
+|---|---|
+| Item Name | Name of the item or artifact |
+| Acquired By | Who picked it up or received it |
+| Current Holder | Who has it now (may differ from acquired by) |
+| Status | Held / Equipped / Lost / Destroyed / Given Away / Stored |
+| Notes | Properties, abilities, context of acquisition |
+| Session Acquired | Session # (redundant with header but useful for search) |
+
+**Quote Board Master.md** — one section per session, newest first. Verbatim only. Entry format:
+
+```markdown
+**[[Character Name]] · [Tag]**
+> "[Verbatim quote]"
+```
+
+Valid tags: `[Funny]` · `[Poignant]` · `[DM Quip]` · `[Banter]` · `[Serious]` · `[Important to Story]`. Attribute to the character (in-character speech) or `Player (OOC)` for out-of-character. Preserve order of occurrence within each session.
+
+**Profanity Ledger.md** — a running-totals section at the top, then one section per session.
+
+Running Totals (top of file):
+
+| Column | Content |
+|---|---|
+| Speaker | Player/character name |
+| Campaign Total | Running count across all sessions |
+| Most Common | Their most-used curse word |
+
+Per-session table:
+
+| Column | Content |
+|---|---|
+| Speaker | Who said it |
+| Curse Word | The word used |
+| Frequency | Count within this session |
+| Context | Brief description of the moment |
+
 ### `01-Sessions/`
 One markdown file per session. **Filename:** `Session [##] — [Title].md` (zero-padded, em dash, title matches the final chosen title exactly). Full notes in markdown with `[[backlinks]]` to characters, locations, items, and other sessions. Backlink on first mention within a section.
 
@@ -121,6 +221,52 @@ Reference + DM input. `DM Notes.md` is **top authority** — read before every u
 Seven templates for consistent new notes: PC, NPC, Location, Faction, Creature, Plant/Fungus, Session Notes.
 
 ---
+
+## Corrected-Transcript Speaker-Label Conventions
+
+The `Corrected/` transcripts are formatted as a script. These conventions are **load-bearing for Phase B output** — follow them exactly:
+
+- Character names in **ALL CAPS** for in-character speech: `BRUIN:`, `ARTIE:`, `BE-BO:`
+- Player name + `(OOC)` for out-of-character speech: `TAYLOR (OOC):`, `WILL (OOC):`
+- `DM:` for DM narration (or the named DM); `NPC NAME:` when the DM is voicing a specific, identified NPC
+- `[inaudible/cut off]` markers retained as-is — never guess at obscured text
+- One blank line between each speaker entry
+- Original timestamps preserved
+
+## Backlink Conventions
+
+Backlinks are the connective tissue of the vault. Every note links to related content.
+
+| Content Type | Backlink Format | Example |
+|---|---|---|
+| PC names | `[[Character Name]]` | `[[Isla 'Bruin' Kaplan]]` |
+| NPC names | `[[NPC Name]]` | `[[Margaret “Mags” HoneyThatcher]]` |
+| Locations | `[[Location Name]]` | `[[Hearthread Hall]]` |
+| Sessions | `[[Session ## — Title]]` | `[[Session 01 — Winds in the East, Mist comin' in...]]` |
+| Factions | `[[Faction Name]]` | `[[The Uprooters]]` |
+| Creatures | `[[Creature Name]]` | `[[Creature Name]]` |
+| Plants/Fungi | `[[Plant Name]]` | `[[Plant Name]]` |
+
+**Rules:** Backlink on first mention within a section (not every occurrence). Use a display alias when the cell needs a short form: `[[Session 01 — Title\|S01]]`, `[[Margaret “Mags” HoneyThatcher\|Mags]]`. The Campaign Dashboard links to everything — it is the central hub. Every page ends with a `## Related` section of backlinks.
+
+## File-Naming Conventions Summary
+
+| Type | Format | Example |
+|---|---|---|
+| Session Notes | `Session [##] — [Title].md` (em dash) | `Session 01 — Winds in the East, Mist comin' in....md` |
+| Raw Transcripts | `[##]-[MMddyy]_raw_transcript.md` | `01-061426_raw_transcript.md` |
+| Corrected Transcripts | `[##] - [MMddyy]_corrected.md` | `01 - 061426_corrected.md` |
+| Spell Check Logs | `[MMddyy]_Spell_Check_Log.md` | `061426_Spell_Check_Log.md` |
+| PCs | `[Character Name].md` | `Isla 'Bruin' Kaplan.md` |
+| NPCs | `[NPC Name].md` | `Margaret “Mags” HoneyThatcher.md` |
+| Locations | `[Location Name].md` | `Hearthread Hall.md` |
+| Regions | `[Region Name].md` | `Rhus Valley.md` |
+| Factions | `[Faction Name].md` | `The Uprooters.md` |
+| Creatures | `[Creature Name].md` | `[Creature Name].md` |
+| Plants/Fungi | `[Plant or Fungus Name].md` | `[Plant Name].md` |
+| Media | Descriptive name | `region_map.png` |
+
+> Trackers are **single files** — no S##–S## rotation. The crossover roster under `03-Characters/PCs/Where The Flowers Remember/` (WtFR) is user-maintained reference, not auto-generated.
 
 ## Pre-Launch Status (2026-06-05)
 **Done:** folders, templates, Campaign-Hub trackers, mechanics scaffolds, structure guide, README, .gitignore, DM notes stub.
