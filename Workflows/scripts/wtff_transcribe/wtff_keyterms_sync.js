@@ -5,7 +5,7 @@
  * Scans the vault's proper-noun folders (NPCs, Locations, Factions, Regions,
  * Pantheon, Flora & Fauna) and appends any NEW page names — plus their
  * frontmatter aliases — to keyterms_extra.json. The transcriber merges that
- * file into its keyterms_prompt at transcription time.
+ * file into its word_boost at transcription time.
  *
  * ADD-ONLY. It never deletes or edits your curated base list (WTFF_KEYTERMS
  * in transcribe.js). The two lists are combined and de-duplicated at

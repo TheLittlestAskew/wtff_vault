@@ -203,6 +203,19 @@ function runClaude(promptFile) {
 }
 
 // ── WATCH-MODE handler ──
+// Joint/crossover sessions run both the WtFF and WtFR parties (~14 speakers); a regular
+// WtFF session is ~7 (the transcriber's default). The transcriber accepts `--speakers N`,
+// but the watcher must tell it when a recording is a joint session. Detect a hint from the
+// recording filename: an explicit "<N>sp"/"<N>speakers" token, or the words
+// "joint"/"crossover". Returns a speaker count to pass through, or null to use the default.
+function detectSpeakers(mp3) {
+  const base = path.basename(mp3).toLowerCase();
+  const m = base.match(/(\d{1,2})\s*(?:sp|speakers?)\b/);
+  if (m) return parseInt(m[1], 10);
+  if (/\b(joint|crossover)\b/.test(base)) return 14;
+  return null;
+}
+
 function processRecording(mp3) {
   banner(`New recording: ${path.basename(mp3)}`);
 
@@ -232,7 +245,10 @@ function processRecording(mp3) {
 
   log(`Transcribing S${sess.nn} (${sess.mmddyy})… (this can take several minutes)`);
   setStage('transcribe', 'running', 'AssemblyAI — uploading & transcribing…');
-  const t = spawnSync(`node "${TRANSCRIBE_JS}" "${mp3}" "${transcriptOut}"`,
+  const spk = detectSpeakers(mp3);
+  if (spk) log(`Joint/crossover hint in filename — transcribing with ${spk} speakers.`);
+  const spkArg = spk ? `--speakers ${spk} ` : '';
+  const t = spawnSync(`node "${TRANSCRIBE_JS}" ${spkArg}"${mp3}" "${transcriptOut}"`,
     { cwd: TRANSCRIBE_CWD, shell: true, stdio: 'inherit' });
   if (t.status !== 0) { setStage('transcribe', 'failed', 'See watcher.log'); return notify('Transcription FAILED — see _pipeline\\watcher.log. (Is wtff_transcribe\\transcribe.js created?)'); }
 

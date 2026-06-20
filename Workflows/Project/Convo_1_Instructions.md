@@ -141,7 +141,7 @@ This is the 8-section notes content from Step 4, rendered to markdown with front
 - **Source of structure:** `Templates/Session Notes Template.md` — follow its section order and headings exactly. **Content authority** remains `Session_Notes_Section_Breakdown.md`.
 - **Frontmatter** — tags, aliases, session date, session number.
 - **Backlinks** — `[[Character Name]]` for every PC and NPC, `[[Location Name]]` for every location/region/faction, `[[Session ## — Title]]` for cross-session references.
-- **Target / file naming:** write into `01-Sessions/`. Filename convention `WTFF_[##]_[MMDDYY]_[Title]` (must match the handoff block). Title matches the final chosen title from Step 5 exactly.
+- **Target / file naming:** write into `01-Sessions/` as `Session [##] — [Title].md` (em dash — matching existing vault files and the Convo 2 / Section Breakdown convention). Title matches the final chosen title from Step 5 exactly.
 
 Convo 1 authors this note; Convo 2 verifies it and propagates everything else into the rest of the vault. Build from the template exactly, validate, then record the note's path for the handoff block.
 

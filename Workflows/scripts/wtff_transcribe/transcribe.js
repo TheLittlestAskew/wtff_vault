@@ -220,11 +220,25 @@ async function uploadFile(filePath) {
 
 async function submitTranscription(audioUrl, speakersExpected) {
   log(`Submitting transcription with WtFF vocabulary (${speakersExpected} speakers expected)...`);
+
+  // AssemblyAI requires each custom_spelling 'to' to be a single word. Drop any
+  // multi-word corrections (with a warning) so one bad entry can't fail the whole job.
+  const customSpelling = WTFF_CUSTOM_SPELLING.filter((r) => {
+    if (r.to && !/\s/.test(r.to.trim())) return true;
+    log(`  ⚠ skipping custom_spelling "${r.to}" — 'to' must be one word`);
+    return false;
+  });
+
   const requestBody = {
     audio_url: audioUrl,
-    speech_models: ["universal-3-pro", "universal-2"],
-    keyterms_prompt: ALL_KEYTERMS,
-    custom_spelling: WTFF_CUSTOM_SPELLING,
+    // Pin to Universal-2 — phonetic ASR with no world-knowledge prior, so it will NOT
+    // substitute real-world / published-D&D names for WtFF's invented Artemesia nouns.
+    // (WtFF is an original setting; a U3 world-prior is more likely to corrupt coined names.)
+    speech_models: ["universal-2"],
+    // Universal-2 boosts via word_boost; keyterms_prompt is U3-only and silently ignored on U2.
+    word_boost: ALL_KEYTERMS,
+    boost_param: "default",
+    custom_spelling: customSpelling,
     speaker_labels: true,
     speakers_expected: speakersExpected,
     language_code: "en_us",
@@ -272,7 +286,7 @@ function formatTranscript(transcriptData, sourceFileName) {
   lines.push(`# Source: ${sourceFileName}`);
   lines.push(`# Transcribed: ${new Date().toISOString()}`);
   lines.push(`# Audio duration: ${Math.round(transcriptData.audio_duration / 60)} minutes`);
-  lines.push(`# Model: ${transcriptData.speech_model || "universal-3-pro"}`);
+  lines.push(`# Model: ${transcriptData.speech_model || "universal-2"}`);
   lines.push(`# Confidence: ${(transcriptData.confidence * 100).toFixed(1)}%`);
   lines.push("");
   lines.push("---");
