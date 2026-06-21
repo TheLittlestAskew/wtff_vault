@@ -28,7 +28,7 @@ The office of the Pistil was created in the founding of balance after the Ashfal
 | — | — | — |
 
 ## Relationships
-Binds the five **Petals** of [[The Flower Court]] (the region-leaders of [[The Burn]], [[Rhus Valley]], [[Liriope River Net]], [[The Bloom]], [[Salvia Forest]]).
+Binds the five **Petals** of [[The Flower Court]] (the region-leaders of [[The Burn]], [[Rhus Valley]], [[Liriope River Net]], [[04-World-Lore/Locations/Regions/The Bloom]], [[Salvia Forest]]).
 
 ## Key Events
 | Session | Event |
