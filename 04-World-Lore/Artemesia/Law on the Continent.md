@@ -76,7 +76,7 @@ Leaders and navigators make judgment calls in the moment
 Contracts are often verbal and binding through trust
 Justice is about keeping things moving—not getting stuck in blame.
 
-##### 🌸 **[[The Bloom]] — Law of Design**
+##### 🌸 **[[04-World-Lore/Locations/Regions/The Bloom]] — Law of Design**
 Law is structured, deliberate, and philosophical.
 Rules are written, studied, and refined
 Violations are analyzed as failures of balance

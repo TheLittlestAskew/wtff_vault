@@ -30,7 +30,7 @@ To fix something in place is to misunderstand it.
 
 ---
 
-## 🌸 **[[The Bloom]]** — Art of Growth and Intention
+## 🌸 **[[04-World-Lore/Locations/Regions/The Bloom]]** — Art of Growth and Intention
 In the Bloom, creation is cultivated.
 +**Music** is intricate and layered—structured compositions that evolve over time, sometimes incorporating living elements like plant resonance or environmental sound.
 +**Art** is living—sculptures grown from vines, flowers trained into shapes, entire installations that bloom, wither, and return.
