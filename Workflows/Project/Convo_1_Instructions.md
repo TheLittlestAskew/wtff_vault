@@ -143,7 +143,46 @@ This is the 8-section notes content from Step 4, rendered to markdown with front
 - **Backlinks** — `[[Character Name]]` for every PC and NPC, `[[Location Name]]` for every location/region/faction, `[[Session ## — Title]]` for cross-session references.
 - **Target / file naming:** write into `01-Sessions/` as `Session [##] — [Title].md` (em dash — matching existing vault files and the Convo 2 / Section Breakdown convention). Title matches the final chosen title from Step 5 exactly.
 
-Convo 1 authors this note; Convo 2 verifies it and propagates everything else into the rest of the vault. Build from the template exactly, validate, then record the note's path for the handoff block.
+### ⚠️ Website Parser Contract — LOAD-BEARING
+
+The session note is **also the public website's live source.** `where-the-flowers-forget/session.html` (in the `TheLittlestAskew/rectrixcaedere` repo) fetches this note at read time from `raw.githubusercontent.com/TheLittlestAskew/wtff_vault/main/01-Sessions/…` and extracts each panel by scanning for an **`##` or `###` heading whose text *starts with* a keyword**, grabbing everything until the next heading. The note can be archive-perfect and still render blank panels on the live site if these rules aren't met. (The vault must stay public for the raw fetch — it currently is.)
+
+Three rules are non-obvious and silently break rendering if missed:
+
+1. **Section headings MUST be `##` or `###`** — never `#`, `####`, bold-only, or bracketed ALL-CAPS plain text. The parser only matches `##`/`###` lines, and the keyword must be at the **start** of the heading text (trailing words are fine — e.g. `### Patterns, Progress & Future Implications` matches `Patterns`).
+2. **The POV section** is an `## Character POV Journal` heading **containing a sub-heading whose text includes `Journal Entry`** (e.g. `### Isla "Bruin" Kaplan — In-Character Journal Entry`). The hero/journal zone reads the prose under that sub-heading; without it the zone falls back to the whole POV section.
+3. **The `## Session Metadata` table is read for the "At a glance" panel** — it must contain a **`Start Location`** row (the site also surfaces `Party Level` and `Session Type` rows if present). The site takes the *date* from its own `ARC` registry, and *rolls* live from `wtff_session_rolls` — neither comes from the note — but Location/level/type come from this table.
+
+**Required headings** (each an `##`/`###` heading whose text *starts with* the keyword — case-insensitive):
+
+| Site zone | Heading must start with | Shape |
+|---|---|---|
+| Hero / POV journal | `Character POV Journal` | H2 + a `### …Journal Entry` sub-line |
+| Meta / at-a-glance | `Session Metadata` | key/value table incl. a `Start Location` row |
+| Narrative | `Narrative Summary` | prose |
+| Open threads | `Quests / Objectives` | `-` bullets ("Completed" → marked done) |
+| NPCs | `NPCs` | pipe table (col 0 = name, col 1 = race/class, last col = status) |
+| Locations | `Locations Visited` | pipe table (location \| description) |
+| Loot | `Loot & Items` | pipe table (owner \| item \| state) |
+| Quotes | `Quote Board` | `-` bullet lines (`"quote" — Speaker · Tag`) |
+| Profanity | `Profanity Record` | pipe table |
+| Patterns | `Patterns` | `-` bullets |
+| Continuity flags | `Continuity Flags` | table or prose |
+
+The current `Templates/Session Notes Template.md` and the existing notes already satisfy this — **do not rename these headings.** (Initiative / Encounter / roll panels pull live from `wtff_session_rolls` and self-hide while the roll archive is unwired, so they need nothing in the note beyond the Full Roll Log.)
+
+**Validate before handoff:**
+```bash
+F="01-Sessions/Session ## — Title.md"
+for h in "Session Metadata" "Character POV Journal" "Narrative Summary" "Quests / Objectives" "NPCs" "Locations Visited" "Loot & Items" "Quote Board" "Profanity Record" "Patterns" "Continuity Flags"; do
+  grep -qiE "^#{2,3}[[:space:]]+$h" "$F" || echo "MISSING heading: $h";
+done
+grep -qiE "Journal Entry" "$F" || echo "MISSING the '### … Journal Entry' POV sub-heading";
+grep -qiE "Start Location" "$F"  || echo "MISSING 'Start Location' row in Session Metadata table";
+```
+Any `MISSING` line = fix the note before handoff.
+
+Convo 1 authors this note; Convo 2 verifies it, propagates everything else into the rest of the vault, **and registers the session on the website (the `ARC` / map entry — Convo 2 Step 12).** Build from the template exactly, validate against the contract above, then record the note's path for the handoff block.
 
 ---
 
