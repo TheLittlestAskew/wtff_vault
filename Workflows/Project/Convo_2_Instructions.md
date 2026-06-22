@@ -94,7 +94,18 @@ Draft every update as a structured block, organized by file. Present the full pl
 9. **World-Lore** → `04-World-Lore/Locations|Regions|Factions/` (CREATE from templates / APPEND).
 10. **Flora & Fauna** → `07-Flora_Fauna/Creatures|Plants_Fungi/` (CREATE/APPEND). Skip if none.
 11. **Mechanics** → `05-Mechanics/Spell_Usage.md` (spells cast); `Roll_Statistics.md` **only once a live `game_id` exists** — until then skip and note the gap.
-12. **Vault Sync Status** (EDIT — always last): matrix row + change-log entry.
+12. **Website session sync (rectrixcaedere.com)** — **SEPARATE REPO** (`TheLittlestAskew/rectrixcaedere`), *not* the vault; deploy on its own. The WtFF reader holds a hardcoded registry, so a new session does NOT appear on the site until added in **two** places:
+    - **`where-the-flowers-forget/session.html` → the `ARC` array.** Append an entry:
+      ```js
+      {n:'##',d:'YYYY-MM-DD',lbl:'Month D, YYYY',t:'<display title>',
+       f:SS+'/Session%20##%20%E2%80%94%20<URL-encoded title>.md',
+       tags:[{l:'<label>',c:'<class>'}]}
+      ```
+      `f` must be the **exact** `01-Sessions/` filename, URL-encoded (`%20`=space, `%E2%80%94`=em dash) — a mismatch makes the note body fail to load. `t` is a curated display title (may differ from the note title). `tags` is optional; valid `c` classes: `subdm` (crossover / guest DM), `rp` (roleplay), `combat`, `cliff` (cliffhanger), `level` (level-up), `sun`. **WtFF uses no `rec` audio field** (that's SITL) — omit it.
+    - **`where-the-flowers-forget/archive.html` → the map's location→sessions list.** Add `{n:'##',title:'<title>',date:'MM/DD/YYYY',href:'/where-the-flowers-forget/session.html?n=##'}` under the `at:` location where the session happens. If that location isn't on the map yet, first add it to the `L` locations dict (`key:{x,y,name,region}`, `x`/`y` as map-relative %).
+    - The reader fetches the note body live from `raw.githubusercontent.com/.../wtff_vault/main`; the vault must stay public (it is). Rolls pull from `wtff_session_rolls` by date — **none exist yet**, so the site shows "roll archive pending"; nothing to wire here until the DDB game is live.
+    - The automated `convo2_propagate` runner pushes **only the vault repo** — this website step is manual / a separate deploy. SHA-verify the push to `rectrixcaedere`.
+13. **Vault Sync Status** (EDIT — always last): matrix row + change-log entry.
 
 Present the plan (Creates / Appends / Edits / Skipped) and wait for confirmation. Use this format:
 
@@ -171,6 +182,7 @@ A session is fully synced when ALL of the following are ✅ (or ➖ if not appli
 | 11 | World-Lore | `04-World-Lore/Locations\|Regions\|Factions/*.md` | New pages created from templates, revisited pages updated |
 | 12 | Flora/Fauna | `07-Flora_Fauna/Creatures\|Plants_Fungi/*.md` | New creatures/plants created, existing updated (➖ if none) |
 | 13 | Mechanics / Rulings | `05-Mechanics/Spell_Usage.md`; `00-Campaign-Hub/House Rules & Rulings.md` | Spells cast logged; new DM rulings added (➖ if none) |
+| 14 | Website session entry | `rectrixcaedere` → `where-the-flowers-forget/session.html` (`ARC`) + `archive.html` (map) | New `ARC` entry + map session/marker added and deployed (separate repo). ➖ only if the site reader doesn't exist yet |
 
 `Vault Sync Status.md` is updated **LAST**: ✅/➖ for every per-session column (Transcript · Spell Check · Session Notes (md) · Vault Markdown · POV Journal · Rolls Synced) plus a dated change-log entry.
 
@@ -179,5 +191,5 @@ A session is fully synced when ALL of the following are ✅ (or ➖ if not appli
 ## WHAT CONVO 2 DOES NOT DO
 
 - Does not re-read transcripts, generate `.docx`, or spell-check (all Convo 1).
-- Does not modify files outside the vault.
+- Does not modify vault content from memory — only from the Convo 1 note and handoff. The **one** file it touches outside the vault is the website registry in the `rectrixcaedere` repo (Step 12 / checklist 14), deployed separately.
 - May query the DDB roll archive if/when WTFF's `game_id` is live (separate connection; does not affect MCP stability).
