@@ -80,7 +80,7 @@ State "Phase 1 complete. Read [X] files." when done.
 
 Draft every update as a structured block, organized by file. Present the full plan before any writes.
 
-1. **Session note** → `01-Sessions/Session ## — Title.md` (CREATE). Full markdown of all sections from the Session Notes Section Breakdown, with `[[backlinks]]` for characters, locations, regions, factions, items, and cross-session links. Em dash in filename; title matches Convo 1 exactly.
+1. **Session note** → `01-Sessions/Session ## — Title.md` (VERIFY — do not recreate). Convo 1 (Phase B) already authored this note. Confirm it exists and is complete — all sections from the Session Notes Section Breakdown, frontmatter, and `[[backlinks]]` for characters, locations, regions, factions, items, and cross-session links (em dash in filename; title matches Convo 1 exactly). Do **not** create or overwrite it. Only create it if it is genuinely missing (Convo 1 was skipped) — never produce a duplicate file.
 2. **Campaign Dashboard** (EDIT): Sessions row; NPC Companions / Key Antagonists; Locations; Open Threads; In-Game Timeline.
 3. **Trackers** (APPEND newest-first):
    - `Loot Tracker.md` — session section (or "No new loot — [reason]").
