@@ -1,7 +1,7 @@
 # Where the Flowers Forget — Obsidian Vault
 
 > **Vault name:** `wtff_vault`
-> **Local path:** `C:\Users\theli\wtff_vault`
+> **Local path:** `C:\Users\theli\Obsidian Vaults\wtff_vault`
 > **GitHub repo:** https://github.com/TheLittlestAskew/wtff_vault (private)
 > **Campaign launch:** 2026-06-14
 

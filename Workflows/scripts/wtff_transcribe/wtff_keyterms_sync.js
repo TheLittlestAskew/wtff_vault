@@ -22,7 +22,8 @@ const fs = require('fs');
 const path = require('path');
 
 // ══ CONFIG ══════════════════════════════════════════════════════
-const VAULT_ROOT = 'C:\\Users\\theli\\wtff_vault';
+// Vault root derived from this script's location (<vault>\Workflows\scripts\wtff_transcribe\).
+const VAULT_ROOT = path.resolve(__dirname, '..', '..', '..');
 const SCAN_FOLDERS = [
   path.join(VAULT_ROOT, '03-Characters', '02 NPCs'),
   path.join(VAULT_ROOT, '04-World-Lore', 'Locations'),

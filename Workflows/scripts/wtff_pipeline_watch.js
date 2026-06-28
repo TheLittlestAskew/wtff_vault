@@ -36,7 +36,9 @@ const chokidar = require('chokidar');
 // ══════════════════════════════════════════════════════════════════
 //  CONFIG
 // ══════════════════════════════════════════════════════════════════
-const VAULT_ROOT    = 'C:\\Users\\theli\\wtff_vault';
+// Vault root derived from this script's location (<vault>\Workflows\scripts\),
+// so moving the vault doesn't break it.
+const VAULT_ROOT    = path.resolve(__dirname, '..', '..');
 const RECORDINGS    = path.join(VAULT_ROOT, 'Session_Sources', 'Recordings');
 
 // Where the transcriber writes the raw transcript.

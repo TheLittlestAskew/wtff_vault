@@ -16,7 +16,7 @@ This document defines the workflow for **Convo 2**: updating the Where the Flowe
 
 ## VAULT REFERENCE
 
-**Vault name:** `wtff_vault` · **Local path:** `C:\Users\theli\wtff_vault`
+**Vault name:** `wtff_vault` · **Local path:** `C:\Users\theli\Obsidian Vaults\wtff_vault`
 
 ```
 wtff_vault/

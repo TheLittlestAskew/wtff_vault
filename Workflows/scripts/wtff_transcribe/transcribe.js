@@ -8,7 +8,7 @@
  * corrections pre-loaded. Cloned from the Ashfall transcriber.
  *
  * LOCATION:
- *   C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js
+ *   C:\Users\theli\Obsidian Vaults\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js
  *
  * PREREQUISITES:
  *   1. Node.js v18+
@@ -18,7 +18,7 @@
  *   4. Session recordings in: wtff_vault\Session_Sources\Recordings\
  *
  * USAGE:
- *   cd C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe
+ *   cd C:\Users\theli\Obsidian Vaults\wtff_vault\Workflows\scripts\wtff_transcribe
  *   node transcribe.js                              (interactive picker)
  *   node transcribe.js "session01.mp3"              (by filename)
  *   node transcribe.js <mp3> <output.md>            (explicit output — used by the watcher)
@@ -34,7 +34,8 @@ const path = require("path");
 // ── CONFIG ──────────────────────────────────────────────────
 const BASE_URL = "https://api.assemblyai.com";
 
-const VAULT_ROOT = String.raw`C:\Users\theli\wtff_vault`;
+// Vault root derived from this script's location (<vault>\Workflows\scripts\wtff_transcribe\).
+const VAULT_ROOT = path.resolve(__dirname, "..", "..", "..");
 const RECORDINGS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Recordings");
 const TRANSCRIPTS_DIR = path.join(VAULT_ROOT, "Session_Sources", "Transcripts", "Raw_Unedited");
 
@@ -50,7 +51,7 @@ function loadApiKey() {
   if (process.env.ASSEMBLYAI_API_KEY) return process.env.ASSEMBLYAI_API_KEY;
   const candidates = [
     path.join(VAULT_ROOT, ".env"),
-    String.raw`C:\Users\theli\sitl_vault\.env`,
+    String.raw`C:\Users\theli\Obsidian Vaults\sitl_vault\.env`,
   ];
   for (const envPath of candidates) {
     if (!fs.existsSync(envPath)) continue;
