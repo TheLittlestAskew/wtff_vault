@@ -11,7 +11,7 @@ if %errorlevel% neq 0 (
   exit /b
 )
 
-set "VBS=C:\Users\theli\wtff_vault\Workflows\scripts\start-watcher-hidden.vbs"
+set "VBS=%~dp0start-watcher-hidden.vbs"
 schtasks /Create /TN "WTFF Pipeline Watcher" /TR "wscript.exe \"%VBS%\"" /SC ONLOGON /RL LIMITED /F
 
 echo.

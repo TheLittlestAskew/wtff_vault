@@ -6,7 +6,7 @@ starts (2026-06-14), with a `--discover` mode so you never collect character IDs
 ## The two-step game-day flow
 
 ```powershell
-cd C:\Users\theli\wtff_vault\Workflows\scripts
+cd C:\Users\theli\Obsidian Vaults\wtff_vault\Workflows\scripts
 node ddb_party_sync.js --discover    # 1. auto-build the roster (run once, after joining)
 node ddb_party_sync.js               # 2. fetch every PC's sheet
 ```

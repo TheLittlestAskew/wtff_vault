@@ -26,14 +26,14 @@ The script produces a Raw/Unedited Transcript saved as `.md` in the vault. This 
 
 ### Option A: Interactive Picker (Recommended)
 ```
-cd C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe
+cd C:\Users\theli\Obsidian Vaults\wtff_vault\Workflows\scripts\wtff_transcribe
 node transcribe.js
 ```
 Lists all recordings in the Recordings folder sorted newest-first. Pick by number.
 
 ### Option B: Direct Filename
 ```
-node "C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js" "061426_Where_the_Flowers_Forget_Recording.mp3"
+node "C:\Users\theli\Obsidian Vaults\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js" "061426_Where_the_Flowers_Forget_Recording.mp3"
 ```
 ⚠️ Filenames with spaces **must** be wrapped in quotes.
 ⚠️ Include the file extension (.mp3, .m4a, etc.).
@@ -123,7 +123,7 @@ After each session's spell check, Claude should recommend any new terms to add b
 
 ## Recordings Storage
 
-- **Primary (vault):** `C:\Users\theli\wtff_vault\Session_Sources\Recordings\`
+- **Primary (vault):** `C:\Users\theli\Obsidian Vaults\wtff_vault\Session_Sources\Recordings\`
 - **Original backup (OneDrive):** [[PLACEHOLDER: OneDrive backup path for Where the Flowers Forget recordings]]
 
 The script points to the vault copy. Originals remain in OneDrive as backup.
@@ -153,6 +153,6 @@ The spell check step is still required. The script catches most campaign-specifi
 | "Access denied" | You ran the .js file directly instead of with `node`. Use `node transcribe.js` |
 | "custom_spelling 'to' fields must contain only one word" | A `to` value in `WTFF_CUSTOM_SPELLING` has multiple words. Fix it to a single word or remove the rule and rely on keyterms instead. |
 | API key error | Set `ASSEMBLYAI_API_KEY` environment variable or edit the `API_KEY` constant in the script |
-| Old version running | Make sure you're running the copy in `wtff_vault\Workflows\scripts\wtff_transcribe\`, not an old copy elsewhere. Use the full path: `node "C:\Users\theli\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js"` |
+| Old version running | Make sure you're running the copy in `wtff_vault\Workflows\scripts\wtff_transcribe\`, not an old copy elsewhere. Use the full path: `node "C:\Users\theli\Obsidian Vaults\wtff_vault\Workflows\scripts\wtff_transcribe\transcribe.js"` |
 | Transcripts saving as .txt | Update script — output extension should be `.md` |
 | Speaker labels wrong | Speaker diarization varies between runs. Always verify mapping during spell check. |
