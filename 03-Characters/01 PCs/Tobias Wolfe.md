@@ -13,27 +13,42 @@ sub_class: Frost Sorcery
 - *(S01)* **Cobalt paint** on hands, neck, and face; a **sapphire pendant** on a silver chain.
 - *(S01)* **Arcane runes / spell-circles tattooed** on his arms.
 - *(S01)* His white fox **[[Nero]]** rides on his shoulders.
+- *(S02)* Carries a **blue paint-spattered ace of hearts** in his vest pocket — a personal talisman used to "steel his nerves."
 
 ## Backstory
 - *(S01)* His **village thought him strange**; he never felt the communal belonging others did — a self-described outsider / **"odd duck."**
 - *(S01)* Travels with his companion [[Nero]].
+- *(S02)* From the village of **[[Cardona]]** (≤60%) in the **[[Northern Roost Valley]]** (≤55%). Friends there call him "sparrow" because he is always looking at the horizon.
+- *(S02)* His companion [[Nero]] **appeared from a painting** while Tobias was chanting words his friend Clara found in a book — Tobias has never trained in magic. Nero has never faded or disappeared.
+- *(S02)* Has had **ice-cold skin since birth**; his windows frost over when he has nightmares. His passive cold aura is a faint blue, visible to magical senses (Artie: Arcana 22 at advantage).
+- *(S02)* **Tradition:** paints a personal mark at every place he visits so his friends in Cardona can trace him if they ever leave. The mark is a **sparrow symbol**. He asked about nearby art supply shops to restock his paints.
 
 ## Personality
 - *(S01)* **Naive, gentle**; an artist who wants to "see it all… live it all" and to **"find home."**
+- *(S02)* **Fears his magic makes him a problem for people** — this pattern was noted explicitly by Adam post-session: four or five S02 moments organically clustered around this wound (Bebo's cold damage, Eliza interceding, Mags's "do I scare you shitless" approach).
+- *(S02)* **Turns toward Zarna as the safe/non-threatening party member** — after the Mags encounter, he went to Zarna.
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
 |---|---|---|
 | Sapphire pendant on a silver chain; sketchbook + charcoal | Carried | (pre-existing) |
+| Ace of hearts (blue paint-spattered) | Carried — personal talisman | (pre-existing; first surfaced S02) |
+| Sketchbook + paints | Carried | (pre-existing; first surfaced S02) |
 
 ## Relationships
-- **↔ [[Nero]]:** his white-fox companion, who fetched him food during the mingling.
-- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]]:** Aiph's "odd ducks moved the timeline" speech was directed at him; selected into Group K.
+- **↔ [[Nero]]:** his white-fox companion, who fetched him food during the mingling. Nero served as perimeter lookout outside the tavern (S02); detected Lute approaching at Perception 17.
+- **↔ [[Aiphrumfite ‘Aiph’|Aiph]]:** Aiph’s "odd ducks moved the timeline" speech was directed at him; selected into Group K.
+- **↔ [[Artie (Art) Veyr|Artie]]:** *(S02)* Artie cast Identify on Nero; took Tobias’s hand (Arcana 22) to examine the aura. Dynamic: Artie is the scientist, Tobias is the subject.
+- **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** *(S02)* Bebo shook his hand and took 3 cold damage; Tobias let go and told Bebo he wasn’t liable.
+- **↔ [[Margaret "Mags" HoneyThatcher|Mags]]:** *(S02)* Unsettling encounter — Mags accompanied Artie, sat next to Tobias, asked "do I scare you shitless?", got a "yes," stood and left. He reads her as deliberately intimidating.
+- **↔ [[Zarna Morganach|Zarna]]:** *(S02)* He turns toward Zarna as the safest/least-threatening party member.
+- **↔ [[Lute]]:** *(S02)* New bond via ink exchange and pinky promise on the train platform; Tobias’s sparrow mark + Lute’s mark on each other’s arms. "Look out for sparrow / And I’ll look out for a lute."
 
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Interviewed; tracked down food (Nero fetched a bowl) and sketched the room. The WtFF party's strongest perceiver — and the **only** WtFF PC to read the charged look between the recruiters at the split. Selected into Group K. |
+| [[Session 02 — Something’s Changing]] | Introduced; named [[Cardona]] / [[Northern Roost Valley]] as home. [[Artie (Art) Veyr\|Artie]] cast Identify on [[Nero]] (Arcana 17) — learned Tobias has innate, untrained Find Familiar. Artie took Tobias’s hand (Arcana 22 at advantage): faint blue aura felt, ice-cold skin. Bebo shook his hand; Bebo took 3 cold damage; Tobias let go; Eliza healed Bebo. Read mage hand spell components aloud from Artie’s napkin (Arcana 21, Charisma nat 20/25); ice-frost hand formed with claws, panicked, shattered. Painted exterior wall of Hearthread Hall with personal mark (sparrow symbol) at night. Exchanged ink marks with Lute on train platform. Boarded green train to [[Sunroute Crossing]]. |
+| [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed; tracked down food (Nero fetched a bowl) and sketched the room. The WtFF party’s strongest perceiver — and the **only** WtFF PC to read the charged look between the recruiters at the split. Selected into Group K. |
 
 ## Key Quotes
 > **[[Session 01 — Winds in the East, Mist comin' in...]]**

@@ -5,18 +5,37 @@
 ## Running Totals
 | Speaker | Campaign Total | Most Common |
 |---|---|---|
-| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] | Several (S01) | fuck / fucking |
-| [[Adam]] (OOC) | Several (S01) | fuck / shit |
-| [[Adam]] (DM — roleplay / narrator) | 2 (S02) | fucked up / the fuck |
-| [[Margaret “Mags” HoneyThatcher\|Mags]] / [[Alec]] | 1 (S01) | fucking |
-| [[Artie (Art) Veyr\|Artie]] / Will | 1 (S01) | fuck |
-| Aldin Forgehill (NPC) | 1 (S01) | fucking |
+| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] (IC) | Several (S01) | fuck / fucking |
+| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) | fuck / shit |
+| [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) | fucked up / the fuck |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | 3 (1 S01 + 2 S02 062826) | fucking / shitless / fuck |
+| [[Alec]] (DM, OOC) | 1 (S02 062826) | shit |
+| [[Artie (Art) Veyr\|Artie]] / Will (OOC) | 2 (1 S01 + 1 S02 062826) | fuck |
+| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) | hell |
+| [[Tobias Wolfe\|Tobias]] (IC) | 1 (S02 062826) | ass |
+| Aldin Forgehill (NPC, S01) | 1 (S01) | fucking |
 
-_Counts marked "Several" are not exactly enumerable from the transcript; totals are qualitative until the roll/transcript archive supports exact counts._
+_Counts marked “Several” are not exactly enumerable from the transcript; totals are qualitative until the roll/transcript archive supports exact counts._
 
 **Per-session header format:** `## Session [##] — [Title] ([MM/DD/YYYY])`
 
 **Per-session columns:** Speaker · Curse Word · Frequency · Context
+
+---
+
+## Session 02 — Something’s Changing (06/28/2026)
+
+| Speaker | Curse Word | Frequency | Context |
+|---|---|---|---|
+| [[Adam]] (DM, OOC) | “fuck” | 1 | [00:05:54] Searching notes for Bebo’s mineral name: “Fuck. Keep Bebo, keep going while I look for it” |
+| [[Adam]] (DM, OOC) | “damn it” | 1 | [00:22:30] Correcting himself after mis-naming which group goes where |
+| [[Adam]] (DM, OOC) | “shut up” | 1 | [00:00:47] Joking with players pre-session during tech trouble |
+| [[Artie (Art) Veyr\|Artie]] / Will (OOC) | “fuck” | 1 | [00:45:43] Reacting to feeling [[Tobias Wolfe\|Tobias]]’s ice-cold magical aura |
+| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | “hell” | 1 | [00:42:05] “What the hell?” when [[Artie (Art) Veyr\|Artie]] deliberately killed [[Orin]] |
+| [[Alec]] (DM, OOC) | “shit” | 1 | [01:23:07] Reacting to the ice mage hand shattering |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | “shitless” | 1 | [01:53:50] “Do I scare you shitless?” — to [[Tobias Wolfe\|Tobias]] |
+| [[Tobias Wolfe\|Tobias]] (IC) | “ass” | 1 | [02:39:30] “It just became a pain in the ass, so I just kind of let it go” (about keeping his clothes clean) |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | “fuck” | 1 | [02:04:24] “Please don’t fuck that up” — to [[Auriron]] on the balcony |
 
 ---
 
