@@ -82,8 +82,8 @@ dm: Adam
 | What fate befell Groups A–I? | S02 | Open | [[The Uprooters]] |
 
 ## In-Game Timeline
-| Phase | Sessions | In-Game Time | Notes |
-|---|---|---|---|
-| Pre-Campaign Character Creation | S02 (OOC) | [No IC date — OOC call, ~6 wks before campaign launch] | Adam + Taylor 1-on-1. [[Isla 'Bruin' Kaplan\|Bruin's]] core concept and [[The Overgrowth]]-reactive physiology established. No IC events. |
-| The Uprooter Interviews | S01 | One evening — 1st of [[The Petal Cycle\|Veriden]], 75th year post-Heroes; Bloom Festival approaching | Joint launch at the [[Hearthread Hall]], [[Rhusatatiam]]. |
-| Group K Orientation / Joint Social / Morning Departure | S02 | The following day — 2nd of [[The Petal Cycle\|Veriden]] (estimated) | Group K briefing in Aiph's private room; joint tavern social with Group J; train platform departure. Group K → [[Sunroute Crossing]] (green), Group J → [[Brindleberry Hollow]] (purple). |
+| Phase                                                  | Sessions  | In-Game Time                                                                                         | Notes                                                                                                                                                                                     |
+| ------------------------------------------------------ | --------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pre-Campaign Character Creation                        | S00 (OOC) | [No IC date — OOC call, ~6 wks before campaign launch]                                               | Adam + Taylor 1-on-1. [[Isla 'Bruin' Kaplan\|Bruin's]] core concept and [[The Overgrowth]]-reactive physiology established. No IC events.                                                 |
+| The Uprooter Interviews                                | S01       | One evening — 1st of [[The Petal Cycle\|Veriden]], 75th year post-Heroes; Bloom Festival approaching | Joint launch at the [[Hearthread Hall]], [[Rhusatatiam]].                                                                                                                                 |
+| Group K Orientation / Joint Social / Morning Departure | S02       | The following day — 2nd of [[The Petal Cycle\|Veriden]] (estimated)                                  | Group K briefing in Aiph's private room; joint tavern social with Group J; train platform departure. Group K → [[Sunroute Crossing]] (green), Group J → [[Brindleberry Hollow]] (purple). |
