@@ -14,6 +14,7 @@ When the tides once rose unnaturally high and threatened to swallow the entire L
 ## Campaign Events
 | Session | Event |
 |---|---|
+| [[Session 02 — I Can Feel It In My Bones]] | Named OOC (pre-campaign call) as [[Isla 'Bruin' Kaplan\|Bruin's]] **origin region**; [[Mouth that Feeds]] confirmed as capital (crown icon on world map). Adam endorsed the concept and noted **Shifters may have historically gravitated toward water**. Swim speed discussed as potential unique item tied to gulf-adjacent origin (not yet granted). |
 | [[Session 01 — Winds in the East, Mist comin' in...]] | Named as **[[Isla 'Bruin' Kaplan\|Bruin]]'s home region** — she calls it "the Liriope Valley" in-character (possible colloquialism vs. STT — flagged). She came to [[Rhusatatiam]] because **"the water doesn't run like it used to,"** chasing a scent on the air — an open thread in the "changing world" mystery. |
 
 ## Related

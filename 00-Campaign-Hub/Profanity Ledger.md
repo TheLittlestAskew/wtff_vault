@@ -5,8 +5,9 @@
 ## Running Totals
 | Speaker | Campaign Total | Most Common |
 |---|---|---|
-| [[Aiphrumfite ‘Aiph‘\|Aiph]] / [[Adam]] | Several (S01) | fuck / fucking |
+| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] | Several (S01) | fuck / fucking |
 | [[Adam]] (OOC) | Several (S01) | fuck / shit |
+| [[Adam]] (DM — roleplay / narrator) | 2 (S02) | fucked up / the fuck |
 | [[Margaret “Mags” HoneyThatcher\|Mags]] / [[Alec]] | 1 (S01) | fucking |
 | [[Artie (Art) Veyr\|Artie]] / Will | 1 (S01) | fuck |
 | Aldin Forgehill (NPC) | 1 (S01) | fucking |
@@ -16,6 +17,17 @@ _Counts marked "Several" are not exactly enumerable from the transcript; totals 
 **Per-session header format:** `## Session [##] — [Title] ([MM/DD/YYYY])`
 
 **Per-session columns:** Speaker · Curse Word · Frequency · Context
+
+---
+
+## Session 02 — I Can Feel It In My Bones (05/04/2026)
+
+_Pre-campaign OOC character creation call (Adam + Taylor only). Profanity is DM roleplay / narrator voice — Adam voicing [[Isla 'Bruin' Kaplan\|Bruin's]] hypothetical internal motivation._
+
+| Speaker | Curse Word | Frequency | Context |
+|---|---|---|---|
+| [[Adam]] (DM — voicing [[Isla 'Bruin' Kaplan\|Bruin's]] hypothetical) | "fucked up" | 1 | [00:17:35] — "my shifting is being fucked up recently and I have no clue why" |
+| [[Adam]] (DM — voicing [[Isla 'Bruin' Kaplan\|Bruin's]] hypothetical) | "the fuck" | 1 | [00:17:40] — "I want to join this group to be like, the fuck is happening?" |
 
 ---
 

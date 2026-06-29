@@ -16,6 +16,36 @@
 
 ---
 
+## Session 02 — I Can Feel It In My Bones (05/04/2026)
+
+_Pre-campaign OOC character creation call (Adam + Taylor only). All quotes are above-table._
+
+**[[Adam]] (DM — voicing [[Isla 'Bruin' Kaplan\|Bruin's]] hypothetical) · [Important to Story]**
+> "My inciting incident is something is changing because I can feel it in my bones."
+
+**[[Adam]] (DM — voicing [[Isla 'Bruin' Kaplan\|Bruin's]] hypothetical) · [Serious]**
+> "My shifting is being fucked up recently and I have no clue why."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "Botany is a very sexy job in this world."
+
+**Taylor (OOC) · [Funny]**
+> "I picture myself as a, the, the archivist a little bit."
+
+**[[Adam]] (DM) · [Poignant]**
+> "My favorite things as a DM are when my party has a better idea than I could have ever thought of."
+
+**Taylor (OOC) · [Funny]**
+> "I don't believe in rest."
+
+**Taylor (OOC) · [Banter]**
+> "I love a good mystery."
+
+**Taylor (OOC) · [Serious]**
+> "If you can think of any way that I can help serve the story, just let me know."
+
+---
+
 ## Session 01 — A Railway Requires Everyone (06/14/2026)
 
 **[[Alec]] (opening monologue) · [Important to Story]**
