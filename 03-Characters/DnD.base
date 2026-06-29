@@ -1,0 +1,85 @@
+filters:
+  and:
+    - file.ext == "md"
+views:
+  - type: table
+    name: Characters
+    filters:
+      and:
+        - type == "character"
+    groupBy:
+      property: campaign
+      direction: ASC
+    order:
+      - file.name
+      - campaign
+      - class
+      - level
+      - player
+  - type: table
+    name: Sessions
+    filters:
+      and:
+        - type == "session"
+    groupBy:
+      property: campaign
+      direction: ASC
+    order:
+      - file.name
+      - campaign
+      - session_number
+      - session_date
+      - pov_character
+  - type: table
+    name: NPCs
+    filters:
+      and:
+        - type == "npc"
+    groupBy:
+      property: campaign
+      direction: ASC
+    order:
+      - file.name
+      - campaign
+      - role
+      - faction
+      - status
+  - type: table
+    name: Locations
+    filters:
+      and:
+        - type == "location"
+    groupBy:
+      property: campaign
+      direction: ASC
+    order:
+      - file.name
+      - campaign
+      - region
+      - location_type
+  - type: table
+    name: Items
+    filters:
+      and:
+        - type == "item"
+    groupBy:
+      property: campaign
+      direction: ASC
+    order:
+      - file.name
+      - campaign
+      - rarity
+      - owner
+  - type: table
+    name: Quests
+    filters:
+      and:
+        - type == "quest"
+    groupBy:
+      property: campaign
+      direction: ASC
+    order:
+      - file.name
+      - campaign
+      - status
+      - giver
