@@ -29,34 +29,34 @@ pov_character: "Isla 'Bruin' Kaplan"
 ---
 
 ## Session Metadata
-| Field | Detail |
-|---|---|
-| Campaign Name | Where the Flowers Forget |
-| Session Number | 02 |
-| Session Date | 06/28/2026 |
-| Start Location | [[Hearthread Hall]] — private upper-floor meeting room (Group K's orientation), [[Rhusatatiam]] |
-| End Location | Train platform, [[Rhusatatiam]] (early morning departure) |
-| Party Present (WtFF) | [[Isla 'Bruin' Kaplan\|Bruin]], [[Artie (Art) Veyr\|Artie]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Eliza Duskbloom\|Eliza]], [[Tobias Wolfe\|Tobias]], [[Zarna Morganach\|Zarna]] · DM [[Adam]] (voicing [[Aiphrumfite 'Aiph'\|Aiph]]) |
-| Crossover Present (WtFR) | [[Lute]], [[Nyx]], [[Rowan]], [[Kidu]], [[Auriron]], [[Dolm]] · DM [[Alec]] (voicing [[Margaret "Mags" HoneyThatcher\|Mags]]) |
-| Absent Players (WtFF) | None — all six present |
-| Total Rolls Logged | 31 (transcript-only; physical/verbal — DDB archive not yet wired) |
-| Party Level | Not stated |
-| Spelling Checked | Yes |
+| Field                    | Detail                                                                                                                                                                                                                                                  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Campaign Name            | Where the Flowers Forget                                                                                                                                                                                                                                |
+| Session Number           | 02                                                                                                                                                                                                                                                      |
+| Session Date             | 06/28/2026                                                                                                                                                                                                                                              |
+| Start Location           | [[Hearthread Hall]] — private upper-floor meeting room (Group K's orientation), [[Rhusatatiam]]                                                                                                                                                         |
+| End Location             | Train platform, [[Rhusatatiam]] (early morning departure)                                                                                                                                                                                               |
+| Party Present (WtFF)     | [[Isla 'Bruin' Kaplan\|Bruin]], [[Artie (Art) Veyr\|Artie]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Eliza Duskbloom\|Eliza]], [[Tobias Wolfe\|Tobias]], [[Zarna Morganach\|Zarna]] · DM [[Adam]] (voicing [[Aiphrumfite 'Aiph'\|Aiph]]) |
+| Crossover Present (WtFR) | [[Lute]], [[Nyx]], [[Rowan]], [[Kidu]], [[Auriron]], [[Dolm]] · DM [[Alec]] (voicing [[Margaret "Mags" HoneyThatcher\|Mags]])                                                                                                                           |
+| Absent Players (WtFF)    | None — all six present                                                                                                                                                                                                                                  |
+| Total Rolls Logged       | 31 (transcript-only; physical/verbal — DDB archive not yet wired)                                                                                                                                                                                       |
+| Party Level              | 1                                                                                                                                                                                                                                                       |
+| Spelling Checked         | Yes                                                                                                                                                                                                                                                     |
 
 ---
 
 ## Character POV Journal
 ### Isla "Bruin" Kaplan — In-Character Journal Entry
 
-**A Room Full of Strange Things That Were Worth Staying For**
+***It follows me, and I followed it here**
 
 They put us in a room. Not the big noisy one downstairs — a smaller one upstairs, warm and a little messy in the way that means someone actually lives there. A blanket kicked off the couch. A wine glass still sitting out. The kind of mess that says a real person sleeps here, not a performance of a real person.
 
 Aiph gathered us in. She had drinks brought up, and she asked us, one by one, why we were here and not somewhere else.
 
-The machine speaks in third person. Said its name is something complicated — botanical, a whole phrase — and it loves water even though it cannot drink it. Said its heart fails it. There's something at the center of its chest that pulses like a slow ember. When it held up its hands to show me what I was trying to figure out when I picked it up, I noticed: the light from its center is the same color as its eyes. I don't know if that's a coincidence or the truest thing I've ever seen.
+The machine speaks in third person. Said its name is something complicated — botanical, a whole phrase — and it loves water even though it cannot drink it. Said its heart fails it. There's something at the center of its chest that pulses like a slow ember. When it held up its hands to show me what I was trying to figure out when I picked it up, I noticed: the light from its center is the same color as its eyes. 
 
-The wizard has a bird that cannot die. He killed it to prove a point — sent it straight into a closed window — and it faded like smoke and came back whole. He held my — he held the cold man's hand, and his face did something I recognized: the brace against a thing that surprises you. Afterward he started scribbling in a little book.
+The wizard has a bird that can't die. He killed it to prove a point — sent it straight into a closed window — and it faded like smoke and came back whole. He held the cold man's hand, and his face did something I recognized: the brace against a thing that surprises you. Afterward he started scribbling in a little book.
 
 The cold man. Tobias. He paints. He goes frost when he's frightened. His fox is the same way — alive past the point where alive should end. He seems not to know yet that this makes him remarkable. He thinks it makes him a problem.
 
@@ -64,11 +64,11 @@ The one who asks questions about old things. Zarna. She said she's a museum pers
 
 And Eliza. Eliza was so quiet I almost didn't see her, and then something crossed her face when Aiph asked why she came, and I thought: that look. I know that look. Someone who came looking and is not ready to say looking for what.
 
-When my turn came, I hesitated. Last time I answered that question I said something people didn't like. But Aiph caught it — she said *you've already passed the test*, and somehow that was the thing I needed to hear. So I told her the only truth I know how to give: something is changing. Changing. I don't know what it is, but it follows me, and I followed it here.
+When my turn came, I hesitated. Last time I answered that question I said something people didn't like. But Aiph caught it — she said *you've already passed the test*, and that was the thing I needed to hear. So I told her the only truth I know how to give: something is changing. Changing. I don't know what it is, but *it follows me, and I followed it here.*
 
 She nodded. She seemed like she already knew.
 
-Aiph told us about the hole at the center of this world. She said groups have gone before us — some didn't come back, some came back and didn't last much past coming back. She said we were chosen. She said we were extraordinary. I didn't argue with her, but I kept my head down.
+Aiph told us about the hole at the center of this world. She said groups have gone before us — some didn't come back, some came back and didn't last much past coming back. She said we were chosen. She said we were extraordinary. I kept my head down.
 
 Tobias asked about the Age of Heroes coming back. Aiph's face went flat in a way that wasn't cold — it was scared. *Heroes are good things in stories,* she said. *In actuality, all they bring is destruction.* 
 
@@ -78,7 +78,7 @@ We talked after. The machine — Bebo — let me hold it. It went completely sti
 
 Later there were more people. The other group came down to the tavern and everything got louder and more interesting and harder to track. Someone handed the cold man a piece of paper and he read it and a hand made of ice appeared in the air and then shattered. The dragon lady sat down next to him and asked if she scared him and he said yes and she got up and left. I think that was the point.
 
-Bebo ended up with snails on it. I ate one. It tasted like nothing and everything at the same time.
+Bebo ended up with snails on it. I ate one. 
 
 The other group's person — the one with the compass — cried outside in the dark. I didn't know that then. I only found out later from the way people moved around a door upstairs.
 
@@ -88,7 +88,7 @@ Morning. A platform. Two trains. We all stood there knowing this was the last ti
 
 The machine and the girl from the other group — Nyx — said goodbye to each other. Bebo tapped the place in its chest where the stone had sunk in. *Never be far.*
 
-I don't know what Sunroute Crossing holds. I know that I'm going there with a machine that trusts me with its full weight, a wizard who kills his bird for science, a painter made of cold, a woman pretending she's only here by accident, and a quiet one who is looking for something. And me. Smelling for something I can't name.
+I don't know what Sunroute Crossing holds. I know that I'm going there with a machine that trusts me with its full weight, a wizard who kills his bird for science, a painter made of cold, a woman pretending she's only here by accident, and a quiet one who is looking for something. And me following a '*something*'.
 
 Something is changing. I followed it here, and now I'm getting on a train.
 
