@@ -38,7 +38,7 @@ The six WtFF PCs are now Aiph's provisional recruits (Group K). Aiph specificall
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 02 — Something's Changing]] | Mission briefings delivered: Group K (WtFF, under Aiph) → [[Sunroute Crossing]] (green train); Group J (WtFR, under Mags) → [[Brindleberry Hollow]] (purple train). Aiph revealed the mission mandate: investigate the Crater at Artemesia's center; an entity there is growing more powerful. Groups A–I unaccounted for. Mags issued the "purify" directive to [[Auriron]] privately. Both trains departed from [[Rhusatatiam]] the following morning. |
+| [[Session 02 — It follows me, so I followed it]] | Mission briefings delivered: Group K (WtFF, under Aiph) → [[Sunroute Crossing]] (green train); Group J (WtFR, under Mags) → [[Brindleberry Hollow]] (purple train). Aiph revealed the mission mandate: investigate the Crater at Artemesia's center; an entity there is growing more powerful. Groups A–I unaccounted for. Mags issued the "purify" directive to [[Auriron]] privately. Both trains departed from [[Rhusatatiam]] the following morning. |
 | [[Session 01 — Winds in the East, Mist comin' in...]] | Recruiters Aiph & Mags ran the interview gauntlet at the [[Hearthread Hall]]; selected two groups and split them. WtFF party became Group K under Aiph. |
 
 ## Related

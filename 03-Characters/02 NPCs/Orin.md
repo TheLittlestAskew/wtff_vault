@@ -4,13 +4,13 @@ race: Crow (ghost/sprite appearance)
 class: Familiar
 affiliation: "[[Artie (Art) Veyr]]"
 status: Active (permanently reformed — cannot permanently die)
-first_appearance: "[[Session 02 — Something's Changing]]"
+first_appearance: "[[Session 02 — It follows me, so I followed it]]"
 location: With Artie Veyr
 ---
 
 # Orin
 
-> *(Spelling note: Artie's player used "Oren" three times and "Orin" once [00:42:35] in [[Session 02 — Something's Changing]]. "Orin" is preferred per session note archivist decision; flagged for Will/Artie player to confirm canonical spelling.)*
+> *(Spelling note: Artie's player used "Oren" three times and "Orin" once [00:42:35] in [[Session 02 — It follows me, so I followed it]]. "Orin" is preferred per session note archivist decision; flagged for Will/Artie player to confirm canonical spelling.)*
 
 ## Description / Appearance
 - *(S02)* A **crow familiar**; described as having a "ghost/sprite" appearance.
@@ -28,7 +28,7 @@ location: With Artie Veyr
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 02 — Something's Changing]] | Artie deliberately killed Orin against a closed window to demonstrate the familiar's anomalous nature — Orin snapped his neck, faded, and reformed immediately. Artie treated this as a data point. |
+| [[Session 02 — It follows me, so I followed it]] | Artie deliberately killed Orin against a closed window to demonstrate the familiar's anomalous nature — Orin snapped his neck, faded, and reformed immediately. Artie treated this as a data point. |
 
 ## Related
 - [[Campaign Dashboard]]

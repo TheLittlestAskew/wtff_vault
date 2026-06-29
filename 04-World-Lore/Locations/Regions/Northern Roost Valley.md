@@ -1,12 +1,12 @@
 ---
 type: region
-first_mentioned: "[[Session 02 — Something's Changing]]"
+first_mentioned: "[[Session 02 — It follows me, so I followed it]]"
 status: Known But Unvisited
 ---
 
 # Northern Roost Valley
 
-> ⚠️ **Spelling confidence: ≤55%.** First appearance [00:14:54] in [[Session 02 — Something's Changing]]. May be STT for "Northern Rhus Valley" (phonetically close) or a distinct location. No vault canon source. Leave verbatim pending future confirmation.
+> ⚠️ **Spelling confidence: ≤55%.** First appearance [00:14:54] in [[Session 02 — It follows me, so I followed it]]. May be STT for "Northern Rhus Valley" (phonetically close) or a distinct location. No vault canon source. Leave verbatim pending future confirmation.
 
 ## Description
 The home region of [[Tobias Wolfe]], containing the village of [[Cardona]] (≤60%). First named during Group K orientation.
@@ -20,7 +20,7 @@ The home region of [[Tobias Wolfe]], containing the village of [[Cardona]] (≤6
 ## Events
 | Session | Event |
 |---|---|
-| [[Session 02 — Something's Changing]] | Named by [[Tobias Wolfe|Tobias]] as his home region during Group K orientation at [[Hearthread Hall]]. |
+| [[Session 02 — It follows me, so I followed it]] | Named by [[Tobias Wolfe|Tobias]] as his home region during Group K orientation at [[Hearthread Hall]]. |
 
 ## Related
 - [[Campaign Dashboard]]
