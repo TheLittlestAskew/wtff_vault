@@ -13,6 +13,9 @@ first_appearance: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 
 ## Behavior
 - *(S01)* "Chuckles"; fetches food for Tobias.
+- *(S02)* Served as **perimeter watchdog** outside the tavern at night — detected [[Lute]] approaching [[Tobias Wolfe|Tobias]] at Perception 17 in the dark. Ate a cinnamon roll passed through a door slot by a tavern staffer.
+- *(S02)* Was retrieved by Tobias after Lute ran back inside following the dark compulsion scene.
+- *(S02)* Established as **anomalous**: Artie's Identify (Arcana 17) confirmed Tobias has innate Find Familiar despite no magical training, and Nero has never faded or died.
 
 ## Companion Of
 [[Tobias Wolfe|Tobias]] — a naive painter-sorcerer. Nero accompanies him constantly.
@@ -20,6 +23,7 @@ first_appearance: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 02 — Something's Changing]] | Artie cast Identify (Arcana 17) — confirmed Nero is a permanent Find Familiar cast without training; has never faded. Served as perimeter lookout outside the tavern; detected [[Lute]] at Perception 17. Ate a cinnamon roll from a door-slot staffer. Retrieved by Tobias after Lute's compulsion incident. |
 | [[Session 01 — Winds in the East, Mist comin' in...]] | Present on Tobias's shoulders throughout the [[Hearthread Hall]] interviews; fetched a bowl of food for Tobias during the mingling. |
 
 ## Related

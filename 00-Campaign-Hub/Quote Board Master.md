@@ -16,6 +16,70 @@
 
 ---
 
+## Session 02 — Something's Changing (06/28/2026)
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Serious] [Important to Story]**
+> "Something's changing. Changing. I don't know what it is, but I wanted to find out what it is, so I followed my nose."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [Serious] [Important to Story]**
+> "Heroes are good things in stories, Tobias, but in actuality, all they bring is destruction because of what they deem to be heroic."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] (at the door, to the whole group) · [Dramatic]**
+> "It can't come back."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Bebo is not food. Bebo had to remind that plant is — Bebo is not food."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (after being warned his limb might freeze) · [Funny] [Poignant]**
+> "People would like to hold the hand for longer."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Poignant]**
+> "Bebo believes life is a matter of perspective."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] (looking at Bebo with an escargot bowl on his head, to Mags asking if they were "becoming him") · [DM Quip] [Poignant]**
+> "I suppose that's a matter of perspective."
+
+**[[Margaret "Mags" HoneyThatcher\|Mags]] (to [[Tobias Wolfe\|Tobias]]) · [Funny] [Banter]**
+> "Do I scare you shitless?"
+
+**[[Tobias Wolfe\|Tobias]] (without hesitation) · [Funny]**
+> "Yes."
+
+**[[Tobias Wolfe\|Tobias]] (after the ice mage hand shatters) · [Funny] [Banter]**
+> "The catastrophe. That's why I don't use it."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] (to [[Margaret "Mags" HoneyThatcher\|Mags]] in the hallway) · [Poignant] [Serious]**
+> "Some of my favorite things in the world are the things I'm afraid to lose. Have you ever loved something you weren't afraid to lose?"
+
+**[[Margaret "Mags" HoneyThatcher\|Mags]] (about her WtFR party) · [Poignant] [Important to Story]**
+> "I think I hate myself because I like them."
+
+**[[Margaret "Mags" HoneyThatcher\|Mags]] · [Poignant]**
+> "Lute is me."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] (to [[Margaret "Mags" HoneyThatcher\|Mags]] at the train platform) · [Poignant] [Important to Story]**
+> "I think they're going to take care of us."
+
+**[[Tobias Wolfe\|Tobias]] (to [[Lute]], on the platform) · [Poignant]**
+> "Look out for sparrow."
+
+**[[Lute]] · [Poignant]**
+> "And I'll look out for a lute."
+
+**[[Nyx]] (to [[BE-BO (Botanical Energy Balance Operator)\|Bebo]]) · [Poignant]**
+> "It's been my greatest honor to take care of you."
+
+**[[Margaret "Mags" HoneyThatcher\|Mags]] (to [[Aiphrumfite 'Aiph'\|Aiph]]) · [Funny] [Banter]**
+> "Do you think I'm a Dragon Lady?"
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [Funny] [Banter]**
+> "Of course I do."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] (to [[Margaret "Mags" HoneyThatcher\|Mags]], leaving the hallway) · [Dramatic] [Important to Story]**
+> "I would, by the way, do what he did. And that's why it needs to stop."
+
+---
+
 ## Session 02 — I Can Feel It In My Bones (05/04/2026)
 
 _Pre-campaign OOC character creation call (Adam + Taylor only). All quotes are above-table._

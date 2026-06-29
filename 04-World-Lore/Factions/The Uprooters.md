@@ -31,9 +31,14 @@ Rejected/absent candidates this session: Bram Hollowbarrel, Marnie Willowstep, T
 ## Relationship to Party
 The six WtFF PCs are now Aiph's provisional recruits (Group K). Aiph specifically wanted [[Isla 'Bruin' Kaplan|Bruin]] — partly for her shared "scent" sense of the changing world.
 
+## Open Mysteries
+- **The unnamed "he":** Both Aiph and Mags have referenced an unnamed male figure — "I would, by the way, do what he did. And that's why it needs to stop" (Aiph, S02); "would you do what he did if…" (Mags to Aiph, S02). This person appears central to why the Uprooters exist and why neither Aiph nor Mags want the Age of Heroes to return. Identity [Unknown/Ambiguous].
+- **Groups A–I:** Aiph stated during the S02 orientation that groups A through I are "unaccounted for" — either gone or came back and "didn't last much past coming back." Fate unknown.
+
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 02 — Something's Changing]] | Mission briefings delivered: Group K (WtFF, under Aiph) → [[Sunroute Crossing]] (green train); Group J (WtFR, under Mags) → [[Brindleberry Hollow]] (purple train). Aiph revealed the mission mandate: investigate the Crater at Artemesia's center; an entity there is growing more powerful. Groups A–I unaccounted for. Mags issued the "purify" directive to [[Auriron]] privately. Both trains departed from [[Rhusatatiam]] the following morning. |
 | [[Session 01 — Winds in the East, Mist comin' in...]] | Recruiters Aiph & Mags ran the interview gauntlet at the [[Hearthread Hall]]; selected two groups and split them. WtFF party became Group K under Aiph. |
 
 ## Related

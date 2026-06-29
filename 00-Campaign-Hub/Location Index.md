@@ -16,8 +16,13 @@
 | Bug Island            | — (unknown)     | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC, ≤60%)           | Known But Unvisited | First-seen; Taylor uses as navigation landmark. No vault lore yet.                                          |
 | Red Haven             | — (unknown)     | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC, 40%)            | Known But Unvisited | First-seen; 40% confidence (reconstructed from "Red Haven't" STT artifact). Cross-reference before seeding. |
 
+| [[Sunroute Crossing]] | — (unknown) | [[Session 02 — Something's Changing\|S02]] (≤60%) | Known But Unvisited | Group K's test dungeon destination; ≤60% confidence on spelling. Consistent across two DM mentions. Cross-reference world doc before seeding additional lore. |
+| [[Brindleberry Hollow]] | — (unknown) | [[Session 02 — Something's Changing\|S02]] (≤60%) | Known But Unvisited | Group J's (WtFR) test dungeon destination; ≤60% confidence. Crossover reference — WtFF party has not visited. |
+| [[Cardona]] | [[Northern Roost Valley]] (≤55%) | [[Session 02 — Something's Changing\|S02]] (≤60%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home village; ≤60% confidence. First session appearance. |
+| [[Northern Roost Valley]] | — (unknown) | [[Session 02 — Something's Changing\|S02]] (≤55%) | Known But Unvisited | Tobias's home region; ≤55% confidence — may be STT for "Northern Rhus Valley." No vault canon source. |
+
 **Status values:** Explored · Partially Explored · Known But Unvisited · Hostile · Safe
 
 ---
 
-_Last updated: [[Session 02 — I Can Feel It In My Bones|Session 02]] (05/04/2026)._
+_Last updated: [[Session 02 — Something's Changing|Session 02]] (06/28/2026)._
