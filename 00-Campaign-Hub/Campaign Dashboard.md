@@ -32,7 +32,7 @@ dm: Adam
 | Session # | Date | Title | Notes Link | Summary |
 |---|---|---|---|---|
 | 01 | 06/14/2026 | Winds in the East | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
-| 02 | 06/28/2026 | Something's Changing | [[Session 02 — Something's Changing]] | Joint/crossover. Group K orientation in Aiph's private upper room ([[Hearthread Hall]]); joint tavern social with Group J (WtFR); morning train platform departure. Group K → [[Sunroute Crossing]] (green train). No combat. [[Malus Thornwake]] named; Bebo's Heliolite supply established as failing; [[Tobias Wolfe\|Tobias]]'s untrained ice magic escalates. |
+| 02 | 06/28/2026 | Something's Changing | [[Session 02 — It follows me, so I followed it]] | Joint/crossover. Group K orientation in Aiph's private upper room ([[Hearthread Hall]]); joint tavern social with Group J (WtFR); morning train platform departure. Group K → [[Sunroute Crossing]] (green train). No combat. [[Malus Thornwake]] named; Bebo's Heliolite supply established as failing; [[Tobias Wolfe\|Tobias]]'s untrained ice magic escalates. |
 | Pre-Campaign | 05/04/2026 | I Can Feel It In My Bones | [[Session 02 — I Can Feel It In My Bones]] | Pre-campaign OOC 1-on-1 (Adam + Taylor only). Bruin's character concept established: [[The Overgrowth]]-reactive physiology; [[Liriope River Net]] / [[Mouth that Feeds]] origin. [[The Overgrowth]] named for the first time. No IC events. ⚠️ Pipeline label "S02"; audio prefix "00" — session number unconfirmed (pending Taylor's input). |
 
 ## NPC Companions
@@ -54,10 +54,10 @@ dm: Adam
 | [[The Petal Line]] | Continent-wide | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
 | [[Liriope River Net]] | — (region) | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Bruin's home region; gulf-adjacent. Shifters may have historically gravitated toward water. |
 | [[Mouth that Feeds]] | [[Liriope River Net]] | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Capital of [[Liriope River Net]]; Bruin's origin city (OOC concept). Built on stilts and canals over converging waterways. |
-| [[Sunroute Crossing]] | — (unknown) | [[Session 02 — Something's Changing\|S02]] (≤60%) | Known But Unvisited | Group K's test dungeon destination; green train. ≤60% spelling confidence. |
-| [[Brindleberry Hollow]] | — (unknown) | [[Session 02 — Something's Changing\|S02]] (≤60%) | Known But Unvisited | Group J's (WtFR) test dungeon destination; purple train. ≤60% confidence. Crossover ref only. |
-| [[Cardona]] | [[Northern Roost Valley]] (≤55%) | [[Session 02 — Something's Changing\|S02]] (≤60%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home village. ≤60% confidence. |
-| [[Northern Roost Valley]] | — (unknown) | [[Session 02 — Something's Changing\|S02]] (≤55%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home region; ≤55% confidence — may be STT for "Northern Rhus Valley." |
+| [[Sunroute Crossing]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | Group K's test dungeon destination; green train. ≤60% spelling confidence. |
+| [[Brindleberry Hollow]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | Group J's (WtFR) test dungeon destination; purple train. ≤60% confidence. Crossover ref only. |
+| [[Cardona]] | [[Northern Roost Valley]] (≤55%) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home village. ≤60% confidence. |
+| [[Northern Roost Valley]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤55%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home region; ≤55% confidence — may be STT for "Northern Rhus Valley." |
 
 ## Open Threads
 | Thread | Introduced | Status | Related |

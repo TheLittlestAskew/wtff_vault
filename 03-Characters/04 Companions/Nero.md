@@ -23,7 +23,7 @@ first_appearance: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 02 — Something's Changing]] | Artie cast Identify (Arcana 17) — confirmed Nero is a permanent Find Familiar cast without training; has never faded. Served as perimeter lookout outside the tavern; detected [[Lute]] at Perception 17. Ate a cinnamon roll from a door-slot staffer. Retrieved by Tobias after Lute's compulsion incident. |
+| [[Session 02 — It follows me, so I followed it]] | Artie cast Identify (Arcana 17) — confirmed Nero is a permanent Find Familiar cast without training; has never faded. Served as perimeter lookout outside the tavern; detected [[Lute]] at Perception 17. Ate a cinnamon roll from a door-slot staffer. Retrieved by Tobias after Lute's compulsion incident. |
 | [[Session 01 — Winds in the East, Mist comin' in...]] | Present on Tobias's shoulders throughout the [[Hearthread Hall]] interviews; fetched a bowl of food for Tobias during the mingling. |
 
 ## Related
