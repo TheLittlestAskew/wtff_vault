@@ -15,6 +15,11 @@ tags:
 
 ---
 
+> [!quote]- Session 02 — I Can Feel It In My Bones (05/04/2026)
+> *[[Session 02 — I Can Feel It In My Bones|Pre-campaign character creation call (OOC)]]*
+>
+> **[No IC journal entry.]** This session was a pre-campaign out-of-character character creation call between Adam and Taylor. There are no in-game events and no in-character moments. The POV Journal Hard Limits prohibit including OOC content here. Bruin has no IC memory of this session.
+
 > [!quote]- Session 01 — The Hall That Never Lets Its Fire Die (06/14/2026)
 > *[[Session 01 — Winds in the East, Mist comin' in...|The night I agreed to walk into it]]*
 >

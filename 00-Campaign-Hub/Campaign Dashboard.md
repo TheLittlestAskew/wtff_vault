@@ -32,6 +32,7 @@ dm: Adam
 | Session # | Date | Title | Notes Link | Summary |
 |---|---|---|---|---|
 | 01 | 06/14/2026 | Winds in the East | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
+| 02 | 05/04/2026 | I Can Feel It In My Bones | [[Session 02 — I Can Feel It In My Bones]] | Pre-campaign OOC 1-on-1 (Adam + Taylor only). Bruin's character concept established: [[The Overgrowth]]-reactive physiology; [[Liriope River Net]] / [[Mouth that Feeds]] origin. [[The Overgrowth]] named for the first time. No IC events. ⚠️ Pipeline label "S02"; audio prefix "00" — session number unconfirmed (pending Taylor's input). |
 
 ## NPC Companions
 | Name | Status | Joined | Notes |
@@ -49,6 +50,8 @@ dm: Adam
 | [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. |
 | [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Valley capital. |
 | [[The Petal Line]] | Continent-wide | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
+| [[Liriope River Net]] | — (region) | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Bruin's home region; gulf-adjacent. Shifters may have historically gravitated toward water. |
+| [[Mouth that Feeds]] | [[Liriope River Net]] | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Capital of [[Liriope River Net]]; Bruin's origin city (OOC concept). Built on stilts and canals over converging waterways. |
 
 ## Open Threads
 | Thread | Introduced | Status | Related |
@@ -65,4 +68,5 @@ dm: Adam
 ## In-Game Timeline
 | Phase | Sessions | In-Game Time | Notes |
 |---|---|---|---|
+| Pre-Campaign Character Creation | S02 (OOC) | [No IC date — OOC call, ~6 wks before campaign launch] | Adam + Taylor 1-on-1. [[Isla 'Bruin' Kaplan\|Bruin's]] core concept and [[The Overgrowth]]-reactive physiology established. No IC events. |
 | The Uprooter Interviews | S01 | One evening — 1st of [[The Petal Cycle\|Veriden]], 75th year post-Heroes; Bloom Festival approaching | Joint launch at the [[Hearthread Hall]], [[Rhusatatiam]]. |
