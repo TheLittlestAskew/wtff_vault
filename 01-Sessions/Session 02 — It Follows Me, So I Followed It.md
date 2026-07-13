@@ -1,5 +1,5 @@
 ---
-title: "Session 02 — Something's Changing"
+title: "Session 02 — It Follows Me, So I Followed It"
 campaign: Where the Flowers Forget
 session_number: "02"
 session_date: 2026-06-28
@@ -16,11 +16,11 @@ tags:
   - group-k
 aliases:
   - "WTFF Session 02"
-  - "Something's Changing"
+  - "It Follows Me, So I Followed It"
 pov_character: "Isla 'Bruin' Kaplan"
 ---
 
-# Session 02 — Something's Changing
+# Session 02 — It Follows Me, So I Followed It
 > **Date:** 06/28/2026 · **Campaign:** [[Artemesia|Where the Flowers Forget]] · **Session type:** Joint / crossover (Group K orientation + joint tavern social + morning train platform)
 
 > [!note] Crossover note
