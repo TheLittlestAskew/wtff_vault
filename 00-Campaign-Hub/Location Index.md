@@ -19,9 +19,9 @@
 | [[Sunroute Crossing\|Sunroot Crossing]] | — (unknown) | [[Session 03 — Raise a Glass to Provisional Trust\|S03]] | Partially Explored | **Visited S03** — rail-stop village; party lodged at the [[X Marks the Spot Inn]] and entered the test dungeon. Community-funded stop; festival season approaching. ⚠ Spelling conflict: DM said "Sunroot" aloud + art `Sunroot_Crossing.png`; lore page still `Sunroute Crossing.md` (≤60%). Confirm with Adam before renaming. |
 | [[The Verdant Blossom]] | Rail (Rhusatatiam → Sunroot) | [[Session 03 — Raise a Glass to Provisional Trust\|S03]] | Explored (in transit) | Green "lounge" luxury train carrying Group K. First-seen (≤60%). Cars: lounge, dining, conservatory, parlor/library, guest cabins 1 & 2, observation, staff & storage. |
 | [[X Marks the Spot Inn]] | [[Sunroute Crossing\|Sunroot Crossing]] | [[Session 03 — Raise a Glass to Provisional Trust\|S03]] | Explored | Central inn/tavern/tower at Sunroot Crossing; band center, bars on all four walls, spiral staircase. First-seen (≤60%). |
-| [[Brindleberry Hollow]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | Group J's (WtFR) test dungeon destination; ≤60% confidence. Crossover reference — WtFF party has not visited. |
-| [[Cardona]] | [[Northern Roost Valley]] (≤55%) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home village; ≤60% confidence. First session appearance. |
-| [[Northern Roost Valley]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤55%) | Known But Unvisited | Tobias's home region; ≤55% confidence — may be STT for "Northern Rhus Valley." No vault canon source. |
+| [[Brindleberry Hollow]] | — (unknown) | [[Session 02 — It Follows Me, So I Followed It\|S02]] (≤60%) | Known But Unvisited | Group J's (WtFR) test dungeon destination; ≤60% confidence. Crossover reference — WtFF party has not visited. |
+| [[Cardona]] | [[Northern Roost Valley]] (≤55%) | [[Session 02 — It Follows Me, So I Followed It\|S02]] (≤60%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home village; ≤60% confidence. First session appearance. |
+| [[Northern Roost Valley]] | — (unknown) | [[Session 02 — It Follows Me, So I Followed It\|S02]] (≤55%) | Known But Unvisited | Tobias's home region; ≤55% confidence — may be STT for "Northern Rhus Valley." No vault canon source. |
 
 **Status values:** Explored · Partially Explored · Known But Unvisited · Hostile · Safe
 

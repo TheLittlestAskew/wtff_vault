@@ -4,7 +4,7 @@ race: "[Unknown/Ambiguous]"
 class: "[Unknown/Ambiguous]"
 affiliation: "[Unknown/Ambiguous]"
 status: "[Unknown/Ambiguous]"
-first_appearance: "[[Session 02 — It follows me, so I followed it]]"
+first_appearance: "[[Session 02 — It Follows Me, So I Followed It]]"
 location: "[Unknown/Ambiguous]"
 ---
 
@@ -28,7 +28,7 @@ location: "[Unknown/Ambiguous]"
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 02 — It follows me, so I followed it]] | Named by Artie during Group K orientation at [[Hearthread Hall]]; Aiph visibly reacted but did not elaborate. |
+| [[Session 02 — It Follows Me, So I Followed It]] | Named by Artie during Group K orientation at [[Hearthread Hall]]; Aiph visibly reacted but did not elaborate. |
 
 ## Related
 - [[Campaign Dashboard]]

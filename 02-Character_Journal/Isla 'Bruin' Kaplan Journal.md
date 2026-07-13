@@ -61,7 +61,7 @@ tags:
 ---
 
 > [!quote]- Session 02 — Something's Changing (06/28/2026)
-> *[[Session 02 — It follows me, so I followed it|The night we got on a train]]*
+> *[[Session 02 — It Follows Me, So I Followed It|The night we got on a train]]*
 >
 > They put us in a room. Not the big noisy one downstairs — a smaller one upstairs, warm and a little messy in the way that means someone actually lives there. A blanket kicked off the couch. A wine glass still sitting out. The kind of mess that says a real person sleeps here, not a performance of a real person.
 >

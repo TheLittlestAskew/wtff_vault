@@ -26,7 +26,7 @@ A **rail-stop village** and the site of **Group K**'s first [[The Uprooters|Upro
 | Session | Event |
 |---|---|
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Group K arrived by green train, read the station sign, lodged at the [[X Marks the Spot Inn]] (the "provisional trust" pact + long rest), and in the morning descended into Aiph's five-layer test dungeon via the trap door in the hillside ruin. The trap door shut; the session ended in darkness. |
-| [[Session 02 — It follows me, so I followed it]] | Named by [[Aiphrumfite 'Aiph'|Aiph]] during Group K orientation as the party's first test dungeon destination. Group K boarded the green train at the morning platform in [[Rhusatatiam]]. |
+| [[Session 02 — It Follows Me, So I Followed It]] | Named by [[Aiphrumfite 'Aiph'|Aiph]] during Group K orientation as the party's first test dungeon destination. Group K boarded the green train at the morning platform in [[Rhusatatiam]]. |
 
 ## Related
 - [[Campaign Dashboard]]
