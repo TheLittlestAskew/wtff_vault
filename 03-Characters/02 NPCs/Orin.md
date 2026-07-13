@@ -18,6 +18,8 @@ location: With Artie Veyr
 
 ## Behavior
 - *(S02)* Serves as Artie's familiar; has **never permanently died** — death causes him to fade (like "the Thanos snap") and reform immediately, whole and unaffected.
+- *(S03)* **Gathers intelligence** — overheard [[Aiphrumfite 'Aiph'|Aiph]] and [[Margaret "Mags" HoneyThatcher|Mags]] arguing back at the tavern ("not on the same page about what this group does"; Aiph's "I don't actually think any of them are good enough"), which Tobias later relayed at the inn.
+- *(S03)* **Serves as a courier** — [[Artie (Art) Veyr|Artie]] sent his day's pocketbook off with Orin "to where it usually goes" before bed.
 
 ## Companion Of
 [[Artie (Art) Veyr]] — used to demonstrate the nature of the Find Familiar anomaly.
@@ -28,6 +30,7 @@ location: With Artie Veyr
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 03 — Raise a Glass to Provisional Trust]] | Overheard the [[Aiphrumfite 'Aiph'|Aiph]]/[[Margaret "Mags" HoneyThatcher|Mags]] argument at the tavern (relayed by Tobias at the inn). Dispatched by [[Artie (Art) Veyr|Artie]] carrying his day's pocketbook "to where it usually goes." |
 | [[Session 02 — It follows me, so I followed it]] | Artie deliberately killed Orin against a closed window to demonstrate the familiar's anomalous nature — Orin snapped his neck, faded, and reformed immediately. Artie treated this as a data point. |
 
 ## Related

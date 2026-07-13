@@ -15,3 +15,5 @@
 ---
 
 > S01 was a social/roleplay session; few spells were cast by name. Most magic was descriptive (e.g. [[Aiphrumfite ‘Aiph‘|Aiph]]'s color-changing igniting sand; floating the brawling candidates apart) and is **not** logged here as named spells to avoid invention.
+
+> **S03 ([[Session 03 — Raise a Glass to Provisional Trust]]):** no named spells were cast — a travel/roleplay session with no combat. [[Derek]]'s clap-light device registers as **evocation** ([[Artie (Art) Veyr|Artie]], Arcana 16) but is an item, not a PC spellcast. Nothing logged for S03.
