@@ -16,6 +16,58 @@
 
 ---
 
+## Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [DM Quip] [Serious]**
+> "Has anyone died in this test dungeon? … yeah, of course."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [Important to Story]**
+> "I would love if nobody died and we solved all of the world's mysteries and we figured out what the heck is happening in the middle of Artemesia, and we all lived happily ever after, but unfortunately not the world we live in."
+
+**[[Adam]] (DM, on the bar cat) · [Funny]**
+> "This has never been allowed. In the history of man. This has never been allowed."
+
+**[[Derek]] · [Funny]**
+> "Why can't it be both? … I just feel like everything should be able to blow up just in case. You never know."
+
+**[[Derek]] · [Funny]**
+> "You better blow something up with that. Okay, I only have 19 more of those."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [Important to Story]**
+> "You smell the shifting of the very world. And Mags also shifting."
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [Dramatic] [Important to Story]**
+> "I think violence is called for, Bruin, and that's why I chose you. I think before this is all over, there is going to require violence."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Serious] [Poignant]**
+> "So I'd sell all of you for people who mean a lot to my life. … That doesn't mean that we can't work together."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Important to Story]**
+> "You have to assume trust until somebody proves that they're not trustworthy."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Poignant] [Important to Story]**
+> "Bebo would like to offer provisional trust. Trust that is not earned, that is given due to circumstances, until reason is given to be removed."
+
+**[[Tobias Wolfe\|Tobias]] (under his breath) · [Poignant]**
+> "Or they stay strangers and outcasts."
+
+**[[Tobias Wolfe\|Tobias]] · [Dramatic]**
+> "They made a group of heroes for an age of heroes they don't want to bring back."
+
+**[[Tobias Wolfe\|Tobias]] (to [[Nero]]) · [Poignant] [Important to Story]**
+> "I can't tell them the truth yet. They'll think I'm nuts."
+
+**[[Zarna Morganach\|Zarna]] & [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny] [Banter]**
+> "So it's either big government, big business, or the mob. One of the three." / "Or it's actually the Illuminati triangle of the three."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] (to the vegetable-eaters) · [Banter]**
+> "We're gonna fight. Don't you need something more substantial?"
+
+**[[Aiphrumfite 'Aiph'\|Aiph]] · [Poignant]**
+> "I really am rooting for you all. … I'm a lot more hopeful than I was a day or two ago."
+
+---
+
 ## Session 02 — Something's Changing (06/28/2026)
 
 **[[Isla 'Bruin' Kaplan\|Bruin]] · [Serious] [Important to Story]**

@@ -21,21 +21,27 @@ sub_class:
 - *(S01)* **Extremely timid**; twists her fingers when unsure.
 - *(S02)* **Quiet and watchful** during large group interactions; something crossed her face when Aiph asked why she came — Bruin read it as “someone who came looking and is not ready to say looking for what.”
 - *(S02)* **Protective instinct** — cast Healing Word on Bebo unprompted after Bebo took cold damage from Tobias.
+- *(S03)* **Harvests/hoards food for the group** — gathered carrots in the conservatory car; remains timid and watchful in group settings.
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
 |---|---|---|
 | Gray/tan vine-covered robes; trinkets, necklaces, bracelets | Equipped/Carried | (pre-existing) |
 | Butterfly trinket (belt) | Given to [[Lute]] | (pre-existing; given away S02) |
+| Carrots (harvested, conservatory car) | Held (for the group) | [[Session 03 — Raise a Glass to Provisional Trust]] |
+| Mahogany [[The Uprooters\|Uprooter]] token | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
+| Room key ([[X Marks the Spot Inn]]) | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 
 ## Relationships
 - **↔ [[Lute]]:** Lute declared the two of them “best friends” and compared trinkets (a cross-party WtFR↔WtFF bond); Eliza was alarmed watching Lute “talk to herself.” *(S02)* Gave Lute a butterfly trinket from her belt before going upstairs.
 - **↔ Recruiters ([[Aiphrumfite ‘Aiph’|Aiph]] & [[Margaret “Mags” HoneyThatcher|Mags]]):** both strangely feel they know her. Selected into Group K. *(S02)* Aiph said she “looks so familiar” in the private room; Eliza denied knowing her.
-- **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** *(S02)* Cast Healing Word on Bebo (4 HP) after Tobias’s cold damage; also ran Nature check (19) to understand the elemental vulnerability.
+- **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** *(S02)* Cast Healing Word on Bebo (4 HP) after Tobias’s cold damage; also ran Nature check (19) to understand the elemental vulnerability. *(S03)* Explored the conservatory car together.
+- **↔ [[Constance]]:** *(S03)* Met the magic-shop owner in the conservatory car while harvesting carrots (identified the window-bed stalks, Nature 17; growth magically aided, Nature 13).
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 03 — Raise a Glass to Provisional Trust]] | Explored the [[The Verdant Blossom]] conservatory car; harvested carrots (Nature 17, then 13); met [[Constance]]. Laid her hand into the "provisional trust" pact at the [[X Marks the Spot Inn]]. Passed a long-rest d100 check (75). Descended into the test dungeon. |
 | [[Session 02 — Something’s Changing]] | Denied knowing Aiph when Aiph said she looked familiar (Persuasion/Deception: 19; Aiph narrowed eyes but let go). Cast Healing Word on Bebo (4 HP) after cold damage; Nature check (19) — understood elemental vulnerability. Gave Lute a butterfly trinket from her belt before going upstairs. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed; both recruiters felt they knew her. Watched Lute’s inner-voice moment. Selected into the WtFF party (Group K). |
 

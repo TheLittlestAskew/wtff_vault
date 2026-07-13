@@ -14,12 +14,29 @@
 | [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) | hell |
 | [[Tobias Wolfe\|Tobias]] (IC) | 1 (S02 062826) | ass |
 | Aldin Forgehill (NPC, S01) | 1 (S01) | fucking |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) | God / damn / shit |
+| [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) + 3 (S03) | heck / God / "smart asses" |
 
 _Counts marked “Several” are not exactly enumerable from the transcript; totals are qualitative until the roll/transcript archive supports exact counts._
 
 **Per-session header format:** `## Session [##] — [Title] ([MM/DD/YYYY])`
 
 **Per-session columns:** Speaker · Curse Word · Frequency · Context
+
+---
+
+## Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
+
+_Session profanity was mild and sparse — largely exclamations and one OOC "cool as shit."_
+
+| Speaker | Curse Word | Frequency | Context |
+|---|---|---|---|
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | "damn" | 1 | "Oh, damn." — reacting to the [[The Verdant Blossom]]'s interior. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC) | "shit" ("cool as shit") | 1 | OOC aside admiring [[Constance]]'s shop design. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC) | "God" ("Oh my God") | 2 | Table exclamations (e.g. reacting to a nat 20). |
+| [[Adam]] (DM, as [[Aiphrumfite 'Aiph'\|Aiph]]) | "heck" | 1 | "what the heck is happening in the middle of Artemesia." |
+| [[Adam]] (DM) | "smart asses" | 1 | To the table after the "Hey there, Delilah" bit. |
+| [[Adam]] (DM, OOC) | "God" ("Oh my God") | 1 | Reacting to [[BE-BO (Botanical Energy Balance Operator)\|Bebo]]'s nat 20. |
 
 ---
 

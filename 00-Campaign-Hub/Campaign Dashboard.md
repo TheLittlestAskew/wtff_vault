@@ -1,7 +1,7 @@
 ---
 game_id: "7853407"
 start_date: 2026-06-14
-session_count: 2
+session_count: 3
 dm: Adam
 ---
 # Campaign Dashboard — Where the Flowers Forget
@@ -33,6 +33,7 @@ dm: Adam
 |---|---|---|---|---|
 | 01 | 06/14/2026 | Winds in the East | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
 | 02 | 06/28/2026 | Something's Changing | [[Session 02 — It follows me, so I followed it]] | Joint/crossover. Group K orientation in Aiph's private upper room ([[Hearthread Hall]]); joint tavern social with Group J (WtFR); morning train platform departure. Group K → [[Sunroute Crossing]] (green train). No combat. [[Malus Thornwake]] named; Bebo's Heliolite supply established as failing; [[Tobias Wolfe\|Tobias]]'s untrained ice magic escalates. |
+| 03 | 07/12/2026 | Raise a Glass to Provisional Trust | [[Session 03 — Raise a Glass to Provisional Trust]] | **First solo WtFF session** (6 PCs + DM; no WtFR party). Travel + roleplay + dungeon setup; **no combat.** Group K rides [[The Verdant Blossom]] from [[Rhusatatiam]] to [[Sunroute Crossing\|Sunroot Crossing]], lodges at the [[X Marks the Spot Inn]], adopts **"provisional trust"** (Bruin abstains from the gesture, affirms the trust). Bruin↔Aiph "scent = the world shifting; violence coming" scene. New NPCs [[Constance]], [[Derek]], [[Delilah]]. Ends on cliffhanger: party descends into Aiph's five-layer test dungeon; trap door shuts, pitch black. |
 | Pre-Campaign | 05/04/2026 | I Can Feel It In My Bones | [[Session 02 — I Can Feel It In My Bones]] | Pre-campaign OOC 1-on-1 (Adam + Taylor only). Bruin's character concept established: [[The Overgrowth]]-reactive physiology; [[Liriope River Net]] / [[Mouth that Feeds]] origin. [[The Overgrowth]] named for the first time. No IC events. ⚠️ Pipeline label "S02"; audio prefix "00" — session number unconfirmed (pending Taylor's input). |
 
 ## NPC Companions
@@ -54,7 +55,9 @@ dm: Adam
 | [[The Petal Line]] | Continent-wide | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
 | [[Liriope River Net]] | — (region) | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Bruin's home region; gulf-adjacent. Shifters may have historically gravitated toward water. |
 | [[Mouth that Feeds]] | [[Liriope River Net]] | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Capital of [[Liriope River Net]]; Bruin's origin city (OOC concept). Built on stilts and canals over converging waterways. |
-| [[Sunroute Crossing]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | Group K's test dungeon destination; green train. ≤60% spelling confidence. |
+| [[Sunroute Crossing\|Sunroot Crossing]] | — (unknown) | [[Session 03 — Raise a Glass to Provisional Trust\|S03]] | Partially Explored | **Visited S03** (party lodged at the inn and entered the test dungeon). ⚠ Spelling conflict: DM said "Sunroot" aloud + art `Sunroot_Crossing.png`; lore page still `Sunroute Crossing.md` (≤60%). Ask Adam before renaming. |
+| [[The Verdant Blossom]] | Rail (Rhusatatiam → Sunroot) | [[Session 03 — Raise a Glass to Provisional Trust\|S03]] | Explored (in transit) | Green "lounge" luxury train carrying Group K. First-seen (≤60%). Met [[Constance]] & [[Derek]] aboard. |
+| [[X Marks the Spot Inn]] | [[Sunroute Crossing\|Sunroot Crossing]] | [[Session 03 — Raise a Glass to Provisional Trust\|S03]] | Explored | Central inn/tavern/tower; the "provisional trust" pact + long rest. First-seen (≤60%). Server [[Delilah]]. |
 | [[Brindleberry Hollow]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | Group J's (WtFR) test dungeon destination; purple train. ≤60% confidence. Crossover ref only. |
 | [[Cardona]] | [[Northern Roost Valley]] (≤55%) | [[Session 02 — It follows me, so I followed it\|S02]] (≤60%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home village. ≤60% confidence. |
 | [[Northern Roost Valley]] | — (unknown) | [[Session 02 — It follows me, so I followed it\|S02]] (≤55%) | Known But Unvisited | [[Tobias Wolfe\|Tobias]]'s home region; ≤55% confidence — may be STT for "Northern Rhus Valley." |
@@ -70,7 +73,14 @@ dm: Adam
 | Mags & Aiph's hidden history / "the last hero" | S01 | Open | [[Aiphrumfite ‘Aiph‘|Aiph]], [[Margaret “Mags” HoneyThatcher|Mags]] |
 | The crater grows stronger / Bug Island stirs / Pistil "acts alone" | S01 | Open | [[The Flower Court]], [[The Pistil]] |
 | The two groups' separate Uprooter endeavors | S01 | Open | [[The Uprooters]] |
-| Group K mission: explore [[Sunroute Crossing]] | S02 | In Progress | [[The Uprooters]], all PCs |
+| Group K mission: complete the [[Sunroute Crossing\|Sunroot Crossing]] test dungeon | S02 | In Progress | [[The Uprooters]], all PCs | 
+| Party's trust basis — **"provisional trust"** pact | S03 | Completed (S03) | all PCs, [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
+| Bruin's scent = the world (and Mags) "shifting"; violence is coming | S03 | Open | [[Isla 'Bruin' Kaplan\|Bruin]], [[Aiphrumfite 'Aiph'\|Aiph]], [[Margaret "Mags" HoneyThatcher\|Mags]] |
+| Tobias's secret truth (the "summoned Nero" story is a cover) | S03 | Open | [[Tobias Wolfe\|Tobias]], [[Nero]] |
+| Artie's covert correspondence (pocketbook → [[Orin]] "to where it usually goes") | S03 | Open | [[Artie (Art) Veyr\|Artie]] |
+| Derek's clap-light / mini-bomb device | S03 | Open | [[Artie (Art) Veyr\|Artie]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Derek]] |
+| [[Constance]] of [[The Burn]] as a future vendor/ally | S03 | Dormant | [[Constance]] |
+| What are the Uprooters, really? (lucrative, prestigious) | S03 | Open | [[The Uprooters]] |
 | Who is [[Malus Thornwake]]? | S02 | Open | [[Artie (Art) Veyr\|Artie]] |
 | Why does Aiph recognize [[Eliza Duskbloom\|Eliza]]? | S02 | Open | [[Eliza Duskbloom\|Eliza]], [[Aiphrumfite 'Aiph'\|Aiph]] |
 | Who is "he"? What did he do? | S02 | Open | [[Aiphrumfite 'Aiph'\|Aiph]], [[Margaret "Mags" HoneyThatcher\|Mags]] |
@@ -87,3 +97,4 @@ dm: Adam
 | Pre-Campaign Character Creation                        | S00 (OOC) | [No IC date — OOC call, ~6 wks before campaign launch]                                               | Adam + Taylor 1-on-1. [[Isla 'Bruin' Kaplan\|Bruin's]] core concept and [[The Overgrowth]]-reactive physiology established. No IC events.                                                 |
 | The Uprooter Interviews                                | S01       | One evening — 1st of [[The Petal Cycle\|Veriden]], 75th year post-Heroes; Bloom Festival approaching | Joint launch at the [[Hearthread Hall]], [[Rhusatatiam]].                                                                                                                                 |
 | Group K Orientation / Joint Social / Morning Departure | S02       | The following day — 2nd of [[The Petal Cycle\|Veriden]] (estimated)                                  | Group K briefing in Aiph's private room; joint tavern social with Group J; train platform departure. Group K → [[Sunroute Crossing]] (green), Group J → [[Brindleberry Hollow]] (purple). |
+| Green train to Sunroot Crossing / the Inn / into the dungeon | S03 | ~1.5 days — a few hours' ride to a just-after-midday arrival, an overnight long rest, then the next morning. Festival season near ("the first of **vent** was yesterday" — unconfirmed term). | Group K rides [[The Verdant Blossom]] from [[Rhusatatiam]] to [[Sunroute Crossing\|Sunroot Crossing]]; lodges at the [[X Marks the Spot Inn]]; adopts "provisional trust"; descends into Aiph's five-layer test dungeon (trap door shuts — cliffhanger). No combat. |

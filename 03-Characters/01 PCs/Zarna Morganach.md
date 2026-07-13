@@ -23,21 +23,29 @@ sub_class:
 - *(S02)* **Trying on identities** — said "archaeologist" before correcting to museum curator. Possible that she's still working out who she is in relation to the work she does.
 - *(S02)* **Loudly sipped beer** during Aiph's Age of Heroes speech — a small, dry, physical comedy that reads as either discomfort or dry humor.
 - *(S02)* Rolled Religion nat 20/21 on Nyx's armor — observed divine illumination (vines, thorns, shackles) and a "deity of justice" reading. Also noticed the plume of black smoke from the balcony above, recognizing it as another person with religious devotion.
+- *(S03)* **Treasures gifted art** — carefully pocketed [[Tobias Wolfe|Tobias]]'s hammer sketch on her person.
+- *(S03)* **Pragmatic in the trust debate** — "I'm with the robot"; readily backed [[BE-BO (Botanical Energy Balance Operator)|Bebo]]'s "provisional trust."
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
 |---|---|---|
 | Large hammer + short sword; oversized glasses; tool pack | Equipped/Carried | (pre-existing) |
+| Sketch of her hammer (gift from [[Tobias Wolfe|Tobias]]) | Held — pocketed on her person | [[Session 03 — Raise a Glass to Provisional Trust]] |
+| Bebo's caretaker notes | Held — skimmed at dinner (Investigation 4), "deal with it later" | [[Session 02 — Something’s Changing]] |
+| Mahogany [[The Uprooters\|Uprooter]] token | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
+| Room key ([[X Marks the Spot Inn]]) | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 
 ## Relationships
 - **↔ [[Nyx]]:** tried (and failed) to identify the symbol on Nyx’s chest during the interviews (S01); *(S02)* succeeded at Religion nat 20/21 — saw deity of justice illumination; accepted Bebo caretaker notebook from Nyx.
 - **↔ [[The Uprooters]] / [[Aiphrumfite ‘Aiph’|Aiph]]:** selected into the WtFF party (Group K).
 - **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** *(S02)* Named primary caretaker for Bebo’s battery-change procedure by Nyx; received the caretaker notebook.
-- **↔ [[Tobias Wolfe|Tobias]]:** *(S02)* He gravitated toward her after the Mags encounter; she is the party member he treats as safest/non-threatening.
+- **↔ [[Tobias Wolfe|Tobias]]:** *(S02)* He gravitated toward her after the Mags encounter; she is the party member he treats as safest/non-threatening. *(S03)* He gifted her a sketch of her hammer (she pocketed it carefully); he opened small talk about her Age-of-Heroes expertise.
+- **↔ [[Constance]]:** *(S03)* Met her in the conservatory car; read her as genuinely friendly (Insight 12) and recalled her arcane shop in [[The Burn]] (History, advantage, 17).
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 03 — Raise a Glass to Provisional Trust]] | Explored the conservatory car; met [[Constance]] (Insight 12; History 17 — recalled her shop in [[The Burn]]). At the [[X Marks the Spot Inn]] backed [[BE-BO (Botanical Energy Balance Operator)|Bebo]]'s "provisional trust" ("I'm with the robot") and laid her hand in; received and pocketed [[Tobias Wolfe|Tobias]]'s hammer sketch; skimmed Bebo's caretaker notes (Investigation 4). Descended into the test dungeon **first** (ahead of the jumping Bruin). |
 | [[Session 02 — Something’s Changing]] | Introduced as museum curator (Age of Heroes museum; mentor’s collection); said "archaeologist" first. Religion nat 20/21 on [[Nyx]]’s armor: saw vines, thorns, shackles — deity of justice. Accepted primary Bebo caretaker role from Nyx (caretaker notebook); [[Isla ‘Bruin’ Kaplan\|Bruin]] is physical muscle. Boarded green train to [[Sunroute Crossing]]. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed; tried to read Nyx’s chest symbol (failed). Read the Mags/Aiph eye-contact moment successfully. Selected into Group K. |
 

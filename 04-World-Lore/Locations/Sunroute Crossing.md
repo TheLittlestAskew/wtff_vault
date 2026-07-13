@@ -1,30 +1,37 @@
 ---
 type: location
 region: "[Unknown/Ambiguous]"
-first_visited: "[[Session 02 — Something's Changing]] (destination only — not yet visited)"
-status: Known But Unvisited
+first_visited: "[[Session 03 — Raise a Glass to Provisional Trust]]"
+status: Partially Explored
 ---
 
 # Sunroute Crossing
 
-> ⚠️ **Spelling confidence: ≤60%.** Consistent across two DM mentions in [[Session 02 — It follows me, so I followed it]] [00:21:00], [00:22:34–36]. Cross-reference with world document before seeding additional lore.
+> ⚠️ **Spelling conflict — do NOT auto-resolve.** The lore page is titled **Sunroute**, but in [[Session 03 — Raise a Glass to Provisional Trust]] the DM said **"Sunroot"** aloud and the DM-authored art is `06-Media/Sunroot_Crossing.png`. Both S02 mentions and the S03 evidence are ≤60% confidence. **Ask Adam;** if "Sunroot" is confirmed, rename this page to `Sunroot Crossing.md` and update the `_Campaign_Setup.md` spelling table. Pages currently link to it as `[[Sunroute Crossing|Sunroot Crossing]]`.
 
 ## Description
-The test dungeon assigned to **Group K** (the WtFF party) by [[The Uprooters]]. Group K departed by green train from [[Rhusatatiam]] at the end of [[Session 02 — It follows me, so I followed it]]; Sunroute Crossing is their first Uprooter mission destination.
+A **rail-stop village** and the site of **Group K**'s first [[The Uprooters|Uprooter]] test dungeon. Group K arrived aboard [[The Verdant Blossom]] (green train) from [[Rhusatatiam]] just after midday in [[Session 03 — Raise a Glass to Provisional Trust]]. The station sign reads: *"Where endings took root and new beginnings grew."* The town is reached by crossing a bridge; it is **community-funded** (workers well-paid, tipping uncommon — [[BE-BO (Botanical Energy Balance Operator)|Bebo]], History nat 20), with **festival season approaching** ("the first of vent was yesterday," per [[Delilah]]). Broken-down **ruins on a hill** conceal the entrance to Aiph's dungeon.
 
 - Region: [Unknown/Ambiguous]
-- Nature of the site: [Unknown/Ambiguous — test dungeon context only]
 
 ## Notable Features
-[Unknown/Ambiguous — not yet visited]
+- **[[X Marks the Spot Inn]]** — the central inn/tavern/tower where Group K lodged the night before the dungeon.
+- **The test dungeon** — a **five-layer** dungeon personally curated by [[Aiphrumfite 'Aiph'|Aiph]], entered via a **trap door** in a nondescript ruin. ~25–30 ft ladder down to a pitch-black empty stone room. Objective: reach the bottom layer, retrieve a chest's contents, return them to Aiph. "Some of it is dangerous, some simulates danger."
+- Morning market on the way up to the ruins.
+
+## Inhabitants
+- **[[Delilah]]** — half-elf server at the [[X Marks the Spot Inn]].
 
 ## Events
 | Session | Event |
 |---|---|
-| [[Session 02 — It follows me, so I followed it]] | Named by [[Aiphrumfite 'Aiph'|Aiph]] during Group K orientation as the party's first test dungeon destination. Group K boarded the green train to Sunroute Crossing at the morning platform in [[Rhusatatiam]]. |
+| [[Session 03 — Raise a Glass to Provisional Trust]] | Group K arrived by green train, read the station sign, lodged at the [[X Marks the Spot Inn]] (the "provisional trust" pact + long rest), and in the morning descended into Aiph's five-layer test dungeon via the trap door in the hillside ruin. The trap door shut; the session ended in darkness. |
+| [[Session 02 — It follows me, so I followed it]] | Named by [[Aiphrumfite 'Aiph'|Aiph]] during Group K orientation as the party's first test dungeon destination. Group K boarded the green train at the morning platform in [[Rhusatatiam]]. |
 
 ## Related
 - [[Campaign Dashboard]]
 - [[The Uprooters]]
 - [[Aiphrumfite 'Aiph'|Aiph]]
 - [[Rhusatatiam]]
+- [[The Verdant Blossom]]
+- [[X Marks the Spot Inn]]

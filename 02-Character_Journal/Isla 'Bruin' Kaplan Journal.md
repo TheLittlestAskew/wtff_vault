@@ -15,6 +15,51 @@ tags:
 
 ---
 
+> [!quote]- Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
+> *[[Session 03 — Raise a Glass to Provisional Trust|On the green train, and the mouth in the ground]]*
+>
+> **Day one — the train.**
+>
+> They gave us a train the color of a hothouse. Aiph walked us through it like it was a house she'd lived in a long time: a car for eating, a car for growing things, a car full of soft chairs and books, cabins, a room at the back that is all one window. She handed each of us a little wooden coin with the mark on it, said it would pay our way, said the ride was a few hours. Her pocket watch is broken. She said that like it was funny.
+>
+> The others scattered like water finding cracks. The cold one and his fox went looking for sweets. The quiet girl went to the growing-car to be near green things, and the machine and the tall one followed. The wizard went off toward the back, curious about the workings of the train, the way he's curious about everything.
+>
+> I stayed. I took out my axe and worked the edge until it was right. It settles me, the same way pacing a den settles an animal. And Aiph was in that car too, at the far end, writing in a little book.
+>
+> I have wanted to ask her something since the tavern, so I moved close, quiet, and I asked. Her partner — the dragon lady — I could smell something on her the whole night and I didn't have a word for it. Aiph put her book down. She said I smell the *shifting of the very world*. She said the dragon lady is shifting too, and she hoped it frightened her, because that one hates change.
+>
+> And it landed in me all at once, the way a thing does when someone finally names it. I have smelled that smell my whole life. I never knew what it was. It's the smell of something *becoming* something else. It's why the water stopped running the way it used to. It's why I left. It's why I'm here. Naming it was a relief, like the ache after you finally set a bone.
+>
+> She told me more than I asked for. She said there is going to be violence before this is done, and that's part of why she chose me. I told her I can do violence — I'll do it to learn what's happening — but I needed to know her partner's fear wouldn't come down on my head. She wouldn't lie to me. She said the dragon lady is stronger than she is, and that all she could promise was to *try*, to get a chance to talk first. That's not nothing. It's not a wall between me and a thing with teeth, either. So I decided: I'll keep my distance. As long as she doesn't close it on purpose, we'll be fine. I don't want to fight someone who's built like me.
+>
+> Then I went and got food that wasn't a carrot. Meat on the bone, and something small and strong to drink. It burns going down the same as it burns in a wound — I told the old man behind the bar that, and he knew exactly what I meant. I ate the way I eat. Fast, clean, nothing wasted. The quiet girl looked like she might be sick watching me. That's fine.
+>
+> The train slowed. A town. A sign that said this was where endings took root and new things grew. Pretty words for a place with a hole in the ground.
+>
+> **Day one — the inn.**
+>
+> Aiph walked us over a bridge into a loud, warm place with a band in the middle and a bar on every wall. She'll sleep here too, she said, doing her reading. Tomorrow, the test.
+>
+> At the table the cold one started worrying at trust like a dog with a bone. He doesn't trust the recruiters. He doesn't trust *us* — says we don't know each other, so how can we do this. The wizard's bird overheard the two women arguing back at the tavern; one of them said she didn't think any of us were good enough. That's what's eating him.
+>
+> I don't understand the worry. Nobody starts a journey knowing what they're doing. You assume trust and you take it back only when someone earns you taking it back. I told them the truth, too, so it wouldn't sit wrong: I would sell every one of them for the people who matter to my life. That doesn't mean we can't work together. It just means I know where I stand, and now they do.
+>
+> The machine had the cleanest word for it: *provisional trust.* Trust you give because the moment calls for it, and keep until you're given a reason not to. It put its arm in the middle of the table. One by one the others laid hands in — the tall one, the quiet girl, the wizard, and last, and slowest, the cold one, who has clearly had trust cost him before. I didn't put my hand in. Not because I don't trust them. I do. I just don't do that. I told them so. Some of them were watching the room while it happened, and two of them caught Aiph at the bar, raising her glass at us like she'd seen something she liked.
+>
+> The cold one gave the tall one a drawing of her hammer. She folded it away against her body like it mattered. It did.
+>
+> I went up to my room when a body should — I'm made for the morning and I know it.
+>
+> **Day two — the mouth in the ground.**
+>
+> Aiph led us up through the early market to a ruin that didn't want to be noticed, and in the middle of it, a trap door. Five layers down, a chest at the bottom. Bring up what's inside. She'll wait at the top under a little tent, and she told us — plainly, like she was surprised to hear herself say it — that she really is rooting for us, that a day or two ago she didn't think we were ready, and part of her still doesn't, but she's more hopeful than she was.
+>
+> The tall one opened it. Black all the way down. I didn't take the ladder. I jumped. The others came after, and last of all the machine climbed down on all its legs like a careful spider. Then the door above us shut, and the light went with it, and we stood in an empty stone room in the dark, waiting to find out what she built for us.
+>
+> *Provisional trust. It'll do.*
+
+---
+
 > [!quote]- Session 02 — Something's Changing (06/28/2026)
 > *[[Session 02 — It follows me, so I followed it|The night we got on a train]]*
 >
