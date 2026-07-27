@@ -10,6 +10,7 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Next Steps
 
+- [ ] **S04 pending review** (2026-07-26 session) — check `_pipeline/S04/spellcheck.md`, then run `Workflows/scripts/Approve-WTFF.cmd` to apply corrections + generate the note + propagate. Pipeline is stopped here until approved.
 - [ ] Migrate 3 session notes to the unified schema: add `type: session`, convert `session_number` from string to int — without `type: session` `DnD.base`'s Sessions view stays empty
 - [ ] Run `Workflows/scripts/Publish-WTFF.cmd` to commit + push note changes (push = publish; the site reads notes straight from this repo)
 - [ ] In Supabase, flip `ddb_campaigns` row 4 `status` from `paused` to `active` (set a real `game_id` only if WTFF starts using DDB rolls)
@@ -18,6 +19,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+
+### 2026-07-26 22:41 ET · Claude Code
+- **Changed:** Recovered the stalled pipeline watcher (orphaned since 7/25, process alive but its file-watch had gone deaf, so tonight's 10:17 PM drop wasn't detected). Killed the zombie, started a clean watcher, re-triggered the drop. S04 transcribed via AssemblyAI (153 min, 17,969 words, 96.3% confidence, 7 speakers); keyterms refreshed (+6 proper nouns).
+- **Commit:** `5a38b41`
+- **Next:** Review S04 spell-check in `_pipeline/S04/spellcheck.md`, then run `Approve-WTFF.cmd` to apply + propagate (added as top item in Next Steps).
+- **Watch out:** Watcher can go "alive but deaf" — process up, file-watch dead — and the scheduled task's auto-restart does NOT catch it (no heartbeat/heal task like Swiftwatch has). If a future drop shows no toast: restart the watcher AND re-drop the file, because `ignoreInitial` makes a restart skip files already sitting in Recordings.
 
 ### 2026-07-26 11:44 ET · Claude Code
 - **Changed:** Added the Handoff Contract to `AGENTS.md` so Codex follows it. Codex reads `AGENTS.md`, never `~/.claude/skills/`, so it had no handoff instructions at all before this.
