@@ -20,6 +20,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-07-29 20:43 ET · Claude Code
+- **Changed:** Pushed Taylor's own `vault backup: 2026-07-28 22:06:17` commit, which had been sitting unpushed for 22 hours. It adds `Session_Sources/Transcripts/Corrected/04 - 072626_corrected.md`, 2477 lines. Nothing was authored here; a cross-repo handoff sweep found the unpushed state and Taylor confirmed the push.
+- **Commit:** `0221050` (hers), plus this handoff entry
+- **Next:** Unchanged. S04 still pending review at the top of Next Steps.
+- **Watch out:** ✓ Checked before pushing, because this repo's own Next Steps warns "push = publish; the site reads notes straight from this repo". Transcripts are **not** part of that: no `.html`, `.cmd` or publish config references `Transcripts/`, only the pipeline scripts and the Obsidian workspace. And corrected transcripts 01 through 03 are already on the remote, 17 transcript files in total, so this is consistent with existing practice rather than a new category of content going public. ⚠️ The `vault backup:` commit naming means some backup automation is still committing in this vault without pushing. Worth knowing given the WIP-backup snapshotter was disabled in July for pushing personal data to product remotes; this one is at least writing only to its own vault repo.
+
 ### 2026-07-26 22:41 ET · Claude Code
 - **Changed:** Recovered the stalled pipeline watcher (orphaned since 7/25, process alive but its file-watch had gone deaf, so tonight's 10:17 PM drop wasn't detected). Killed the zombie, started a clean watcher, re-triggered the drop. S04 transcribed via AssemblyAI (153 min, 17,969 words, 96.3% confidence, 7 speakers); keyterms refreshed (+6 proper nouns).
 - **Commit:** `5a38b41`
