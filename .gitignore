@@ -32,6 +32,18 @@ DND_Sources/*.pdf
 # any time with: node ddb_party_sync.js --discover
 Workflows/scripts/ddb_party.json
 
+# ── Misfiled SITL transcripts (WRONG CAMPAIGN — pending removal) ──
+# Both of these are Sky Is The Limit sessions (DM Addison, Out of the Abyss) that
+# the transcription watcher dropped into this vault on 2026-08-02. They are NOT
+# WtFF content. The authoritative copy of the full recording already lives at
+# sitl_vault/Session_Sources/Transcripts/Raw_Unedited/21-080226_raw_transcript.md,
+# so nothing here is unique. This repo is PUBLIC — committing another campaign's
+# 233-minute transcript (players' first names, real-life above-table chat) would
+# republish it to the world. Ignored, not deleted: removal is Taylor's call.
+# Evidence: _pipeline/S04/flags.md #1. Delete these lines once the files are gone.
+Session_Sources/Transcripts/Raw_Unedited/04-080226_raw_transcript.md
+Session_Sources/Transcripts/Raw_Unedited/04-UNKNOWN_raw_transcript.md
+
 # ── Obsidian / tooling ────────────────────────────────────────
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
