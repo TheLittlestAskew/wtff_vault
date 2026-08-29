@@ -177,10 +177,32 @@ These aren't run directly — the watcher feeds them to headless Claude Code at 
 ### Scheduled task "WTFF Pipeline Watcher"
 - **What:** Runs `start-watcher-hidden.vbs` at logon so the watcher is always up (hidden),
   surviving restarts.
-- **State:** `Ready` (confirmed present).
+- **State:** `Running` — repaired and verified 2026-08-28 by reading back the task *and* the
+  processes: task `Running`, plus a `wscript.exe` wrapper and a `node.exe` running
+  `wtff_pipeline_watch.js`. A watcher is only healthy when **both** processes exist.
+- 🛑 **Required settings. Do NOT let these fall back to the Windows defaults.**
+  This is a long-running logon watcher, and the defaults `schtasks /Create` applies will
+  kill it:
+
+  | Setting | Must be | Windows default | What the default does to you |
+  |---|---|---|---|
+  | `ExecutionTimeLimit` | `PT0S` (no limit) | `PT72H` | Kills the watcher every 3 days |
+  | `RestartCount` | `3`, interval `PT1M` | `0` | Never comes back after a kill |
+  | `StopIfGoingOnBatteries` | `False` | `True` | Dies the moment you unplug |
+  | `DisallowStartIfOnBatteries` | `False` | `True` | Won't start at all on battery |
+
+  `Install-WTFFTask.cmd` now applies all four automatically and prints them back for
+  checking. 🛑 **This is the task that proved why the section is needed.** On 2026-08-28 it
+  was found dead: killed at its 72h limit (last result `0x800705B4` = timeout), with
+  `RestartCount=0` so it never recovered, and its `node` child left **orphaned and still
+  running** under a dead `wscript` parent. Task Scheduler read `Ready`, which looks idle
+  rather than broken, while a stray unmanaged watcher still held the folder. Repair was:
+  fix the four settings, kill the orphan, then start the task.
+- **Verify:** `Get-ScheduledTask -TaskName 'WTFF Pipeline Watcher' | Select-Object -ExpandProperty Settings`
 - **Manage:** Task Scheduler → "WTFF Pipeline Watcher" (Run / End / Disable). To restart the
   watcher by hand instead, stop the `node.exe` running `wtff_pipeline_watch.js` and re-launch
-  `start-watcher-hidden.vbs`.
+  `start-watcher-hidden.vbs`. 🛑 Always stop the old `node.exe` first — starting the task
+  while an orphan is alive gives you two watchers on the same folder.
 
 ---
 
