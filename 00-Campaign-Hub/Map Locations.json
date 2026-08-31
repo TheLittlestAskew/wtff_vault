@@ -152,10 +152,16 @@
   "unnamed_markers": {
     "_README": [
       "Markers Taylor placed on the map whose labels could not be read at the",
-      "available resolution (980x735 for the marked copy; the source map is",
-      "1280x960 and its town type is ~5px). Coordinates are measured and correct.",
-      "Give one a name and move it into \"locations\" to put it on the site.",
-      "Nothing here is published - the generator only reads \"locations\"."
+      "available resolution (the best copy is 1280x960 and its town type is ~5px).",
+      "Coordinates are measured and correct.",
+      "",
+      "Each entry carries a \"ring\" id (A, B, C...) which is what is drawn on",
+      "Artemesia_UNNAMED_RINGS.png. Find the ring on the image, find the same letter",
+      "here. Ids are assigned from the sorted key order so they do not shuffle when",
+      "one gets named.",
+      "",
+      "To publish one: give it a name and move it into \"locations\".",
+      "Nothing here reaches the site - the generator only reads \"locations\"."
     ],
     "salvia_south": {
       "x": 55.7,
@@ -165,22 +171,26 @@
         "Sage Root",
         "Seed Root"
       ],
-      "note": "⚑ label partly legible, under 60% — not named"
+      "note": "⚑ label partly legible, under 60% — not named",
+      "ring": "E"
     },
     "salvia_west": {
       "x": 48.3,
       "y": 35.9,
-      "region": "Salvia Forest"
+      "region": "Salvia Forest",
+      "ring": "F"
     },
     "bloom_west": {
       "x": 80.6,
       "y": 36,
-      "region": "The Bloom"
+      "region": "The Bloom",
+      "ring": "A"
     },
     "liriope_mid": {
       "x": 74.2,
       "y": 52.8,
-      "region": "Liriope River Net"
+      "region": "Liriope River Net",
+      "ring": "B"
     },
     "rhus_southcoast": {
       "x": 29.4,
@@ -189,12 +199,14 @@
       "candidates": [
         "Willowshore"
       ],
-      "note": "⚑ label partly legible, under 60% — not named"
+      "note": "⚑ label partly legible, under 60% — not named",
+      "ring": "D"
     },
     "liriope_west": {
       "x": 61.7,
       "y": 59.7,
-      "region": "Liriope River Net"
+      "region": "Liriope River Net",
+      "ring": "C"
     }
   }
 }
