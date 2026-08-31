@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T18:29:55.639Z",
+  "generated_at": "2026-08-31T18:55:58.238Z",
   "first_published_session": "01",
   "map": {
     "party": "sunrootcrossing",
@@ -123,6 +123,20 @@
         "name": "Mistlewood",
         "region": "The Burn",
         "note": "⚑ name ~60% — confirm with Adam"
+      },
+      "gloamglade": {
+        "x": 53.7,
+        "y": 18.5,
+        "name": "Gloamglade",
+        "region": "Salvia Forest",
+        "note": "⚑ name ~80% — read from Artemesia_Map_2; confirm with Adam"
+      },
+      "dewhollow": {
+        "x": 63.6,
+        "y": 29.4,
+        "name": "Dewhollow",
+        "region": "Salvia Forest",
+        "note": "⚑ name ~75% — read from Artemesia_Map_2; confirm with Adam"
       }
     },
     "events": [
