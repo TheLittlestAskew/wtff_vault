@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T22:06:46.990Z",
+  "generated_at": "2026-08-31T23:45:10.979Z",
   "first_published_session": "01",
   "map": {
     "party": "sunrootcrossing",
@@ -158,6 +158,48 @@
         "region": "Salvia Forest",
         "note": "⚑ name ~75% — read from Artemesia_Map_2; confirm with Adam",
         "grid": "D11"
+      },
+      "floravale": {
+        "x": 80.6,
+        "y": 36,
+        "name": "Floravale",
+        "region": "The Bloom",
+        "grid": "E13"
+      },
+      "tidecross": {
+        "x": 74.2,
+        "y": 52.8,
+        "name": "Tidecross",
+        "region": "Liriope River Net",
+        "grid": "G12"
+      },
+      "currentsrest": {
+        "x": 61.7,
+        "y": 59.7,
+        "name": "Current's Rest",
+        "region": "Liriope River Net",
+        "grid": "H10"
+      },
+      "thornmere": {
+        "x": 29.4,
+        "y": 59.2,
+        "name": "Thornmere",
+        "region": "Rhus Valley",
+        "grid": "H5"
+      },
+      "silvaroot": {
+        "x": 55.7,
+        "y": 30.7,
+        "name": "Silvaroot",
+        "region": "Salvia Forest",
+        "grid": "D9"
+      },
+      "bramblequiet": {
+        "x": 48.3,
+        "y": 35.9,
+        "name": "Bramblequiet",
+        "region": "Salvia Forest",
+        "grid": "E8"
       }
     },
     "events": [
