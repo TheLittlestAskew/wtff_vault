@@ -4,6 +4,7 @@ campaign: Where the Flowers Forget
 session_number: "03"
 session_date: 2026-07-12
 session_date_display: 07/12/2026
+site_location: sunrootcrossing
 session_type: Regular WtFF session (solo party — 6 PCs + DM; first non-crossover session)
 spelling_checked: true
 rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
