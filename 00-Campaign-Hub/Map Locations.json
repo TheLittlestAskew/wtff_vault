@@ -168,73 +168,60 @@
       "region": "Salvia Forest",
       "note": "⚑ name ~75% — read from Artemesia_Map_2; confirm with Adam",
       "grid": "D11"
+    },
+    "floravale": {
+      "x": 80.6,
+      "y": 36,
+      "name": "Floravale",
+      "region": "The Bloom",
+      "grid": "E13"
+    },
+    "tidecross": {
+      "x": 74.2,
+      "y": 52.8,
+      "name": "Tidecross",
+      "region": "Liriope River Net",
+      "grid": "G12"
+    },
+    "currentsrest": {
+      "x": 61.7,
+      "y": 59.7,
+      "name": "Current's Rest",
+      "region": "Liriope River Net",
+      "grid": "H10"
+    },
+    "thornmere": {
+      "x": 29.4,
+      "y": 59.2,
+      "name": "Thornmere",
+      "region": "Rhus Valley",
+      "grid": "H5"
+    },
+    "silvaroot": {
+      "x": 55.7,
+      "y": 30.7,
+      "name": "Silvaroot",
+      "region": "Salvia Forest",
+      "grid": "D9"
+    },
+    "bramblequiet": {
+      "x": 48.3,
+      "y": 35.9,
+      "name": "Bramblequiet",
+      "region": "Salvia Forest",
+      "grid": "E8"
     }
   },
   "unnamed_markers": {
     "_README": [
-      "Markers Taylor placed on the map whose labels could not be read at the",
-      "available resolution (the best copy is 1280x960 and its town type is ~5px).",
-      "Coordinates are measured and correct.",
-      "",
-      "Each entry carries a \"ring\" id (A, B, C...) which is what is drawn on",
-      "Artemesia_UNNAMED_RINGS.png. Find the ring on the image, find the same letter",
-      "here. Ids are assigned from the sorted key order so they do not shuffle when",
-      "one gets named.",
-      "",
+      "Markers placed on the map whose labels could not be read at the available",
+      "resolution. Each carries a \"ring\" id drawn on Artemesia_MAP_GRID.png and a",
+      "\"grid\" cell, so the image and this file cross-reference directly.",
+      "EMPTY as of 2026-08-31 — Taylor named all six. Block kept so the pattern is",
+      "reusable the next time a label cannot be read.",
       "To publish one: give it a name and move it into \"locations\".",
       "Nothing here reaches the site - the generator only reads \"locations\"."
-    ],
-    "salvia_south": {
-      "x": 55.7,
-      "y": 30.7,
-      "region": "Salvia Forest",
-      "candidates": [
-        "Sage Root",
-        "Seed Root"
-      ],
-      "note": "⚑ label partly legible, under 60% — not named",
-      "ring": "E",
-      "grid": "D9"
-    },
-    "salvia_west": {
-      "x": 48.3,
-      "y": 35.9,
-      "region": "Salvia Forest",
-      "ring": "F",
-      "grid": "E8"
-    },
-    "bloom_west": {
-      "x": 80.6,
-      "y": 36,
-      "region": "The Bloom",
-      "ring": "A",
-      "grid": "E13"
-    },
-    "liriope_mid": {
-      "x": 74.2,
-      "y": 52.8,
-      "region": "Liriope River Net",
-      "ring": "B",
-      "grid": "G12"
-    },
-    "rhus_southcoast": {
-      "x": 29.4,
-      "y": 59.2,
-      "region": "Rhus Valley",
-      "candidates": [
-        "Willowshore"
-      ],
-      "note": "⚑ label partly legible, under 60% — not named",
-      "ring": "D",
-      "grid": "H5"
-    },
-    "liriope_west": {
-      "x": 61.7,
-      "y": 59.7,
-      "region": "Liriope River Net",
-      "ring": "C",
-      "grid": "H10"
-    }
+    ]
   },
   "grid": {
     "_README": [
