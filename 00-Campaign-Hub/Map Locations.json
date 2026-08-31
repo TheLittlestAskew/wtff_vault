@@ -133,6 +133,20 @@
       "name": "Mistlewood",
       "region": "The Burn",
       "note": "⚑ name ~60% — confirm with Adam"
+    },
+    "gloamglade": {
+      "x": 53.7,
+      "y": 18.5,
+      "name": "Gloamglade",
+      "region": "Salvia Forest",
+      "note": "⚑ name ~80% — read from Artemesia_Map_2; confirm with Adam"
+    },
+    "dewhollow": {
+      "x": 63.6,
+      "y": 29.4,
+      "name": "Dewhollow",
+      "region": "Salvia Forest",
+      "note": "⚑ name ~75% — read from Artemesia_Map_2; confirm with Adam"
     }
   },
   "unnamed_markers": {
@@ -143,20 +157,15 @@
       "Give one a name and move it into \"locations\" to put it on the site.",
       "Nothing here is published - the generator only reads \"locations\"."
     ],
-    "salvia_north": {
-      "x": 53.7,
-      "y": 18.5,
-      "region": "Salvia Forest"
-    },
-    "salvia_east": {
-      "x": 63.6,
-      "y": 29.4,
-      "region": "Salvia Forest"
-    },
     "salvia_south": {
       "x": 55.7,
       "y": 30.7,
-      "region": "Salvia Forest"
+      "region": "Salvia Forest",
+      "candidates": [
+        "Sage Root",
+        "Seed Root"
+      ],
+      "note": "⚑ label partly legible, under 60% — not named"
     },
     "salvia_west": {
       "x": 48.3,
@@ -176,7 +185,11 @@
     "rhus_southcoast": {
       "x": 29.4,
       "y": 59.2,
-      "region": "Rhus Valley"
+      "region": "Rhus Valley",
+      "candidates": [
+        "Willowshore"
+      ],
+      "note": "⚑ label partly legible, under 60% — not named"
     },
     "liriope_west": {
       "x": 61.7,
