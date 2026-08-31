@@ -54,6 +54,134 @@
       "y": 57,
       "name": "Sunroot Crossing",
       "region": "Rhus Valley"
+    },
+    "whispergrove": {
+      "x": 55.9,
+      "y": 26.1,
+      "name": "Whispergrove",
+      "region": "Salvia Forest"
+    },
+    "thistlewake": {
+      "x": 54.4,
+      "y": 39.5,
+      "name": "Thistlewake",
+      "region": "Salvia Forest"
+    },
+    "brindleberryhollow": {
+      "x": 37,
+      "y": 40.3,
+      "name": "Brindleberry Hollow",
+      "region": "Rhus Valley"
+    },
+    "lanternwake": {
+      "x": 74.8,
+      "y": 46.4,
+      "name": "Lanternwake",
+      "region": "Liriope River Net"
+    },
+    "cloverreach": {
+      "x": 28.2,
+      "y": 51.2,
+      "name": "Cloverreach",
+      "region": "Rhus Valley"
+    },
+    "emberfast": {
+      "x": 53.4,
+      "y": 59.3,
+      "name": "Emberfast",
+      "region": "The Burn"
+    },
+    "pyrestone": {
+      "x": 39.5,
+      "y": 60.9,
+      "name": "Pyrestone",
+      "region": "The Burn"
+    },
+    "cindervale": {
+      "x": 35.2,
+      "y": 65.7,
+      "name": "Cindervale",
+      "region": "The Burn"
+    },
+    "ashenridge": {
+      "x": 40.8,
+      "y": 67.6,
+      "name": "Ashenridge",
+      "region": "The Burn"
+    },
+    "charhollow": {
+      "x": 44.1,
+      "y": 75.4,
+      "name": "Char Hollow",
+      "region": "The Burn"
+    },
+    "blackroothold": {
+      "x": 33.7,
+      "y": 76.3,
+      "name": "Blackroot Hold",
+      "region": "The Burn"
+    },
+    "sunderreach": {
+      "x": 38,
+      "y": 79.6,
+      "name": "Sunderreach",
+      "region": "The Burn"
+    },
+    "mistlewood": {
+      "x": 51.7,
+      "y": 82.5,
+      "name": "Mistlewood",
+      "region": "The Burn",
+      "note": "⚑ name ~60% — confirm with Adam"
+    }
+  },
+  "unnamed_markers": {
+    "_README": [
+      "Markers Taylor placed on the map whose labels could not be read at the",
+      "available resolution (980x735 for the marked copy; the source map is",
+      "1280x960 and its town type is ~5px). Coordinates are measured and correct.",
+      "Give one a name and move it into \"locations\" to put it on the site.",
+      "Nothing here is published - the generator only reads \"locations\"."
+    ],
+    "salvia_north": {
+      "x": 53.7,
+      "y": 18.5,
+      "region": "Salvia Forest"
+    },
+    "salvia_east": {
+      "x": 63.6,
+      "y": 29.4,
+      "region": "Salvia Forest"
+    },
+    "salvia_south": {
+      "x": 55.7,
+      "y": 30.7,
+      "region": "Salvia Forest"
+    },
+    "salvia_west": {
+      "x": 48.3,
+      "y": 35.9,
+      "region": "Salvia Forest"
+    },
+    "bloom_west": {
+      "x": 80.6,
+      "y": 36,
+      "region": "The Bloom"
+    },
+    "liriope_mid": {
+      "x": 74.2,
+      "y": 52.8,
+      "region": "Liriope River Net"
+    },
+    "rhus_southcoast": {
+      "x": 29.4,
+      "y": 59.2,
+      "region": "Rhus Valley"
+    },
+    "liriope_west": {
+      "x": 61.7,
+      "y": 59.7,
+      "region": "Liriope River Net"
     }
   }
 }
