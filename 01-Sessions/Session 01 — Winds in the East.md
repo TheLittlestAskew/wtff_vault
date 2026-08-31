@@ -4,6 +4,7 @@ campaign: Where the Flowers Forget
 session_number: "01"
 session_date: 2026-06-14
 session_date_display: 06/14/2026
+site_location: rhusatatiam
 session_type: Joint / crossover launch (both parties, both DMs)
 spelling_checked: true
 rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)

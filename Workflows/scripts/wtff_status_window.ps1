@@ -37,7 +37,7 @@ $COL = @{
 }
 $ICON = @{ pending = [char]0x25CB; running = [char]0x25B6; awaiting = [char]0x25CF;
            done = [char]0x2713; failed = [char]0x2717 }
-$STEP_NO = @{ transcribe = 1; phaseA = 2; phaseB = 3; convo2 = 4 }
+$STEP_NO = @{ transcribe = 1; phaseA = 2; phaseB = 3; convo2 = 4; publish = 5 }
 
 # ── Window shell (stage rows + log box are filled in code) ───────────
 [xml]$xaml = @'
@@ -234,17 +234,18 @@ function Refresh {
   $review   = $st.stages | Where-Object { $_.id -eq 'review' } | Select-Object -First 1
   $running  = $st.stages | Where-Object { $_.state -eq 'running' -and $_.work } | Select-Object -First 1
   $workDone = ($st.stages | Where-Object { $_.work -and $_.state -eq 'done' }).Count
+  $workTotal = ($st.stages | Where-Object { $_.work }).Count   # derived, not hardcoded
   $sess     = if ($st.session) { "Session $($st.session)  " + [char]0x00B7 + "  " } else { '' }
 
   if ($failed) {
     $sub = 'Failed at ' + [string]$failed.label
   } elseif ($review -and $review.state -eq 'awaiting') {
     $sub = 'Awaiting your review ' + [char]0x2014 + ' approve when ready'
-  } elseif ($workDone -ge 4) {
+  } elseif ($workDone -ge $workTotal) {
     $sub = 'Complete ' + [char]0x2713 + ' synced + pushed'
   } elseif ($running) {
     $n = if ($STEP_NO.ContainsKey([string]$running.id)) { $STEP_NO[[string]$running.id] } else { '?' }
-    $sub = "Step $n of 4  " + [char]0x00B7 + "  " + [string]$running.label
+    $sub = "Step $n of $workTotal  " + [char]0x00B7 + "  " + [string]$running.label
   } else {
     $sub = 'Working' + [char]0x2026
   }

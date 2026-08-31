@@ -99,6 +99,7 @@ const STAGE_DEFS = [
   { id: 'review',     label: 'Your review',                  work: false },
   { id: 'phaseB',     label: 'Apply + notes  ·  Convo 1B',   work: true  },
   { id: 'convo2',     label: 'Propagate + push  ·  Convo 2', work: true  },
+  { id: 'publish',    label: 'Publish to site',                work: true  },
 ];
 const nowIso = () => new Date().toISOString();
 
@@ -289,6 +290,33 @@ function processRecording(mp3) {
 }
 
 // ── APPROVE-MODE handler ──
+// ── Publish: regenerate the site index, then commit + push ──────────────
+// Added 2026-08-31. The website reads Public Session Index.json from this
+// repo's main branch at request time - it is the ONLY thing the site reads for
+// the session list. Pushing the notes without regenerating the index leaves the
+// site silently showing the previous session, which is exactly what happened to
+// SITL S23. This runs as deterministic code so it cannot be forgotten.
+function publishToSite(nn) {
+  const gen = path.join(VAULT_ROOT, 'Workflows', 'scripts', 'generate_public_session_index.mjs');
+  if (!fs.existsSync(gen)) { log(`publish: generator missing at ${gen}`); return false; }
+
+  log('publish: regenerating Public Session Index.json…');
+  const g = spawnSync(process.execPath, [gen], { cwd: VAULT_ROOT, stdio: 'inherit' });
+  if (g.status !== 0) { log('publish: index generation FAILED — nothing committed or pushed'); return false; }
+
+  const git = (...a) => spawnSync('git', a, { cwd: VAULT_ROOT, stdio: 'inherit' });
+  git('add', '-A');
+  if (spawnSync('git', ['diff', '--cached', '--quiet'], { cwd: VAULT_ROOT }).status === 0) {
+    log('publish: nothing to commit — site already current');
+    return true;
+  }
+  if (git('commit', '-m', `notes: publish session ${nn}`).status !== 0) { log('publish: commit FAILED'); return false; }
+  if (git('pull', '--rebase', 'origin', 'main').status !== 0) { log('publish: pull --rebase FAILED — resolve conflicts and rerun'); return false; }
+  if (git('push', 'origin', 'main').status !== 0) { log('publish: push FAILED — check network/credentials'); return false; }
+  log('publish: pushed — site reflects the change within ~5 minutes');
+  return true;
+}
+
 function approve() {
   const statePath = path.join(PIPELINE_DIR, 'state.json');
   if (!fs.existsSync(statePath)) return log('No pending session to approve.');
@@ -322,6 +350,15 @@ function approve() {
   });
   if (!runClaude(p2)) { setStage('convo2', 'failed', 'See console output above'); return notify('Convo 2 FAILED — see console output above.'); }
   setStage('convo2', 'done', 'Synced + pushed');
+
+  log('Publish: regenerating the site index + pushing…');
+  setStage('publish', 'running', 'Regenerating index + pushing…');
+  if (!publishToSite(st.nn)) {
+    setStage('publish', 'failed', 'See watcher.log');
+    process.exitCode = 1;
+    return notify('Publish FAILED — the WEBSITE HAS NOT been updated. See _pipeline\\watcher.log.');
+  }
+  setStage('publish', 'done', 'Live on rectrixcaedere.com');
 
   st.stage = 'complete';
   fs.writeFileSync(statePath, JSON.stringify(st, null, 2));

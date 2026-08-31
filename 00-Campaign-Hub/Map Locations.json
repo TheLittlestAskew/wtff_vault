@@ -1,0 +1,59 @@
+{
+  "_README": [
+    "Coordinates for the Map of Artemesia on rectrixcaedere.com.",
+    "",
+    "This file is the SOURCE OF TRUTH for where a place sits on the map image.",
+    "generate_public_session_index.mjs reads it and emits the map block that",
+    "where-the-flowers-forget/archive.html renders. Before 2026-08-31 these",
+    "values were hardcoded in that HTML file.",
+    "",
+    "x and y are PERCENTAGES of the map image (0-100), measured from the",
+    "top-left corner of /assets/img/Artemesia_Map.webp (aspect ratio 980x735).",
+    "",
+    "TO ADD A NEW LOCATION: open the map image, estimate the x/y percentage,",
+    "add an entry here, then put its key in the session note's `site_location`.",
+    "A session pointing at a key that is missing here makes the generator FAIL",
+    "loudly rather than silently drop a bloom off the map.",
+    "",
+    "Keys are lowercase, no spaces, and must stay stable once published -",
+    "they are what session frontmatter refers to."
+  ],
+  "locations": {
+    "zelkova": {
+      "x": 42,
+      "y": 71,
+      "name": "Zelkova City",
+      "region": "The Burn"
+    },
+    "mouthfeeds": {
+      "x": 86,
+      "y": 53,
+      "name": "Mouth that Feeds",
+      "region": "Liriope River Net"
+    },
+    "rhusatatiam": {
+      "x": 33,
+      "y": 50,
+      "name": "Rhusatatiam",
+      "region": "Rhus Valley"
+    },
+    "galiummajor": {
+      "x": 77,
+      "y": 33,
+      "name": "Galium Major",
+      "region": "The Bloom"
+    },
+    "willowhaven": {
+      "x": 54,
+      "y": 26,
+      "name": "Willow Haven",
+      "region": "Salvia Forest"
+    },
+    "sunrootcrossing": {
+      "x": 50,
+      "y": 57,
+      "name": "Sunroot Crossing",
+      "region": "Rhus Valley"
+    }
+  }
+}
