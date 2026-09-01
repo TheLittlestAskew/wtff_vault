@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T00:02:09.241Z",
+  "generated_at": "2026-09-01T04:54:26.224Z",
   "first_published_session": "01",
   "map": {
     "party": "sunrootcrossing",
@@ -18,25 +18,28 @@
         "grid": "I9"
       },
       "mouthfeeds": {
-        "x": 86,
-        "y": 53,
+        "x": 86.6,
+        "y": 48.1,
         "name": "Mouth that Feeds",
         "region": "Liriope River Net",
-        "grid": "G14"
+        "grid": "F14",
+        "note": "✓ Position corrected 2026-09-01. CAPITAL of Liriope River Net. Position measured from the region capital crown icon on Artemesia_Map_2, not from a town label — capitals are drawn as crowns, not dots."
       },
       "rhusatatiam": {
-        "x": 33,
-        "y": 50,
+        "x": 37.6,
+        "y": 49.3,
         "name": "Rhusatatiam",
         "region": "Rhus Valley",
-        "grid": "G6"
+        "grid": "F7",
+        "note": "✓ Position corrected 2026-09-01. CAPITAL of Rhus Valley. Position measured from the region capital crown icon on Artemesia_Map_2, not from a town label — capitals are drawn as crowns, not dots."
       },
       "galiummajor": {
-        "x": 77,
-        "y": 33,
+        "x": 72.3,
+        "y": 34.3,
         "name": "Galium Major",
         "region": "The Bloom",
-        "grid": "D13"
+        "grid": "E12",
+        "note": "✓ Position corrected 2026-09-01. CAPITAL of The Bloom. Position measured from the region capital crown icon on Artemesia_Map_2, not from a town label — capitals are drawn as crowns, not dots."
       },
       "willowhaven": {
         "x": 49.2,
@@ -47,11 +50,12 @@
         "grid": "D8"
       },
       "sunrootcrossing": {
-        "x": 50,
-        "y": 57,
+        "x": 41.4,
+        "y": 55.8,
         "name": "Sunroot Crossing",
         "region": "Rhus Valley",
-        "grid": "G9"
+        "grid": "G7",
+        "note": "✓ Position corrected 2026-09-01 from the blue marker dot. The old (50, 57) was an eyeballed value carried over from the site HTML."
       },
       "whispergrove": {
         "x": 55.9,
