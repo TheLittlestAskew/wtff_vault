@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T23:45:10.979Z",
+  "generated_at": "2026-09-01T00:02:09.241Z",
   "first_published_session": "01",
   "map": {
     "party": "sunrootcrossing",
@@ -10,11 +10,12 @@
     ],
     "locations": {
       "zelkova": {
-        "x": 42,
-        "y": 71,
+        "x": 54.3,
+        "y": 68.7,
         "name": "Zelkova City",
         "region": "The Burn",
-        "grid": "I7"
+        "note": "⚑ CAPITAL of The Burn. Position measured from the white crown icon, NOT from a town label. Taylor confirmed Zelkova City is NOT at the old (42, 71) / cell I7, which is Ashenridge. Inferred, needs a glance to confirm.",
+        "grid": "I9"
       },
       "mouthfeeds": {
         "x": 86,
@@ -38,11 +39,12 @@
         "grid": "D13"
       },
       "willowhaven": {
-        "x": 54,
+        "x": 49.2,
         "y": 26,
         "name": "Willow Haven",
         "region": "Salvia Forest",
-        "grid": "D9"
+        "note": "⚑ CAPITAL of Salvia Forest. Position measured from the pale-yellow crown icon, NOT from a town label — capitals are drawn as crowns, not dots. Taylor confirmed Willow Haven is NOT at the old (54, 26) / cell D9, which is Whispergrove. Inferred, needs a glance to confirm.",
+        "grid": "D8"
       },
       "sunrootcrossing": {
         "x": 50,
