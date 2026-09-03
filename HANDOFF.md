@@ -34,6 +34,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-09-02 22:20 ET · Claude Code (TOOLS.md tool inventory added)
+- **Changed:** Added `TOOLS.md` (23 active rows) — Obsidian + its 7 plugins including omnisearch and mcp-tools, AssemblyAI, the WTFF Pipeline Watcher task, chokidar, BurntToast, Supabase, `ddb_party_sync.js`, and the rest. `AGENTS.md` gained a `### TOOLS.md` subsection so Codex maintains it too. One of 13 project tables that `septentrion-sync` v4 rolls into the vault's new `The Toolbox.md`.
+- **Commit:** `5024f3c`
+- **Next:** Unchanged. See the block above this log.
+- **Watch out:** The watcher row records the 72h `ExecutionTimeLimit` that caused the past timeout, so that gotcha now lives somewhere findable rather than only in the log history.
+
 ### 2026-09-01 09:30 ET · Claude Code (all six original coordinates now corrected)
 - **Changed:** Taylor confirmed the D8/I9 capital placements and authorised the coordinate corrections. Applied four: **Sunroot Crossing** (50, 57) G9 → **(41.4, 55.8) G7**, drift 8.7 — *moves the S03 bloom*; **Rhusatatiam** (33, 50) G6 → **(37.6, 49.3) F7**, drift 4.7 — *moves the S01+S02 blooms*; plus two safe extras no session references, **Mouth that Feeds** → (86.6, 48.1) F14 and **Galium Major** → (72.3, 34.3) E12. Sunroot Crossing comes from its blue marker dot; the other three are capitals and come from their crown icons, measured from 14× crops.
 - **Commit:** `b96ee03`
