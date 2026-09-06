@@ -153,10 +153,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Review S04 spell-check in `_pipeline/S04/spellcheck.md`, then run `Approve-WTFF.cmd` to apply + propagate (added as top item in Next Steps).
 - **Watch out:** Watcher can go "alive but deaf" — process up, file-watch dead — and the scheduled task's auto-restart does NOT catch it (no heartbeat/heal task like Swiftwatch has). If a future drop shows no toast: restart the watcher AND re-drop the file, because `ignoreInitial` makes a restart skip files already sitting in Recordings.
 
-### 2026-07-26 11:44 ET · Claude Code
-- **Changed:** Added the Handoff Contract to `AGENTS.md` so Codex follows it. Codex reads `AGENTS.md`, never `~/.claude/skills/`, so it had no handoff instructions at all before this.
-- **Commit:** `f67b2e9`
-- **Next:** Unchanged. See the block above this log.
-- **Watch out:** Log entries must now carry a tool label (`Claude Code` / `Claude desktop` / `Codex` / `ChatGPT`). Do not restructure this file; the dashboard parses it.
-
-> Older entries archived to handoff-archive/2026-07.md
+> Older entries archived to `handoff-archive/2026-07.md` - everything before 2026-07-26 22:41 ET.
