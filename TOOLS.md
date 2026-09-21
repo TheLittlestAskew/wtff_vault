@@ -28,8 +28,8 @@
 | **session-index-generator** | Skill | Builds the public session index | `Workflows/scripts/generate_public_session_index.mjs` | 2026-08-31 | Free | — |
 | **Node.js + npm** | CLI | Running the watcher, sync, and index-generation scripts | local install | 2026-09-01 | Free | — |
 | **Python 3** | CLI | Ad-hoc correction scripts in `_pipeline/` | local install | ~2026-07-26 | Free | e.g. `S04/apply_corrections.py` |
-| **git** | CLI | Version control, handoff motion | `C:\Program Files\Git` | 2026-09-20 | Free | — |
-| **GitHub** | Service | Remote host for `TheLittlestAskew/wtff_vault` | github.com | 2026-09-20 | Free | — |
+| **git** | CLI | Version control, handoff motion | `C:\Program Files\Git` | 2026-09-21 | Free | — |
+| **GitHub** | Service | Remote host for `TheLittlestAskew/wtff_vault` | github.com | 2026-09-21 | Free | — |
 | **Claude Code** | App | Transcription review, session notes, the WTFF map, handoffs | CLI / IDE extension | 2026-09-20 | Paid | Map went live 2026-09-01: 27 towns, 16×12 grid |
 | **septentrion-sync** | Skill | Feeds handoff state to the vault + SystemHorizon heartbeat | `~/.claude/skills/septentrion-sync` | 2026-09-02 | Free | In both `REPOS` and `TOOLS_REPOS` |
 | **/handoff** | Skill | Banking work, friction log | `~/.claude/skills/handoff` | 2026-09-20 | Free | — |
