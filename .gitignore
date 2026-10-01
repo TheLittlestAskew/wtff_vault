@@ -56,3 +56,16 @@ desktop.ini
 # auto-commit it (that is exactly how it reached sitl_vault's public remote on
 # 2026-09-27 before the publish decision was made).
 SKILLS.md
+
+# Screenshots of admin dashboards. This repo is PUBLIC, and a console capture can
+# leak account IDs, game IDs, hostnames and config layout — on 2026-09-29 a
+# Cloudflare capture in another vault had the account ID in the FILENAME alone, so
+# checking the pixels is not enough. The privacy screen only reads
+# .md/.json/.txt/.canvas/.base/.html, so images are invisible to it and Obsidian
+# Git would auto-commit them on its timer. Media folders are tracked on purpose
+# (campaign art), so this is by filename pattern. Added 2026-10-01 to match
+# skitl_vault, ashfall_vault and pacts_power_vault; nothing matching was tracked
+# here at the time, so this is preventative rather than a cleanup.
+screencapture-*
+**/screencapture-*
+*dash.cloudflare*
