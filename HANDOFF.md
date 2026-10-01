@@ -35,6 +35,17 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-01 12:45 ET · Claude Code — ignore admin-console screenshots in this PUBLIC repo
+
+- **Changed:** Added `screencapture-*`, `**/screencapture-*` and `*dash.cloudflare*` to `.gitignore`. **All four public campaign vaults now carry the same rule** — `skitl_vault` already had it; `ashfall_vault`, `pacts_power_vault` and this one did not.
+  - ✅ **Purely preventative here.** Checked before adding: no matching files were tracked **and** none were loose on disk, so unlike `ashfall_vault` (which had a stray `screencapture-dndbeyond-games-*.png` sitting untracked in its root) there was nothing to catch yet. No tracked file was newly ignored out of the index.
+  - 📌 **Why a filename pattern and not reviewer judgement:** the privacy screen only reads `.md`/`.json`/`.txt`/`.canvas`/`.base`/`.html`, so images are invisible to it. And a console capture can leak an account or game ID **in the filename alone** — on 2026-09-29 a Cloudflare capture in another vault carried the account ID in its filename while the pixels looked harmless. Inspecting the image is not sufficient.
+  - ⚠️ Media folders stay tracked on purpose for campaign art, which is why this is by filename pattern rather than by folder.
+  - ✅ Verified both patterns match: a root-level `screencapture-*` and a nested `06-Media/screencapture-dash.cloudflare-*` are each caught.
+- **Commit:** `1401c20`
+- **Next:** Unchanged — the S07 pipeline work in flight is untouched by this.
+- **Watch out:** ⚠️ An untracked `.codex/` directory is sitting in this working tree and is **not** from this change; left alone. ⚠️ A gitignore rule does nothing for a file that is **already committed** — if a screenshot ever does land here, it needs removing from history, not just ignoring.
+
 ### 2026-09-21 00:20 ET · Claude Code (joint-session confirmation recorded; corrected transcript banked)
 - **Changed:** Taylor confirmed S07 was a joint session with both groups present — recorded as PLAYER-CONFIRMED in `_pipeline/S07/flags.md` §1 so Convo 2 writes the joint reading as canon (flags already had both rosters right; Lydia/CJ absences left standing as transcript-derived). Also committed `Corrected/07 - 092026_corrected.md` (2,534 lines), reversing the prior entry's "untracked on purpose": the file had been stable 40+ minutes post-apply, corrected transcripts 01–03 are already on the remote, and the 2026-07-29 entry verified transcripts are not part of site publish — so banking it carries no risk and clears the dirty tree.
 - **Commit:** `5267c60`
