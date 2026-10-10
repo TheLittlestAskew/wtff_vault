@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T04:54:26.224Z",
+  "generated_at": "2026-10-10T19:12:05.823Z",
   "first_published_session": "01",
   "map": {
-    "party": "sunrootcrossing",
+    "party": "rhusatatiam",
     "path": [
       "rhusatatiam",
-      "sunrootcrossing"
+      "sunrootcrossing",
+      "rhusatatiam"
     ],
     "locations": {
       "zelkova": {
@@ -223,6 +224,12 @@
             "title": "It Follows Me, So I Followed It",
             "date": "06/28/2026",
             "href": "/where-the-flowers-forget/session.html?n=02"
+          },
+          {
+            "n": "07",
+            "title": "Omission of Truth",
+            "date": "09/20/2026",
+            "href": "/where-the-flowers-forget/session.html?n=07"
           }
         ]
       },
@@ -251,6 +258,10 @@
     {
       "n": "03",
       "d": "2026-07-12"
+    },
+    {
+      "n": "07",
+      "d": "2026-09-20"
     }
   ],
   "sessions": [
@@ -286,6 +297,17 @@
       "at": "sunrootcrossing",
       "f": "01-Sessions/Session%2003%20%E2%80%94%20Raise%20a%20Glass%20to%20Provisional%20Trust.md",
       "href": "/where-the-flowers-forget/session.html?n=03"
+    },
+    {
+      "n": "07",
+      "t": "Omission of Truth",
+      "d": "2026-09-20",
+      "lbl": "September 20, 2026",
+      "lbl_short": "Sep 20, 2026",
+      "lbl_us": "09/20/2026",
+      "at": "rhusatatiam",
+      "f": "01-Sessions/Session%2007%20%E2%80%94%20Omission%20of%20Truth.md",
+      "href": "/where-the-flowers-forget/session.html?n=07"
     }
   ]
 }
