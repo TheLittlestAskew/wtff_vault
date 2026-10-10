@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 17:45 ET · Claude Code
+- **Changed:** S04 note "Four Blooms, Five Petals" approved by Taylor and published (`00fdc12`); ruleset reconciled to "2014 + 2024 sources allowed"; "Kelly" = STT error; S05 "Elias" = STT noise. Transcripts (Raw_Unedited, Corrected, Spelling_Corrected_Formatted) gitignored and untracked, local copies kept; PERSONAL INFORMATION REDACTION rule added to Project_Instructions and all 3 pipeline prompts (`f0c5050`). Site ARC entry for S04 (rectrixcaedere `fbff22e`).
+- **Commit:** `00fdc12`, `f0c5050`
+- **Next:** Commit the S04 Convo 2 propagation (agent running), regenerate the index; S05 Phase B once Taylor answers the vision-scene + ≤60% questions.
+- **Watch out:** Transcripts pushed before 2026-10-10 are still in git history; scrubbing needs a history rewrite + force-push, awaiting Taylor's yes.
+
 ### 2026-10-10 17:05 ET · Claude Code
 - **Changed:** S04 note "Four Blooms, Five Petals" generated from the approved corrected transcript; removed Taylor's real-life OOC pain quote from it; parked at `_pipeline/S04/REVIEW_Session 04 — Four Blooms, Five Petals.md` (gitignored) until she approves. Committed the 072626 spell-check log. `_pipeline/S04/handoff.md` ready for Convo 2.
 - **Commit:** `a976adf`
@@ -126,11 +132,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Unchanged. See the block above this log.
 - **Watch out:** The watcher row records the 72h `ExecutionTimeLimit` that caused the past timeout, so that gotcha now lives somewhere findable rather than only in the log history.
 
-### 2026-09-01 09:30 ET · Claude Code (all six original coordinates now corrected)
-- **Changed:** Taylor confirmed the D8/I9 capital placements and authorised the coordinate corrections. Applied four: **Sunroot Crossing** (50, 57) G9 → **(41.4, 55.8) G7**, drift 8.7 — *moves the S03 bloom*; **Rhusatatiam** (33, 50) G6 → **(37.6, 49.3) F7**, drift 4.7 — *moves the S01+S02 blooms*; plus two safe extras no session references, **Mouth that Feeds** → (86.6, 48.1) F14 and **Galium Major** → (72.3, 34.3) E12. Sunroot Crossing comes from its blue marker dot; the other three are capitals and come from their crown icons, measured from 14× crops.
-- **Commit:** `b96ee03`
-- **Verification:** ✓ Compared the published `map` block before and after — **same party, same path, same blooms** (S01/S02 at `rhusatatiam`, S03 at `sunrootcrossing`), only the positions changed, so nothing structural moved. ✓ All four crown colours match Taylor's confirmed region system. ✓ Only remaining same-cell pair is Whispergrove + Silvaroot in D9 — two distinct towns 4.6 units apart sharing one coarse cell, not a duplicate.
-- **Watch out:** 🛑 **This closes out the six coordinates originally hardcoded in `archive.html` — and not one of the six survived unchanged.** Two were repointed as misplaced capitals (Willow Haven, Zelkova City), four were re-measured here. Treat that as the standing lesson: **the original site CONFIG was eyeballed throughout, so anything else inherited from it should be re-derived rather than trusted.** ⚠️ The live site should be checked once the CDN catches up (~5 min) — this is the first change that visibly moves published blooms.
-- **Next:** Confirm the live map renders the moved S01–S03 blooms correctly.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-09-01 09:30 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-09-02 22:20 ET.
