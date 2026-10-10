@@ -1,7 +1,7 @@
 ---
 game_id: "7853407"
 start_date: 2026-06-14
-session_count: 3
+session_count: 7
 dm: Adam
 ---
 # Campaign Dashboard — Where the Flowers Forget
@@ -34,6 +34,7 @@ dm: Adam
 | 01 | 06/14/2026 | Winds in the East | [[Session 01 — Winds in the East, Mist comin' in...]] | Joint/crossover launch at the [[Hearthread Hall]]. [[The Uprooters]] interview gauntlet; Bruin's scent reveal; recruiters split candidates into two groups (WtFF = Group K). No combat. |
 | 02 | 06/28/2026 | Something's Changing | [[Session 02 — It Follows Me, So I Followed It]] | Joint/crossover. Group K orientation in Aiph's private upper room ([[Hearthread Hall]]); joint tavern social with Group J (WtFR); morning train platform departure. Group K → [[Sunroute Crossing]] (green train). No combat. [[Malus Thornwake]] named; Bebo's Heliolite supply established as failing; [[Tobias Wolfe\|Tobias]]'s untrained ice magic escalates. |
 | 03 | 07/12/2026 | Raise a Glass to Provisional Trust | [[Session 03 — Raise a Glass to Provisional Trust]] | **First solo WtFF session** (6 PCs + DM; no WtFR party). Travel + roleplay + dungeon setup; **no combat.** Group K rides [[The Verdant Blossom]] from [[Rhusatatiam]] to [[Sunroute Crossing\|Sunroot Crossing]], lodges at the [[X Marks the Spot Inn]], adopts **"provisional trust"** (Bruin abstains from the gesture, affirms the trust). Bruin↔Aiph "scent = the world shifting; violence coming" scene. New NPCs [[Constance]], [[Derek]], [[Delilah]]. Ends on cliffhanger: party descends into Aiph's five-layer test dungeon; trap door shuts, pitch black. |
+| 07 | 09/20/2026 | Omission of Truth | [[Session 07 — Omission of Truth]] | **Joint/crossover** (both DMs; Lydia and CJ absent) at the [[Hearthread Hall]], [[Rhusatatiam]], after both test dungeons. **No combat.** Aiph asks Group K to hide her dungeon's failure from Group J ("We are now Uprooters"); the secret is half-kept. Bebo's bag of holding becomes the party bank; Bebo's snail named [[Bloom]]. Aiph and Mags argue openly ("We are not in control anymore"); Mags gives Aiph a letter from Nana. **Cliffhanger: Lux (Lute's alternate persona) stabs Mags in front of Aiph; Mags's fate unknown.** ⚠️ S04–S06 have no vault notes yet (S06 note exists but is unsynced and has no frontmatter). |
 | Pre-Campaign | 05/04/2026 | I Can Feel It In My Bones | [[Session 02 — I Can Feel It In My Bones]] | Pre-campaign OOC 1-on-1 (Adam + Taylor only). Bruin's character concept established: [[The Overgrowth]]-reactive physiology; [[Liriope River Net]] / [[Mouth that Feeds]] origin. [[The Overgrowth]] named for the first time. No IC events. ⚠️ Pipeline label "S02"; audio prefix "00" — session number unconfirmed (pending Taylor's input). |
 
 ## NPC Companions
@@ -41,17 +42,18 @@ dm: Adam
 |---|---|---|---|
 | [[Nero]] | Active | Pre-existing | White-fox companion of [[Tobias Wolfe\|Tobias]]. |
 | [[Orin]] | Active | Pre-existing (S02 confirmed) | Crow familiar of [[Artie (Art) Veyr\|Artie]]. Permanent; cannot die permanently. Identify (S02) confirmed innate Find Familiar without training. ⚠️ Spelling unconfirmed ("Orin" vs "Oren"). |
+| [[Bloom]] | Active | S07 (named; with Bebo since before S07) | Snail companion of [[BE-BO (Botanical Energy Balance Operator)\|Bebo]]; named by [[Nyx]] (WtFR) because both are "from Bloom." Name ≤60% first-seen. |
 
 ## Key Antagonists
 | Name | Affiliation | Status | Last Seen | Notes |
 |---|---|---|---|---|
-| _(none confirmed yet)_ | | | | The crater "growing stronger," Bug Island stirring, and the rumored "acting alone" [[The Pistil|Pistil]] are open mysteries, not yet antagonists. |
+| _(none confirmed yet)_ | | | | The crater "growing stronger," Bug Island stirring, and the rumored "acting alone" [[The Pistil|Pistil]] are open mysteries, not yet antagonists. *(S07)* An unnamed "he" who is "getting stronger" and whom Aiph wants to kill; identity [Unknown/Ambiguous], not yet an antagonist on record. |
 
 ## Locations
 | Location | Region | First Visited | Status | Notes |
 |---|---|---|---|---|
-| [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. |
-| [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Valley capital. |
+| [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. Revisited [[Session 07 — Omission of Truth\|S07]] (joint; Mags stabbed at the bar). ⚠ "Hearthread Tavern" (Alec, F59). |
+| [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] | Explored | Valley capital. Revisited [[Session 07 — Omission of Truth\|S07]]: "a city of overgrowth" (Alec). |
 | [[The Petal Line]] | Continent-wide | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
 | [[Liriope River Net]] | — (region) | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Bruin's home region; gulf-adjacent. Shifters may have historically gravitated toward water. |
 | [[Mouth that Feeds]] | [[Liriope River Net]] | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Capital of [[Liriope River Net]]; Bruin's origin city (OOC concept). Built on stilts and canals over converging waterways. |
@@ -90,6 +92,17 @@ dm: Adam
 | Lute's dark compulsion (escalated) | S02 | Open (crossover) | [[Lute]] |
 | Nyx's deity name unknown | S02 | Open (crossover) | [[Nyx]], [[Zarna Morganach\|Zarna]] |
 | What fate befell Groups A–I? | S02 | Open | [[The Uprooters]] |
+| Mags stabbed by Lux (cliffhanger; **fate unknown**) | S07 | Open | [[Margaret “Mags” HoneyThatcher\|Mags]], [[Lute]], [[Aiphrumfite ‘Aiph‘\|Aiph]] |
+| Something "getting stronger"; Aiph wants to kill "him" | S07 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]], [[Margaret “Mags” HoneyThatcher\|Mags]] |
+| The recruiters have lost control ("We are not in control anymore") | S07 | Open | [[The Uprooters]] |
+| Keep the dungeon's events from Group J (Aiph's request) | S07 | Open (partly broken) | Group K, [[Nyx]] |
+| Aiph–Mags rift escalates (open argument; the Nana letter) | S07 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]], [[Margaret “Mags” HoneyThatcher\|Mags]] |
+| ❓ Unconfirmed question: do Artie and Lux share a past? (F65) | S07 | Open (unconfirmed) | [[Artie (Art) Veyr\|Artie]], [[Lute]] |
+| Eliza's sudden exit upstairs | S07 | Open | [[Eliza Duskbloom\|Eliza]] |
+| Bebo's goggles of night | S07 | In Progress | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
+| Bag of holding as party bank | S07 | Completed (S07) | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
+| Tobias's mentor; Tobias selling his art | S07 | Open | [[Tobias Wolfe\|Tobias]] |
+| Bruin: the overgrown city "doesn't feel right" | S07 | Open | [[Isla 'Bruin' Kaplan\|Bruin]] |
 
 ## In-Game Timeline
 | Phase                                                  | Sessions  | In-Game Time                                                                                         | Notes                                                                                                                                                                                     |
@@ -98,3 +111,5 @@ dm: Adam
 | The Uprooter Interviews                                | S01       | One evening — 1st of [[The Petal Cycle\|Veriden]], 75th year post-Heroes; Bloom Festival approaching | Joint launch at the [[Hearthread Hall]], [[Rhusatatiam]].                                                                                                                                 |
 | Group K Orientation / Joint Social / Morning Departure | S02       | The following day — 2nd of [[The Petal Cycle\|Veriden]] (estimated)                                  | Group K briefing in Aiph's private room; joint tavern social with Group J; train platform departure. Group K → [[Sunroute Crossing]] (green), Group J → [[Brindleberry Hollow]] (purple). |
 | Green train to Sunroot Crossing / the Inn / into the dungeon | S03 | ~1.5 days — a few hours' ride to a just-after-midday arrival, an overnight long rest, then the next morning. Festival season near ("the first of **vent** was yesterday" — unconfirmed term). | Group K rides [[The Verdant Blossom]] from [[Rhusatatiam]] to [[Sunroute Crossing\|Sunroot Crossing]]; lodges at the [[X Marks the Spot Inn]]; adopts "provisional trust"; descends into Aiph's five-layer test dungeon (trap door shuts — cliffhanger). No combat. |
+| The test dungeon | S04–S06 | [Unknown/Ambiguous] — no vault notes yet | Group K's dungeon at [[Sunroute Crossing\|Sunroot Crossing]]; per S07 references, a dragon and a "creepy crawler" (centipede) were involved. Not recorded here until those notes exist. |
+| Back at the Common Fire | S07 | A single afternoon ("close to the afternoon," Adam), after both trains return to [[Rhusatatiam]] (Group K first). Calendar date [Unknown/Ambiguous]. | Joint session at the [[Hearthread Hall]]; no combat. Ends on Lux stabbing Mags at the bar. Next session (10/04/2026) is joint. |

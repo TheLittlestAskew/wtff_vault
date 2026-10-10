@@ -4,8 +4,8 @@
 
 | Location              | Region          | First Visited                                                           | Status              | Notes                                                                                                       |
 | --------------------- | --------------- | ----------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [[Hearthread Hall]]   | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]]              | Explored            | Three-tiered tavern in Rhusatatiam; home of the never-dying Common Fire. Launch site / Uprooter interviews. |
-| [[Rhusatatiam]]       | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]]              | Explored            | Capital of the Rhus Valley; first city named in play.                                                       |
+| [[Hearthread Hall]]   | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]]              | Explored            | Three-tiered tavern in Rhusatatiam; home of the never-dying Common Fire. Launch site / Uprooter interviews. **Revisited S07** ([[Session 07 — Omission of Truth\|S07]]): joint session; bar, upstairs, front of the tavern; Lux stabs Mags at the bar. ⚠ Alec calls it "Hearthread Tavern" (F59). |
+| [[Rhusatatiam]]       | [[Rhus Valley]] | [[Session 01 — Winds in the East, Mist comin' in...\|S01]]              | Explored            | Capital of the Rhus Valley; first city named in play. **Revisited S07:** "a city of overgrowth" (Alec); Bruin's outdoor spot (exact place [Unknown/Ambiguous]); Tobias out in the streets. |
 | [[The Petal Line]]    | Continent-wide  | [[Session 01 — Winds in the East, Mist comin' in...\|S01]] (referenced) | Known But Unvisited | The unifying railway; named in the opening monologue.                                                       |
 | [[Liriope River Net]] | — (region)      | Referenced (S01); named OOC (S02)                                       | Known But Unvisited | Bruin's home region. Shifters may have historically gravitated toward water. Gulf-adjacent.                  |
 | [[Mouth that Feeds]]  | [[Liriope River Net]] | [[Session 02 — I Can Feel It In My Bones\|S02]] (OOC)             | Known But Unvisited | Capital of [[Liriope River Net]]; Bruin's origin city (OOC concept, pre-campaign). Built on stilts and canals. |
@@ -27,4 +27,4 @@
 
 ---
 
-_Last updated: [[Session 03 — Raise a Glass to Provisional Trust|Session 03]] (07/12/2026)._
+_Last updated: [[Session 07 — Omission of Truth|Session 07]] (09/20/2026). No new locations in S07 (map key `rhusatatiam` already exists)._

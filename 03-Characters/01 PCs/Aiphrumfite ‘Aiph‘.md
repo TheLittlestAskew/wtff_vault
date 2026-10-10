@@ -16,9 +16,11 @@ sub_class:
 ## Description / Appearance
 - *(S01)* A chaotic, tinkering, alchemist-presenting figure who stumbles in carrying an overflowing duffel of oddments. Constantly tinkering and mixing as she talks.
 - *(S01)* Carries a pinch/bag of **sand that ignites in her fingers and changes color** (and changes again), a stoppered bottle, a small potted plant, chalk, and crumpled, water-stained notes.
+- *(S07)* Wears a **device on her wrist** that she keeps checking while watching the tavern entrance.
 
 ## Backstory
 - *(S01)* Shares a long, fraught, intimate history with the WtFR recruiter [[Margaret “Mags” HoneyThatcher|Mags]] — they reference a past fight ("the last time we had a fight and someone convinced you otherwise") and claim together to "know the last hero to ever exist." Details [Unknown/Ambiguous].
+- *(S07, in-world letter)* [[Margaret “Mags” HoneyThatcher|Mags]] gave her a faded envelope **"To Aiph, from Nana"**, read aloud at the bar. Per the letter: her Nana called her **"Aiphie"** and **"Lady Aiph"**; Nana and Aiph's **"pop"** were meant to hate each other, and that hate turned into love; the letter foretells Aiph telling a story about "taking out the bad guy." Recorded only as an in-world document; Nana's and pop's status are [Unknown/Ambiguous].
 
 ## Personality
 - *(S01)* Mercurial, blunt, and volatile; affectionate-but-lethal toward [[Margaret “Mags” HoneyThatcher|Mags]]. Wagered that 5 candidates would "make it" (Mags guessed 2).
@@ -27,6 +29,9 @@ sub_class:
 - *(S03)* **Genuinely invested in Group K** — told them plainly she's "rooting for you all" and is "a lot more hopeful than a day or two ago," even as part of her still doubts they're ready. Blunt about lethal stakes ("has anyone died? — yeah, of course").
 - *(S03)* **Curates her own test dungeon** — personally built the five-layer dungeon at Sunroot Crossing ("some of it is dangerous, some simulates danger"); waits at the surface under a tent.
 - *(S03)* Carries a **broken pocket watch** and finds it funny.
+- *(S07)* **Protective of her own failure:** asked Group K not to tell Mags's group what happened in her dungeon ("that mine was the one that [inaudible/cut off] up"); cover story: "We are now Uprooters."
+- *(S07)* **Admits loss of control** to Mags: "We are in over our heads"; "We are not in control anymore"; "I don't care if it happens to me."
+- *(S07)* **Wants to kill an unnamed "him":** "I want to kill him. I'm gonna kill him." Identity [Unknown/Ambiguous].
 
 ## Abilities & Class Features
 - *(S01)* Demonstrated magic: floated the brawling candidates Tessil Goldpetal & Pella Bramblewine apart and ejected them. Class/abilities otherwise [Unknown/Ambiguous].
@@ -44,17 +49,27 @@ sub_class:
 - **↔ [[Margaret “Mags” HoneyThatcher|Mags]]:** deep, volatile partnership — mutual love and mutual lethal threat ("This is only funny because I'll kill you too"). They split the candidates, each taking a group.
 - **↔ [[Isla 'Bruin' Kaplan|Bruin]]:** specifically wanted Bruin for [[The Uprooters]] — partly the shared "scent," partly "the energy they gave." Selected her into Group K despite Mags's warning. *(S03)* Confided the truth of Bruin's scent — the world *shifting*, Mags shifting too — and that **violence is coming; that's part of why she chose Bruin.** Accepted Bruin's boundary re Mags, promising only to *try* to intercede.
 - **↔ [[Margaret “Mags” HoneyThatcher|Mags]] (S03):** the rift is reaffirmed — [[Orin]] overheard the two "not on the same page about what this group does," and Aiph's "I don't actually think any of them are good enough." Aiph says Mags is "shifting" too and hates change; Mags is "stronger than she is."
+- **↔ [[Margaret “Mags” HoneyThatcher|Mags]] (S07):** The rift escalates into an open argument at the [[Hearthread Hall]] bar over control and over [[Lute]] (Mags wants Lute "because she's a little unhinged"). Mags gave her the envelope from Nana and said she can't leave "and I never would." Aiph: "This doesn't change my mind." Mags: "Would you still kill him if it meant you had to kill me too?" Mags was holding Aiph's hand when Lux stabbed her in front of Aiph. **Mags's condition is unknown.**
+- **↔ Group K (S07):** Entrusted them with keeping her dungeon's failure from Group J and told them they're Uprooters. Looked away quickly when [[Isla 'Bruin' Kaplan|Bruin]] sought her eye. Is getting [[Tobias Wolfe|Tobias]] "a teacher, a mentor" (per Tobias).
 - **↔ WtFF party (Group K):** now their recruiter/leader — [[Tobias Wolfe|Tobias]], [[Artie (Art) Veyr|Artie]], [[Isla 'Bruin' Kaplan|Bruin]], [[Zarna Morganach|Zarna]], [[BE-BO (Botanical Energy Balance Operator)|Bebo]], [[Eliza Duskbloom|Eliza]].
 - **↔ [[Eliza Duskbloom|Eliza]]:** uncannily feels he *knows* her, despite never meeting; Mags silently signaled him to pick her.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 07 — Omission of Truth]] | Back at the [[Hearthread Hall]], asked Group K not to tell Mags's group that something showed up in her dungeon and killed what she put there; declared them Uprooters. Waited at the bar watching the entrance, checking a wrist device. Argued with Mags in front of both groups ("We are not in control anymore"; Mags: "the whole house falls"); both referenced an unnamed "he" who is "getting stronger." Took Lute's weapons handover alongside Mags. Received and read the in-world letter "To Aiph, from Nana." **Witnessed Lux stab Mags** while holding Mags's hand. Session ends; Mags's condition unknown. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Led Group K aboard [[The Verdant Blossom]]; handed out six Uprooter tokens; had the private "scent = the world shifting / violence is coming" scene with [[Isla 'Bruin' Kaplan|Bruin]]. Watched approvingly from the inn bar as the party formed the "provisional trust" pact. In the morning led them to her personally-curated **five-layer test dungeon** at [[Sunroute Crossing|Sunroot Crossing]], set the objective (retrieve the bottom chest's contents, return them to her), and waited at the surface. |
 | [[Session 02 — Something's Changing]] | *(catch-up, added S03)* Ran Group K's orientation in her private upper room at the [[Hearthread Hall]]; said Eliza "looks so familiar"; gave the "heroes bring destruction" speech; at the door: "I need you to trust me. It can't come back." Referenced an unnamed "he." Saw Group K off at the train platform. |
 | [[Session 01 — Winds in the East, Mist comin' in...]] | Co-ran the [[The Uprooters]] interview gauntlet at the [[Hearthread Hall]]; ejected brawling candidates; revealed his history with Mags upstairs; selected the WtFF party as **Group K**. |
 
 ## Key Quotes
+> **[[Session 07 — Omission of Truth]]**
+> "Hey, we did it. We're great. We crushed it. We are now Uprooters. Lovely. You did it."
+>
+> "We were so afraid after what happened last time that we waited too long. Don't know what's happening. We are not in control anymore."
+>
+> "This doesn't change my mind." / "I want to kill him. I'm gonna kill him."
+
 > **[[Session 03 — Raise a Glass to Provisional Trust]]**
 > "You smell the shifting of the very world. And Mags also shifting." *(to [[Isla 'Bruin' Kaplan|Bruin]])*
 >

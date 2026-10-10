@@ -15,6 +15,39 @@ tags:
 
 ---
 
+> [!quote]- Session 07 — Omission of Truth (09/20/2026)
+> *[[Session 07 — Omission of Truth|Back at the fire, and the city that smells wrong]]*
+>
+> We came back to where it started. The same tavern, the same fire in the middle of it that nobody lets die. It isn't morning and it isn't evening. Afternoon, warm, loud.
+>
+> The machine is moving again. It was frozen solid the last time I really looked, and now it's fussing over the snail that has been riding its arm since before the dungeon, like nothing happened. The quiet girl stood up from the fire and ran upstairs without a word to anyone. The machine watched her go and said it wasn't a normal kind of running. I believe it. I don't know what it was.
+>
+> Then Aiph sat down with us and asked a favor. Don't tell them. She and the dragon lady built those tests together, and she doesn't want the dragon lady knowing it was hers that went wrong. Hey, we did it, she said, we crushed it, we're Uprooters now. And then she was gone again.
+>
+> So that's what we are. Uprooters. I thought it would feel like more.
+>
+> The others chewed on the asking for a long time. The machine doesn't understand hiding a truth and said so: leaving something out is still not the truth. The tall one wanted to know *why*. The cold one said he'd tell whatever lie Aiph needed, because she's the only one who hasn't looked at him like he's broken. I don't think it's a contest between the two recruiters, not the way the others were turning it over. Something got into her dungeon that she didn't put there. What she meant for us got killed by something she never meant for us at all. That's a hole in her fence. Nobody wants their hole in the fence talked about. So: don't say anything. That's easy. I'm good at not saying anything.
+>
+> A dwarf came for drinks. I asked for wine and got red. The cold one asked for fire whiskey and the dwarf told him, kindly enough, that he didn't look like he could handle it. The machine asked for used cooking grease. When the dwarf came back he had a whole bottle of red and a whole bottle of the whiskey and a little wooden bowl of grease, and he said he was sorry, that he hadn't known who we were. Then he ran. People are going to start knowing who we are. I don't know how I feel about that yet.
+>
+> The machine had been knitting something this whole time, and it turned out to be a bag that holds more than a bag should. The wizard and the tall one both looked at it like it had grown teeth. The wizard put our heavy gold in it. I'm glad not to be the one carrying it.
+>
+> The other group came in behind the dragon lady. She told them to behave and have a drink on her, and then she went straight to Aiph at the bar. I kept to my seat. I said I'd keep my distance from that one and I meant it.
+>
+> One of the other group, a woman who's sweet on the machine, sat down at our table and started asking it questions. I thought she was asking me. I stood up halfway to answer, and the cold one had to tell me she was talking to the machine about its snail. Fine. As far as I'm concerned we're lying, and everybody at that table was acting strange about it, so I'm done. I looked over at Aiph on my way up. She saw me stand. She looked away fast, like she hadn't. I only wanted her to see me go. I hope she remembers what we said to each other on the train.
+>
+> I took the wine. All of it. Nobody needs to drink at me.
+>
+> Outside, I found a place with something growing in it, like the last time I was here, and sat with my back to it. And it was wrong. I don't know how else to put it. This whole city is grown over: flowers down the walls, vines over the brick, leaves pouring off the corners of things. I know what a forest feels like. I know what a garden feels like. This isn't either one. It doesn't feel right, and I sat in it and couldn't make it feel right, and I didn't like how long I sat there trying.
+>
+> Two of the other group came out of the tavern while I was sitting with that. Later, the wizard came out too, bolting through the doors like something was on fire. I don't know what he was running at. I didn't go after him.
+>
+> I'm still out here. The bottle's lighter than it was. Whatever is happening at that bar, it's between the two of them, and I'll hear about it whether I want to or not.
+>
+> *Leave it out, and it's still not the truth. The machine is right about that. I'll keep my mouth shut anyway.*
+
+---
+
 > [!quote]- Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
 > *[[Session 03 — Raise a Glass to Provisional Trust|On the green train, and the mouth in the ground]]*
 >

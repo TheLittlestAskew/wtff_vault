@@ -25,6 +25,8 @@ sub_class:
 - *(S02)* **Keeps a small notebook** for recording observations; scribbles during or immediately after notable magical events.
 - *(S03)* **Covert correspondence** — fills a pocketbook through the day and sends it off with [[Orin]] "to where it usually goes," implying a network or handler he reports to.
 - *(S03)* **Persuasive when he wants something** — talked [[Aiphrumfite 'Aiph'|Aiph]] into three healing potions (Persuasion 15 with [[Tobias Wolfe|Tobias]]'s "puppy-dog" advantage assist; "would've been a 3").
+- *(S07)* Keeps **"checking in"** with [[Orin]].
+- *(S07)* **Notices who's missing:** saw [[Dolm]] wandering three blocks down following a bug and reported it to [[Kidu]]; noticed Eliza was gone.
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
@@ -41,6 +43,8 @@ sub_class:
 | Mahogany [[The Uprooters\|Uprooter]] token | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 | Room key ([[X Marks the Spot Inn]]) | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 | Pocketbook (day's notes) | Sent off with [[Orin]] "to where it usually goes" | [[Session 03 — Raise a Glass to Provisional Trust]] |
+| 600 gold (party funds) | Given to [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] for the party bag of holding ("because it's heavy") | Deposited [[Session 07 — Omission of Truth]] |
+| [[Lute]]'s drawing (slipped into his bag) | Given Away — passed to [[Tobias Wolfe\|Tobias]] | [[Session 07 — Omission of Truth]] |
 
 ## Relationships
 - **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** stared at Bebo’s dancing, "fascinated, or… scared."
@@ -50,10 +54,14 @@ sub_class:
 - **↔ [[Derek]]:** *(S03)* New, warm-eccentric. Met the tinkerer in the [[The Verdant Blossom]] staff car and received the clap-light/mini-bomb device (Arcana 16 — evocation; Perception 22 — Derek high on creation, not drunk).
 - **↔ [[Malus Thornwake]]:** Artie’s primary reason for joining the Uprooters; actively seeking this person.
 - **↔ [[Margaret "Mags" HoneyThatcher|Mags]]:** *(S02)* Mags accompanied him to Tobias and placed the mage hand components; intercepted him from Lute’s door.
+- **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]] (S07):** "Bebo, you're like our own personal Derek. It's not gonna blow up, right?" Trusted Bebo's bag of holding with the party's 600 gold.
+- **↔ [[Kidu]] (S07, crossover):** Cordial; reported Dolm's wandering. Kidu: "Dolm does that sometimes."
+- **↔ [[Lute]] (S07, crossover):** Caught Lute slipping a drawing into his bag (Perception nat 20) and passed it to Tobias. Later bolted out of the tavern to where Lute's alternate persona (Lux) was.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Writing in his book at the start, still stunned his magic failed (the S06 Identify). Recognized Bebo's bag of holding (Arcana 22) and gave Bebo the party's 600 gold. Noticed Eliza missing. Told [[Kidu]] that [[Dolm]] was three blocks down following a bug. Caught [[Lute]] slipping a drawing into his bag (Perception nat 20); passed it to Tobias. Read the Aiph/Mags argument as tense (Insight 4; attribution tangle F49). Prompted "Tobias, show the heart." Bolted out of the tavern toward Lux; Bruin saw him run out. End-of-session whereabouts [Unknown/Ambiguous]. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Persuaded [[Aiphrumfite 'Aiph'|Aiph]] into 3 healing potions (Persuasion 15) and became the party's potion-carrier. Explored the [[The Verdant Blossom]] parlor (Investigation 22) and staff & storage car (Investigation 24 — supplies, locked personal effects, a chest of confiscated weapons); met [[Derek]] and received the clap-light/mini-bomb device. Before bed, sent his day's pocketbook off with [[Orin]] "to where it usually goes." Descended into the test dungeon. |
 | [[Session 02 — Something’s Changing]] | Introduced; named [[Malus Thornwake]] as reason for joining (Aiph reacted visibly). Cast Identify on [[Nero]] (Arcana 17); discovered Tobias has innate, untrained Find Familiar. Demonstrated Orin’s anomalous resurrection (killed against window; Orin snapped neck, faded, reformed). Took Tobias’s hand (Arcana 22): felt ice-cold skin, saw faint blue aura. Placed mage hand spell components for Tobias to read; observed frost-spectral hand form and shatter. Took notes throughout the evening. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed first ("why the fuck do I have to go first?"); gave his reason for joining (magic misbehaving). Selected into Group K. |

@@ -8,6 +8,42 @@
 
 ---
 
+## Session 07 — Omission of Truth (09/20/2026)
+
+> Loot from the test dungeon at [[Sunroute Crossing|Sunroot Crossing]] (dragon heart, scale, eyeball, rib) was **acquired in S04–S06**, which have no vault notes yet; it is recorded here as it was **held and shown in S07**. The source of the gold, the emerald, the sapphire and the vial of blood is not stated in S07 ([Unknown/Ambiguous]); quantities are as stated in S07 only.
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| Party (held by [[BE-BO (Botanical Energy Balance Operator)\|Bebo]]) | **Bag of holding** (knitted by Bebo) | NEW. "Bebo is made folding bag for personal items. It is bottomless." Threads sealed with cooking grease. Recognized via Arcana ([[Artie (Art) Veyr\|Artie]] 22, [[Zarna Morganach\|Zarna]] 17). Agreed as the **party inventory / bank**. Held. Session 07. |
+| Party (in the bag) | 600 gold | Given to Bebo by Artie "because it's heavy." Stored. Session 07 (deposit). |
+| Party (in the bag) | Emerald | Deposited by [[Tobias Wolfe\|Tobias]]. Stored. Session 07 (deposit). |
+| [[Tobias Wolfe\|Tobias]] | Sapphire | Kept out of the bag. Held. |
+| [[Tobias Wolfe\|Tobias]] | Dragon heart (from the dungeon) | "No, that. That is mine." ⚠️ **Holder Tobias at ~80% only (F66):** "that" may refer to something else being shown. Held (unconfirmed). |
+| [[Tobias Wolfe\|Tobias]] | Bottle of dwarven fire whiskey | NEW. From the dwarven waiter; corked and stowed ("puts it in his book": likely STT for "bag"; flagged). Held. Session 07. |
+| [[Tobias Wolfe\|Tobias]] | Lute's drawing | NEW. Drawing of [[Lute]] flipping off the viewer; slipped into Artie's bag by Lute, passed to Tobias, folded into his sketchbook. Held. Session 07. |
+| [[Nyx]] (holding for [[Lute]]) | Tobias's sketch for Lute | NEW. Charcoal on parchment; left with Nyx to give to Lute. Subject [Unknown/Ambiguous]. Given Away. Session 07. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Centipede eyeball → **goggles of night** (in progress) | From the dungeon; iris being extracted for night-vision goggles. Held (crafting). |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Salvaged scale(s) | From the dungeon; in the bag; one shown to Nyx. Stored. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Vial of blood | Shown at show-and-tell. Source [Unknown/Ambiguous]. Held. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Sending stone (Nyx holds the other half) | Used both ways this session (cf. the S02 communication stone). Equipped. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Wood-chip name tag "Bloom" | NEW. Engraved and mended to Bebo where its snail [[Bloom]] rests. Equipped. Session 07. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Used cooking grease (small wooden bowl) | NEW. From the dwarven waiter; used on its joints, offered to the snail, last of it used to seal the bag. Consumed. Session 07. |
+| [[Zarna Morganach\|Zarna]] | Giant curved rib | From the dungeon; carried on her back; produced at show-and-tell. Held. |
+| [[Zarna Morganach\|Zarna]] | Exploding ball bearings | Kept out of the bag ("Those do not need to go in the bag"). Held. |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Bottle of red wine | NEW. Ordered for the table; Bruin took the whole bottle outside. Held. Session 07. |
+
+*Crossover / NPC items (not party loot, recorded for completeness):*
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| [[Margaret “Mags” HoneyThatcher\|Mags]] → [[Aiphrumfite ‘Aiph‘\|Aiph]] | Envelope "To Aiph, from Nana" (in-world letter) | Faded, crumpled; from inside one of Mags's layers; opened and read at the bar. Current holder [Unknown/Ambiguous]. Session 07. |
+| [[Lute]] / Lux (WtFR) | Knives (incl. daggers), crossbow, mace, shield | Handed to Mags; returned; a blade used to stab Mags. Session 07. |
+| [[Aiphrumfite ‘Aiph‘\|Aiph]] | Device on her wrist | She keeps checking it while watching the entrance. Session 07. |
+
+> *Do not infer additional properties of these items beyond what was shown.*
+
+---
+
 ## Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
 
 | Character/Owner | Item/Artifact | State/Context |

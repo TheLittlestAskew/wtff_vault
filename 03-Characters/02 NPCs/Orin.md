@@ -30,6 +30,7 @@ location: With Artie Veyr
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 07 — Omission of Truth]] | [[Artie (Art) Veyr\|Artie]] kept "checking in with his bird" during the session at the [[Hearthread Hall]]. Orin's whereabouts [Unknown/Ambiguous]. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Overheard the [[Aiphrumfite 'Aiph'|Aiph]]/[[Margaret "Mags" HoneyThatcher|Mags]] argument at the tavern (relayed by Tobias at the inn). Dispatched by [[Artie (Art) Veyr|Artie]] carrying his day's pocketbook "to where it usually goes." |
 | [[Session 02 — It Follows Me, So I Followed It]] | Artie deliberately killed Orin against a closed window to demonstrate the familiar's anomalous nature — Orin snapped his neck, faded, and reformed immediately. Artie treated this as a data point. |
 

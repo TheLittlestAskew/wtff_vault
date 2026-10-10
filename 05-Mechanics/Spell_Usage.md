@@ -16,4 +16,6 @@
 
 > S01 was a social/roleplay session; few spells were cast by name. Most magic was descriptive (e.g. [[Aiphrumfite ‘Aiph‘|Aiph]]'s color-changing igniting sand; floating the brawling candidates apart) and is **not** logged here as named spells to avoid invention.
 
+> **S07 ([[Session 07 — Omission of Truth]]):** no named spells were cast — a joint roleplay session with no combat. Descriptive magic only, not logged as named spells to avoid invention: [[BE-BO (Botanical Energy Balance Operator)|Bebo]] "mends" its engraved wood-chip name tag onto itself (the Mending cantrip is not named in the note); Bebo's sending-stone messages are an item, not a spellcast; Lux "magically" returns her eyes to Lute's color (WtFR, crossover; no spell named).
+
 > **S03 ([[Session 03 — Raise a Glass to Provisional Trust]]):** no named spells were cast — a travel/roleplay session with no combat. [[Derek]]'s clap-light device registers as **evocation** ([[Artie (Art) Veyr|Artie]], Arcana 16) but is an item, not a PC spellcast. Nothing logged for S03.

@@ -25,6 +25,7 @@ A **rail-stop village** and the site of **Group K**'s first [[The Uprooters|Upro
 ## Events
 | Session | Event |
 |---|---|
+| [[Session 07 — Omission of Truth]] | *(Referenced only.)* Group K has completed the test dungeon (the dungeon sessions S04–S06 have no vault notes yet). Tobias's summary: "The dragon killed what she put in and then the creepy crawler killed the dragon." Aiph: something there was already dead "because something else showed up." Dungeon spoils shown in S07: a dragon heart, scale(s), a centipede eyeball, a giant curved rib (plus a vial of blood, source [Unknown/Ambiguous]). |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Group K arrived by green train, read the station sign, lodged at the [[X Marks the Spot Inn]] (the "provisional trust" pact + long rest), and in the morning descended into Aiph's five-layer test dungeon via the trap door in the hillside ruin. The trap door shut; the session ended in darkness. |
 | [[Session 02 — It Follows Me, So I Followed It]] | Named by [[Aiphrumfite 'Aiph'|Aiph]] during Group K orientation as the party's first test dungeon destination. Group K boarded the green train at the morning platform in [[Rhusatatiam]]. |
 

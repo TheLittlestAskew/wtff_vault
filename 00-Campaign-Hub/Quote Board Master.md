@@ -16,6 +16,115 @@
 
 ---
 
+## Session 07 — Omission of Truth (09/20/2026)
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "Hey, we did it. We're great. We crushed it. We are now Uprooters. Lovely. You did it."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Important to Story]**
+> "Omission of truth is still not truth."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "Calm down. We're not throwing Aiph under the tarrasque here."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "If it's the only person who's not looked at me like I'm broken. So if she needs me to tell a lie, I will tell whatever lie she needs."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Important to Story]**
+> "Because it means something went wrong on her. Something got in that she wasn't supposed to let in or whatever."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Banter]**
+> "So just don't say anything. I guess."
+
+**Dwarven waiter & [[Tobias Wolfe\|Tobias]] · [Funny] [Banter]**
+> "I don't mean to be rude. It doesn't look like you can handle fire whiskey." / "I can handle anything. Twice over."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Bebo would like some used cooking grease if you have any."
+
+**Dwarven waiter · [Funny]**
+> "You know what? I'm sorry. I didn't know who you were. That's my bad."
+
+**[[Tobias Wolfe\|Tobias]] · [Banter]**
+> "Female power baby."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Serious]**
+> "Bebo believes in truth. Consequences of truth are good and bad. Bebo also apologizes for making you emotional. But Bebo believes people should face truth."
+
+**[[Artie (Art) Veyr\|Artie]] · [Funny]**
+> "Bebo, you're like our own personal Derek. It's not gonna blow up, right?"
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Poignant] [Funny]**
+> "Too easy to die. Could. Don't need to know. Unnecessary heartbreak."
+
+**[[Nyx]] (WtFR, crossover) · [Funny]**
+> "You're from Bloom. I'm from Bloom. Why don't we call him Bloom?"
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "We are in over our heads."
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] · [Important to Story]** *(attribution per diarization; sentence split across speakers, flagged)*
+> "That only means he's getting stronger."
+
+**[[Nyx]] (WtFR, crossover) · [Serious]**
+> "Sometimes we're given truths that are not ours to speak, but it doesn't mean that we should let them be twisted into something false."
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] · [Important to Story]**
+> "I need her because she's a little unhinged."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "We were so afraid after what happened last time that we waited too long. Don't know what's happening. We are not in control anymore."
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] · [Serious]**
+> "Yes, we are. We are in control. At least I am."
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] · [Important to Story]**
+> "As soon as they have any reason to believe that you and I are not in control, the whole house falls."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Poignant]**
+> "I don't care if it happens to me."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "I can't tell if their conversation is arguing or very, very intense flirting. Foreplay."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "I just presume everyone's lying, everyone's judging, everyone's talking about you. But that's just me."
+
+**[[Tobias Wolfe\|Tobias]] · [Banter]**
+> "Yeah, we're at rock bottom. Fantastic."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "I have a dramatic childhood, I need this."
+
+**[[Tobias Wolfe\|Tobias]] · [Important to Story]** *(the dragon heart; referent ~80%, F66)*
+> "No, that. That is mine."
+
+**Nana's letter (in-world document, read by [[Margaret “Mags” HoneyThatcher\|Mags]]) · [Poignant]**
+> "Don't ever give up on telling that story"
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Dramatic]**
+> "This doesn't change my mind." / "I want to kill him. I'm gonna kill him."
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] · [Dramatic] [Important to Story]** *(split across a stray label, F10)*
+> "Would you still kill him if it meant you had to kill me too?"
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "I joined the Uprooters. I wanted to see the world. And this tavern is nice, but it's not the world."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "If you can't find me, Z, look for the water." / "I. I don't do fountains, just ponds."
+
+**[[Zarna Morganach\|Zarna]] · [Serious]**
+> "Truth is a complicated thing."
+
+**[[Alec]] (DM) · [DM Quip] [Dramatic]**
+> "And she will stab Mags. And that is where we end tonight's session."
+
+**Taylor (OOC) · [Funny]** *(F22: tail "another hour," mislabeled on Adam in the transcript)*
+> "Respectfully, I disagree. I think we have to go for another hour,"
+
+---
+
 ## Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
 
 **[[Aiphrumfite 'Aiph'\|Aiph]] · [DM Quip] [Serious]**

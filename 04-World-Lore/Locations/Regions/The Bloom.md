@@ -14,5 +14,5 @@ At the height of the Bloom’s early expansion, its unchecked growth began to ov
 
 **Notable individuals (from play):**
 - **[[Derek]]** *(S03)* — a manic tinkerer/artificer who works for an architectural agency in the Bloom; met aboard [[The Verdant Blossom]] as train staff in [[Session 03 — Raise a Glass to Provisional Trust]]. Gave [[Artie (Art) Veyr|Artie]] a clap-activated light / mini-bomb. ⚠ First-seen, ≤60% — confirm with [[Adam]].
-- **[[BE-BO (Botanical Energy Balance Operator)|Bebo]]** — the WtFF party's Warforged artificer is "from the bloom originally" (S03).
+- **[[BE-BO (Botanical Energy Balance Operator)|Bebo]]** — the WtFF party's Warforged artificer is "from the bloom originally" (S03). *(S07)* Restated: "Bebo is from Bloom." [[Nyx]] (WtFR, crossover) is also from the Bloom; she named Bebo's snail [[Bloom]] after it.
 

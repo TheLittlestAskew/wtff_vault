@@ -41,6 +41,7 @@ sub_class:
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 07 — Omission of Truth]] | *(Player absent; DM-run briefly.)* At the start of the session at the Common Fire ([[Hearthread Hall]]), **bolted up and ran upstairs without a word.** Bebo (Insight 18): "It's very clear something happened." Cause [Unknown/Ambiguous]. Did not return in the session; Lute's search for her (Perception 8) found Tobias instead. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Explored the [[The Verdant Blossom]] conservatory car; harvested carrots (Nature 17, then 13); met [[Constance]]. Laid her hand into the "provisional trust" pact at the [[X Marks the Spot Inn]]. Passed a long-rest d100 check (75). Descended into the test dungeon. |
 | [[Session 02 — Something’s Changing]] | Denied knowing Aiph when Aiph said she looked familiar (Persuasion/Deception: 19; Aiph narrowed eyes but let go). Cast Healing Word on Bebo (4 HP) after cold damage; Nature check (19) — understood elemental vulnerability. Gave Lute a butterfly trinket from her belt before going upstairs. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed; both recruiters felt they knew her. Watched Lute’s inner-voice moment. Selected into the WtFF party (Group K). |

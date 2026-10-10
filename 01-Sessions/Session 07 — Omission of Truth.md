@@ -397,7 +397,7 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | Straightforward | "Back to the Common Fire" |
 | Quote-based | "Would You Still Kill Him?" |
 
-**Final Chosen Title:** *Omission of Truth*, from Bebo's "Omission of truth is still not truth" [00:20:17]. Both recruiters ask their groups to leave things out, and the whole session turns on what each person withholds. No on-air title was given by either DM. ⚠️ Chosen by the automated run, not yet confirmed by Taylor.
+**Final Chosen Title:** *Omission of Truth*, from Bebo's "Omission of truth is still not truth" [00:20:17]. Both recruiters ask their groups to leave things out, and the whole session turns on what each person withholds. No on-air title was given by either DM. Chosen by the automated run; approved by Taylor 2026-10-10.
 
 ---
 

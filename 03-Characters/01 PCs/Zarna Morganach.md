@@ -11,6 +11,9 @@ sub_class:
 ## Description / Appearance
 - *(S01)* An almost **7-ft half-orc** with an **inviting (not imposing) face**.
 - *(S01)* **Oversized, face-wide glasses**; carries a **large hammer + short sword** and a tool pack. "Prepared for an adventure."
+- *(S07)* **No paladin emblem** on her armor ([[Nyx]] looked: "She doesn't have one").
+- *(S07)* Carries a **giant curved rib** (dungeon loot) on her back.
+- *(S07)* The dwarven waiter calls her a "big armor scary woman."
 
 ## Backstory
 - *(S01)* Only learned of [[The Uprooters]] **that morning, from a flyer**.
@@ -25,6 +28,9 @@ sub_class:
 - *(S02)* Rolled Religion nat 20/21 on Nyx's armor — observed divine illumination (vines, thorns, shackles) and a "deity of justice" reading. Also noticed the plume of black smoke from the balcony above, recognizing it as another person with religious devotion.
 - *(S03)* **Treasures gifted art** — carefully pocketed [[Tobias Wolfe|Tobias]]'s hammer sketch on her person.
 - *(S03)* **Pragmatic in the trust debate** — "I'm with the robot"; readily backed [[BE-BO (Botanical Energy Balance Operator)|Bebo]]'s "provisional trust."
+- *(S07)* **Becomes completely absorbed watching Bebo craft** — missed [[Nyx]] sitting at her own table for most of an hour.
+- *(S07)* **Trusts Aiph "to a certain extent"** but not fully while information is withheld.
+- *(S07)* "**Truth is a complicated thing.**"
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
@@ -34,6 +40,8 @@ sub_class:
 | Bebo's caretaker notes | Held — skimmed at dinner (Investigation 4), "deal with it later" | [[Session 02 — Something’s Changing]] |
 | Mahogany [[The Uprooters\|Uprooter]] token | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 | Room key ([[X Marks the Spot Inn]]) | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
+| Giant curved rib (dungeon loot) | Carried on her back | Dungeon (S04–S06, unwritten); shown [[Session 07 — Omission of Truth]] |
+| Exploding ball bearings | Held — kept out of Bebo's bag | Shown [[Session 07 — Omission of Truth]] |
 
 ## Relationships
 - **↔ [[Nyx]]:** tried (and failed) to identify the symbol on Nyx’s chest during the interviews (S01); *(S02)* succeeded at Religion nat 20/21 — saw deity of justice illumination; accepted Bebo caretaker notebook from Nyx.
@@ -41,13 +49,21 @@ sub_class:
 - **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** *(S02)* Named primary caretaker for Bebo’s battery-change procedure by Nyx; received the caretaker notebook.
 - **↔ [[Tobias Wolfe|Tobias]]:** *(S02)* He gravitated toward her after the Mags encounter; she is the party member he treats as safest/non-threatening. *(S03)* He gifted her a sketch of her hammer (she pocketed it carefully); he opened small talk about her Age-of-Heroes expertise.
 - **↔ [[Constance]]:** *(S03)* Met her in the conservatory car; read her as genuinely friendly (Insight 12) and recalled her arcane shop in [[The Burn]] (History, advantage, 17).
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S07):** Noted Aiph never said what was supposed to be in the dungeon; trust now partial ("I don't know if we can fully trust what she's saying").
+- **↔ [[Tobias Wolfe|Tobias]] (S07):** Talked him down from self-doubt; told him Mags is the one with doubts. He calls her "Z." Defended him to Bebo.
+- **↔ [[Nyx]] (S07, crossover):** Finally noticed Nyx at the table (Perception 18 on a re-roll); compared notes on the groups' dungeons ("Uneventful. We completed it... but we only got to keep one thing," Nyx). Nyx checked her armor for an emblem.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Agreed with Bebo that omission isn't truth but saw no choice. Asked for the bottle of red. Spotted Aiph at the bar watching the entrance and checking a wrist device (Perception 12). Recognized Bebo's bag of holding (Arcana 17); kept her exploding ball bearings out of it. Absorbed in Bebo's goggle-crafting; a run of low Perception rolls kept her from noticing [[Nyx]] until an 18. Read the Aiph/Mags argument as tense (Insight 12). Showed Nyx the giant curved rib. Stayed at the table with Bebo and Nyx to the end. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Explored the conservatory car; met [[Constance]] (Insight 12; History 17 — recalled her shop in [[The Burn]]). At the [[X Marks the Spot Inn]] backed [[BE-BO (Botanical Energy Balance Operator)|Bebo]]'s "provisional trust" ("I'm with the robot") and laid her hand in; received and pocketed [[Tobias Wolfe|Tobias]]'s hammer sketch; skimmed Bebo's caretaker notes (Investigation 4). Descended into the test dungeon **first** (ahead of the jumping Bruin). |
 | [[Session 02 — Something’s Changing]] | Introduced as museum curator (Age of Heroes museum; mentor’s collection); said "archaeologist" first. Religion nat 20/21 on [[Nyx]]’s armor: saw vines, thorns, shackles — deity of justice. Accepted primary Bebo caretaker role from Nyx (caretaker notebook); [[Isla ‘Bruin’ Kaplan\|Bruin]] is physical muscle. Boarded green train to [[Sunroute Crossing]]. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed; tried to read Nyx’s chest symbol (failed). Read the Mags/Aiph eye-contact moment successfully. Selected into Group K. |
+
+## Key Quotes
+> **[[Session 07 — Omission of Truth]]**
+> "Truth is a complicated thing." — *Serious*
 
 ## Related
 - [[Campaign Dashboard]]
