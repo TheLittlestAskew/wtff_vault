@@ -132,4 +132,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Unchanged. See the block above this log.
 - **Watch out:** The watcher row records the 72h `ExecutionTimeLimit` that caused the past timeout, so that gotcha now lives somewhere findable rather than only in the log history.
 
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-09-02 22:20 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-02 22:20 ET.
