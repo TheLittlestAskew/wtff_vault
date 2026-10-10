@@ -60,6 +60,12 @@ _STT appears to have dropped several expletives, leaving gaps: "mine was the one
 
 ---
 
+## Session 06 — The Art of Staying Cool (08/23/2026)
+
+_No recording; none captured._ S06 exists only as a written recap; no profanity can be counted. Running totals unchanged. Propagated out of order (2026-10-10).
+
+---
+
 ## Session 05 — The Bloody Truth (08/09/2026)
 
 _Propagated out of order (2026-10-10), after S07 and S04. Mixed IC and OOC; Rachel and Seth carry most of it._

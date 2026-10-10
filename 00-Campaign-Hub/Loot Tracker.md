@@ -29,7 +29,7 @@
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Wood-chip name tag "Bloom" | NEW. Engraved and mended to Bebo where its snail [[Bloom]] rests. Equipped. Session 07. |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Used cooking grease (small wooden bowl) | NEW. From the dwarven waiter; used on its joints, offered to the snail, last of it used to seal the bag. Consumed. Session 07. |
 | [[Zarna Morganach\|Zarna]] | Giant curved rib | From the dungeon; carried on her back; produced at show-and-tell. Held. |
-| [[Zarna Morganach\|Zarna]] | Exploding ball bearings | Kept out of the bag ("Those do not need to go in the bag"). Held. |
+| [[Zarna Morganach\|Zarna]] | Exploding ball bearings | Kept out of the bag ("Those do not need to go in the bag"). Held. *(Source: [[Derek]]'s gift, S06; see the S06 section below.)* |
 | [[Isla 'Bruin' Kaplan\|Bruin]] | Bottle of red wine | NEW. Ordered for the table; Bruin took the whole bottle outside. Held. Session 07. |
 
 *Crossover / NPC items (not party loot, recorded for completeness):*
@@ -44,9 +44,25 @@
 
 ---
 
+## Session 06 — The Art of Staying Cool (08/23/2026)
+
+> *Propagated out of order (2026-10-10), after S07, S04 and S05.* **No recording:** the only source is the written recap in the session note, so there are no counts, rolls or charges beyond what the recap states. Zarna's exploding ball bearings shown in S07 (section above) are this session's gift from [[Derek]]. The dragon's heart is not re-listed here: the recap says Artie used Identify on "the heart itself" but does not say who held it (S05: Tobias; S07: Tobias at ~80%).
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| [[Zarna Morganach\|Zarna]] | Explosive ball-bearings ("ball-berings" in the recap) | NEW. Gift from [[Derek]] in the staff car of the overnight train, after Zarna offered the group's services as "Explosive Field-Testers." Quantity [Unknown/Ambiguous]. Held. Session 06. |
+| [[Artie (Art) Veyr\|Artie]] | Explosive ink with an activator quill | NEW. Gift from [[Derek]]. Held. Session 06. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Small light sphere that explodes with "healing dust" | NEW. Gift from [[Derek]]. Held. Session 06. |
+| [[Artie (Art) Veyr\|Artie]] | Book with an obscure fairy tale about the "Cherry-Blossom looking Dragon" from the dungeon | NEW. Found on the train. Title and whether he kept it [Unknown/Ambiguous]. Held (assumed from "finds"; flagged). Session 06. |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Fire whisky | Poured on the frozen Bebo "hoping this may thaw them out." Source and quantity [Unknown/Ambiguous]. Consumed. Session 06. |
+
+> *Do not infer additional properties of these items beyond what was shown.*
+
+---
+
 ## Session 05 — The Bloody Truth (08/09/2026)
 
-> *Propagated out of order (2026-10-10), after S07 and S04; S06 not yet propagated.* This is where the S04 chest was opened and the dragon harvested. Holders are **as stated in S05**; the S07 section above shows the later state (bag of holding as party bank, emerald deposited, sapphire and heart with Tobias). Owners and counts not stated on-air stay [Unknown/Ambiguous].
+> *Propagated out of order (2026-10-10), after S07 and S04; S06 propagated afterward (section above).* This is where the S04 chest was opened and the dragon harvested. Holders are **as stated in S05**; the S07 section above shows the later state (bag of holding as party bank, emerald deposited, sapphire and heart with Tobias). Owners and counts not stated on-air stay [Unknown/Ambiguous].
 
 | Character/Owner | Item/Artifact | State/Context |
 |---|---|---|

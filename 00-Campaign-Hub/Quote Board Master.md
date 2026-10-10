@@ -125,6 +125,12 @@
 
 ---
 
+## Session 06 — The Art of Staying Cool (08/23/2026)
+
+_No recording; none captured._ S06 exists only as a written recap (see [[Session 06 — The Art of Staying Cool]]), so there is no verbatim table speech to board. The recap does put a few lines in quotation marks ([[Aiphrumfite ‘Aiph‘|Aiph]] to Tobias, [[Delilah]], Eliza's "according to plan"); those are recorded on the character pages **per the written recap**, not as verbatim quotes. Propagated out of order (2026-10-10).
+
+---
+
 ## Session 05 — The Bloody Truth (08/09/2026)
 
 _Propagated out of order (2026-10-10), after S07 and S04. Order of occurrence preserved. Lines from the off-recording vision scenes appear only as retold at the table._

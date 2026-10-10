@@ -22,6 +22,8 @@ sub_class:
 ## Backstory
 - *(S01)* Shares a long, fraught, intimate history with the WtFR recruiter [[Margaret “Mags” HoneyThatcher|Mags]] — they reference a past fight ("the last time we had a fight and someone convinced you otherwise") and claim together to "know the last hero to ever exist." Details [Unknown/Ambiguous].
 - *(S07, in-world letter)* [[Margaret “Mags” HoneyThatcher|Mags]] gave her a faded envelope **"To Aiph, from Nana"**, read aloud at the bar. Per the letter: her Nana called her **"Aiphie"** and **"Lady Aiph"**; Nana and Aiph's **"pop"** were meant to hate each other, and that hate turned into love; the letter foretells Aiph telling a story about "taking out the bad guy." Recorded only as an in-world document; Nana's and pop's status are [Unknown/Ambiguous].
+- *(S06, per the written recap)* **She and [[Margaret “Mags” HoneyThatcher|Mags]] love one another** (the DM-written recap frames Tobias's question as whether they "were looked down upon for loving one another"). Canon per the recap; earlier player speculation is not the source.
+- *(S06, per the written recap)* There is **"a place which I never hope to return to one day."** Where it is, and why, are [Unknown/Ambiguous].
 
 ## Personality
 - *(S01)* Mercurial, blunt, and volatile; affectionate-but-lethal toward [[Margaret “Mags” HoneyThatcher|Mags]]. Wagered that 5 candidates would "make it" (Mags guessed 2).
@@ -55,6 +57,8 @@ sub_class:
 - **↔ [[Margaret “Mags” HoneyThatcher|Mags]] (S07):** The rift escalates into an open argument at the [[Hearthread Hall]] bar over control and over [[Lute]] (Mags wants Lute "because she's a little unhinged"). Mags gave her the envelope from Nana and said she can't leave "and I never would." Aiph: "This doesn't change my mind." Mags: "Would you still kill him if it meant you had to kill me too?" Mags was holding Aiph's hand when Lux stabbed her in front of Aiph. **Mags's condition is unknown.**
 - **↔ Group K (S05):** "you did it so much faster than Mags's group"; "I chose the best group." Passed them ("Congrats. You passed the test") but called the two unknown creatures "more concerning whether or not Group K pass the test." Zarna lectured her on dungeon maintenance; Artie: "Did you put a fucking dragon in there?" ("You were supposed to kill it, so,"). Left Bruin's question about earlier groups unanswered. Tobias: "Her reaction says she expected us to die."
 - **↔ Group K (S07):** Entrusted them with keeping her dungeon's failure from Group J and told them they're Uprooters. Looked away quickly when [[Isla 'Bruin' Kaplan|Bruin]] sought her eye. Is getting [[Tobias Wolfe|Tobias]] "a teacher, a mentor" (per Tobias).
+- **↔ [[Tobias Wolfe|Tobias]] (S06):** Received his apology for freezing the tavern's patrons and told him his powers aren't a burden nor a liability but **an asset**: if he stops running from it and stops trying to control it, and lets it flow through him, he may find a power he didn't know he had, one [[The Uprooters]] may need one day. On the overnight train he confided in her about his home town; she answered that people who look down on others project "their own lack and their own pains," and **struck a deal**: she has a place she never hopes to return to, so "You can go to my place for me and I to your place for you."
+- **↔ [[Margaret “Mags” HoneyThatcher|Mags]] (S06):** **They love one another** (DM-written recap). A series of messages passed between them as Group K's train got a head start back to [[Rhusatatiam]]; content not stated.
 - **↔ WtFF party (Group K):** now their recruiter/leader — [[Tobias Wolfe|Tobias]], [[Artie (Art) Veyr|Artie]], [[Isla 'Bruin' Kaplan|Bruin]], [[Zarna Morganach|Zarna]], [[BE-BO (Botanical Energy Balance Operator)|Bebo]], [[Eliza Duskbloom|Eliza]].
 - **↔ [[Eliza Duskbloom|Eliza]]:** uncannily feels he *knows* her, despite never meeting; Mags silently signaled him to pick her.
 
@@ -62,6 +66,7 @@ sub_class:
 | Session | Event |
 |---|---|
 | [[Session 07 — Omission of Truth]] | Back at the [[Hearthread Hall]], asked Group K not to tell Mags's group that something showed up in her dungeon and killed what she put there; declared them Uprooters. Waited at the bar watching the entrance, checking a wrist device. Argued with Mags in front of both groups ("We are not in control anymore"; Mags: "the whole house falls"); both referenced an unnamed "he" who is "getting stronger." Took Lute's weapons handover alongside Mags. Received and read the in-world letter "To Aiph, from Nana." **Witnessed Lux stab Mags** while holding Mags's hand. Session ends; Mags's condition unknown. |
+| [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* Received Tobias's apology (with Artie present) for freezing the tavern's patrons; called his power an asset the Uprooters may need one day. On the overnight train answered his question about whether she and Mags were looked down upon for loving one another, and offered a deal to go to each other's places. Exchanged a series of messages with Mags as the train headed back to [[Rhusatatiam]]. |
 | [[Session 05 — The Bloody Truth]] | At the dungeon's surface under a conjured tent: "No way." Celebrated Group K's speed ("so much faster than Mags's group"; "I chose the best group"), then saw Tobias's drawings and the harvested scale and eyeball: "I have never seen that thing before in my entire life." Walked them back to the [[X Marks the Spot Inn]], paced, confirmed they passed, admitted the dungeon was supposed to hold "a weird magical" shape-shifting thing and that she has never walked every room. Asked when adventurers last came back: "It has been some years since we've had." Drank Bruin's and Eliza's shots and left: "we'll see you all in the morning." Adam ruled the vision figures are not Aiph or Mags. |
 | [[Session 04 — Four Blooms, Five Petals]] | *(Not on-screen.)* Group K delved her five-layer test dungeon at [[Sunroute Crossing\|Sunroot Crossing]]; the DM framed the riddles as fitting "the narrative that she wants to test all kinds of different versions of the party" [01:30:40]. Waits at the surface (per S03). Tobias joked the dead dragon was her "pet lizard"; Zarna: "Hopefully that wasn't her pet." |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Led Group K aboard [[The Verdant Blossom]]; handed out six Uprooter tokens; had the private "scent = the world shifting / violence is coming" scene with [[Isla 'Bruin' Kaplan|Bruin]]. Watched approvingly from the inn bar as the party formed the "provisional trust" pact. In the morning led them to her personally-curated **five-layer test dungeon** at [[Sunroute Crossing|Sunroot Crossing]], set the objective (retrieve the bottom chest's contents, return them to her), and waited at the surface. |
@@ -75,6 +80,11 @@ sub_class:
 > "We were so afraid after what happened last time that we waited too long. Don't know what's happening. We are not in control anymore."
 >
 > "This doesn't change my mind." / "I want to kill him. I'm gonna kill him."
+
+> **[[Session 06 — The Art of Staying Cool]]** *(per the written recap; no recording, so not verbatim table speech)*
+> "there will always be those who look down upon others for something or other. It is merely a projection of their own lack and their own pains."
+>
+> "there is also a place which I never hope to return to one day. Perhaps we can help one another. You can go to my place for me and I to your place for you."
 
 > **[[Session 05 — The Bloody Truth]]**
 > "y', all, you did it so much faster than Mags's group."

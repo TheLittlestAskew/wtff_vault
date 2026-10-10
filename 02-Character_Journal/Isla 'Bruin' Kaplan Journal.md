@@ -48,6 +48,19 @@ tags:
 
 ---
 
+> [!quote]- Session 06 — The Art of Staying Cool (08/23/2026)
+> *[[Session 06 — The Art of Staying Cool|Somebody had to stay]]*
+>
+> The cold one ran, and the others went after him. The machine was still ice where it stood. Somebody had to stay with it, so I stayed.
+>
+> I poured fire whisky on it. It warms you from the inside; I figured it might work from the outside too.
+>
+> They came back with him. On the train back I rested.
+>
+> *Somebody had to stay. I'm good at staying.*
+
+---
+
 > [!quote]- Session 05 — The Bloody Truth (08/09/2026)
 > *[[Session 05 — The Bloody Truth|It got back up, and then it didn’t]]*
 >

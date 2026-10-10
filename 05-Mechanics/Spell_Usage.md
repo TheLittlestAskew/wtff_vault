@@ -24,6 +24,7 @@
 | [[Tobias Wolfe\|Tobias]] | [Unknown/Ambiguous] (ice turned to fire; source spell not named) | [Unknown/Ambiguous] | [[Session 05 — The Bloody Truth]] | After a Performance check (21) to reflavor his frost as fire: hit (25), 10 damage; his arm tattoos glowed blue, then orange [00:31:19]–[00:33:33]. Adam: the reflavor check uses Charisma (Performance), not Arcana. |
 | [[Tobias Wolfe\|Tobias]] | Silvery Barbs | 1st level | [[Session 05 — The Bloody Truth]] | Turned the surviving insectoid's attack on Bruin (25) into a miss; advantage passed to Zarna [00:37:39]. |
 | [[Artie (Art) Veyr\|Artie]] | Identify | 1st level | [[Session 05 — The Bloody Truth]] | On the pitch-black dagger from the chest (Arcana 18): +1, +2 when thrown; a "weird taste" in his mouth after casting [01:51:36]. |
+| [[Artie (Art) Veyr\|Artie]] | Identify | 1st level | [[Session 06 — The Art of Staying Cool]] | On the dragon's heart ([[The Dungeon Dragon]]) aboard the overnight train: it gives off magic, but "his powers are currently unable to comprehend this object fully." *No recording; per the written recap; no roll recorded.* |
 
 ---
 

@@ -37,6 +37,7 @@ DM art: `06-Media/Verdant_Blossom_Interior.png`.
 ## Events
 | Session | Event |
 |---|---|
+| [[Session 06 — The Art of Staying Cool]] | *(No recording; the recap says only "the train"; identified as this train from S03, flagged.)* Overnight ride back toward [[Rhusatatiam]]. Bruin rested; Artie led Bebo and Zarna to the **staff car** to meet [[Derek]] again (gifts of explosives; Zarna's "Explosive Field-Testers" offer); Eliza journaled in the **"Observatory car"** (recap's word; presumably the observation car, not asserted); Tobias confided in Aiph; Artie found a fairy-tale book about the dungeon dragon and tried Identify on its heart; Aiph and Mags exchanged messages. Group K's train got a head start on Group J's. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Group K rode the train from [[Rhusatatiam]] to [[Sunroute Crossing|Sunroot Crossing]]. [[Aiphrumfite 'Aiph'|Aiph]] handed out six Uprooter tokens and granted ~2 hours of free time; the party split into pods across the cars (dining, conservatory, staff, lounge). Bruin & Aiph had the "scent / shifting" conversation in the lounge; the party met [[Constance]] and [[Derek]]. |
 
 ## Connections

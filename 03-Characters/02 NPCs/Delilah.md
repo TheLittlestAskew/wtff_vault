@@ -17,6 +17,7 @@ location: "[[X Marks the Spot Inn]], [[Sunroute Crossing|Sunroot Crossing]]"
 
 ## Backstory
 - *(S03)* Works at the [[X Marks the Spot Inn]] in [[Sunroute Crossing|Sunroot Crossing]]. Mentioned that **"the first of vent was yesterday"** — a first-seen, unconfirmed in-world calendar term (⚠ confirm with [[Adam]] / [[The Calendar]]).
+- *(S06, per the written recap)* Has **heard of dragon-like creatures, but only in fairy tales from her childhood.**
 
 ## Personality
 - *(S03)* Friendly service staff; prompted the table's "Hey there, Delilah" song-title bit.
@@ -35,15 +36,20 @@ location: "[[X Marks the Spot Inn]], [[Sunroute Crossing|Sunroot Crossing]]"
 - **↔ [[Tobias Wolfe|Tobias]]:** *(S03)* Tobias sketched her (Performance 26) as a "tip" — a beautiful piece admired by onlookers.
 - **↔ WtFF party:** *(S03)* Served the table dinner during the trust debate.
 - **↔ [[Tobias Wolfe|Tobias]] (S05):** Asked about the blood on his face; received an ice rose; he asked when she finishes tonight; she smiled, thanked him, and walked away.
+- **↔ [[Zarna Morganach|Zarna]] (S06):** Described in the recap as Zarna's "favorite server"; Zarna told her about the strange dragon-like creature from the dungeon.
 - **↔ WtFF party (S05):** Served drinks, food and desserts through the evening; frozen in place with the whole tavern when Tobias's frost broke loose, then freed.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* Talked with Zarna at the tavern while Bebo thawed; on the dragon-like creature: she has heard of such things only in fairy tales from her childhood. |
 | [[Session 05 — The Bloody Truth]] | Served Group K and Aiph at the [[X Marks the Spot Inn]] (Dwarven fire whiskey, ale and water for Tobias; food; desserts). Received Tobias's ice rose: "Nothing lasts, right?" Frozen with the rest of the tavern, then freed when Tobias ran. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Served the party dinner at the [[X Marks the Spot Inn]]; noted the "first of vent"; sketched by [[Tobias Wolfe|Tobias]]. |
 
 ## Key Quotes
+> **[[Session 06 — The Art of Staying Cool]]** *(per the written recap; no recording)*
+> "They aren't supposed to turn out to be real, right?"
+
 > **[[Session 05 — The Bloody Truth]]** *(voiced by [[Adam]])*
 > "She goes, why do you have blood on your face?"
 >

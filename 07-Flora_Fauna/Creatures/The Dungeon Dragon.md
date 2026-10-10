@@ -15,6 +15,8 @@ threat_level: "Dead (found as a corpse)"
 - *(S05)* **Dragon blood, of an unknown strand:** "some type of dragon blood," but "a strand of blood of dragon you have never ever heard of before" ([[BE-BO (Botanical Energy Balance Operator)|Bebo]], History 24) [00:44:27]–[00:44:34].
 - *(S05)* Adam, as Tobias takes its heart: "you have a heart from the Creature of Dungeon Zero" [01:07:41]. *(Term ≤50%: label or STT unclear; confirm with Adam.)*
 - *(S05)* [[Aiphrumfite ‘Aiph‘|Aiph]], who built the dungeon, **has never seen it** ("Neither the dragon lizard nor the insectoid") [01:40:00]–[01:40:41].
+- *(S06, per the written recap)* Called **"the Cherry-Blossom looking Dragon from the dungeon"** and "the strange dragon-like creature." [[Delilah]] has heard of such things **only in fairy tales from her childhood** ("They aren't supposed to turn out to be real, right?"); [[Artie (Art) Veyr|Artie]] found **a book with an obscure fairy tale** related to it (content not stated).
+- *(S06)* **Its heart resists Identify:** it gives off magic, but Artie's powers are "currently unable to comprehend this object fully."
 
 ## Physical Description
 - *(S04)* A **large lizard-shaped skeleton** with **bright purple / pinkish flesh and scales**, flower petals around it [01:46:56].
@@ -38,6 +40,7 @@ threat_level: "Dead (found as a corpse)"
 |---|---|---|
 | [[Session 04 — Four Blooms, Five Petals]] | Layer 5, Aiph's test dungeon | Found behind the objective chest, being eaten by the [[Centipede-Snail-Fly Creature]]. [[Tobias Wolfe\|Tobias]] spotted it and stopped Zarna walking into it. Artie's theory (unconfirmed): "we were supposed to fight this thing, and then somehow that thing got here." |
 | [[Session 05 — The Bloody Truth]] | Layer 5, Aiph's test dungeon | Its skeleton lifted and fell once mid-fight. After the fight: no heartbeat (Bruin); harvested by the party (no rolls needed; Adam warned outcomes may not match expectations). **Tobias took its heart** (Bruin and Bebo saw). See [[Loot Tracker]]. |
+| [[Session 06 — The Art of Staying Cool]] | *(Referenced; no recording)* | Zarna asked [[Delilah]] about it (childhood fairy tales only). On the overnight train Artie found a book with an obscure fairy tale about it and **cast Identify on the heart, which failed to comprehend it fully** (S07: Artie still stunned his magic failed). |
 | [[Session 07 — Omission of Truth]] | *(Referenced)* | Tobias: "The dragon killed what she put in and then the creepy crawler killed the dragon." A dragon heart, scale(s) and a giant curved rib are among the dungeon spoils shown in S07 (harvested in S05; see [[Loot Tracker]]). |
 
 ## Related
