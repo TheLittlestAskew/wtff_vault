@@ -3,7 +3,7 @@ player: Taylor (Me)
 race/species: Shifter
 class: Barbarian
 sub_class: Path of the Totem Warrior
-level: lvl1
+level: lvl2
 updated_on:
 ---
 
