@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 19:20 ET · Claude Code
+- **Changed:** S05 "The Bloody Truth" published (`2b2f8f5`) and propagated (`938b297`). S06 "The Art of Staying Cool" got frontmatter + em-dash filename; recap kept verbatim minus one personal line; date 2026-08-23 inferred (`af3c6f0`). S07 links to S06 fixed (`0929490`). Site ARC now lists S01–S07 (rectrixcaedere). Mirror backup of the repo taken in the session scratchpad before the history scrub.
+- **Commit:** `2b2f8f5`, `af3c6f0`, `0929490`, `938b297`
+- **Next:** Commit S06 propagation (agent running), regenerate the index, then scrub Raw_Unedited/Corrected/Spelling_Corrected_Formatted from all history and force-push.
+- **Watch out:** Bruin's `level` frontmatter still says lvl1; S05 confirms level 2. Awaiting Taylor.
+
 ### 2026-10-10 18:20 ET · Claude Code
 - **Changed:** S04 Convo 2 propagated (22 pages + 2 new creature pages, slotted below S07; current state left at S07) and the Public Session Index regenerated with S04 (party pin still Rhusatatiam). Taylor approved: S05 spell-check table in full, secondhand coverage of the Discord vision scenes, and scrubbing transcripts from git history.
 - **Commit:** `5427722`, `bb26b93`
@@ -123,12 +129,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Let Phase B finish, then verify Convo 2 + publish actually commit and push; if the pipeline env blocks `git commit` again, land its outputs manually.
 - **Watch out:** ⚠️ `Corrected/07 - 092026_corrected.md` is untracked on purpose (pipeline mid-run) — it is not forgotten work.
 
-### 2026-09-20 22:50 ET · Claude Code (S07 Phase A — spell-check staged for review)
-- **Changed:** Ran Convo 1 Phase A (through spell-check only) on `07-092026_raw_transcript.md` — a **joint WtFF/WtFR crossover** (Group K + Group J, both DMs; Lydia and CJ absent; ends on Lux stabbing Mags). Wrote `_pipeline/S07/spellcheck.md` (98 proposed corrections, 2 ≤60%, none applied), `flags.md` (8 sections: party mapping, diarization merges, DM/NPC attribution, first-seen nouns incl. **Lux**, garbles, pending-input check, sensitive content, continuity), `summary.md`, and `READY_FOR_REVIEW`. Staged the S06 note + S07 raw transcript for commit.
-- **Commit:** — (staged only; message ready at `_pipeline/S07/commit_msg.txt` — env denied `git commit`)
-- **Friction:** gen-fail — the automated session's permission env denied every `git commit` attempt (Bash, PowerShell, `-F` file, sandbox-off), so the intake commit and this handoff commit could not land; what works: files staged + commit message saved to `_pipeline/S07/commit_msg.txt` for Taylor (or obsidian-git) to commit, and the block reported instead of swallowed.
-- **Friction:** gen-fail — full-transcript `Read` exceeded the 25k-token tool cap and compound `cd`+git/`touch` calls were sandbox-blocked; what works: chunked reads via offset/limit (640-line batches) and absolute-path single commands.
-- **Next:** Taylor reviews `_pipeline/S07/spellcheck.md` + `flags.md`, then commits the staged files (`git commit -F _pipeline/S07/commit_msg.txt`) and pushes.
-- **Watch out:** ⚠️ `Notes from Adam.md` (renamed from `DM Notes.md`) is still an empty skeleton — every S07 canon call leaned on lore pages + WtFR roster cards instead. ⚠️ AssemblyAI ran S07 with model `universal-2`, not the `3-5-pro` noted in TOOLS.md.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-20 22:50 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-20 23:40 ET.
