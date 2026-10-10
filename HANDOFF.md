@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 19:45 ET · Claude Code
+- **Changed:** S06 propagated (recap-only; `76933d7`); Public Session Index regenerated with all S01–S07 (`649fadc`). History-scrub script prepared (filter-branch on main, verify zero transcript commits, force-with-lease push); Claude Code's auto-mode blocked running it, so Taylor runs it.
+- **Commit:** `76933d7`, `649fadc`
+- **Next:** Taylor runs the scrub script from the session scratchpad; then verify on GitHub and file a GitHub Support request to purge cached views of the old commits.
+- **Watch out:** After the force-push, any other clone (another machine, Codex) must re-clone; pulling would re-merge the old history.
+
 ### 2026-10-10 19:20 ET · Claude Code
 - **Changed:** S05 "The Bloody Truth" published (`2b2f8f5`) and propagated (`938b297`). S06 "The Art of Staying Cool" got frontmatter + em-dash filename; recap kept verbatim minus one personal line; date 2026-08-23 inferred (`af3c6f0`). S07 links to S06 fixed (`0929490`). Site ARC now lists S01–S07 (rectrixcaedere). Mirror backup of the repo taken in the session scratchpad before the history scrub.
 - **Commit:** `2b2f8f5`, `af3c6f0`, `0929490`, `938b297`
@@ -122,11 +128,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Unchanged. See the ▶ item in Next Steps — let Phase B finish, then verify Convo 2 + publish push.
 - **Watch out:** ⚠️ Phase B note-writer was still alive at 00:14 ET (PID 34096, started 23:34, CPU accumulating). If `01-Sessions/` has no S07 note by morning, treat the run as stalled and check `_pipeline/status.json` + the watcher.
 
-### 2026-09-20 23:40 ET · Claude Code (S07 intake committed; Phase B running)
-- **Changed:** Committed the staged S07 intake that the automated pipeline session couldn't land (its env denied `git commit`): S06 note, 07-092026 raw transcript, and the prior handoff edits, using the prepared `_pipeline/S07/commit_msg.txt`. Status check found the pipeline alive and mid-Phase B: review approved 22:53 ET, corrected transcript written 23:34 ET (132 KB, deliberately left uncommitted for the pipeline to bank), note generation in progress. Convo 2 and publish still pending, so rectrixcaedere.com does NOT show S07 yet.
-- **Commit:** `27f882e`
-- **Friction:** gen-fail — `Glob *wtff*` across the whole home directory timed out at 20s; what works: the vaults live at `C:\Users\theli\Obsidian Vaults` (junctioned as `Septentrion\Campaigns`), so list that path directly.
-- **Next:** Let Phase B finish, then verify Convo 2 + publish actually commit and push; if the pipeline env blocks `git commit` again, land its outputs manually.
-- **Watch out:** ⚠️ `Corrected/07 - 092026_corrected.md` is untracked on purpose (pipeline mid-run) — it is not forgotten work.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-20 23:40 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-21 00:20 ET.
