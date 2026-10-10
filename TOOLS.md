@@ -17,7 +17,7 @@
 | **obsidian-5e-statblocks** | Library | Rendering monster/NPC statblocks | Obsidian plugin | ~2026-06-15 | Free | — |
 | **obsidian-local-rest-api** | Library | Local HTTP access into the vault | Obsidian plugin | ~2026-06-15 | Free | Paired with `mcp-tools` |
 | **mcp-tools** | MCP | Exposes the vault to Claude as MCP tools | Obsidian plugin | ~2026-06-15 | Free | Depends on `obsidian-local-rest-api` |
-| **AssemblyAI** | Service | mp3 → session transcript | api.assemblyai.com | 2026-09-20 | Paid | S07 transcript header reports model `universal-2` (was `3-5-pro`) |
+| **AssemblyAI** | Service | mp3 → session transcript | api.assemblyai.com | 2026-10-10 | Paid | S07 transcript header reports model `universal-2` (was `3-5-pro`) |
 | **WTFF Pipeline Watcher** | Task | Watches for new session audio and starts the transcribe→spellcheck→toast flow | Task Scheduler → `start-watcher-hidden.vbs` | ~2026-09-20 | Free | State: Running. ⚠️ 72h `ExecutionTimeLimit` was the cause of a past timeout |
 | **chokidar** | Library | Filesystem watching inside `wtff_pipeline_watch.js` | `Workflows/scripts` `chokidar@^5.0.0` | 2026-09-02 | Free | — |
 | **BurntToast** | Library | Windows toast notifications with Review/Approve buttons | PowerShell module, `wtff_notify.ps1` | ~2026-08-31 | Free | — |
