@@ -35,6 +35,11 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 19:55 ET · Claude Code
+- **Changed:** Bruin's `level` frontmatter → lvl2 (Taylor confirmed). S06 date 08/23/2026 stays as recorded (flagged inferred in the note).
+- **Commit:** `db4e6d4`
+- **Next:** Taylor runs the transcript history-scrub script from the session scratchpad (Obsidian closed first).
+
 ### 2026-10-10 19:45 ET · Claude Code
 - **Changed:** S06 propagated (recap-only; `76933d7`); Public Session Index regenerated with all S01–S07 (`649fadc`). History-scrub script prepared (filter-branch on main, verify zero transcript commits, force-with-lease push); Claude Code's auto-mode blocked running it, so Taylor runs it.
 - **Commit:** `76933d7`, `649fadc`
@@ -122,10 +127,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Unchanged — the S07 pipeline work in flight is untouched by this.
 - **Watch out:** ⚠️ An untracked `.codex/` directory is sitting in this working tree and is **not** from this change; left alone. ⚠️ A gitignore rule does nothing for a file that is **already committed** — if a screenshot ever does land here, it needs removing from history, not just ignoring.
 
-### 2026-09-21 00:20 ET · Claude Code (joint-session confirmation recorded; corrected transcript banked)
-- **Changed:** Taylor confirmed S07 was a joint session with both groups present — recorded as PLAYER-CONFIRMED in `_pipeline/S07/flags.md` §1 so Convo 2 writes the joint reading as canon (flags already had both rosters right; Lydia/CJ absences left standing as transcript-derived). Also committed `Corrected/07 - 092026_corrected.md` (2,534 lines), reversing the prior entry's "untracked on purpose": the file had been stable 40+ minutes post-apply, corrected transcripts 01–03 are already on the remote, and the 2026-07-29 entry verified transcripts are not part of site publish — so banking it carries no risk and clears the dirty tree.
-- **Commit:** `5267c60`
-- **Next:** Unchanged. See the ▶ item in Next Steps — let Phase B finish, then verify Convo 2 + publish push.
-- **Watch out:** ⚠️ Phase B note-writer was still alive at 00:14 ET (PID 34096, started 23:34, CPU accumulating). If `01-Sessions/` has no S07 note by morning, treat the run as stalled and check `_pipeline/status.json` + the watcher.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-21 00:20 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-10-01 12:45 ET.
