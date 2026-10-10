@@ -1,7 +1,7 @@
 created by: **[Taylor]**
 # **REVERIE**
 
-*She Who Forgets*
+*She Who Remembers*
 Goddess of Love, Memory, Longing, and the Eras of the Heart
 
 
@@ -20,7 +20,7 @@ Goddess of Love, Memory, Longing, and the Eras of the Heart
 - The love of a story so good you grieve when it ends
 - The terrifying love that makes you brave
 - The eras of love across a single lifetime -- first love, mature love, grief, chosen family, self love, the love that quietly changes everything
-- She also holds domain over memory as an act of devotion. To forget someone is, in her theology, a form of worship.
+- She also holds domain over memory as an act of devotion. To remember someone is, in her theology, a form of worship.
 
 # TEMPLE
 

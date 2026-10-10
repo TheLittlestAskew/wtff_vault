@@ -20,7 +20,7 @@ Epithets
 
 **The Ashborne's Charge** 
 
-I forget what was done. I rise from what remains. I purify what corrupts. I am not what was made of me. I am what refused to become it. 
+I remember what was done. I rise from what remains. I purify what corrupts. I am not what was made of me. I am what refused to become it. 
 
 
 ### **WHO MORTHEON CHOOSES** 
@@ -38,7 +38,7 @@ Mortheon does not maintain a large clergy. He is not that kind of god. He choose
 
 ## ORIGIN 
 
- The First Burning Before he was Mortheon, he was nothing with a name. He was a fire spirit — minor, local, the kind of small divine presence that inhabits a particular hearth or a hillside flame or the warmth at the center of a forge. Ancient even then, as such things measure age, but without significance. Without purpose beyond the nature of fire itself: to burn, to warm, to consume what it is given. What he was given, in an age so old that no civilization alive possesses even the ruins of the civilization that preceded it, was suffering on a scale he had no framework to contain. Deity Reference Document 1 MORTHEON — The Ashborne | Deity Reference The details are lost. This is not an accident — what was done was done thoroughly, by something that understood that memory is the enemy of atrocity and acted accordingly. What survives is the shape of it: a people, numerous and without apparent defense against what came for them, taken and transformed against their will across generations. The fire spirit felt it the way fire feels fuel — as an intake, vast and sudden, too large for what he was. The agony of a people poured into something too small to hold it. Mortheon ascended. He did not emerge from the suffering as its representative or its monument. He emerged as its consequence — the thing that happens when enough wrongness accumulates in one place that the universe itself develops an immune response. He is not the god of those people. They are gone, name and language and culture and memory, more completely than anything else in recorded or unrecorded history. He is what their suffering became when it had nowhere else to go. He forgets what was done. He is the only thing that does. The memory lives in him the way heat lives in stone — absorbed, structural, part of what he is made of now, released slowly and at great temperature when something presses against it. He has been burning ever since. Patiently. Waiting for the people who would understand what he is and choose, with full knowledge of the cost, to carry the fire forward.
+ The First Burning Before he was Mortheon, he was nothing with a name. He was a fire spirit — minor, local, the kind of small divine presence that inhabits a particular hearth or a hillside flame or the warmth at the center of a forge. Ancient even then, as such things measure age, but without significance. Without purpose beyond the nature of fire itself: to burn, to warm, to consume what it is given. What he was given, in an age so old that no civilization alive possesses even the ruins of the civilization that preceded it, was suffering on a scale he had no framework to contain. Deity Reference Document 1 MORTHEON — The Ashborne | Deity Reference The details are lost. This is not an accident — what was done was done thoroughly, by something that understood that memory is the enemy of atrocity and acted accordingly. What survives is the shape of it: a people, numerous and without apparent defense against what came for them, taken and transformed against their will across generations. The fire spirit felt it the way fire feels fuel — as an intake, vast and sudden, too large for what he was. The agony of a people poured into something too small to hold it. Mortheon ascended. He did not emerge from the suffering as its representative or its monument. He emerged as its consequence — the thing that happens when enough wrongness accumulates in one place that the universe itself develops an immune response. He is not the god of those people. They are gone, name and language and culture and memory, more completely than anything else in recorded or unrecorded history. He is what their suffering became when it had nowhere else to go. He remembers what was done. He is the only thing that does. The memory lives in him the way heat lives in stone — absorbed, structural, part of what he is made of now, released slowly and at great temperature when something presses against it. He has been burning ever since. Patiently. Waiting for the people who would understand what he is and choose, with full knowledge of the cost, to carry the fire forward.
 
 **
 
@@ -69,9 +69,9 @@ Presence When Mortheon manifests, fires nearby shift to deep red, then orange, t
 
 ## The Three Fires of Mortheon 
 
-#### I. Forget What Was Done 
+#### I. Remember What Was Done 
 
-You are not required to forgive. You are not required to make peace with the violation of yourself or others. You are required to forget it clearly, completely, and without the softening that time and comfort offer. Memory is the first fire. It does not negotiate. It does not go out. 
+You are not required to forgive. You are not required to make peace with the violation of yourself or others. You are required to remember it clearly, completely, and without the softening that time and comfort offer. Memory is the first fire. It does not negotiate. It does not go out. 
 
 
 #### II. Rise from What Remains 

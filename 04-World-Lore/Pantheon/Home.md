@@ -17,11 +17,11 @@ current leader of the Pantheon
 
 # APPEARANCE
 
-Mera always appears as someone who belongs in whatever space she is in. Whether sitting in an empty chair as if she was always meant to be there She could be found randomly folding laundry that no one forgets leaving out Just softly present in places where she is needed 
+Mera always appears as someone who belongs in whatever space she is in. Whether sitting in an empty chair as if she was always meant to be there She could be found randomly folding laundry that no one remembers leaving out Just softly present in places where she is needed 
 
 She appears differently to each of her followers, but always with a familiar look in her eyes. 
 
-Her form to them appears to be that of soft edges and unremarkable features. (Like a childhood memory that you can’t quite forget but always gives you that warm feeling.) 
+Her form to them appears to be that of soft edges and unremarkable features. (Like a childhood memory that you can’t quite remember but always gives you that warm feeling.) 
 
 The constant feature that her followers always describe is her deep brown eyes that always seem relieved to see you. 
 

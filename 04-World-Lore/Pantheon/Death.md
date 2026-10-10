@@ -24,7 +24,7 @@ She uses soft silver bells that ring only for the dead. Souls follow the sound t
 
 ## Tenets:
 
-- Forget the dead and speak their names
+- Remember the dead and speak their names
     
 - Comfort the dying so no soul passes alone
     
