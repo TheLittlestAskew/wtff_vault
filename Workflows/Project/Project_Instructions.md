@@ -169,6 +169,31 @@ NOT a change in initiative order.
 | Audio/Language | Account for non-native English speakers (❓ see roster) and speech-to-text errors. |
 | DM Audio Drops | Mark clipped/oddly transcribed audio as `[inaudible/cut off]` and flag for review. |
 | Public-Repo PII | First names only in tracked files. Never commit DDB usernames/IDs; `.env` and `ddb_party.json` stay local. |
+| Personal-Info Redaction | Real-life personal details said at the table NEVER go into any tracked file (session notes, quotes, ledgers, PC/NPC pages, Dashboard, `_Campaign_Setup.md`, handoffs). See **PERSONAL INFORMATION REDACTION** below. |
+
+---
+
+## PERSONAL INFORMATION REDACTION (NON-NEGOTIABLE)
+
+This repo is PUBLIC and the site publishes the session notes. Players talk freely
+at the table; the vault records the game, not their lives.
+
+**Never write into any tracked file, even as a quote, a flag, or an OOC aside:**
+- Health: illness, pain, injuries, medication, disability, mental health, medical appointments, pregnancy
+- Family and relationships: partners, spouses, children, deaths, grief, family conflict (including in-game tributes to a real person)
+- Location and movement: travel plans, trips, cruises, addresses, where someone lives or works
+- Work, school, money, legal matters
+- Anything said about a person who is not at the table
+- Contact details, usernames, account IDs
+
+**What to do instead:**
+- Session notes / vault pages: leave it out entirely. Do not write a placeholder that hints at the content. If an absence or a pause needs explaining, write "OOC (personal, omitted)".
+- Phase A `flags.md` (gitignored `_pipeline/`): list each instance under a **"Personal info: kept out"** section with timestamp only, so the reviewer knows it was caught. No detail beyond a category word (health / family / travel / work).
+- Quotes: a line that is funny but carries personal detail is dropped, not trimmed.
+- In-character content is NOT personal info: a PC's injury, grief, or family backstory stays.
+- When unsure whether something is personal: leave it out and flag it.
+
+**Transcripts are local only.** `Session_Sources/Transcripts/Raw_Unedited/` and `Corrected/` are gitignored (2026-10-10). Never `git add -f` them.
 
 ---
 

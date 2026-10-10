@@ -33,6 +33,7 @@ Do exactly this:
    - If you propose zero changes, still create the file and say so.
 
 4. Write any ambiguity or attribution issues to {{PIPELINE_DIR}}/flags.md — e.g. a DM line that may belong to an NPC, an [inaudible/cut off] segment, a first-seen proper noun, and any value that _Campaign_Setup.md lists as pending but this session appears to reveal (DM identity, a player name, the POV character, a recurring spelling). Do not record it into the setup file in this phase — just flag it for Convo 2 to action.
+   - PERSONAL-INFO REDACTION: follow "PERSONAL INFORMATION REDACTION" in Workflows/Project/Project_Instructions.md. Add a **"Personal info: kept out"** section to flags.md listing each real-life personal detail (health, family, travel, work, etc.) by timestamp and one category word only, never the detail itself. Do not propose spell-check rows that would preserve such detail.
 
 5. Write a short status note to {{PIPELINE_DIR}}/summary.md: confirmed session number + date, transcript length, anything unusual (split session, absent players, guest player, date mismatch).
 

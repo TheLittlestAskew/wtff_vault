@@ -70,3 +70,14 @@ SKILLS.md
 screencapture-*
 **/screencapture-*
 *dash.cloudflare*
+
+# ── Session transcripts (real people's unscripted speech) ─────
+# Transcripts capture everything said at the table: health, medication, family,
+# travel plans, jobs. This repo is PUBLIC and the site never reads transcripts
+# (it reads 01-Sessions/ and 00-Campaign-Hub/ only), so they stay local.
+# Added 2026-10-10 at Taylor's request. Spell_Check_Logs stay tracked (short
+# correction phrases only). ⚠️ Files committed before this date remain in git
+# history; ignoring them only stops new exposure.
+Session_Sources/Transcripts/Raw_Unedited/
+Session_Sources/Transcripts/Corrected/
+Session_Sources/Transcripts/Spelling_Corrected_Formatted/

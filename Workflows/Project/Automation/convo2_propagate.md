@@ -43,4 +43,5 @@ Do all of the following without stopping:
    git add -A && git commit -m "S{{NN}} — automated session sync" && git push
    (.env, the auto-fetched party sheets, ddb_party.json, recordings, and DND_Sources/*.pdf are gitignored — confirm none slipped through. PII rule: use players' FIRST NAMES only in vault files; never commit DDB usernames or numeric user IDs. DM Notes.md IS tracked/public by choice.)
 
+5b. 🛑 PERSONAL-INFO REDACTION: follow "PERSONAL INFORMATION REDACTION" in Workflows/Project/Project_Instructions.md. Before finishing, check every file you touched for real-life personal details (health, family, travel, work) and remove them. In-character content stays.
 6. Print a final summary: every file created or modified, whether any _Campaign_Setup.md pending input was resolved, and confirmation that the push succeeded.
