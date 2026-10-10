@@ -48,6 +48,55 @@ tags:
 
 ---
 
+> [!quote]- Session 04 — Four Blooms, Five Petals (07/26/2026)
+> *[[Session 04 — Four Blooms, Five Petals|Five rooms down, and the thing that was eating]]*
+>
+> The ladder was gone the second we let go of it. Just cave wall above, nothing to climb back up. I can see in the dark and most of them can't, and even so, the tall one and the quiet girl and the wizard spotted the pillars before I did. Stone columns around the edges, with writing on them.
+>
+> The writing was Druidic. I can read it. So can the quiet girl. That's two of us, out of six.
+>
+> Mine said: *We guards can be short, we guards can be tall, and without guards like me the whole city would fall.* Walls. Easy. So I put my hand on it and said it, in the old tongue, and the room answered by throwing something at us. Fast things, from every pillar at once. I felt them go into me, little and sharp, and when I looked down there was nothing there. No hole, no blood. It still hurt.
+>
+> The cold one figured it out. It hadn't hit us right away; it waited, like it wanted the other answers. So we'd have to say them all together. I don't like riddles. I like knowing where the teeth are. But the tall one had the last one (silence), the wizard had cloud, and the arrows were the arrows. The quiet girl and I taught them how to say the words right. I let the anger come up before I touched my pillar again, just in case. Walls. Arrows. Cloud. Silence.
+>
+> And then there was no sound at all.
+>
+> Everyone's mouths moving, nothing coming out. I hate that. I hate it worse than the dark. Then the machine turned to me and started talking with its hands, and I could have laughed. Nobody ever needs that language, and there it was, the only one that worked down there. The machine had worked out that each trap was the answer to the next riddle. Somebody should have told me that's how they build these. I told it everybody should learn to talk with their hands. It agreed.
+>
+> A hole had opened in the middle of the floor. The cold one sent one of his little bird-lights down it and the light just went out. The wizard sent his bird down and couldn't feel it anymore. The machine stuck its arm in and pulled it back out whole, and then it crawled in. That's the thing about the machine. It looks at a hole that eats light and decides it's lying.
+>
+> It was lying. Ten feet of drop and soft dirt at the bottom. A room full of grass and trees. The wizard asked out loud why the machine had jumped down a hole and a vine came up out of the ground and smacked him for it, then again. So: quiet. The cold one tied a cloth over his own mouth.
+>
+> Every tree had a little light hidden behind it, a pulsing ball. Touch the ball and the tree walks. The machine told me with its hands that we had to walk the trees to the middle. I told it we should just pick the trees up. It said no, the balls. Fine. I went quiet to mine and grabbed it, and the tree went barreling for the center like it had been waiting its whole life to get there. The others did theirs. The trees folded into each other like they were stretching, and the soft ground in the middle dropped away into black, and their branches knit into a ramp going down. When I set my light back at the roots, the branches curled around it, and something warm went back into me. A thank-you, maybe. The machine put both its hands on the tree and thanked it first.
+>
+> Next room: six little beds of flowers around a cauldron, and the words *four blooms, five petals* on the side. The wizard pulled the answer out of a grid of letters on a scrap of paper in the corner. Gold, black, purple, gold, white. One petal each into the pot, and every one smelled better than the last, until it smelled like the best thing I know. Then cups. The machine poured it over itself, went through every color it has, settled on dark purple, and vanished. The tall one drank and vanished. I drank. It felt like being warm and fed and done for the day. Then I was walking in the dark toward a light.
+>
+> A big door at the top of some steps, covered in sculpted hands. The cold one said his headmistress used to say the devil doesn't come with horns, he comes to the front door in a suit and a smile. Then the quiet girl pulled the hands off one by one until they all came down and rotted to dust, and there was just a big wooden door. Five of us leaned on it. It didn't give until the sixth put a hand on it.
+>
+> Inside: a dome, moss of every color, a chest in the middle. I didn't see what was behind the chest. The cold one did. He grabbed the tall one by the back of her armor before she walked right up to it: a huge lizard skeleton, half flesh, bright purple and pink, flower petals all over it. The quiet girl heard chewing. The wizard's bird went and looked. Something red and many-legged, part centipede, part snail, part fly, bigger than any of us, eating that body so hard it was swollen with it.
+>
+> Finally.
+>
+> The cold one wanted to draw it. I told him if he picked up a pencil I'd hit him. He said a picture could help fuel the legend. Fine. You do that, and we'll fight the thing, and if it comes for you, you're on your own.
+>
+> I walked out in front of everybody. Slowly. Not a threat, just walking. Halfway there it lifted its head and tilted it at me, and I knew. It came over the body in one leap.
+>
+> The cold one hit it first: a blast of ice that froze one of its legs solid. Better than a drawing, I told him. Then I let the bear up. They'd never seen it. I felt myself get bigger and heavier, heard the sound come out of my chest, and I closed the distance and swung, and missed. So I stood there. I'm not coming to you. You come to me.
+>
+> It came. It dug a claw into me and pulled me in close and held on. The quiet girl threw ice at it and the thing twisted and splashed the cold straight into me, and she panicked, and then her voice put some of me back together. Twice, before the end. I told her she's a goddess. I meant it.
+>
+> I got a hand on the claw and tore it out of myself, and kept hold of it, and brought the axe down and took a leg off. It screamed and ran for cover behind the body, and I cut it again as it went. The wizard threw something small over the corpse and clapped, and it lit up and rolled, and then it went off. Red meat came up over the top. The tall one finally got close enough, looked at it like you'd look at a dying thing, said she guessed she had to put it out of its misery, and smashed its head flat.
+>
+> I celebrated. I'm not going to pretend I didn't.
+>
+> The machine looked at the big body and said the meat was fresh. Whatever it was, it died recently, or nearly had, and this thing had been eating it. The tall one said it looked like a dragon.
+>
+> Then the cold one went to pick teeth out of the mess, and the smashed head started to bubble. A new head came out of it. Then another one. Both of them went for him.
+>
+> *Riddles all day. Then one good fight, and it got back up. Of course it did.*
+
+---
+
 > [!quote]- Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
 > *[[Session 03 — Raise a Glass to Provisional Trust|On the green train, and the mouth in the ground]]*
 >

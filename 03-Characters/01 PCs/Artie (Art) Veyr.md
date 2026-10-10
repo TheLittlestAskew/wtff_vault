@@ -27,6 +27,14 @@ sub_class:
 - *(S03)* **Persuasive when he wants something** — talked [[Aiphrumfite 'Aiph'|Aiph]] into three healing potions (Persuasion 15 with [[Tobias Wolfe|Tobias]]'s "puppy-dog" advantage assist; "would've been a 3").
 - *(S07)* Keeps **"checking in"** with [[Orin]].
 - *(S07)* **Notices who's missing:** saw [[Dolm]] wandering three blocks down following a bug and reported it to [[Kidu]]; noticed Eliza was gone.
+- *(S04)* **Keeps a scribe's book of everything** (recorded the riddles and the cauldron grid).
+- *(S04)* **Pattern-solver:** cracked the "four blooms, five petals" grid by reading it in columns ("G, O, L, D for gold... B, L, A, C, K for black").
+- *(S04)* **Theorizes aloud:** "we were supposed to fight this thing, and then somehow that thing got here."
+
+## Abilities & Class Features
+- *(S04)* **Languages:** Common, Elvish, Giant.
+- *(S04)* **Sees through [[Orin]] "in your mind's eye"** up to 100 ft; the link broke when Orin went through the illusory hole and was working again by Layer 5.
+- *(S04)* Darkvision (among those rolling Perception in the dark in Layer 1).
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
@@ -45,6 +53,8 @@ sub_class:
 | Pocketbook (day's notes) | Sent off with [[Orin]] "to where it usually goes" | [[Session 03 — Raise a Glass to Provisional Trust]] |
 | 600 gold (party funds) | Given to [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] for the party bag of holding ("because it's heavy") | Deposited [[Session 07 — Omission of Truth]] |
 | [[Lute]]'s drawing (slipped into his bag) | Given Away — passed to [[Tobias Wolfe\|Tobias]] | [[Session 07 — Omission of Truth]] |
+| Clap-activated light / mini-bomb device (from [[Derek]]) | **Expended:** thrown and detonated behind the dragon's corpse (11 damage) | Used [[Session 04 — Four Blooms, Five Petals]] |
+| Party healing potions | One lifted by [[Tobias Wolfe\|Tobias]] (given to Zarna); Tobias later slipped "his potion" into Artie's bag. Net count [Unknown/Ambiguous]. | [[Session 04 — Four Blooms, Five Petals]] |
 
 ## Relationships
 - **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** stared at Bebo’s dancing, "fascinated, or… scared."
@@ -56,15 +66,22 @@ sub_class:
 - **↔ [[Margaret "Mags" HoneyThatcher|Mags]]:** *(S02)* Mags accompanied him to Tobias and placed the mage hand components; intercepted him from Lute’s door.
 - **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]] (S07):** "Bebo, you're like our own personal Derek. It's not gonna blow up, right?" Trusted Bebo's bag of holding with the party's 600 gold.
 - **↔ [[Kidu]] (S07, crossover):** Cordial; reported Dolm's wandering. Kidu: "Dolm does that sometimes."
+- **↔ [[Tobias Wolfe|Tobias]] (S04):** Tobias picked his pocket unseen (Perception 5) and later slipped a potion back into his bag; Artie is unaware of the first.
+- **↔ [[Derek]] (S04):** Used Derek's device in combat; it exploded for 11.
 - **↔ [[Lute]] (S07, crossover):** Caught Lute slipping a drawing into his bag (Perception nat 20) and passed it to Tobias. Later bolted out of the tavern to where Lute's alternate persona (Lux) was.
 
 ## Key Events
 | Session | Event |
 |---|---|
 | [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Writing in his book at the start, still stunned his magic failed (the S06 Identify). Recognized Bebo's bag of holding (Arcana 22) and gave Bebo the party's 600 gold. Noticed Eliza missing. Told [[Kidu]] that [[Dolm]] was three blocks down following a bug. Caught [[Lute]] slipping a drawing into his bag (Perception nat 20); passed it to Tobias. Read the Aiph/Mags argument as tense (Insight 4; attribution tangle F49). Prompted "Tobias, show the heart." Bolted out of the tavern toward Lux; Bruin saw him run out. End-of-session whereabouts [Unknown/Ambiguous]. |
+| [[Session 04 — Four Blooms, Five Petals]] | Aiph's test dungeon. Spotted the Layer 1 pillars and traced the projectiles to them (Perception 19); answered "cloud." Lost his link to [[Orin]] at the illusory hole. Spoke aloud in the tree chamber and was lashed twice by vines (2 bludgeoning). Found the cauldron inscription (Investigation 24) and **solved the "four blooms, five petals" grid**; dropped the white petal. Scouted the creature through Orin (engorged, eating the dragon) and voiced the "that thing got here" theory. In the fight: initiative 14, Mind Sliver failed (INT save 15), then threw and detonated [[Derek]]'s device for 11 (Athletics 17). Leveled 1 to 2. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Persuaded [[Aiphrumfite 'Aiph'|Aiph]] into 3 healing potions (Persuasion 15) and became the party's potion-carrier. Explored the [[The Verdant Blossom]] parlor (Investigation 22) and staff & storage car (Investigation 24 — supplies, locked personal effects, a chest of confiscated weapons); met [[Derek]] and received the clap-light/mini-bomb device. Before bed, sent his day's pocketbook off with [[Orin]] "to where it usually goes." Descended into the test dungeon. |
 | [[Session 02 — Something’s Changing]] | Introduced; named [[Malus Thornwake]] as reason for joining (Aiph reacted visibly). Cast Identify on [[Nero]] (Arcana 17); discovered Tobias has innate, untrained Find Familiar. Demonstrated Orin’s anomalous resurrection (killed against window; Orin snapped neck, faded, reformed). Took Tobias’s hand (Arcana 22): felt ice-cold skin, saw faint blue aura. Placed mage hand spell components for Tobias to read; observed frost-spectral hand form and shatter. Took notes throughout the evening. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed first ("why the fuck do I have to go first?"); gave his reason for joining (magic misbehaving). Selected into Group K. |
+
+## Key Quotes
+> **[[Session 04 — Four Blooms, Five Petals]]**
+> "All right, my thoughts is we were supposed to fight this thing, and then somehow that thing got here, and now we're supposed to. Well, now we're gonna fight that thing." — *Important to story*
 
 ## Related
 - [[Campaign Dashboard]]

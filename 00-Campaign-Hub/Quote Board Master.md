@@ -125,6 +125,111 @@
 
 ---
 
+## Session 04 — Four Blooms, Five Petals (07/26/2026)
+
+_Propagated out of order (2026-10-10), after S07. Order of occurrence preserved._
+
+**[[Adam]] (DM, reading pillar 1) · [Important to Story]**
+> "We guards can be short. We guards can be tall. And without guards like me, the whole city would fall."
+
+**[[Tobias Wolfe\|Tobias]] · [Banter]**
+> "Tobias's dancing lights look like little birds."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Funny]**
+> "I know sign language that's not spoken."
+
+**[[Tobias Wolfe\|Tobias]] · [Important to Story]**
+> "That trap, there was a hesitation before it hit, so I think it was waiting for us to solve the other ones."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Important to Story]**
+> "Each trap was the answer to the next puzzle. So it was solvable in two ways."
+
+**Taylor (OOC) · [Funny]**
+> "I hate this spell."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "Bruin says, are we ready to do this? And Tobias openly says, no."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "Misspent youth. Don't judge."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Important to Story]**
+> "we should teach everybody else sign language. This be could come in handy for other things later."
+
+**Lydia (narrating [[Eliza Duskbloom\|Eliza]]) · [Funny]**
+> "Eliza will kind of just look at it and just be like, these people are insane."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "Bebo, aka the Lorax."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (to the tree) · [Funny]**
+> "Just be like. Yeah. Thanks. Thanks for your service."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Bebo will turn to Artie and say, why not jump in holes now that it's safe to do so?"
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "I don't know, but I think it should be a lesson not to drink things that a dungeon gives you."
+
+**[[Tobias Wolfe\|Tobias]] · [Serious]**
+> "The headmistress says the devil. Will you expect the devil to come in the back with horns and a tail? But he usually arrives at the front door in a suit and a smile."
+
+**[[Tobias Wolfe\|Tobias]] (on Headmistress Vale) · [Poignant]**
+> "Hey, she was a saint." / "She just wanted me to be safe."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Well, it looks like they're giving a hug."
+
+**[[Artie (Art) Veyr\|Artie]] · [Important to Story]**
+> "All right, my thoughts is we were supposed to fight this thing, and then somehow that thing got here, and now we're supposed to. Well, now we're gonna fight that thing."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Banter]**
+> "I swear to God, if you pick up a pencil right now, I'm gonna hit you."
+
+**[[Tobias Wolfe\|Tobias]] · [Banter]**
+> "Depends. Do you want a image of your heroic fight" / "and kinda help fuel the legend?"
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Banter]**
+> "You know what? You do that, and we'll fight the thing. And if it comes your way, you're on your own."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] & [[Tobias Wolfe\|Tobias]] · [Funny]**
+> "that's a lot better than a drawing." / "Darn it. That's hurtful."
+
+**[[Adam]] (DM, framing Bruin's stance) · [DM Quip]**
+> "I'm not coming near you. You're coming to me."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] (to Eliza) · [Banter]**
+> "You are a goddess. Thank you."
+
+**[[Adam]] (DM) · [DM Quip] [Important to Story]**
+> "It barrels over the dragon and the like, I guess I called it a dragon already. Cat's out of the bag."
+
+**Rachel (OOC) · [Funny]**
+> "Literally not gonna get to hit this thing this entire fight. I'm calling it now."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "I'm going to be a nice DM and say, don't do that, because. Because this part of the story is yours. Zarna, what happens?"
+
+**[[Zarna Morganach\|Zarna]] · [Dramatic]**
+> "I guess I have to put you out of your misery."
+
+**[[Tobias Wolfe\|Tobias]] & [[Zarna Morganach\|Zarna]] · [Funny]**
+> "it'll just tell a. That her pet lizard's dead." / "Hopefully that wasn't her pet."
+
+**[[Adam]] (DM) · [Dramatic]**
+> "a new head jumps out, and then another head jumps out. And then they both claw at you. And that's where we're gonna end session tonight."
+
+**Seth / [[Tobias Wolfe\|Tobias]] (IC/OOC unclear) · [Funny]**
+> "It's a hydra."
+
+**Taylor (OOC) · [Funny]**
+> "So what you're saying is what happened is we scored and Bruin was celebrating and now they're running it back for."
+
+**[[Adam]] (DM, OOC) · [Serious]**
+> "But again, I, Adam, don't want to kill you, but, like, if the story kills you, it kills you."
+
+---
+
 ## Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
 
 **[[Aiphrumfite 'Aiph'\|Aiph]] · [DM Quip] [Serious]**

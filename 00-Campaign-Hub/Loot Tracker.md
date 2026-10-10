@@ -44,6 +44,27 @@
 
 ---
 
+## Session 04 — Four Blooms, Five Petals (07/26/2026)
+
+> *Propagated out of order (2026-10-10), after S07.* The dragon heart, scale(s), centipede eyeball and rib listed under S07 are **not** recorded here: S04 ends mid-fight with the chest unopened, so they were taken in S05 to S06 (not yet propagated). Only what S04 itself shows is listed.
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| [[Artie (Art) Veyr\|Artie]] | Clap-activated light / mini-bomb device (from [[Derek]], S03) | **Expended (Destroyed).** Twisted, thrown ~45 ft behind the dragon's corpse (Athletics 17), clapped; exploded for 11 (4d4) [02:21:53]. Session 03 item, used Session 04. |
+| [[Artie (Art) Veyr\|Artie]] | Party healing potions (from S03) | One lifted by [[Tobias Wolfe\|Tobias]] [00:37:30] and given to Zarna; later Tobias slipped "his potion" into Artie's bag (Sleight of Hand 23) [01:45:52]. ⚠️ **Net count [Unknown/Ambiguous]** (unclear whether the returned potion is the one Tobias took in S03). |
+| [[Zarna Morganach\|Zarna]] | Healing potion (lifted from Artie by Tobias) | Pocketed, not drunk. Held. Session 04. |
+| [[Tobias Wolfe\|Tobias]] | A couple of the creature's teeth | NEW. Gathered after Zarna smashed its head, "for your new friend device" (purpose [Unknown/Ambiguous]). Held. Session 04. |
+| [[Tobias Wolfe\|Tobias]] | Dimmed tree-chamber orb (souvenir) | Pocketed briefly, then "begrudgingly" returned to the tree's roots. Not kept. |
+| Tree chamber (merged tree) | Four dimmed orbs | Returned to the roots, which cradle them with a faint light; each returner gained a d4 of healing or temporary HP. Left in place. |
+| Layer 3 | Six wooden cups; the cauldron potion | Drunk (Bebo poured his over himself): teleports the drinker; **advantage on Wisdom saves for one hour**. Consumed. Session 04. |
+| Layer 3 | Parchment with a letter grid | On a small corner table; the key to the "four blooms, five petals" riddle. Left in place. |
+| Layer 5 | Large treasure chest (the dungeon's objective) | **Conjuration** magic (Bebo's detect magic); Zarna: "something's wrong with the chest." **Unopened** at the end of S04. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Pebble | Thrown into the illusory hole and thrown back out. Held. |
+
+> *Do not infer additional properties of these items beyond what was shown.* Personal gear seen in play (Bruin's greataxe, Zarna's maul, Tobias's sketchbook, paints, pencil, charcoal and handkerchief, Artie's book) is recorded on the PC pages.
+
+---
+
 ## Session 03 — Raise a Glass to Provisional Trust (07/12/2026)
 
 | Character/Owner | Item/Artifact | State/Context |

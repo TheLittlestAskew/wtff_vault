@@ -37,6 +37,7 @@ location: "[[The Verdant Blossom]] — staff & storage car"
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 04 — Four Blooms, Five Petals]] | *(Referenced; not present.)* [[Artie (Art) Veyr\|Artie]] threw "the Derek's device" behind the dragon's corpse in Aiph's test dungeon, clapped, and it exploded for 11 (4d4). Device expended. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Met [[Artie (Art) Veyr|Artie]] in the staff & storage car of [[The Verdant Blossom]]; gifted him the clap-light/mini-bomb device. |
 
 ## Key Quotes

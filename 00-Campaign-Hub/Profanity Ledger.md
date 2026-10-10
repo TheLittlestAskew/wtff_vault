@@ -6,17 +6,17 @@
 | Speaker | Campaign Total | Most Common |
 |---|---|---|
 | [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] (IC) | Several (S01) | fuck / fucking |
-| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) + 4 (S07) | fuck / shit / gosh |
+| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) + 2 (S04) + 4 (S07) | fuck / shit / gosh |
 | [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) | fucked up / the fuck |
 | [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | 3 (1 S01 + 2 S02 062826) | fucking / shitless / fuck |
 | [[Alec]] (DM, OOC) | 1 (S02 062826) | shit |
 | [[Artie (Art) Veyr\|Artie]] / Will (OOC) | 2 (1 S01 + 1 S02 062826) | fuck |
-| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) + 2 (S07) | hell / fuck |
+| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) + 3 (S04) + 2 (S07) | hell / fuck / darn |
 | [[Tobias Wolfe\|Tobias]] (IC) | 1 (S02 062826) + 1 (S07) | ass |
 | Aldin Forgehill (NPC, S01) | 1 (S01) | fucking |
-| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) + 2 (S07) | God / damn / shit |
-| [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) + 3 (S03) | heck / God / "smart asses" |
-| Rachel / [[Zarna Morganach\|Zarna]] (OOC / table) | 6 (S07) | God / shit |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) + 8 (S04; 2 of them IC) + 2 (S07) | God / damn / shit |
+| [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) + 3 (S03) + 2 (S04) | heck / God / "smart asses" |
+| Rachel / [[Zarna Morganach\|Zarna]] (OOC / table) | 6 (S04) + 6 (S07) | God / heck / shit |
 | Huey / [[Auriron]] (WtFR, crossover table) | 3 (S07; 1 IC) | ass / damn / gosh |
 | Jordan / [[Lute]] (WtFR, crossover table) | 3 (S07) | damn / heck / gosh |
 | Holly / [[Nyx]] (WtFR, crossover table) | 1 (S07) | damn |
@@ -56,6 +56,34 @@ _Joint crossover session (both tables). Mostly OOC exclamations and reactions to
 | Holly / [[Nyx]] (OOC) | "damn" ("Damn shame") | 1 | Dice banter. |
 
 _STT appears to have dropped several expletives, leaving gaps: "mine was the one that up" [00:18:16, Aiph], "did not know what the to do" [00:25:55, Adam], "Shut the up" [01:00:14, Seth], "Wait, what the." [02:31:16, Rachel]. Not counted._
+
+---
+
+## Session 04 — Four Blooms, Five Petals (07/26/2026)
+
+_Propagated out of order (2026-10-10), after S07. Mild and mostly OOC: dice reactions, the silence trap, the level-up._
+
+| Speaker | Curse Word | Frequency | Context |
+|---|---|---|---|
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] | "God" ("Oh, my God" / "oh, God" / "I swear to God" / "Thank you, God") | 4 | Silence spell (OOC); facing the creature (IC); threatening Tobias's pencil (IC); level-up (OOC). |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC) | "hell" ("Oh, hell yeah") | 1 | d4 orb healing. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC) | "Son of a" (truncated) | 1 | Realizing they're level 1. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC) | "shitty" | 1 | "You've been so shitty today" (to her dice). |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] | "damn" | 1 | Reacting to Bebo's Medicine read. |
+| Rachel / [[Zarna Morganach\|Zarna]] | "heck" | 2 | Sirens outside (OOC); the Wisdom-save potion ("Oh, heck, yeah"). |
+| Rachel / [[Zarna Morganach\|Zarna]] | "hell" ("Hell yeah") | 1 | Bebo's nat 20. |
+| Rachel / [[Zarna Morganach\|Zarna]] | "darn" | 1 | Flower room. |
+| Rachel / [[Zarna Morganach\|Zarna]] | "dang" | 1 | Eliza's dirty 20. |
+| Rachel / [[Zarna Morganach\|Zarna]] | "God" ("Oh, God") | 1 | Taylor's dice. |
+| Seth / [[Tobias Wolfe\|Tobias]] | "damn" ("Damn it") | 1 | Flower investigation. |
+| Seth / [[Tobias Wolfe\|Tobias]] | "God" ("Oh, God") | 1 | The door of hands. |
+| Seth / [[Tobias Wolfe\|Tobias]] | "darn" ("Darn it") | 1 | Bruin's "better than a drawing." |
+| [[Adam]] (DM) | "God" ("Oh, my God, I failed") | 1 | Inside the DM's vine narration; likely Will/Artie's words (attribution flagged). |
+| [[Adam]] (DM, OOC) | "hell" ("Hell, yeah") | 1 | Popcorn after the break. |
+| [[Adam]] (DM) | "heck" ("Heck, yeah") | 1 | Tobias's nat 20. |
+| [[Adam]] (DM, OOC) | "Son of a" (truncated) | 1 | Image failed to save. |
+
+_STT appears to have dropped expletives, leaving gaps: "He already intimidates the out of him" [00:23:54, Seth], "Why the did Bebo just jump down this hole?" [00:41:57, Will], "What the." [01:59:14, Taylor], and possibly "I'm rolling like such today" [01:52:47, Taylor]. Not counted. Literal uses of "hell" (the door "to like, hell" / "too nice to be hell") are not counted._
 
 ---
 
