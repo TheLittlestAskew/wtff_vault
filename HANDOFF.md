@@ -10,7 +10,7 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Next Steps
 
-- [ ] ▶ **S07 note PUBLISHED to main (`bf5561e`, Taylor approved 2026-10-10); Convo 2 propagation running, then publish.** Remaining: commit the Convo 2 vault edits (dashboard, trackers, PC/NPC pages, Vault Sync Status), then run `Workflows/scripts/generate_public_session_index.mjs` and push so the site shows S07, plus the `session.html` ARC entry (still hardcoded). ⚠️ Open: Artie/Lux shared past (F65) unconfirmed, title was the agent's pick (Taylor approved the note). ⚠️ S06 note won't publish (hyphen filename, no frontmatter). ⚑ Future joint sessions: put `12sp` in the mp3 filename.
+- [x] ✅ **DONE 2026-10-10 — S07 fully published.** Re-transcribed with 12 speakers (`7b82324`), Phase A rerun approved, corrected transcript rebuilt (`62f38fc`), note "Omission of Truth" approved by Taylor (`bf5561e`), Convo 2 propagated (`0bfa8a0`), index regenerated + pushed (`2e187ab`), site ARC entry added (rectrixcaedere `6654194`). ⚠️ Still open: Artie/Lux shared past (F65) unconfirmed; ~15 [Unknown/Ambiguous] items in the note's Continuity Flags. ⚑ Future joint sessions: put `12sp` in the mp3 filename.
 - [x] ✅ **DONE 2026-08-24 — deleted `Session_Sources/Transcripts/Raw_Unedited/04-080226_raw_transcript.md`** — its header names its audio `080226 SITL Recording.mp3`, and the **authoritative copy already exists** at `sitl_vault/.../21-080226_raw_transcript.md` (byte-for-byte the same dialogue, with proper nouns already corrected: `Velkynvelve` not "Belkin Valve", `Gracklstugh` not "Gracklestug"), plus a fully-processed `sitl_vault/_pipeline/S21/`, corrected transcript, and session note. Deleting it loses nothing. Command: `Remove-Item "Session_Sources\Transcripts\Raw_Unedited\04-080226_raw_transcript.md"`. **Do not run `Approve-WTFF.cmd` against it** — applying its corrections would import published Forgotten Realms lore into WtFF canon. Evidence: `_pipeline/S04/flags_SITL-080226-WRONGCAMPAIGN.md` #1.
 - [x] ⚠️ **CORRECTION 2026-08-24 — `04-UNKNOWN_raw_transcript.md` was NOT a duplicate and must NOT be deleted.** The 08-02 entries below claim it is "a 7-minute partial capture of that same audio." **That is wrong.** Verified by search: `Form of Demogorgon`, `madness check`, `year anniversary` and `level 5 level up` return **zero matches** anywhere in `sitl_vault` — not in `21-080226` (the 233-min main capture), not in `20-071926`. It is ~7 minutes of unique SITL audio: the tail of the Sloobludop Demogorgon fight (Indigo leading northwest, Jimjar fleeing north-by-northeast, Demogorgon inbound west-southwest), the DM confirming the madness check was already rolled, and the request for level-5 level-up narratives. The 233-min file opens **later**, already past the battle and into Neverlight Grove travel planning. Rerouted verbatim (body diffed, 51/51 lines identical) to `sitl_vault/Session_Sources/Transcripts/Raw_Unedited/21-080226-opening_partial_raw_transcript.md` with a provenance header. The wtff copy is now safe to remove: `Remove-Item "Session_Sources\Transcripts\Raw_Unedited\04-UNKNOWN_raw_transcript.md"`.
 - [ ] **Decide where the rerouted partial belongs** — filed against S21 on the 080226 audio date, but it may be the unrecorded **tail of S20** rather than the opening of S21. Taylor's call. Note `Session 21 — The Shield and the Middle Finger.md` was written 8/16 **without** this content, so the madness-check ruling and the level-5 narratives may be missing from it.
@@ -34,6 +34,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+
+### 2026-10-10 15:25 ET · Claude Code
+- **Changed:** S07 Convo 2 propagated across 24 vault pages + new companion page `Bloom.md`; title marked approved; `Public Session Index.json` regenerated (party pin → Rhusatatiam) and pushed. Site `session.html` ARC entry added in rectrixcaedere.
+- **Commit:** `0bfa8a0`, `2e187ab`
+- **Next:** S04 note (corrected transcript exists) and S05 transcription (mp3 in `Recordings/`, never transcribed).
+- **Watch out:** S06 note won't publish until it gets frontmatter and an em-dash filename.
 
 ### 2026-10-10 15:05 ET · Claude Code
 - **Changed:** Taylor approved the S07 note; cherry-picked it onto main and pushed. Deleted the local `s07-note-review` branch and the REVIEW copy.
@@ -135,12 +141,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Watch out:** ⚠️ Cell refs read **row letter first, then column number** (`F7`), deliberately, so they can never be confused with the bare-letter ring ids (A–F) on the unnamed markers.
 - **Next:** Name rings A–F, and resolve the two same-cell collisions.
 
-### 2026-08-31 17:05 ET · Claude Code (stable ring ids — the map and the file now match)
-- **Changed:** Every entry in `unnamed_markers` now carries a **`ring` id (A–F)** stored in `00-Campaign-Hub/Map Locations.json`, and `Artemesia_UNNAMED_RINGS.png` is rendered **from that field**. Rewrote the block's `_README` to explain the lookup. Ids are assigned from sorted key order so they do not shuffle when one marker gets named.
-- **Commit:** `7e6fa1f`
-- **Verification:** ✓ Generator still builds 3 sessions / 2 blooms / party at `sunrootcrossing`. ✓ Ring letters render in the same order the JSON lists them (A bloom_west, B liriope_mid, C liriope_west, D rhus_southcoast, E salvia_south, F salvia_west). ✓ The two earlier numbered images were deleted from Downloads so only one version is in circulation.
-- **Friction:** misread — **Taylor could not use anything I had given her.** I reported marker positions as raw x/y percentages and drew arbitrary numbers on the images, with nothing tying the two together; worse, I **renumbered the rings** when two markers got named, so "ring 1" meant a different place in each of two images I had sent. Her words: *"how am I supposed to know the coordinates you've given me? they're not on the image."* ✅ **What works, and is the general rule: when an artifact and a data file have to be cross-referenced by a human, the identifier must LIVE IN THE DATA and be rendered from it.** A label invented at render time is guaranteed to drift. Coordinates are for the machine; a stable id is for the person.
-- **Watch out:** ⚠️ Do not hand-edit the `ring` values. They are derived from sorted key order — renaming a key changes the letters. If ids ever need to be frozen against reshuffling, promote them to explicit literals first.
-- **Next:** Name rings A–F. Each is one line in `unnamed_markers`; give it a name and move it into `locations` and it publishes.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 17:05 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 17:45 ET.
