@@ -35,6 +35,11 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 18:20 ET · Claude Code
+- **Changed:** S04 Convo 2 propagated (22 pages + 2 new creature pages, slotted below S07; current state left at S07) and the Public Session Index regenerated with S04 (party pin still Rhusatatiam). Taylor approved: S05 spell-check table in full, secondhand coverage of the Discord vision scenes, and scrubbing transcripts from git history.
+- **Commit:** `5427722`, `bb26b93`
+- **Next:** Finish S05 (note generating), then rewrite history to drop the transcript folders (backup first, force-push), then S06.
+
 ### 2026-10-10 17:45 ET · Claude Code
 - **Changed:** S04 note "Four Blooms, Five Petals" approved by Taylor and published (`00fdc12`); ruleset reconciled to "2014 + 2024 sources allowed"; "Kelly" = STT error; S05 "Elias" = STT noise. Transcripts (Raw_Unedited, Corrected, Spelling_Corrected_Formatted) gitignored and untracked, local copies kept; PERSONAL INFORMATION REDACTION rule added to Project_Instructions and all 3 pipeline prompts (`f0c5050`). Site ARC entry for S04 (rectrixcaedere `fbff22e`).
 - **Commit:** `00fdc12`, `f0c5050`
@@ -126,10 +131,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Taylor reviews `_pipeline/S07/spellcheck.md` + `flags.md`, then commits the staged files (`git commit -F _pipeline/S07/commit_msg.txt`) and pushes.
 - **Watch out:** ⚠️ `Notes from Adam.md` (renamed from `DM Notes.md`) is still an empty skeleton — every S07 canon call leaned on lore pages + WtFR roster cards instead. ⚠️ AssemblyAI ran S07 with model `universal-2`, not the `3-5-pro` noted in TOOLS.md.
 
-### 2026-09-02 22:20 ET · Claude Code (TOOLS.md tool inventory added)
-- **Changed:** Added `TOOLS.md` (23 active rows) — Obsidian + its 7 plugins including omnisearch and mcp-tools, AssemblyAI, the WTFF Pipeline Watcher task, chokidar, BurntToast, Supabase, `ddb_party_sync.js`, and the rest. `AGENTS.md` gained a `### TOOLS.md` subsection so Codex maintains it too. One of 13 project tables that `septentrion-sync` v4 rolls into the vault's new `The Toolbox.md`.
-- **Commit:** `5024f3c`
-- **Next:** Unchanged. See the block above this log.
-- **Watch out:** The watcher row records the 72h `ExecutionTimeLimit` that caused the past timeout, so that gotcha now lives somewhere findable rather than only in the log history.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-02 22:20 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md` - everything before 2026-09-20 22:50 ET.
