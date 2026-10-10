@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T19:12:05.823Z",
+  "generated_at": "2026-10-10T21:45:39.923Z",
   "first_published_session": "01",
   "map": {
     "party": "rhusatatiam",
@@ -241,6 +241,12 @@
             "title": "Raise a Glass to Provisional Trust",
             "date": "07/12/2026",
             "href": "/where-the-flowers-forget/session.html?n=03"
+          },
+          {
+            "n": "04",
+            "title": "Four Blooms, Five Petals",
+            "date": "07/26/2026",
+            "href": "/where-the-flowers-forget/session.html?n=04"
           }
         ]
       }
@@ -258,6 +264,10 @@
     {
       "n": "03",
       "d": "2026-07-12"
+    },
+    {
+      "n": "04",
+      "d": "2026-07-26"
     },
     {
       "n": "07",
@@ -297,6 +307,17 @@
       "at": "sunrootcrossing",
       "f": "01-Sessions/Session%2003%20%E2%80%94%20Raise%20a%20Glass%20to%20Provisional%20Trust.md",
       "href": "/where-the-flowers-forget/session.html?n=03"
+    },
+    {
+      "n": "04",
+      "t": "Four Blooms, Five Petals",
+      "d": "2026-07-26",
+      "lbl": "July 26, 2026",
+      "lbl_short": "Jul 26, 2026",
+      "lbl_us": "07/26/2026",
+      "at": "sunrootcrossing",
+      "f": "01-Sessions/Session%2004%20%E2%80%94%20Four%20Blooms,%20Five%20Petals.md",
+      "href": "/where-the-flowers-forget/session.html?n=04"
     },
     {
       "n": "07",
