@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 16:25 ET · Claude Code
+- **Changed:** Taylor asked to work forward from the earliest unwritten session. S05 transcribed (174 min, 7 speakers, WtFF-only, ends "Tobias is gone") and committed; Phase A spell-check running into `_pipeline/S05/`. S04 note generation running from the approved `04 - 072626_corrected.md`. Committed Taylor's player-stated OOC backstory on Bruin's page (father/brother missing, trainer became family).
+- **Commit:** `4ed79a0`, `9520434`
+- **Next:** Review the S04 note, then the S05 spell-check table; S06 has no recording (prose recap only), needs frontmatter + em-dash filename.
+- **Watch out:** S04 "Kelly, you're here, right?" [01:21:34] answered by Taylor's label; identity unresolved.
+
 ### 2026-10-10 15:25 ET · Claude Code
 - **Changed:** S07 Convo 2 propagated across 24 vault pages + new companion page `Bloom.md`; title marked approved; `Public Session Index.json` regenerated (party pin → Rhusatatiam) and pushed. Site `session.html` ARC entry added in rectrixcaedere.
 - **Commit:** `0bfa8a0`, `2e187ab`
@@ -131,14 +137,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Watch out:** ⚠️ Two open items are unaffected by this and still need Adam: the **same-cell collisions** (`willowhaven`/`whispergrove` in D9, `zelkovacity`/`ashenridge` in I7) and the **two coordinate corrections** that would move published S01–S03 blooms.
 - **Next:** Resolve the two same-cell collisions and decide the two coordinate corrections.
 
-### 2026-08-31 17:45 ET · Claude Code (grid reference on the map — and two duplicates it exposed)
-- **Changed:** Rendered `Artemesia_MAP_GRID.png` — the high-res map under a **16×12 reference grid**, columns 1–16 and rows A–L, labelled on all four edges, with the six still-unnamed markers ringed. Every entry in `locations` and `unnamed_markers` now carries a **`grid` cell** (row letter + column number, e.g. `F7`) so a cell on the image looks up directly in the file. Added a `grid` block to the JSON documenting the scheme.
-- **Commit:** `2e80ac2`
-- **Verification:** ✓ Generator still builds 3 sessions / 2 blooms / party at `sunrootcrossing`. ✓ Cell refs computed from the same measured coordinates the map is drawn from, so image and file cannot disagree. ✓ Grid lines drawn with a gap every 4th pixel so the map art stays readable underneath.
-- **Watch out:** 🛑 **The grid immediately exposed two same-cell collisions that raw coordinates had hidden.**
-  - **`willowhaven` and `whispergrove` are both in D9.** This is now strong support for the duplicate theory — the higher-res map shows *Whispergrove* at that spot and no "Willow Haven" label anywhere in Salvia Forest. ⚑ Still not merged; needs Adam.
-  - **`zelkovacity` and `ashenridge` are both in I7.** Zelkova City is one of the six original hardcoded coordinates (42, 71) and Ashenridge is a fresh read at (40.8, 67.6) — 3.5 units apart, so possibly two genuinely close towns in The Burn, or possibly Zelkova City's eyeballed coordinate landing on its neighbour. **Unresolved, both left in place.**
-- **Watch out:** ⚠️ Cell refs read **row letter first, then column number** (`F7`), deliberately, so they can never be confused with the bare-letter ring ids (A–F) on the unnamed markers.
-- **Next:** Name rings A–F, and resolve the two same-cell collisions.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 17:45 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 18:20 ET.
