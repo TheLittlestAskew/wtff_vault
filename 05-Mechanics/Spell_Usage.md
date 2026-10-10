@@ -18,11 +18,19 @@
 | [[Eliza Duskbloom\|Eliza]] | Healing Word | 1st level | [[Session 04 — Four Blooms, Five Petals]] | Cast twice on [[Isla 'Bruin' Kaplan\|Bruin]] during the creature fight: 3 HP [02:10:53], then 3 more [02:18:43]. |
 | [[Artie (Art) Veyr\|Artie]] | Mind Sliver | Cantrip | [[Session 04 — Four Blooms, Five Petals]] | vs the creature; it saved (INT 15): "the magic can't get through its rage" [02:11:43]. |
 | [[Tobias Wolfe\|Tobias]] | Mind Sliver | Cantrip | [[Session 04 — Four Blooms, Five Petals]] | vs the creature; it saved (INT 15): "It beats it." [02:14:09] |
+| [[Tobias Wolfe\|Tobias]] | Shocking Grasp, flavored as frost ("a frosted grip") | Cantrip | [[Session 05 — The Bloody Truth]] | Surprise-round reply on the left insectoid: hit ("Natural. 24" as stated), 15 damage; it can't take reactions [00:10:28]. Flavor as stated, not a ruling. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Grease | 1st level | [[Session 05 — The Bloody Truth]] | 10 ft cube around both insectoids, sprayed from its opened wrists; the embers from Artie's S04 bomb ignited it (3d6 fire; total [Unknown/Ambiguous]); both burned [00:26:02]–[00:28:26]. |
+| [[Artie (Art) Veyr\|Artie]] | Detect Magic | 1st level | [[Session 05 — The Bloody Truth]] | His lens flares and his eyes glow greenish; the chest still reads conjuration; nothing on the dragon [00:21:13], [00:40:29]. |
+| [[Tobias Wolfe\|Tobias]] | [Unknown/Ambiguous] (ice turned to fire; source spell not named) | [Unknown/Ambiguous] | [[Session 05 — The Bloody Truth]] | After a Performance check (21) to reflavor his frost as fire: hit (25), 10 damage; his arm tattoos glowed blue, then orange [00:31:19]–[00:33:33]. Adam: the reflavor check uses Charisma (Performance), not Arcana. |
+| [[Tobias Wolfe\|Tobias]] | Silvery Barbs | 1st level | [[Session 05 — The Bloody Truth]] | Turned the surviving insectoid's attack on Bruin (25) into a miss; advantage passed to Zarna [00:37:39]. |
+| [[Artie (Art) Veyr\|Artie]] | Identify | 1st level | [[Session 05 — The Bloody Truth]] | On the pitch-black dagger from the chest (Arcana 18): +1, +2 when thrown; a "weird taste" in his mouth after casting [01:51:36]. |
 
 ---
 
 > S01 was a social/roleplay session; few spells were cast by name. Most magic was descriptive (e.g. [[Aiphrumfite ‘Aiph‘|Aiph]]'s color-changing igniting sand; floating the brawling candidates apart) and is **not** logged here as named spells to avoid invention.
 
 > **S07 ([[Session 07 — Omission of Truth]]):** no named spells were cast — a joint roleplay session with no combat. Descriptive magic only, not logged as named spells to avoid invention: [[BE-BO (Botanical Energy Balance Operator)|Bebo]] "mends" its engraved wood-chip name tag onto itself (the Mending cantrip is not named in the note); Bebo's sending-stone messages are an item, not a spellcast; Lux "magically" returns her eyes to Lute's color (WtFR, crossover; no spell named).
+
+> **S05 ([[Session 05 — The Bloody Truth]]):** descriptive magic not logged as named spells: Tobias's ice rose for [[Delilah]]; the tavern freezing during his backstory (failed Charisma save, not a cast); Artie's sphere-granted bonus-action healing (an item effect); Artie imbuing magic into the emerald for the vision experiment (no spell named).
 
 > **S03 ([[Session 03 — Raise a Glass to Provisional Trust]]):** no named spells were cast — a travel/roleplay session with no combat. [[Derek]]'s clap-light device registers as **evocation** ([[Artie (Art) Veyr|Artie]], Arcana 16) but is an item, not a PC spellcast. Nothing logged for S03.

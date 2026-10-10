@@ -17,7 +17,7 @@ The central **inn / tavern / tower** at [[Sunroute Crossing|Sunroot Crossing]] w
 - Guest rooms upstairs (one key per PC).
 
 ## Inhabitants
-- **[[Delilah]]** — half-elf server who waited the party's table.
+- **[[Delilah]]** — half-elf server who waited the party's table. *(S05)* Still serving; the party's favorite server.
 
 ## History
 - *(S03)* Festival season is approaching; per [[Delilah]], **"the first of vent was yesterday"** (unconfirmed calendar term).
@@ -25,6 +25,7 @@ The central **inn / tavern / tower** at [[Sunroute Crossing|Sunroot Crossing]] w
 ## Events
 | Session | Event |
 |---|---|
+| [[Session 05 — The Bloody Truth]] | Aiph walked Group K back here after the test; it was busy in the early evening. Aiph debriefed, paced, drank Bruin's and Eliza's shots and went up to the rooms. The party pooled the 600 gp, identified the black dagger, and Tobias made [[Delilah]] an ice rose. A sapphire and an emerald pulled Tobias (then Artie and Eliza) into a vision at the table. Telling his past, Tobias failed a Charisma save and **the whole tavern froze**: the table became "a pure sheet of ice," drinks and feet froze, everyone was stuck in place. Everyone melted free as he ran out the door. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | The party dined here and adopted **"provisional trust"** (the hands-in pact; [[Isla 'Bruin' Kaplan|Bruin]] affirmed trust but abstained from the gesture). [[Tobias Wolfe|Tobias]] gifted [[Zarna Morganach|Zarna]] a hammer sketch and sketched [[Delilah]]; [[BE-BO (Botanical Energy Balance Operator)|Bebo]] studied the party's tells; the group took a long rest. |
 
 ## Connections

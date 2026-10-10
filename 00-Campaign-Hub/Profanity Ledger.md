@@ -5,18 +5,19 @@
 ## Running Totals
 | Speaker | Campaign Total | Most Common |
 |---|---|---|
-| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] (IC) | Several (S01) | fuck / fucking |
-| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) + 2 (S04) + 4 (S07) | fuck / shit / gosh |
+| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] (IC) | Several (S01) + 6 (S05) | fuck / fucking / God |
+| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) + 2 (S04) + 1 (S05) + 4 (S07) | fuck / shit / gosh |
 | [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) | fucked up / the fuck |
 | [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | 3 (1 S01 + 2 S02 062826) | fucking / shitless / fuck |
 | [[Alec]] (DM, OOC) | 1 (S02 062826) | shit |
-| [[Artie (Art) Veyr\|Artie]] / Will (OOC) | 2 (1 S01 + 1 S02 062826) | fuck |
-| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) + 3 (S04) + 2 (S07) | hell / fuck / darn |
+| [[Artie (Art) Veyr\|Artie]] / Will (OOC) | 2 (1 S01 + 1 S02 062826) + 4 (S05; 1 IC) | fuck / God |
+| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) + 3 (S04) + 20 (S05; mixed IC/OOC) + 2 (S07) | God / fuck / hell |
 | [[Tobias Wolfe\|Tobias]] (IC) | 1 (S02 062826) + 1 (S07) | ass |
 | Aldin Forgehill (NPC, S01) | 1 (S01) | fucking |
-| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) + 8 (S04; 2 of them IC) + 2 (S07) | God / damn / shit |
-| [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) + 3 (S03) + 2 (S04) | heck / God / "smart asses" |
-| Rachel / [[Zarna Morganach\|Zarna]] (OOC / table) | 6 (S04) + 6 (S07) | God / heck / shit |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) + 8 (S04; 2 of them IC) + 4 (S05) + 2 (S07) | God / damn / shit |
+| [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) + 3 (S03) + 2 (S04) + 4 (S05) | God / heck / "smart asses" |
+| Rachel / [[Zarna Morganach\|Zarna]] (OOC / table) | 6 (S04) + 16 (S05; mixed IC/OOC) + 6 (S07) | shit / hell / God |
+| Evan / [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (table) | 2 (S05) | Lord |
 | Huey / [[Auriron]] (WtFR, crossover table) | 3 (S07; 1 IC) | ass / damn / gosh |
 | Jordan / [[Lute]] (WtFR, crossover table) | 3 (S07) | damn / heck / gosh |
 | Holly / [[Nyx]] (WtFR, crossover table) | 1 (S07) | damn |
@@ -56,6 +57,38 @@ _Joint crossover session (both tables). Mostly OOC exclamations and reactions to
 | Holly / [[Nyx]] (OOC) | "damn" ("Damn shame") | 1 | Dice banter. |
 
 _STT appears to have dropped several expletives, leaving gaps: "mine was the one that up" [00:18:16, Aiph], "did not know what the to do" [00:25:55, Adam], "Shut the up" [01:00:14, Seth], "Wait, what the." [02:31:16, Rachel]. Not counted._
+
+---
+
+## Session 05 — The Bloody Truth (08/09/2026)
+
+_Propagated out of order (2026-10-10), after S07 and S04. Mixed IC and OOC; Rachel and Seth carry most of it._
+
+| Speaker | Curse Word | Frequency | Context |
+|---|---|---|---|
+| Rachel / [[Zarna Morganach\|Zarna]] | "shit" / "shitty" | 4 | "We smacking some shit" (IC); "make up shit on the fly" (OOC); "some crazy shit" (OOC crafting); "a really shitty roll" (OOC wrap-up). |
+| Rachel / [[Zarna Morganach\|Zarna]] | "fucking" | 2 | "It is a fucking dragon" (harvest); "at least that fucking thing" (to Aiph). |
+| Rachel / [[Zarna Morganach\|Zarna]] | "hell" ("Hell, yeah") | 4 | Eliza's dirty 20; crafting talk (×2); the mayonnaise jug. |
+| Rachel / [[Zarna Morganach\|Zarna]] | "heck" | 2 | "Heck, yes" (the notes); "What the heck just happened?" |
+| Rachel / [[Zarna Morganach\|Zarna]] | "God" ("Oh my God" / "Oh, God") | 3 | Adam's cat (OOC); Lydia sent to the side channel; the Minion goggles. |
+| Rachel / [[Zarna Morganach\|Zarna]] | "ass" | 1 | "My Dex is ass." |
+| Seth / [[Tobias Wolfe\|Tobias]] | "fuck" / "fucking" | 4 | "say, fuck this" (IC, unbuttoning his vest); the gods "don't give a flying fuck"; backstory "that fucking sucked" and "Fuck." |
+| Seth / [[Tobias Wolfe\|Tobias]] | "God" ("Oh God" / "Oh, God" / "Oh, my God") | 11 | Throughout (Artie's sphere, the harvest, vision returns, the drink). |
+| Seth / [[Tobias Wolfe\|Tobias]] | "Jesus" · "geez" | 1 · 1 | Zarna's roll of a 1; Adam's three choices. |
+| Seth / [[Tobias Wolfe\|Tobias]] | "hell" ("Hell yeah") | 1 | Bebo's bag. |
+| Seth / [[Tobias Wolfe\|Tobias]] | "screw" ("Screw them") | 1 | Surprise round. |
+| Seth / [[Tobias Wolfe\|Tobias]] | "bloody" | 1 | "the bloody truth." |
+| Will / [[Artie (Art) Veyr\|Artie]] | "fucking" | 1 | "Did you put a fucking dragon in there?" |
+| Will / [[Artie (Art) Veyr\|Artie]] | "God" / "damn" ("God damn it") | 1 / 1 | Gold-carrying aside. |
+| Will / [[Artie (Art) Veyr\|Artie]] | "God" ("Oh, God") | 1 | Adam's three choices. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] | "God" ("Thank God" / "Oh, God") | 2 | Recording (OOC); "Almost a nat 20." |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] | "dang" · "Jeez" | 1 · 1 | Her turn; Rachel's story. |
+| Evan / [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | "Lord" ("My lord" / "Lord, have mercy") | 2 | Bruin's kill d4; Tobias's 27. |
+| [[Adam]] (DM) | "God" ("Oh, my God" / "Oh, God" / "I swear to God") | 4 | Narrating Zarna's thought; the tail; a roll; narrating Bebo's data banks. |
+| [[Adam]] (DM, as [[Aiphrumfite ‘Aiph‘\|Aiph]]) | "God" ("oh, my God") | 6 | Aiph's celebration. |
+| [[Adam]] (DM, OOC) | "hell" ("whatever the hell you want") | 1 | Opening. |
+
+_STT appears to have dropped expletives, leaving gaps: "What the." [00:25:53, Rachel]; "harvest the out of this thing" [01:00:19, Seth]; "What the you're saying" [01:28:46, Adam as Aiph]; "tell me what the you all saw" [01:31:41] and "So what the is that?" [01:32:37] (Adam as Aiph); "Like, what the." [02:15:53, Will]; "whatever the was in the dungeon" [02:51:52, Adam]. Not counted. Literal uses ("went down to hell," "the God of death," "go to hell and back," "Screw everything else" quoted from the vision) are not counted._
 
 ---
 

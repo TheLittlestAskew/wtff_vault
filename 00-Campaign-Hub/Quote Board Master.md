@@ -125,6 +125,147 @@
 
 ---
 
+## Session 05 — The Bloody Truth (08/09/2026)
+
+_Propagated out of order (2026-10-10), after S07 and S04. Order of occurrence preserved. Lines from the off-recording vision scenes appear only as retold at the table._
+
+**[[Tobias Wolfe\|Tobias]] / Seth · [Funny]**
+> "Screw them."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "It's like Spider man when he's like dodging Flash Thompson."
+
+**[[Adam]] (DM) · [Important to Story]**
+> "And you all have this brief moment of maybe Tobias is not who you all thought he was."
+
+**[[Tobias Wolfe\|Tobias]] / Seth (narrating) · [Funny]**
+> "She says, fire. And Tobias goes. Not my thing."
+
+**[[Zarna Morganach\|Zarna]] / Rachel · [Funny]**
+> "We smacking some shit. Zarna. Smash."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] / Evan · [Funny]** *(casting grease near the embers)*
+> "Absolutely. In fact, it's what inspired it."
+
+**Taylor & [[Adam]] · [Banter]**
+> "What you're telling me is the girls are killing it today." / "The girlies are crushing it."
+
+**[[Adam]] (DM) · [Important to Story]**
+> "However, it is a strand of blood of dragon you have never ever heard of before."
+
+**[[Adam]] (DM, narrating Zarna) · [DM Quip]**
+> "oh, my God, this is so cool. What was I thinking about again?"
+
+**[[Artie (Art) Veyr\|Artie]] · [Funny]**
+> "Probably a loving father. We're just desecrating his body."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Serious]**
+> "No you're not. I mean look, this is nature. This is part of nature."
+
+**[[Zarna Morganach\|Zarna]] / Rachel · [Funny]**
+> "and we are tearing this good luck dragon apart."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "Bruin kneels down is like looking very, very like concentrated and then goes. I think it was eaten by something."
+
+**[[Adam]] (DM) · [DM Quip]**
+> "Oh, again. So this is a rule for people. Don't ask for a roll if you didn't want them to succeed."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] (narrated by [[Adam]]) · [Important to Story]**
+> "And then she goes. No way."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "y', all, you did it so much faster than Mags's group."
+
+**[[Artie (Art) Veyr\|Artie]] · [Funny]**
+> "Did you put a fucking dragon in there?"
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "I have never seen that thing before in my entire life."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "Congrats. You passed the test. The more important thing is there were two things down there that I've never seen before."
+
+**[[Zarna Morganach\|Zarna]] & [[Aiphrumfite ‘Aiph‘\|Aiph]] · [Funny]**
+> "Also, regular dungeon maintenance is important." / "You're so right. Dungeon maintenance is important."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "It's just I don't think I've ever gone through every single room because most groups don't. Don't make it all the way through."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Important to Story]**
+> "know what's been killing the people that have been down there before for us? Was that maybe it."
+
+**[[Adam]] (DM, to Bruin) · [Important to Story]**
+> "The orange in your nose is what you smell right now."
+
+**[[Delilah]] (narrated by [[Adam]]) · [Funny]**
+> "She goes, why do you have blood on your face?"
+
+**[[Tobias Wolfe\|Tobias]] & [[Eliza Duskbloom\|Eliza]] · [Banter]**
+> "You should see the other guy." / "You really shouldn't."
+
+**[[Adam]] (DM, OOC) · [DM Quip]**
+> "Listen, Will, someday I hope to play a version of DND where we are super intense about that. That's not this campaign."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "And then it's kind of nice that you might feel strong enough about one person to go to hell and back."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Serious]**
+> "Anyway, Bebo thinks all gods are cruel."
+
+**[[Delilah]] (narrated by [[Adam]]) · [Poignant]**
+> "She kind of smiles and goes, well, I. I suppose not. Nothing lasts, right?"
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Tap, tap, tap. Dungeon clear."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Important to Story]**
+> "Friend in danger." / "was told running for my life."
+
+**[[Tobias Wolfe\|Tobias]] (retelling the vision) · [Important to Story]**
+> "And he looked at me, and he said, because it does."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "I cannot state this enough. I have no formal magic education."
+
+**[[Tobias Wolfe\|Tobias]] (retelling the vision) · [Important to Story]**
+> "This guy was willing to sacrifice everything and everyone for the person he loved."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "This person makes Mags look like a kitty."
+
+**[[Adam]] (DM, to Artie) · [Important to Story]**
+> "None of it created by the magic itself. What you saw really happened."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "I've only read about love, but that looks a lot like what I think it would be."
+
+**[[Adam]] (DM, to Bebo) · [Important to Story]**
+> "It is so blank from your mind that you get the sense that it. It was supposed to be blank. Something made it blank."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Serious]**
+> "Bebo only wants truth."
+
+**[[Tobias Wolfe\|Tobias]] / Seth (narrating) · [Dramatic]**
+> "If Bebo wants the truth, Tobias will give Bebo the bloody truth."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "But look, I Came by myself because they chose their roots over new horizons."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "So, no, I don't know about love. I don't know about parental love. I don't know about romantic love."
+
+**[[Tobias Wolfe\|Tobias]] / Seth · [Dramatic]**
+> "I'm sorry, I'm sorry. And he's gonna run out the door."
+
+**[[Adam]] (DM) · [Dramatic]**
+> "Tobias is gone. And that's the end of session five."
+
+**Seth (OOC) · [Funny]**
+> "This is literally, this is literally Tobias's worst nightmare."
+
+---
+
 ## Session 04 — Four Blooms, Five Petals (07/26/2026)
 
 _Propagated out of order (2026-10-10), after S07. Order of occurrence preserved._

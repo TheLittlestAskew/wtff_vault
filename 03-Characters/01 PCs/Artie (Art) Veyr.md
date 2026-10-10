@@ -12,12 +12,16 @@ sub_class:
 - *(S01)* **High Elf**; medium **white hair** partially tied back; **golden-yellow eyes**.
 - *(S01)* Deep **green/charcoal robes** with silver/gold trim; a **smoky veil glass-lens arcane focus** on a neck chain; carries a leather spellbook and component pouch.
 - *(S01)* Reads as a **"mobile scholar-investigator."**
+- *(S05)* **Eyes are gold** (Will, answering Evan) [02:22:23].
+- *(S05)* Under **detect magic** his lens flares and **his eyes glow greenish** [00:21:13].
 
 ## Backstory
 - *(S01)* Studied the arcane **at school and with tutors**.
 - *(S01)* Investigating **why magic "is not acting the way it's supposed to."**
 - *(S02)* Has a **permanent Find Familiar spell (Orin)** he did not cast deliberately — Orin appeared at some point and has never left or faded. This is a primary symptom of the "magic misbehaving" thread. Artie is aware this is anomalous.
 - *(S02)* His stated reason for joining [[The Uprooters]]: he is **seeking Malus Thornwake** (≤55% confidence on compound surname). [[Aiphrumfite 'Aiph'|Aiph]] visibly reacted to this name (paused, wrote a note).
+- *(S05)* **Has been to the Crater** (Will: "The thing that I rolled a very low number for? But I've been there.") [02:11:08]. *(≤60%, first-seen; confirm with Will.)*
+- *(S05)* **"You've been into visions before"** (Adam, on Artie's Arcana read of the emerald vision) [02:35:41].
 
 ## Personality
 - *(S01)* **Calm, composed, intensely observant**; a truth-seeker ("if I have to do a couple bad things to find that answer…").
@@ -30,6 +34,8 @@ sub_class:
 - *(S04)* **Keeps a scribe's book of everything** (recorded the riddles and the cauldron grid).
 - *(S04)* **Pattern-solver:** cracked the "four blooms, five petals" grid by reading it in columns ("G, O, L, D for gold... B, L, A, C, K for black").
 - *(S04)* **Theorizes aloud:** "we were supposed to fight this thing, and then somehow that thing got here."
+- *(S05)* **Experiments on himself and others:** ate one of the unknown spheres on the spot; imbued magic into the emerald in Tobias's hand to see what it would do.
+- *(S05)* **Party treasurer:** keeps track of the pooled gold.
 
 ## Abilities & Class Features
 - *(S04)* **Languages:** Common, Elvish, Giant.
@@ -55,6 +61,9 @@ sub_class:
 | [[Lute]]'s drawing (slipped into his bag) | Given Away — passed to [[Tobias Wolfe\|Tobias]] | [[Session 07 — Omission of Truth]] |
 | Clap-activated light / mini-bomb device (from [[Derek]]) | **Expended:** thrown and detonated behind the dragon's corpse (11 damage) | Used [[Session 04 — Four Blooms, Five Petals]] |
 | Party healing potions | One lifted by [[Tobias Wolfe\|Tobias]] (given to Zarna); Tobias later slipped "his potion" into Artie's bag. Net count [Unknown/Ambiguous]. | [[Session 04 — Four Blooms, Five Petals]] |
+| Diamond-shaped glass jar of colored spheres (8 at the start; he ate one: 4 hours of bonus-action 2d6 healing within 30 ft; 7 left, inferred) | Held | [[Session 05 — The Bloody Truth]] |
+| Party gold pool (600 gp from the test chest; Artie keeps track) | Party funds (S07: deposited in Bebo's bag, row above) | [[Session 05 — The Bloody Truth]] |
+| Sapphire and emerald (from the test chest) | Given Away: sapphire to [[Tobias Wolfe\|Tobias]]; emerald placed in Tobias's hand for the vision experiment | [[Session 05 — The Bloody Truth]] |
 
 ## Relationships
 - **↔ [[BE-BO (Botanical Energy Balance Operator)|Bebo]]:** stared at Bebo’s dancing, "fascinated, or… scared."
@@ -68,18 +77,27 @@ sub_class:
 - **↔ [[Kidu]] (S07, crossover):** Cordial; reported Dolm's wandering. Kidu: "Dolm does that sometimes."
 - **↔ [[Tobias Wolfe|Tobias]] (S04):** Tobias picked his pocket unseen (Perception 5) and later slipped a potion back into his bag; Artie is unaware of the first.
 - **↔ [[Derek]] (S04):** Used Derek's device in combat; it exploded for 11.
+- **↔ [[Tobias Wolfe|Tobias]] (S05):** Gave him the sapphire; ran the emerald experiment with him (both pulled into the vision); read the vision as true (Arcana 17): "What you saw really happened." Asked quietly to see "the heart thing" later.
+- **↔ [[Eliza Duskbloom|Eliza]] (S05):** Identified the black dagger for her (+1, +2 thrown); it went to her.
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S05):** "Did you put a fucking dragon in there?" Aiph: "You were supposed to kill it, so,"
 - **↔ [[Lute]] (S07, crossover):** Caught Lute slipping a drawing into his bag (Perception nat 20) and passed it to Tobias. Later bolted out of the tavern to where Lute's alternate persona (Lux) was.
 
 ## Key Events
 | Session | Event |
 |---|---|
 | [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Writing in his book at the start, still stunned his magic failed (the S06 Identify). Recognized Bebo's bag of holding (Arcana 22) and gave Bebo the party's 600 gold. Noticed Eliza missing. Told [[Kidu]] that [[Dolm]] was three blocks down following a bug. Caught [[Lute]] slipping a drawing into his bag (Perception nat 20); passed it to Tobias. Read the Aiph/Mags argument as tense (Insight 4; attribution tangle F49). Prompted "Tobias, show the heart." Bolted out of the tavern toward Lux; Bruin saw him run out. End-of-session whereabouts [Unknown/Ambiguous]. |
+| [[Session 05 — The Bloody Truth]] | Under detect magic, walked to the chest and investigated it (26): untouched, 600 gp, Aiph's reward, no link to the creature. Knocked prone when the dragon's skeleton fell (DEX 13). Flipped the chest: gold, emerald, sapphire, the jar of spheres (3d4 = 8) and a black dagger. **Ate a sphere** (d100 69): 4 hours of bonus-action healing; healed Zarna and Bruin. "Probably a loving father. We're just desecrating his body." Became keeper of the 600 gp party pool; gave Tobias the sapphire; **Identify** on the dagger (+1, +2 thrown; a weird taste). Ran the emerald experiment with Tobias (17) and went into the vision (off-recording; "I got kicked out"). Arcana 17: the vision was true, "none of it created by the magic itself." Said he has been to the Crater (≤60%). |
 | [[Session 04 — Four Blooms, Five Petals]] | Aiph's test dungeon. Spotted the Layer 1 pillars and traced the projectiles to them (Perception 19); answered "cloud." Lost his link to [[Orin]] at the illusory hole. Spoke aloud in the tree chamber and was lashed twice by vines (2 bludgeoning). Found the cauldron inscription (Investigation 24) and **solved the "four blooms, five petals" grid**; dropped the white petal. Scouted the creature through Orin (engorged, eating the dragon) and voiced the "that thing got here" theory. In the fight: initiative 14, Mind Sliver failed (INT save 15), then threw and detonated [[Derek]]'s device for 11 (Athletics 17). Leveled 1 to 2. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Persuaded [[Aiphrumfite 'Aiph'|Aiph]] into 3 healing potions (Persuasion 15) and became the party's potion-carrier. Explored the [[The Verdant Blossom]] parlor (Investigation 22) and staff & storage car (Investigation 24 — supplies, locked personal effects, a chest of confiscated weapons); met [[Derek]] and received the clap-light/mini-bomb device. Before bed, sent his day's pocketbook off with [[Orin]] "to where it usually goes." Descended into the test dungeon. |
 | [[Session 02 — Something’s Changing]] | Introduced; named [[Malus Thornwake]] as reason for joining (Aiph reacted visibly). Cast Identify on [[Nero]] (Arcana 17); discovered Tobias has innate, untrained Find Familiar. Demonstrated Orin’s anomalous resurrection (killed against window; Orin snapped neck, faded, reformed). Took Tobias’s hand (Arcana 22): felt ice-cold skin, saw faint blue aura. Placed mage hand spell components for Tobias to read; observed frost-spectral hand form and shatter. Took notes throughout the evening. |
 | [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed first ("why the fuck do I have to go first?"); gave his reason for joining (magic misbehaving). Selected into Group K. |
 
 ## Key Quotes
+> **[[Session 05 — The Bloody Truth]]**
+> "Probably a loving father. We're just desecrating his body." — *Funny*
+>
+> "Did you put a fucking dragon in there?" — *Funny*
+
 > **[[Session 04 — Four Blooms, Five Petals]]**
 > "All right, my thoughts is we were supposed to fight this thing, and then somehow that thing got here, and now we're supposed to. Well, now we're gonna fight that thing." — *Important to story*
 

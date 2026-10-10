@@ -10,7 +10,7 @@
 
 ## Session 07 — Omission of Truth (09/20/2026)
 
-> Loot from the test dungeon at [[Sunroute Crossing|Sunroot Crossing]] (dragon heart, scale, eyeball, rib) was **acquired in S04–S06**, which have no vault notes yet; it is recorded here as it was **held and shown in S07**. The source of the gold, the emerald, the sapphire and the vial of blood is not stated in S07 ([Unknown/Ambiguous]); quantities are as stated in S07 only.
+> Loot from the test dungeon at [[Sunroute Crossing|Sunroot Crossing]] (dragon heart, scale, eyeball, rib) was **acquired in S05** (see the S05 section below; propagated 2026-10-10); it is recorded here as it was **held and shown in S07**. The source of the gold, the emerald, the sapphire and the vial of blood is not stated in S07 ([Unknown/Ambiguous]); quantities are as stated in S07 only.
 
 | Character/Owner | Item/Artifact | State/Context |
 |---|---|---|
@@ -44,9 +44,34 @@
 
 ---
 
+## Session 05 — The Bloody Truth (08/09/2026)
+
+> *Propagated out of order (2026-10-10), after S07 and S04; S06 not yet propagated.* This is where the S04 chest was opened and the dragon harvested. Holders are **as stated in S05**; the S07 section above shows the later state (bag of holding as party bank, emerald deposited, sapphire and heart with Tobias). Owners and counts not stated on-air stay [Unknown/Ambiguous].
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| Party pool (tracked by [[Artie (Art) Veyr\|Artie]]) | 600 gold pieces (the chest) | NEW. Investigated untouched (Artie, 26); Zarna carried the whole chest to the inn (Athletics 24); pooled as party funds, Artie keeping track [01:49:20]–[01:49:53]. Real, per Adam. Stored. Session 05. |
+| [[Tobias Wolfe\|Tobias]] | Sapphire | NEW. From the chest; Artie gave it to him [01:50:48]; triggered his first vision (as retold). Held. Session 05. |
+| [[Artie (Art) Veyr\|Artie]] → [[Tobias Wolfe\|Tobias]] | Emerald | NEW. From the chest; placed in Tobias's hand for the vision experiment [02:18:15]. **Final S05 holder [Unknown/Ambiguous]** (S07: deposited in the bag by Tobias). Session 05. |
+| [[Eliza Duskbloom\|Eliza]] | Pitch-black dagger with some red on it | NEW. From the chest; Identify (Artie, Arcana 18): **+1, +2 when thrown**; a weird taste after the casting. Given to Eliza; in her bag [01:53:48]. Held. Session 05. |
+| [[Artie (Art) Veyr\|Artie]] | Diamond-shaped glass jar of small colored spheres | NEW. 8 at the start (3d4). Top twists off; spheres appear edible. Artie ate one (d100 69): for 4 hours, bonus action to heal a creature within 30 ft for 2d6. Remaining count not stated (**7 inferred**). Party agreed to save the rest. Held. Session 05. |
+| [[Tobias Wolfe\|Tobias]] | The dragon's heart | NEW. Taken from the corpse (Bruin and Bebo saw; Eliza was not meant to); magic emanates from it; Adam: "we will come back to that at a later time." Held. Session 05. |
+| [[Tobias Wolfe\|Tobias]] | Dragon flesh and blood; six dragon teeth; a piece of tail bone ("Enough for a longish dagger, but not quite a short sword") | NEW. Harvested (Sleight of Hand 19). Held. Session 05. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Insectoid hide (backpack-size) | NEW. Being knitted into a bag (~80% done by the evening; S07: the bag of holding). Held (crafting). Session 05. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Vial of blood; insectoid eyeball; one dragon tooth; five dragon scales | NEW. Harvested. Eyeball earmarked for goggles; a dragon-tooth hammer for Zarna OK'd by Adam "afterwards." Held. Session 05. |
+| [[Zarna Morganach\|Zarna]] (carried by [[Isla 'Bruin' Kaplan\|Bruin]]) | Dragon rib(s), "the size of a long sword" | NEW. For a future weapon. One rib confirmed; Bruin said "Everyone's gonna get two" and carried Zarna's ribs, so **count [Unknown/Ambiguous]**. Held. Session 05. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Chest stone (the S02 communication stone) | Tapped: "Dungeon clear"; received "Friend in danger" / "running for my life." Equipped. |
+| [[Tobias Wolfe\|Tobias]] → [[Aiphrumfite ‘Aiph‘\|Aiph]] / [[Zarna Morganach\|Zarna]] | Drawings | Sketches of the creatures and the dead dragon (one given to Aiph); a drawing of Zarna carrying Bebo on the chest (given to Zarna); a drawing of the vision. Given Away / Held. Session 05. |
+| [[Delilah]] | Ice rose | Conjured by Tobias; "won't last forever." Given Away. Session 05. |
+| Layer 5 | The objective chest (S04) | Opened and emptied; carried out by Zarna. Fate of the empty chest [Unknown/Ambiguous]. |
+
+> *Do not infer additional properties of these items beyond what was shown.* Planned infusions (bag of holding, alchemy jug, goggles of night) are plans, not items, as of S05.
+
+---
+
 ## Session 04 — Four Blooms, Five Petals (07/26/2026)
 
-> *Propagated out of order (2026-10-10), after S07.* The dragon heart, scale(s), centipede eyeball and rib listed under S07 are **not** recorded here: S04 ends mid-fight with the chest unopened, so they were taken in S05 to S06 (not yet propagated). Only what S04 itself shows is listed.
+> *Propagated out of order (2026-10-10), after S07.* The dragon heart, scale(s), centipede eyeball and rib listed under S07 are **not** recorded here: S04 ends mid-fight with the chest unopened, so they were taken in S05 (see the S05 section above). Only what S04 itself shows is listed.
 
 | Character/Owner | Item/Artifact | State/Context |
 |---|---|---|

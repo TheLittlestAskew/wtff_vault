@@ -48,6 +48,51 @@ tags:
 
 ---
 
+> [!quote]- Session 05 — The Bloody Truth (08/09/2026)
+> *[[Session 05 — The Bloody Truth|It got back up, and then it didn’t]]*
+>
+> Two of them came out of the head. Smaller than the first, both going straight for the cold one, and he just wasn't there when they landed. Dodge, dodge, then his hand across one's face and a line of ice on its cheek, and he stepped back behind the tall one like he was dancing. I've watched him flinch at a ladder. I don't know who that was.
+>
+> I told them we'd need fire. He said fire's not his thing. Not mine either. I went in anyway: the axe across the chest of the one on the right, and when that wasn't enough I bit it. Teeth are teeth. The machine opened up its wrists and sprayed something slick around them both, and there were still embers from the wizard's little bomb, and up they went. Screaming. Burning. Good.
+>
+> Then the dead thing moved. The big body. Its head lifted and dropped and the ground shook, and the tall one and the wizard went down. I thought it was dead. I still think it was dead. Bodies do that sometimes.
+>
+> Second time, I didn't wait to see what it would grow. Both hands over my head, straight down, and I left the ground to do it. The head came off and rolled. I landed ready, because I wasn't going to be surprised twice in one day. The other one leapt at me and slid sideways in a blue outline and missed, and I know whose hand that was. Then the quiet girl stood back with her sling and put a stone through its head.
+>
+> I put my ear to the dragon. No heartbeat. Nothing.
+>
+> Then everyone started taking it apart. The machine took hide and blood and an eye. The tall one ripped out a rib to make a weapon. The cold one took teeth, flesh, a piece of the tail. The quiet girl looked at us like we were monsters, and the wizard called it somebody's father. It isn't. This is nature. Something ate it, the way things eat things. You don't waste what's left. I told the tall one everyone should get two ribs, and when she lifted the whole chest of gold one-handed like it weighed nothing, I carried her bones for her instead.
+>
+> The wizard ate one of the little colored balls from the jar. Of course he did. And then he put his hands out and I felt the scrape on me close up. So that one's useful. We're keeping the rest.
+>
+> I knelt by the body to see what killed it. Something ate it. That's all I got. The machine turned its whole head and looked at me and didn't say anything, which said plenty.
+>
+> The cold one stayed behind when the rest of us moved to the door. I saw him. He reached into the dragon's chest and took the heart, and put it in his bag, and made sure the quiet girl wasn't looking first. I didn't say anything. It's his.
+>
+> Up top, she was sitting under her tent with a notebook, staring at the trapdoor. She looked at us and said, *No way.* Then she clapped and grabbed the tall one's hand and said we were so much faster than the other group. She said she chose the best group. Then the cold one showed her his drawings, and she stopped being happy. She has never seen either of those things before. Not the dragon. Not the thing eating it. She paced. She said most groups don't make it all the way through, and she's never walked every room herself.
+>
+> So I asked her the obvious thing. Whatever was in there, was that what's been killing the ones who went before us? She said it was a good question. She didn't answer it.
+>
+> At the inn she drank my shot. Just picked it up and threw it back, then the quiet girl's, and said she'd see us in the morning, and walked off. Fine. I got my own drink.
+>
+> The machine held the dragon's scale up to me, and I nearly fell out of my chair. The bug's eye smelled like nothing. But the scale. It's like the difference between a room someone sprayed orange into and having the orange shoved up your nose. That close. That loud. I sat there with my drink trying to make it mean something. I don't know yet if it does.
+>
+> The cold one made the server a rose out of ice. She said nothing lasts. Then the machine tapped its chest stone and said *dungeon clear*, and a little later it went still and upset. Its friend in the other group is in danger. Running for their life. Nobody knew what to say to that.
+>
+> Then the cold one went blank over the blue stone. When he came back he said he'd been at the Crater, and then in a room, watching an elf write like his life depended on it. He asked why. The elf said, *because it does.* The wizard gave him the green stone to try, and it took them both, and then the quiet girl too. I watched the cold one and the quiet girl reach across the table and hold hands without knowing they were doing it. When they came back, he said it was a man with green eyes and a rough voice, arguing with someone he loved, ready to burn everything for them. He says it was neither of our two recruiters. The wizard just wrote and wrote. The cold one drew it like the drawing was the only thing keeping him in his chair. The machine looked at the picture a long time and said there is hidden knowledge in it.
+>
+> He called me intense and capable, earlier. I'll take it.
+>
+> And then the machine pushed. It said it only wants the truth, and the cold one gave it the truth. Left on a fountain in the worst winter anyone remembers. An orphanage. A headmistress who pulled his sketchbooks out of the water when the other kids threw them in. A broken arm, and a town that froze behind him while a friend carried him for help, and after that they called him a demon. Two maybe-friends who wouldn't come with him. He said he doesn't know anything about love.
+>
+> The table went to ice while he talked. The drinks. Our feet. Everyone in the whole room, stuck where they stood. I couldn't move. He looked up and saw what he'd done, and said *I'm sorry, I'm sorry,* and ran.
+>
+> Everything let go when he was through the door. And then he was just gone.
+>
+> *Nobody could move when he ran. Next time I'll be faster.*
+
+---
+
 > [!quote]- Session 04 — Four Blooms, Five Petals (07/26/2026)
 > *[[Session 04 — Four Blooms, Five Petals|Five rooms down, and the thing that was eating]]*
 >

@@ -31,6 +31,11 @@
 
 ## Spellcasting
 
+### Spellcasting — Sorcerer element reflavor uses a Performance check
+**Ruling:** Turning Tobias's ice magic into fire mid-fight was gated by a Charisma (Performance) check, not Arcana. Seth: the bloodline allows ice magic, but Tobias doesn't get that option "until he's more cool, confident." The check succeeded (21).
+**Session:** [[Session 05 — The Bloody Truth]] [00:31:25]
+**Context:** [[Tobias Wolfe|Tobias]]'s second-round attack on the insectoids. Recorded as stated; not a general ruling on the spell itself.
+
 ### Spellcasting — Detect Magic treated as continuous
 **Ruling:** For brevity, Bebo's ritual Detect Magic was treated as continuously re-cast through the dungeon rather than tracked per cast.
 **Session:** [[Session 04 — Four Blooms, Five Petals]] [01:50:03]
@@ -55,9 +60,29 @@
 **Session:** [[Session 04 — Four Blooms, Five Petals]] [01:39:19]
 **Context:** The "four blooms, five petals" cauldron in Layer 3 of the test dungeon.
 
+### Exploration — Harvesting needs no roll, but results aren't guaranteed
+**Ruling:** Harvesting the dragon and the insectoid needed no rolls for the basic parts, but Adam warned that this is "a very specific thing that none of you have ever seen before," so harvested parts won't necessarily give the outcomes the players expect. A dragon-tooth hammer for Zarna is OK "afterwards" ("I'd be okay with that afterwards").
+**Session:** [[Session 05 — The Bloody Truth]] [01:00:28], [02:30:28]
+**Context:** Post-fight harvest in Layer 5; later crafting talk at the inn.
+
 ## Social
 
+### Social — Same-area rule: everyone hears unless pulled aside
+**Ruling:** If everybody is in the same area, assume everyone has heard what's said, unless someone pulls a person aside.
+**Session:** [[Session 05 — The Bloody Truth]] [00:55:46]
+**Context:** Table talk during the harvest. Standing table rule.
+
+### Social — Insight advantage from studying a companion
+**Ruling:** Bebo got advantage on Insight against Tobias because it has been studying his tics.
+**Session:** [[Session 05 — The Bloody Truth]] [02:42:33]
+**Context:** Tobias claiming he knows nothing about love (Deception 25); Bebo's Insight (25) beat it.
+
 ## Other
+
+### Other — "Don't ask for a roll if you didn't want them to succeed"
+**Ruling:** Adam: "Oh, again. So this is a rule for people. Don't ask for a roll if you didn't want them to succeed."
+**Session:** [[Session 05 — The Bloody Truth]] [01:07:32]
+**Context:** Tobias's Investigation when taking the dragon's heart.
 
 ### Other — 2014 and 2024 sources are both allowed; the DM is final arbiter
 **Ruling:** Adam: "we are going to try to chart an in between that makes sense of like 2014 and 2024. D&D... I will end up being the final arbiter of what feels the most fair. But more often than not, I'm probably gonna let it slide because I want to be able to, like, make very challenging combats." Taylor confirmed 10/10/26: both 2014 and 2024 sources are allowed, with the DM as the final arbiter.
