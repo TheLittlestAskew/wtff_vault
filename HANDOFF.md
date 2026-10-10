@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 17:05 ET · Claude Code
+- **Changed:** S04 note "Four Blooms, Five Petals" generated from the approved corrected transcript; removed Taylor's real-life OOC pain quote from it; parked at `_pipeline/S04/REVIEW_Session 04 — Four Blooms, Five Petals.md` (gitignored) until she approves. Committed the 072626 spell-check log. `_pipeline/S04/handoff.md` ready for Convo 2.
+- **Commit:** `a976adf`
+- **Next:** Taylor approves S04 title/note → move note back to `01-Sessions/`, Convo 2, regenerate index, add ARC entry; then S05 rulings.
+- **Watch out:** Ruleset conflict: `_Campaign_Setup` says 2014 (player-stated 10/10/26), but Adam on-air [02:30:48] says they'll "chart an in between that makes sense of like 2014 and 2024."
+
 ### 2026-10-10 16:50 ET · Claude Code
 - **Changed:** S05 Phase A done: `_pipeline/S05/` spellcheck.md (78 rows, 9 ≤60%), flags.md (F1–F59), summary.md, READY_FOR_REVIEW (gitignored, awaiting Taylor). Committed parallel-session lore fixes: "remember" wording that had been corrupted to "forget" in 4 Pantheon pages, Key Story per Region and Liriope River Net; `_Campaign_Setup` ruleset = D&D 5e 2014 (player-stated 10/10/26).
 - **Commit:** `0da1cd9`
@@ -127,12 +133,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Watch out:** 🛑 **This closes out the six coordinates originally hardcoded in `archive.html` — and not one of the six survived unchanged.** Two were repointed as misplaced capitals (Willow Haven, Zelkova City), four were re-measured here. Treat that as the standing lesson: **the original site CONFIG was eyeballed throughout, so anything else inherited from it should be re-derived rather than trusted.** ⚠️ The live site should be checked once the CDN catches up (~5 min) — this is the first change that visibly moves published blooms.
 - **Next:** Confirm the live map renders the moved S01–S03 blooms correctly.
 
-### 2026-08-31 19:00 ET · Claude Code (both "duplicates" explained — capitals are crowns, not dots)
-- **Changed:** Taylor confirmed neither disputed place was where we had it — *"Whispergrove is there but Willow Haven is not in D9 and I don't see it anywhere nearby. Ashenridge is in I7; no Zelkova City."* 🛑 **Root cause: both are REGIONAL CAPITALS**, and the map draws capitals as **crown/castle icons, not town dots**, so they were never going to be among the marker positions. Vault lore confirms it — `Key Story per Region.md` names **Willow Haven** capital of Salvia Forest and **Zelkova City** capital of The Burn. Repointed both at their crown, measured from a 12× crop: Willow Haven **(54, 26) D9 → (49.2, 26.0) D8**, Zelkova City **(42, 71) I7 → (54.3, 68.7) I9**.
-- **Commit:** `5fae10d`
-- **Verification:** ✓ Both crown colours match Taylor's confirmed region system — pale yellow for Salvia Forest, white for The Burn — which is independent supporting evidence rather than my own inference twice over. ✓ Neither key is referenced by any session, so **no published bloom moved**. ✓ Generator still builds 3 sessions / 2 blooms. ✓ Only remaining same-cell pair is Whispergrove + Silvaroot in D9, two genuinely distinct towns 4.6 units apart sharing one coarse cell — **not** a duplicate.
-- **Friction:** misread — I spent two rounds treating these as **naming** problems (a misnamed duplicate, a possible mis-transcription) when they were **category** problems: I had been matching every entry against town dots without ever asking whether all map features are dots. The vault already said both were capitals; I had read those lore files earlier in the session and did not connect it. ✅ **What works: when an entry refuses to match the data, question the category before questioning the value.** Also: **check the vault's own lore before inferring from the artwork** — `Key Story per Region.md` would have answered this immediately.
-- **Watch out:** ⚠️ **Both new positions are INFERRED from an icon, not read from a label**, and are flagged as such in the JSON. They need a glance at D8 and I9 to confirm. ⚠️ These two were among the six original hardcoded coordinates carried over from `archive.html`; **four of those six have now proven wrong or misplaced**, so treat the remaining originals (`mouthfeeds`, `galiummajor`) as unverified too — both are also capitals and so probably also crowns.
-- **Next:** Confirm the two capitals at D8 and I9. Then decide the `rhusatatiam` and `sunrootcrossing` corrections, which unlike these WOULD move published S01–S03 blooms.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 19:00 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-09-01 09:30 ET.
