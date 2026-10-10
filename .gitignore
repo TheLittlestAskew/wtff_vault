@@ -38,6 +38,7 @@ Workflows/scripts/ddb_party.json
 .obsidian/cache
 .smart-env/
 .claude/
+.codex/
 
 # ── Pipeline scratch (transient: review files, state, logs, prompts) ──
 _pipeline/
