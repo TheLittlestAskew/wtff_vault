@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-10 16:50 ET · Claude Code
+- **Changed:** S05 Phase A done: `_pipeline/S05/` spellcheck.md (78 rows, 9 ≤60%), flags.md (F1–F59), summary.md, READY_FOR_REVIEW (gitignored, awaiting Taylor). Committed parallel-session lore fixes: "remember" wording that had been corrupted to "forget" in 4 Pantheon pages, Key Story per Region and Liriope River Net; `_Campaign_Setup` ruleset = D&D 5e 2014 (player-stated 10/10/26).
+- **Commit:** `0da1cd9`
+- **Next:** Taylor rules on S05 (Elias, unrecorded Discord vision scenes, ≤60% rows); S04 note still generating, review before push.
+- **Watch out:** `Music  Art Literature.md:5` "meant to be forgotten" may be the same remember→forget damage; not changed.
+
 ### 2026-10-10 16:25 ET · Claude Code
 - **Changed:** Taylor asked to work forward from the earliest unwritten session. S05 transcribed (174 min, 7 speakers, WtFF-only, ends "Tobias is gone") and committed; Phase A spell-check running into `_pipeline/S05/`. S04 note generation running from the approved `04 - 072626_corrected.md`. Committed Taylor's player-stated OOC backstory on Bruin's page (father/brother missing, trainer became family).
 - **Commit:** `4ed79a0`, `9520434`
@@ -129,12 +135,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Watch out:** ⚠️ **Both new positions are INFERRED from an icon, not read from a label**, and are flagged as such in the JSON. They need a glance at D8 and I9 to confirm. ⚠️ These two were among the six original hardcoded coordinates carried over from `archive.html`; **four of those six have now proven wrong or misplaced**, so treat the remaining originals (`mouthfeeds`, `galiummajor`) as unverified too — both are also capitals and so probably also crowns.
 - **Next:** Confirm the two capitals at D8 and I9. Then decide the `rhusatatiam` and `sunrootcrossing` corrections, which unlike these WOULD move published S01–S03 blooms.
 
-### 2026-08-31 18:20 ET · Claude Code (all six named — zero unnamed markers)
-- **Changed:** Taylor supplied the last six names off the gridded map, so they are canon and carry no confidence notes: **Floravale** (E13, The Bloom) · **Tidecross** (G12, Liriope River Net) · **Current's Rest** (H10, Liriope River Net) · **Thornmere** (H5, Rhus Valley) · **Silvaroot** (D9, Salvia Forest) · **Bramblequiet** (E8, Salvia Forest). Locations **21 → 27**; `unnamed_markers` is now **empty**, kept with its README so the ring/grid pattern is reusable. Also upgraded the [[Location Index]] row for **Floravale**, which had carried *"First-seen; spelling ≤60% confidence; cross-reference world doc before seeding"* since S02 — it is on the map at E13 and Taylor confirmed it.
-- **Commit:** `3822059`
-- **Verification:** ✓ Generator self-test passes; still builds 3 sessions / 2 blooms / party at `sunrootcrossing`. ✓ All 27 entries carry x/y, name, region and grid cell. ✓ Checked every new name against existing vault lore before writing — five are genuinely new, Floravale already existed and was reconciled rather than duplicated.
-- **Friction:** misread — **all three of my candidate readings were wrong.** "Willowshore" is **Thornmere**; "Sage Root"/"Seed Root" is **Silvaroot** (I had the *root* and nothing else); "Crossroads Rest" is **Current's Rest**. Combined with the earlier "Ashencroft"→Ashenridge and "Firestone"→Pyrestone, that is **five of five** low-confidence guesses wrong. ✅ **What works: at ~5px of letter height the shape of a word carries almost no signal — treat sub-70% readings as noise, not as leads.** Reporting them in a confidence tier was the only reason none of them reached the vault as fact; recording them as `candidates` in the JSON was fine, promoting any of them would not have been.
-- **Watch out:** ⚠️ Two open items are unaffected by this and still need Adam: the **same-cell collisions** (`willowhaven`/`whispergrove` in D9, `zelkovacity`/`ashenridge` in I7) and the **two coordinate corrections** that would move published S01–S03 blooms.
-- **Next:** Resolve the two same-cell collisions and decide the two coordinate corrections.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 18:20 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md` - everything before 2026-08-31 19:00 ET.
