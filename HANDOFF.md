@@ -35,6 +35,11 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-11 13:00 ET · Claude Code
+- **Changed:** Extracted the 26 inline base64 PNGs from the 13 Pantheon pages into `06-Media/Pantheon/<God> N.png` (66 MB of real PNGs) and replaced each data URI with `![[06-Media/Pantheon/<God> N.png|width]]`, widths preserved. Pages went from 1.6–10.4 MB to 1–10 KB. Each image checked: PNG signature + exact base64 round-trip. Old blobs remain in git history (own lore art, not private; no rewrite).
+- **Commit:** `491dd46`
+- **Next:** Taylor opens a Pantheon page in Obsidian to confirm the images render; still waiting on GitHub Support for the transcript purge.
+
 ### 2026-10-11 10:40 ET · Claude Code
 - **Changed:** no change. Taylor submitted the GitHub Support ticket (category: Deletes) asking for GC + cached-view purge of the pre-scrub commits (first changed `ce88f7f`, 0 PRs, 0 forks). Found 13 Pantheon pages each embedding 2 base64 PNGs inline (~95 MB of text total, e.g. `Justice.md` 10.4 MB); not touched.
 - **Commit:** —
@@ -116,10 +121,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** finish the S07 session note, then Taylor reviews before push/publish.
 - **Watch out:** the 09-20 Phase B helper was Python, which isn't installed here; use Node for pipeline helpers.
 
-### 2026-10-10 13:30 ET · Claude Code
-- **Changed:** Replaced `Raw_Unedited/07-092026_raw_transcript.md` with a `--speakers 12` AssemblyAI rerun (universal-2, same keyterms). The old 7-label split merged five players into one label; the new split is one label per person. Old `_pipeline/S07/*` moved to `_v1_7speakers/`.
-- **Commit:** `7b82324`
-- **Next:** Taylor confirms the speaker map, then rerun S07 Phase A spellcheck on the new raw.
-- **Watch out:** the corrected transcript from `5267c60` no longer matches the raw; don't generate a note from it.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 13:30 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 14:10 ET.
