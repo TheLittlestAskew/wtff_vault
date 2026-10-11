@@ -35,6 +35,11 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-11 10:40 ET · Claude Code
+- **Changed:** no change. Taylor submitted the GitHub Support ticket (category: Deletes) asking for GC + cached-view purge of the pre-scrub commits (first changed `ce88f7f`, 0 PRs, 0 forks). Found 13 Pantheon pages each embedding 2 base64 PNGs inline (~95 MB of text total, e.g. `Justice.md` 10.4 MB); not touched.
+- **Commit:** —
+- **Next:** Wait for GitHub Support reply; then decide whether to extract the Pantheon base64 images to real image files.
+
 ### 2026-10-11 10:15 ET · Claude Code
 - **Changed:** Session transcripts scrubbed from ALL git history. Taylor ran the filter-branch script (18 commits had touched `Raw_Unedited/`, `Corrected/`, `Spelling_Corrected_Formatted/`; 145 commits rewritten) and force-pushed: main `b269db9` → `741897e`. Verified after fetch: origin has only `main` (no other branches, tags or PR refs), 0 commits on any ref touch those paths, 8 raw transcripts still on disk (gitignored). Also ticked the S04 Next Steps items that S04's note/publish closed on 2026-10-10.
 - **Commit:** `741897e` (rewritten head)
@@ -117,10 +122,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Taylor confirms the speaker map, then rerun S07 Phase A spellcheck on the new raw.
 - **Watch out:** the corrected transcript from `5267c60` no longer matches the raw; don't generate a note from it.
 
-### 2026-10-10 · Claude Code: ignore `.codex/` in this PUBLIC repo
-
-- **Changed:** Added `.codex/` to `.gitignore` next to `.claude/`. Codex CLI created `.codex/config.toml` on 2026-09-21 and it had been sitting untracked; the file was deliberately NOT opened (config files can hold keys).
-- **Commit:** `89f092d`
-- **Next:** unchanged. S07 Phase B note status (started 09-20) is still unverified; check `_pipeline/S07/` and `01-Sessions/` first.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 · ignore `.codex/`.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 · Claude Code: ignore `.codex/` in this PUBLIC repo.
