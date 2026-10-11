@@ -15,8 +15,7 @@
  * has no entry there fails the build loudly rather than vanishing off the map.
  *
  * Session 00 is deliberately excluded: it is a pre-campaign character-creation
- * session, it is not on the site, and its frontmatter disagrees with its
- * filename (`session_number: "02"` in a file named `Session 00`).
+ * session and it is not on the site.
  *
  * Run:  node Workflows/scripts/generate_public_session_index.mjs
  * Test: node Workflows/scripts/generate_public_session_index.mjs --self-test

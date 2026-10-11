@@ -1,7 +1,8 @@
 ---
+type: session
 title: "Session 02 — It Follows Me, So I Followed It"
 campaign: Where the Flowers Forget
-session_number: "02"
+session_number: 2
 session_date: 2026-06-28
 session_date_display: 06/28/2026
 site_location: rhusatatiam

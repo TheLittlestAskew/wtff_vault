@@ -1,4 +1,7 @@
 ---
+type: session
+title: "Session 00 — I Can Feel It In My Bones"
+campaign: Where the Flowers Forget
 tags:
   - session
   - wtff
@@ -6,10 +9,10 @@ tags:
   - character-creation
   - ooc
 aliases:
-  - "Session 02"
-  - "S02"
+  - "Session 00"
+  - "S00"
   - "050426"
-session_number: "02"
+session_number: 0
 session_date: 2026-05-04
 session_type: Pre-Campaign Character Creation Call (OOC)
 spelling_checked: true

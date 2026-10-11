@@ -1,7 +1,8 @@
 ---
+type: session
 title: "Session 03 — Raise a Glass to Provisional Trust"
 campaign: Where the Flowers Forget
-session_number: "03"
+session_number: 3
 session_date: 2026-07-12
 session_date_display: 07/12/2026
 site_location: sunrootcrossing

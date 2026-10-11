@@ -1,7 +1,8 @@
 ---
+type: session
 title: "Session 01 — Winds in the East"
 campaign: Where the Flowers Forget
-session_number: "01"
+session_number: 1
 session_date: 2026-06-14
 session_date_display: 06/14/2026
 site_location: rhusatatiam
