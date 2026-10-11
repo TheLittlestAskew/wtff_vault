@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-11 15:55 ET · Claude Code
+- **Changed:** `The Calendar.md` now carries everything on the calendar plate Taylor shared (12 Bloommonths with titles and seasons, 5 seasons, 6 Petaldays, 3 moons, 4 festivals, Heartbeats, plate sayings), plus a Start of Adventure date and an S01–S07 in-game date table. Merged the duplicate `The Petal Cycle.md` into it (kept as an alias; 6 links repointed; file removed). Month question resolved: S03 "vent" and S04 "Ven/Vedin/Verdin" = **Veriden** (inferred ~90%: Adam says "first of Veriden" in S01 and the day count runs on unbroken); flags updated in S03, S04, Delilah, X Marks the Spot, Sunroot Crossing, Campaign Dashboard.
+- **Commit:** `d51c033`
+- **Next:** Taylor asks Adam whether Bebo thaws in S05 or S06 (the month no longer needs asking).
+- **Watch out:** Season membership for Ayvelle (2) and Serevia (7) is read off where the plate's arcs meet; flagged on the page.
+
 ### 2026-10-11 14:40 ET · Claude Code
 - **Changed:** New NPC page `03-Characters/02 NPCs/Headmistress Vale.md` (Taylor asked for it): first-seen ≤60% from S04 [01:41:19]; S05's unnamed orphanage headmistress linked by inference; no Lethira/Calystryx Vale connection asserted. Linked from Tobias, S04 (×2 + flag row), S05 flag row, Campaign Dashboard, Open Threads. S01 title corrected: the note's "Final Chosen Title" said the Archivist's old pick "A Railway Requires Everyone" → now "Winds in the East" (old pick kept as an alternate); Profanity Ledger + Quote Board headings and the Structure Guide example filename fixed.
 - **Commit:** `455df2b`
@@ -115,9 +121,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** S04 note (corrected transcript exists) and S05 transcription (mp3 in `Recordings/`, never transcribed).
 - **Watch out:** S06 note won't publish until it gets frontmatter and an em-dash filename.
 
-### 2026-10-10 15:05 ET · Claude Code
-- **Changed:** Taylor approved the S07 note; cherry-picked it onto main and pushed. Deleted the local `s07-note-review` branch and the REVIEW copy.
-- **Commit:** `bf5561e`
-- **Next:** commit Convo 2 propagation, regenerate the public session index, push.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 15:05 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 15:25 ET.
