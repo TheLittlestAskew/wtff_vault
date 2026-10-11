@@ -57,7 +57,7 @@ sub_class:
 | Item | Status | Session Acquired |
 |---|---|---|
 | Heliolite core (chest, embedded) | Equipped — failing; needs replacement or substitute | (pre-existing; named in S02) |
-| Communication stone (chest, embedded via Mending) | Equipped | [[Session 02 — Something’s Changing]] |
+| Communication stone (chest, embedded via Mending) | Equipped | [[Session 02 — It Follows Me, So I Followed It]] |
 | Mahogany [[The Uprooters\|Uprooter]] token | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 | Room key ([[X Marks the Spot Inn]]) | Held | [[Session 03 — Raise a Glass to Provisional Trust]] |
 | **Bag of holding** (knitted; the party inventory/bank — holds the 600 gold and the emerald) | Held for the party | [[Session 07 — Omission of Truth]] |
@@ -72,7 +72,7 @@ sub_class:
 | Pebble (thrown into the illusory hole and thrown back out) | Held | [[Session 04 — Four Blooms, Five Petals]] |
 
 ## Bebo Battery Procedure
-[[Nyx]] transferred caretaking responsibilities for Bebo’s battery changes to [[Zarna Morganach|Zarna]] (primary) and [[Isla ‘Bruin’ Kaplan|Bruin]] (physical muscle) in [[Session 02 — Something’s Changing]]. Nyx gave Zarna her caretaker notebook with written instructions. The spare Heliolite supply is described as "not very large."
+[[Nyx]] transferred caretaking responsibilities for Bebo’s battery changes to [[Zarna Morganach|Zarna]] (primary) and [[Isla ‘Bruin’ Kaplan|Bruin]] (physical muscle) in [[Session 02 — It Follows Me, So I Followed It]]. Nyx gave Zarna her caretaker notebook with written instructions. The spare Heliolite supply is described as "not very large."
 
 ## Relationships
 - **↔ [[Nyx]]:** tried (poorly) to entice Nyx onto the dance floor during the mingling (S01); strong attachment forged. Nyx transferred caretaking to Zarna + Bruin (S02); farewell at train platform — Bebo tapped embedded stone: "Bebo will miss you."
@@ -101,8 +101,8 @@ sub_class:
 | [[Session 05 — The Bloody Truth]] | Climbed onto the dragon and cast **Grease** around both insectoids; the embers lit it and both burned. Studied the bodies: the insectoid feeds on physical manifestations of magic, "a natural pest of draconic beings" (Arcana 17); the dragon is "a strand of blood of dragon you have never ever heard of before" (History 24); cherry-blossom scales, good luck (Nature 21). Harvested hide, blood, an eyeball, a tooth and five scales. Found the glowing exit (Investigation nat 20); saw Tobias take the heart (22). Knitted on top of the gold chest. At the inn, tapped "Dungeon clear" on its chest stone and got back "Friend in danger." Insight 25 and History 25 on Tobias and his drawing; pressed for the truth, and was frozen with the rest of the tavern when Tobias's frost broke loose. |
 | [[Session 04 — Four Blooms, Five Petals]] | Aiph's test dungeon. Ritual-cast Detect Magic and read every layer (conjuration in the walls, illusion on the hole, abjuration on the orbs, conjuration on the chest). Realized each trap answered the next riddle; signed with Bruin through the silence. Crawled through the illusory hole first. Investigation nat 20 and Arcana 24 on the tree orbs; thanked the merged tree (Nature 22, "the Lorax"). Put two gold petals in the cauldron; poured the potion over himself, flickered to midnight purple and vanished. Hugged Eliza at the door of hands. Dashed 60 ft into the fight (initiative 7); after it, read the dragon's flesh as fresh (Medicine 18). Leveled 1 to 2. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Explored the conservatory car with [[Eliza Duskbloom|Eliza]] and [[Zarna Morganach|Zarna]]; met [[Constance]]. At the [[X Marks the Spot Inn]] **coined "provisional trust"** and opened the hands-in pact. Studied the party's tells (Insight nat 20/23 — advantage on the next Insight vs any of the five). History nat 20 on Sunroot Crossing (community-funded; Uprooters lucrative/prestigious). Wants to reverse-engineer [[Derek]]'s clap device. Two long-rest d100 checks passed (14). Climbed down into the test dungeon last, "like a careful spider." |
-| [[Session 02 — Something’s Changing]] | Introduced; Heliolite core name confirmed by DM as canonical. Bruin picked Bebo up (Bebo went still; shook hands). Shook Tobias’s hand; took 3 cold damage (Con saves: 20, then 9 at disadvantage); ice formed on limb; Eliza healed 4 HP. Showed Heliolite core to party. Placed escargot bowl on head; distributed snails. Embedded communication stone via Mending. Said goodbye to Nyx at train platform; tapped stone. |
-| [[Session 01 — Winds in the East, Mist comin’ in...]] | Interviewed for [[The Uprooters]]; danced badly but joyfully during the mingling. Selected into the WtFF party (Group K). |
+| [[Session 02 — It Follows Me, So I Followed It]] | Introduced; Heliolite core name confirmed by DM as canonical. Bruin picked Bebo up (Bebo went still; shook hands). Shook Tobias’s hand; took 3 cold damage (Con saves: 20, then 9 at disadvantage); ice formed on limb; Eliza healed 4 HP. Showed Heliolite core to party. Placed escargot bowl on head; distributed snails. Embedded communication stone via Mending. Said goodbye to Nyx at train platform; tapped stone. |
+| [[Session 01 — Winds in the East]] | Interviewed for [[The Uprooters]]; danced badly but joyfully during the mingling. Selected into the WtFF party (Group K). |
 
 ## Key Quotes
 > **[[Session 07 — Omission of Truth]]**
@@ -129,7 +129,7 @@ sub_class:
 > **[[Session 03 — Raise a Glass to Provisional Trust]]**
 > "Bebo would like to offer provisional trust. Trust that is not earned, that is given due to circumstances, until reason is given to be removed." — *Poignant / Important*
 
-> **[[Session 01 — Winds in the East, Mist comin' in...]]**
+> **[[Session 01 — Winds in the East]]**
 > "the goal was not to dance well, the goal was to dance." — *Poignant / Funny*
 
 ## Related

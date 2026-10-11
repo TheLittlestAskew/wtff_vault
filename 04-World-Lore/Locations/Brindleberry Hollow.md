@@ -1,7 +1,7 @@
 ---
 type: location
 region: "[Unknown/Ambiguous]"
-first_visited: "[[Session 02 — Something's Changing]] (destination only — crossover reference, not visited by WtFF party)"
+first_visited: "[[Session 02 — It Follows Me, So I Followed It]] (destination only — crossover reference, not visited by WtFF party)"
 status: Known But Unvisited
 ---
 

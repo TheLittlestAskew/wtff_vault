@@ -44,9 +44,9 @@ sub_class:
 ## Inventory / Loot
 | Item | Status | Session Acquired |
 |---|---|---|
-| Overflowing duffel of oddments | Carried | [[Session 01 — Winds in the East, Mist comin' in...]] |
-| Bag/pinch of sand that ignites & changes color | Carried/used | [[Session 01 — Winds in the East, Mist comin' in...]] |
-| Stoppered bottle; small potted plant; chalk; water-stained notes | Carried | [[Session 01 — Winds in the East, Mist comin' in...]] |
+| Overflowing duffel of oddments | Carried | [[Session 01 — Winds in the East]] |
+| Bag/pinch of sand that ignites & changes color | Carried/used | [[Session 01 — Winds in the East]] |
+| Stoppered bottle; small potted plant; chalk; water-stained notes | Carried | [[Session 01 — Winds in the East]] |
 
 > *Do not infer properties of Aiph's items beyond what was shown.*
 
@@ -70,8 +70,8 @@ sub_class:
 | [[Session 05 — The Bloody Truth]] | At the dungeon's surface under a conjured tent: "No way." Celebrated Group K's speed ("so much faster than Mags's group"; "I chose the best group"), then saw Tobias's drawings and the harvested scale and eyeball: "I have never seen that thing before in my entire life." Walked them back to the [[X Marks the Spot Inn]], paced, confirmed they passed, admitted the dungeon was supposed to hold "a weird magical" shape-shifting thing and that she has never walked every room. Asked when adventurers last came back: "It has been some years since we've had." Drank Bruin's and Eliza's shots and left: "we'll see you all in the morning." Adam ruled the vision figures are not Aiph or Mags. |
 | [[Session 04 — Four Blooms, Five Petals]] | *(Not on-screen.)* Group K delved her five-layer test dungeon at [[Sunroute Crossing\|Sunroot Crossing]]; the DM framed the riddles as fitting "the narrative that she wants to test all kinds of different versions of the party" [01:30:40]. Waits at the surface (per S03). Tobias joked the dead dragon was her "pet lizard"; Zarna: "Hopefully that wasn't her pet." |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | Led Group K aboard [[The Verdant Blossom]]; handed out six Uprooter tokens; had the private "scent = the world shifting / violence is coming" scene with [[Isla 'Bruin' Kaplan|Bruin]]. Watched approvingly from the inn bar as the party formed the "provisional trust" pact. In the morning led them to her personally-curated **five-layer test dungeon** at [[Sunroute Crossing|Sunroot Crossing]], set the objective (retrieve the bottom chest's contents, return them to her), and waited at the surface. |
-| [[Session 02 — Something's Changing]] | *(catch-up, added S03)* Ran Group K's orientation in her private upper room at the [[Hearthread Hall]]; said Eliza "looks so familiar"; gave the "heroes bring destruction" speech; at the door: "I need you to trust me. It can't come back." Referenced an unnamed "he." Saw Group K off at the train platform. |
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Co-ran the [[The Uprooters]] interview gauntlet at the [[Hearthread Hall]]; ejected brawling candidates; revealed his history with Mags upstairs; selected the WtFF party as **Group K**. |
+| [[Session 02 — It Follows Me, So I Followed It]] | *(catch-up, added S03)* Ran Group K's orientation in her private upper room at the [[Hearthread Hall]]; said Eliza "looks so familiar"; gave the "heroes bring destruction" speech; at the door: "I need you to trust me. It can't come back." Referenced an unnamed "he." Saw Group K off at the train platform. |
+| [[Session 01 — Winds in the East]] | Co-ran the [[The Uprooters]] interview gauntlet at the [[Hearthread Hall]]; ejected brawling candidates; revealed his history with Mags upstairs; selected the WtFF party as **Group K**. |
 
 ## Key Quotes
 > **[[Session 07 — Omission of Truth]]**
@@ -102,7 +102,7 @@ sub_class:
 >
 > "I really am rooting for you all. … I'm a lot more hopeful than I was a day or two ago."
 
-> **[[Session 01 — Winds in the East, Mist comin' in...]]**
+> **[[Session 01 — Winds in the East]]**
 > "off with you, animatronic nightmare." *(to [[BE-BO (Botanical Energy Balance Operator)|Bebo]])*
 >
 > "normal ducks didn't change history… it was only odd ducks that moved the timeline." *(to [[Tobias Wolfe|Tobias]])*

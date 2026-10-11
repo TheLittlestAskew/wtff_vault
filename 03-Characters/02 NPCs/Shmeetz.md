@@ -4,7 +4,7 @@ race: [Unknown/Ambiguous]
 class: [Unknown/Ambiguous]
 affiliation: [Unknown/Ambiguous]
 status: Active (pre-campaign)
-first_appearance: "[[Session 02 — I Can Feel It In My Bones]]"
+first_appearance: "[[Session 00 — I Can Feel It In My Bones]]"
 location: [Unknown/Ambiguous]
 ---
 
@@ -38,7 +38,7 @@ The cartographer of [[Artemesia]] — [[Shmeetz]] made the world map that Adam a
 
 | Session | Event |
 |---|---|
-| [[Session 02 — I Can Feel It In My Bones]] | Named OOC by Adam [00:09:07] as the maker of the [[Artemesia]] world map. |
+| [[Session 00 — I Can Feel It In My Bones]] | Named OOC by Adam [00:09:07] as the maker of the [[Artemesia]] world map. |
 
 ## Key Quotes
 

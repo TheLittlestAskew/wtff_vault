@@ -4,7 +4,7 @@ race: "[Unknown/Ambiguous]"
 class: "Legendary hero (historical/legendary)"
 affiliation: "The Old World (First Blooming era)"
 status: "Vanished/dead (legend)"
-first_appearance: "[[Session 01 — A Railway Requires Everyone]] (historical, opening monologue)"
+first_appearance: "[[Session 01 — Winds in the East]] (historical, opening monologue)"
 location: "—"
 ---
 
@@ -33,10 +33,10 @@ Stands as the cautionary origin behind the campaign's "world post-heroes" thesis
 ## Key Events
 | Session | Event |
 |---|---|
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Named in the opening monologue as the Old World's grieving hero whose war against death triggered the Ashfall Wars. |
+| [[Session 01 — Winds in the East]] | Named in the opening monologue as the Old World's grieving hero whose war against death triggered the Ashfall Wars. |
 
 ## Key Quotes
-> **[[Session 01 — Winds in the East, Mist comin' in...]]**
+> **[[Session 01 — Winds in the East]]**
 > *(Referenced, not voiced — no direct quote.)*
 
 ## Related

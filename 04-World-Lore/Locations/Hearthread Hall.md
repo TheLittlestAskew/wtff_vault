@@ -1,7 +1,7 @@
 ---
 type: location
 region: "[[Rhus Valley]]"
-first_visited: "[[Session 01 — Winds in the East, Mist comin' in...]]"
+first_visited: "[[Session 01 — Winds in the East]]"
 status: Explored
 ---
 
@@ -21,7 +21,7 @@ A sprawling, generations-old tavern in **[[Rhusatatiam]]**, capital of the **[[R
 - ⚠️ *(S07)* Alec calls the venue the **"Hearthread Tavern"**; this page's canon name is Hearthread Hall (F59). Confirm with Adam.
 
 ## Inhabitants
-A mixed crowd of travelers, farmers, musicians, and scribes. In [[Session 01 — Winds in the East, Mist comin' in...]] it hosted the candidates and recruiters of [[The Uprooters]].
+A mixed crowd of travelers, farmers, musicians, and scribes. In [[Session 01 — Winds in the East]] it hosted the candidates and recruiters of [[The Uprooters]].
 
 ## History
 [Unknown/Ambiguous] — generations old; its Common Fire predates living memory as a communal symbol of the valley.
@@ -31,7 +31,7 @@ A mixed crowd of travelers, farmers, musicians, and scribes. In [[Session 01 —
 |---|---|
 | [[Session 07 — Omission of Truth]] | Joint crossover after both test dungeons. Group K regrouped at the Common Fire; [[Aiphrumfite ‘Aiph‘\|Aiph]] asked them to keep her dungeon's failure from Group J. [[Eliza Duskbloom\|Eliza]] ran upstairs. Bebo unveiled a bag of holding at the table. At the bar, Aiph and [[Margaret “Mags” HoneyThatcher\|Mags]] argued openly ("We are not in control anymore"); Mags gave Aiph the letter "To Aiph, from Nana"; **Lux ([[Lute]]'s alternate persona) stabbed Mags** in front of Aiph. Mags's condition unknown. No combat. |
 | [[Session 02 — It Follows Me, So I Followed It]] | Group K orientation in Aiph's private upper-floor room: introductions, mission briefing, party socialization. Joint tavern social on the main floor: both parties (WtFF Group K + WtFR Group J) celebrated together; music, dancing, snails. [[Tobias Wolfe\|Tobias]] painted personal mark on exterior wall at night. [[Lute\|Lute]]'s dark compulsion incident occurred at exterior. Upper hallway: Mags tended to Lute; Aiph and Mags held mugs at Lute's door. [[Dolm]] used Druidcraft to bloom a plant in his room. Morning train platform departure — Group K (green train → [[Sunroute Crossing]]) and Group J (purple train → [[Brindleberry Hollow]]). |
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Joint launch site. [[The Uprooters]] ran their recruitment gauntlet here; [[Isla 'Bruin' Kaplan\|Bruin]]'s scent reveal to [[Margaret “Mags” HoneyThatcher\|Mags]]; the recruiters split the candidates into two groups. No combat. |
+| [[Session 01 — Winds in the East]] | Joint launch site. [[The Uprooters]] ran their recruitment gauntlet here; [[Isla 'Bruin' Kaplan\|Bruin]]'s scent reveal to [[Margaret “Mags” HoneyThatcher\|Mags]]; the recruiters split the candidates into two groups. No combat. |
 
 ## Connections
 - In [[Rhusatatiam]], capital of the [[Rhus Valley]].

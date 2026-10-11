@@ -1,7 +1,7 @@
 ---
 type: location
 region: "[[Liriope River Net]]"
-first_visited: "[[Session 02 — I Can Feel It In My Bones]]"
+first_visited: "[[Session 00 — I Can Feel It In My Bones]]"
 status: Known But Unvisited
 ---
 
@@ -13,7 +13,7 @@ The capital city of the [[Liriope River Net]]. Less a single city and more a liv
 
 The people here are adaptable, sharp-eyed, and deeply attuned to the rhythms of tide and current. To outsiders the city feels chaotic; to those who belong, it is perfectly balanced — survival depends on flow, not control.
 
-*(World document content, confirmed by Adam OOC at [[Session 02 — I Can Feel It In My Bones]]; marked with a crown icon on the [[Shmeetz]] world map.)*
+*(World document content, confirmed by Adam OOC at [[Session 00 — I Can Feel It In My Bones]]; marked with a crown icon on the [[Shmeetz]] world map.)*
 
 ## Notable Features
 
@@ -35,7 +35,7 @@ When tides once rose unnaturally high, threatening the entire [[Liriope River Ne
 
 | Session | Event |
 |---|---|
-| [[Session 02 — I Can Feel It In My Bones]] | Named OOC (pre-campaign call) as [[Isla 'Bruin' Kaplan\|Bruin's]] origin city — endorsed by Adam as the capital of the [[Liriope River Net]], confirmed by crown icon on the world map. Swim speed discussed as potential unique item tied to this gulf-adjacent origin (not yet granted). |
+| [[Session 00 — I Can Feel It In My Bones]] | Named OOC (pre-campaign call) as [[Isla 'Bruin' Kaplan\|Bruin's]] origin city — endorsed by Adam as the capital of the [[Liriope River Net]], confirmed by crown icon on the world map. Swim speed discussed as potential unique item tied to this gulf-adjacent origin (not yet granted). |
 
 ## Connections
 

@@ -1,7 +1,7 @@
 ---
 type: location
 region: "Continent-spanning (Artemesia)"
-first_visited: "[[Session 01 — A Railway Requires Everyone]] (referenced in the opening monologue)"
+first_visited: "[[Session 01 — Winds in the East]] (referenced in the opening monologue)"
 status: Known But Unvisited
 ---
 
@@ -23,7 +23,7 @@ Established as part of the founding of balance after the Ashfall Wars, in the er
 ## Events
 | Session | Event |
 |---|---|
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Named in [[Alec]]'s opening monologue as the unifying railway; the source of the session's title and the campaign's thesis line. Not physically visited. |
+| [[Session 01 — Winds in the East]] | Named in [[Alec]]'s opening monologue as the unifying railway; the source of the session's title and the campaign's thesis line. Not physically visited. |
 
 ## Connections
 - Links all five balanced regions of Artemesia.

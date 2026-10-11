@@ -1,7 +1,7 @@
 ---
 type: location
 region: "[[Northern Roost Valley]] (≤55% confidence on region name)"
-first_visited: "[[Session 02 — Something's Changing]] (mentioned only — not visited)"
+first_visited: "[[Session 02 — It Follows Me, So I Followed It]] (mentioned only — not visited)"
 status: Known But Unvisited
 ---
 

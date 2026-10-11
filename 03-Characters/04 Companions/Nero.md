@@ -3,7 +3,7 @@ type: companion
 species: White fox
 companion_of: "[[Tobias Wolfe]]"
 status: Active
-first_appearance: "[[Session 01 — Winds in the East, Mist comin' in...]]"
+first_appearance: "[[Session 01 — Winds in the East]]"
 ---
 
 # Nero
@@ -31,7 +31,7 @@ first_appearance: "[[Session 01 — Winds in the East, Mist comin' in...]]"
 | [[Session 04 — Four Blooms, Five Petals]] | Rode on [[Tobias Wolfe\|Tobias]]'s shoulders through Aiph's test dungeon and shared his cookie (half a cookie). Told to stay on Tobias's shoulders and to go to [[Zarna Morganach\|Zarna]] if anything happens to him. With Tobias in Layer 5 when the creature's two new heads clawed at him. |
 | [[Session 03 — Raise a Glass to Provisional Trust]] | With Tobias in the dining car of [[The Verdant Blossom]]; fed sweets; heard Tobias's confession that the "summoned you with a spell" story is a cover. Carried into the test dungeon on Tobias's shoulders. |
 | [[Session 02 — It Follows Me, So I Followed It]] | Artie cast Identify (Arcana 17) — confirmed Nero is a permanent Find Familiar cast without training; has never faded. Served as perimeter lookout outside the tavern; detected [[Lute]] at Perception 17. Ate a cinnamon roll from a door-slot staffer. Retrieved by Tobias after Lute's compulsion incident. |
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Present on Tobias's shoulders throughout the [[Hearthread Hall]] interviews; fetched a bowl of food for Tobias during the mingling. |
+| [[Session 01 — Winds in the East]] | Present on Tobias's shoulders throughout the [[Hearthread Hall]] interviews; fetched a bowl of food for Tobias during the mingling. |
 
 ## Related
 - [[Campaign Dashboard]]

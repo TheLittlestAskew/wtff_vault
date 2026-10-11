@@ -1,7 +1,7 @@
 ---
 type: world-event
 status: Active (pre-campaign; unnamed in-world at campaign start)
-first_named: "[[Session 02 — I Can Feel It In My Bones]]"
+first_named: "[[Session 00 — I Can Feel It In My Bones]]"
 ---
 
 # The Overgrowth
@@ -10,7 +10,7 @@ first_named: "[[Session 02 — I Can Feel It In My Bones]]"
 
 The **Overgrowth** is the in-world term (coined by Adam/DM) for intensifying natural events across [[Artemesia]]. First named in any WtFF transcript at [00:13:35]–[00:13:39] of the pre-campaign character creation call (Session 02, 2026-05-04).
 
-At campaign start ([[Session 01 — Winds in the East, Mist comin' in...]]), the Overgrowth is not yet named or noticed by most people in Artemesia. Life has "technically not changed" per Adam's OOC description — but things are *beginning* to shift. The world is post-Age of Heroes; nature has been "getting out of hand" for some time.
+At campaign start ([[Session 01 — Winds in the East]]), the Overgrowth is not yet named or noticed by most people in Artemesia. Life has "technically not changed" per Adam's OOC description — but things are *beginning* to shift. The world is post-Age of Heroes; nature has been "getting out of hand" for some time.
 
 ⚠️ **Capitalization uncertain** — spoken in lowercase in conversation. Vault convention: capitalize as a proper noun. Confirm with Adam.
 
@@ -25,8 +25,8 @@ At campaign start ([[Session 01 — Winds in the East, Mist comin' in...]]), the
 
 | Session | Event |
 |---|---|
-| [[Session 02 — I Can Feel It In My Bones]] | Term first introduced OOC by Adam [00:13:35]–[00:13:39]. Established as the name for intensifying natural events. [[Isla 'Bruin' Kaplan\|Bruin's]] Overgrowth-reactive physiology confirmed as her inciting motivation to join the Uprooters. |
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Bruin senses the Overgrowth through scent at the [[Hearthread Hall]] before it has been named in play. [[Margaret "Mags" HoneyThatcher\|Mags]] carries the same scent — open thread. |
+| [[Session 00 — I Can Feel It In My Bones]] | Term first introduced OOC by Adam [00:13:35]–[00:13:39]. Established as the name for intensifying natural events. [[Isla 'Bruin' Kaplan\|Bruin's]] Overgrowth-reactive physiology confirmed as her inciting motivation to join the Uprooters. |
+| [[Session 01 — Winds in the East]] | Bruin senses the Overgrowth through scent at the [[Hearthread Hall]] before it has been named in play. [[Margaret "Mags" HoneyThatcher\|Mags]] carries the same scent — open thread. |
 
 ## Related
 

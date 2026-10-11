@@ -3,13 +3,13 @@ type: faction
 status: Active
 territory: "[Unknown/Ambiguous] — operating out of the [[Rhus Valley]] at launch"
 relationship_to_party: Allied (the WtFF party are provisional recruits)
-first_encountered: "[[Session 01 — Winds in the East, Mist comin' in...]]"
+first_encountered: "[[Session 01 — Winds in the East]]"
 ---
 
 # The Uprooters
 
 ## Overview
-The **Uprooters** are the organization at the center of the campaign's launch. In [[Session 01 — Winds in the East, Mist comin' in...]] their two recruiters ran an interview gauntlet at the [[Hearthread Hall]] in [[Rhusatatiam]] to assemble new members from a crowd of candidates. Each candidate was asked to introduce themselves and answer two core questions — *"Why the Uprooters?"* and *"How do you define good and evil?"* — plus an idiosyncratic follow-up. Their specific mandate and methods were not spelled out this session; recruitment, the changing world, and the broader balance of Artemesia are the threads in play. *(Purpose beyond recruitment: [Unknown/Ambiguous] as of S01.)*
+The **Uprooters** are the organization at the center of the campaign's launch. In [[Session 01 — Winds in the East]] their two recruiters ran an interview gauntlet at the [[Hearthread Hall]] in [[Rhusatatiam]] to assemble new members from a crowd of candidates. Each candidate was asked to introduce themselves and answer two core questions — *"Why the Uprooters?"* and *"How do you define good and evil?"* — plus an idiosyncratic follow-up. Their specific mandate and methods were not spelled out this session; recruitment, the changing world, and the broader balance of Artemesia are the threads in play. *(Purpose beyond recruitment: [Unknown/Ambiguous] as of S01.)*
 
 ## Leadership
 Two recruiters ran the selection, each ultimately taking their own group:
@@ -45,7 +45,7 @@ The six WtFF PCs are now Aiph's provisional recruits (Group K). Aiph specificall
 | [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* Aiph told Tobias his ice is an asset, a power "the Uprooters may need one day." Group K headed back toward [[Rhusatatiam]] on an overnight train ahead of Group J. |
 | [[Session 05 — The Bloody Truth]] | Group K **passed Aiph's test dungeon** at [[Sunroute Crossing\|Sunroot Crossing]] ("Congrats. You passed the test"), "so much faster than Mags's group." Aiph had never seen the dragon or the insectoid in her own dungeon, has never walked every room ("most groups don't make it all the way through"), and said "It has been some years since we've had" adventurers come back. Zarna expects a first official mission next. Bebo's chest stone relayed "Friend in danger" from a friend in the other group (not identified here). |
 | [[Session 02 — It Follows Me, So I Followed It]] | Mission briefings delivered: Group K (WtFF, under Aiph) → [[Sunroute Crossing]] (green train); Group J (WtFR, under Mags) → [[Brindleberry Hollow]] (purple train). Aiph revealed the mission mandate: investigate the Crater at Artemesia's center; an entity there is growing more powerful. Groups A–I unaccounted for. Mags issued the "purify" directive to [[Auriron]] privately. Both trains departed from [[Rhusatatiam]] the following morning. |
-| [[Session 01 — Winds in the East, Mist comin' in...]] | Recruiters Aiph & Mags ran the interview gauntlet at the [[Hearthread Hall]]; selected two groups and split them. WtFF party became Group K under Aiph. |
+| [[Session 01 — Winds in the East]] | Recruiters Aiph & Mags ran the interview gauntlet at the [[Hearthread Hall]]; selected two groups and split them. WtFF party became Group K under Aiph. |
 
 ## Related
 - [[Campaign Dashboard]]

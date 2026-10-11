@@ -242,7 +242,7 @@ Backlinks are the connective tissue of the vault. Every note links to related co
 | PC names | `[[Character Name]]` | `[[Isla 'Bruin' Kaplan]]` |
 | NPC names | `[[NPC Name]]` | `[[Margaret “Mags” HoneyThatcher]]` |
 | Locations | `[[Location Name]]` | `[[Hearthread Hall]]` |
-| Sessions | `[[Session ## — Title]]` | `[[Session 01 — Winds in the East, Mist comin' in...]]` |
+| Sessions | `[[Session ## — Title]]` | `[[Session 01 — Winds in the East]]` |
 | Factions | `[[Faction Name]]` | `[[The Uprooters]]` |
 | Creatures | `[[Creature Name]]` | `[[Creature Name]]` |
 | Plants/Fungi | `[[Plant Name]]` | `[[Plant Name]]` |
