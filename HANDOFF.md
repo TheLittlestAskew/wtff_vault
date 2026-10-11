@@ -122,4 +122,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Taylor confirms the speaker map, then rerun S07 Phase A spellcheck on the new raw.
 - **Watch out:** the corrected transcript from `5267c60` no longer matches the raw; don't generate a note from it.
 
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 · Claude Code: ignore `.codex/` in this PUBLIC repo.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 13:30 ET.
