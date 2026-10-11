@@ -19,10 +19,10 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - [x] ✅ **DONE 2026-10-10 (S04 note `00fdc12`, published).** **S04 pending review** (2026-07-26 session) — check `_pipeline/S04/spellcheck_S04-072626.md`. ⚠️ **The canonical `spellcheck.md`/`flags.md`/`summary.md` no longer exist.** On 2026-08-24 the wrong-campaign trio was renamed to `*_SITL-080226-WRONGCAMPAIGN.md` so `Approve-WTFF.cmd` fails loudly instead of silently applying another campaign's corrections. Before running it, copy the real trio into the canonical names: `Copy-Item _pipeline\S04\spellcheck_S04-072626.md _pipeline\S04\spellcheck.md` (and the same for `flags`/`summary`). Also clear the stale zero-byte `READY_FOR_REVIEW` marker — it was written by the 08-02 wrong-campaign run, not by an S04 review. Pipeline is stopped here until approved.
 - [x] ✅ **DONE 2026-10-10: written as "Four Blooms, Five Petals".** ⚠️ **The real WtFF S04 note has still never been written.** `01-Sessions/` holds S00–S03 only, but `Session_Sources/Transcripts/Corrected/04 - 072626_corrected.md` (125 KB) already exists and is committed — so corrections were applied at some point and only the note generation is outstanding. Confirm whether the corrected transcript is trustworthy before generating the note from it.
 - [x] ✅ **DONE 2026-10-10: Taylor confirmed both 2014 and 2024 sources allowed; recorded in `_Campaign_Setup.md`.** **Verify Adam's 2014/2024 rules ruling against the real S04 transcript** (`04-072626`) before recording it anywhere. Taylor recounts it twice in the SITL transcript ("if there's anything from 2014 rules that you like better, you can just apply that to 2024 rules") and invokes it for Bruin's Path of the Totem Warrior bear resistance — but that is second-hand, from another table, so it is capped ≤60% and was **not** written to `_Campaign_Setup.md`.
-- [ ] Migrate 3 session notes to the unified schema: add `type: session`, convert `session_number` from string to int — without `type: session` `DnD.base`'s Sessions view stays empty
+- [x] ✅ **DONE 2026-10-11 (`3a4c779`).** Migrate 3 session notes to the unified schema: add `type: session`, convert `session_number` from string to int — without `type: session` `DnD.base`'s Sessions view stays empty
 - [ ] Run `Workflows/scripts/Publish-WTFF.cmd` to commit + push note changes (push = publish; the site reads notes straight from this repo)
 - [ ] In Supabase, flip `ddb_campaigns` row 4 `status` from `paused` to `active` (set a real `game_id` only if WTFF starts using DDB rolls)
-- [ ] Inside Obsidian (not shell), create `06-Media/` and move the 13 loose root images into it
+- [x] ✅ **DONE 2026-10-11 (`3a4c779`; bare-name embeds, so a shell `git mv` was safe).** Inside Obsidian (not shell), create `06-Media/` and move the 13 loose root images into it
 - [x] ✅ **DONE 2026-08-31 (half of it) — the MAP is now generated from this vault.** `where-the-flowers-forget/archive.html` fetches the `map` block of `00-Campaign-Hub/Public Session Index.json` instead of hardcoding blooms, travel line and party pin (vault `2bd2674`, site `0f69051`). ✅ **DONE 2026-10-11 — `session.html` now reads the index too** (rectrixcaedere `7c93b94`); ARC remains only as fallback + tags.
 - [x] ✅ **DONE 2026-08-31 — all six rings named by Taylor.** Floravale (E13) · Tidecross (G12) · Current's Rest (H10) · Thornmere (H5) · Silvaroot (D9) · Bramblequiet (E8). `unnamed_markers` is empty; the block and its ring/grid scheme are kept for reuse. Map Locations now holds **27** named towns.
 - [x] ✅ **DONE 2026-09-01 — applied, authorised by Taylor.** Sunroot Crossing → (41.4, 55.8) **G7**; Rhusatatiam → (37.6, 49.3) **F7** (`b96ee03`). Published map keeps the same party/path/blooms, correctly positioned. ⚠️ Worth a look at the live site to confirm the moved blooms.
@@ -34,6 +34,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+
+### 2026-10-11 17:10 ET · Claude Code
+- **Changed:** S00–S03 migrated to the unified session schema (`type: session`, int `session_number`), so `DnD.base`'s Sessions view lists all eight notes. S00 also lost its stale `session_number: "02"` and "Session 02"/"S02" aliases (leftovers from its rename) and gained `title`/`campaign`; the generator's comment about that mismatch was removed. The 15 loose root PNGs moved to `06-Media/` with `git mv`; every embed uses the bare filename and each name is unique, so links still resolve. Public Session Index regenerated: no content change.
+- **Commit:** `3a4c779`
+- **Next:** Taylor asks Adam whether Bebo thaws in S05 or S06.
+- **Watch out:** 5 of the moved images (2 ChatGPT, 3 Gemini) aren't embedded anywhere; kept, not deleted.
 
 ### 2026-10-11 15:55 ET · Claude Code
 - **Changed:** `The Calendar.md` now carries everything on the calendar plate Taylor shared (12 Bloommonths with titles and seasons, 5 seasons, 6 Petaldays, 3 moons, 4 festivals, Heartbeats, plate sayings), plus a Start of Adventure date and an S01–S07 in-game date table. Merged the duplicate `The Petal Cycle.md` into it (kept as an alias; 6 links repointed; file removed). Month question resolved: S03 "vent" and S04 "Ven/Vedin/Verdin" = **Veriden** (inferred ~90%: Adam says "first of Veriden" in S01 and the day count runs on unbroken); flags updated in S03, S04, Delilah, X Marks the Spot, Sunroot Crossing, Campaign Dashboard.
@@ -115,10 +121,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Review the S04 note, then the S05 spell-check table; S06 has no recording (prose recap only), needs frontmatter + em-dash filename.
 - **Watch out:** S04 "Kelly, you're here, right?" [01:21:34] answered by Taylor's label; identity unresolved.
 
-### 2026-10-10 15:25 ET · Claude Code
-- **Changed:** S07 Convo 2 propagated across 24 vault pages + new companion page `Bloom.md`; title marked approved; `Public Session Index.json` regenerated (party pin → Rhusatatiam) and pushed. Site `session.html` ARC entry added in rectrixcaedere.
-- **Commit:** `0bfa8a0`, `2e187ab`
-- **Next:** S04 note (corrected transcript exists) and S05 transcription (mp3 in `Recordings/`, never transcribed).
-- **Watch out:** S06 note won't publish until it gets frontmatter and an em-dash filename.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 15:25 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 16:25 ET.
