@@ -168,7 +168,7 @@ _Pre-campaign OOC character creation call (Adam + Taylor only). Profanity is DM 
 
 ---
 
-## Session 01 — A Railway Requires Everyone (06/14/2026)
+## Session 01 — Winds in the East (06/14/2026)
 
 | Speaker | Curse Word | Frequency | Context |
 |---|---|---|---|

@@ -523,7 +523,7 @@ _Pre-campaign OOC character creation call (Adam + Taylor only). All quotes are a
 
 ---
 
-## Session 01 — A Railway Requires Everyone (06/14/2026)
+## Session 01 — Winds in the East (06/14/2026)
 
 **[[Alec]] (opening monologue) · [Important to Story]**
 > "A hero stands alone. A railway requires everyone."

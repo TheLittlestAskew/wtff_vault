@@ -298,7 +298,7 @@ No combat occurred. The session was social/roleplay: an interview gauntlet, open
 | Straightforward | "The Uprooter Interviews" |
 | Quote-based | "Trust Your Nose" |
 
-**Final Chosen Title:** **A Railway Requires Everyone** *(selected from the play — the campaign's founding thesis, enacted as the party is assembled. Non-interactive run: chosen by the Archivist; confirm/override at will.)*
+**Final Chosen Title:** **Winds in the East** *(the published title. "A Railway Requires Everyone" was the Archivist's original pick in a non-interactive run and was later replaced; it stays above as an alternate. Corrected 2026-10-11.)*
 
 ---
 

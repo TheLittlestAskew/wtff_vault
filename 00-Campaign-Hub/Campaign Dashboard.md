@@ -112,7 +112,7 @@ dm: Adam
 | "Phase two": the creature's two new heads | S04 | Completed (S05) | [[Centipede-Snail-Fly Creature]], Group K |
 | The objective chest (conjuration; "something's wrong with the chest") | S04 | Completed (S05) | Group K, [[Aiphrumfite ‘Aiph‘\|Aiph]] |
 | Sign language for the whole party | S04 | Open | [[Isla 'Bruin' Kaplan\|Bruin]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
-| Headmistress Vale (Tobias's past) | S04 | Open | [[Tobias Wolfe\|Tobias]] |
+| [[Headmistress Vale]] (Tobias's past) | S04 | Open | [[Tobias Wolfe\|Tobias]] |
 | Tobias's potion shuffle and the creature's teeth | S04 | Open (minor) | [[Tobias Wolfe\|Tobias]], [[Artie (Art) Veyr\|Artie]], [[Zarna Morganach\|Zarna]] |
 | The two unknown creatures (Aiph has never seen either) | S05 | Open | [[The Dungeon Dragon]], [[Centipede-Snail-Fly Creature]], [[Aiphrumfite ‘Aiph‘\|Aiph]] |
 | The dragon's heart (magic emanating; taken by Tobias) | S05 | Open | [[Tobias Wolfe\|Tobias]] |

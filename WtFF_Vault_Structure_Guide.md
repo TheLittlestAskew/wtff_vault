@@ -253,7 +253,7 @@ Backlinks are the connective tissue of the vault. Every note links to related co
 
 | Type | Format | Example |
 |---|---|---|
-| Session Notes | `Session [##] — [Title].md` (em dash) | `Session 01 — Winds in the East, Mist comin' in....md` |
+| Session Notes | `Session [##] — [Title].md` (em dash) | `Session 01 — Winds in the East.md` |
 | Raw Transcripts | `[##]-[MMddyy]_raw_transcript.md` | `01-061426_raw_transcript.md` |
 | Corrected Transcripts | `[##] - [MMddyy]_corrected.md` | `01 - 061426_corrected.md` |
 | Spell Check Logs | `[MMddyy]_Spell_Check_Log.md` | `061426_Spell_Check_Log.md` |
