@@ -23,7 +23,7 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - [ ] Run `Workflows/scripts/Publish-WTFF.cmd` to commit + push note changes (push = publish; the site reads notes straight from this repo)
 - [ ] In Supabase, flip `ddb_campaigns` row 4 `status` from `paused` to `active` (set a real `game_id` only if WTFF starts using DDB rolls)
 - [ ] Inside Obsidian (not shell), create `06-Media/` and move the 13 loose root images into it
-- [x] ✅ **DONE 2026-08-31 (half of it) — the MAP is now generated from this vault.** `where-the-flowers-forget/archive.html` fetches the `map` block of `00-Campaign-Hub/Public Session Index.json` instead of hardcoding blooms, travel line and party pin (vault `2bd2674`, site `0f69051`). ⚠️ **`session.html`'s `ARC` array is STILL hardcoded** — the remaining half of this item.
+- [x] ✅ **DONE 2026-08-31 (half of it) — the MAP is now generated from this vault.** `where-the-flowers-forget/archive.html` fetches the `map` block of `00-Campaign-Hub/Public Session Index.json` instead of hardcoding blooms, travel line and party pin (vault `2bd2674`, site `0f69051`). ✅ **DONE 2026-10-11 — `session.html` now reads the index too** (rectrixcaedere `7c93b94`); ARC remains only as fallback + tags.
 - [x] ✅ **DONE 2026-08-31 — all six rings named by Taylor.** Floravale (E13) · Tidecross (G12) · Current's Rest (H10) · Thornmere (H5) · Silvaroot (D9) · Bramblequiet (E8). `unnamed_markers` is empty; the block and its ring/grid scheme are kept for reuse. Map Locations now holds **27** named towns.
 - [x] ✅ **DONE 2026-09-01 — applied, authorised by Taylor.** Sunroot Crossing → (41.4, 55.8) **G7**; Rhusatatiam → (37.6, 49.3) **F7** (`b96ee03`). Published map keeps the same party/path/blooms, correctly positioned. ⚠️ Worth a look at the live site to confirm the moved blooms.
 - [x] ✅ **RESOLVED 2026-08-31 — both "duplicates" were capitals, not duplicates.** Willow Haven and Zelkova City are the capitals of Salvia Forest and The Burn, drawn as **crown icons rather than town dots**. Repointed to **D8** and **I9** (`5fae10d`). ⚑ Both positions are inferred from the icon, not read from a label — worth a glance to confirm.
@@ -34,6 +34,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+
+### 2026-10-11 14:10 ET · Claude Code
+- **Changed:** (1) `Bloom.md`: the snail's origin traced to the S02 escargot bowl (inferred ~85%: Bebo in S07 [00:58:41] "Is from before we left. He was on the salad, remember?"); `first_appearance` → S02 (inferred), S04–S06 coverage noted as table-talk only. (2) Repointed **92 broken session wikilinks in 29 files** that used pre-rename titles and resolved to nothing: S01 "Winds in the East, Mist comin' in..." and "A Railway Requires Everyone" → `Session 01 — Winds in the East`; "Session 02 — I Can Feel It In My Bones" → `Session 00 — …`; S02 "Something's Changing" (both apostrophes) → `Session 02 — It Follows Me, So I Followed It`. Only template placeholders ("Session 01 — Title", "Session 11 — Long_Title") remain unresolved. (3) Site: `session.html` now builds its session list from this vault's `Public Session Index.json` (rectrixcaedere `7c93b94`), so the per-session ARC entry is no longer a publish step; it only holds tags.
+- **Commit:** `761eec1` (vault), `7c93b94` (site)
+- **Next:** Wait for GitHub Support reply on the transcript purge.
+- **Watch out:** Profanity Ledger and Quote Board Master still have plain-text headings with the old S01 title "A Railway Requires Everyone" (not links; left alone).
 
 ### 2026-10-11 13:00 ET · Claude Code
 - **Changed:** Extracted the 26 inline base64 PNGs from the 13 Pantheon pages into `06-Media/Pantheon/<God> N.png` (66 MB of real PNGs) and replaced each data URI with `![[06-Media/Pantheon/<God> N.png|width]]`, widths preserved. Pages went from 1.6–10.4 MB to 1–10 KB. Each image checked: PNG signature + exact base64 round-trip. Old blobs remain in git history (own lore art, not private; no rewrite).
@@ -115,10 +121,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Taylor reads the REVIEW copy in `_pipeline/S07/`; on OK, fast-forward main, push, run Convo 2.
 - **Watch out:** pushing main publishes to the site; don't merge the branch without her OK.
 
-### 2026-10-10 14:10 ET · Claude Code
-- **Changed:** Reran S07 Phase A on the 12-speaker raw (110 corrections, Taylor approved) and rebuilt `Corrected/07 - 092026_corrected.md` with named speaker labels (320 replacements, line count preserved). Added `092026_Spell_Check_Log.md`.
-- **Commit:** `62f38fc`
-- **Next:** finish the S07 session note, then Taylor reviews before push/publish.
-- **Watch out:** the 09-20 Phase B helper was Python, which isn't installed here; use Node for pipeline helpers.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 14:10 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 14:45 ET.
