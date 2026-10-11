@@ -16,7 +16,7 @@ location: "[[X Marks the Spot Inn]], [[Sunroute Crossing|Sunroot Crossing]]"
 - *(S03)* A **half-elf** who serves the party's table at the [[X Marks the Spot Inn]].
 
 ## Backstory
-- *(S03)* Works at the [[X Marks the Spot Inn]] in [[Sunroute Crossing|Sunroot Crossing]]. Mentioned that **"the first of vent was yesterday"** — a first-seen, unconfirmed in-world calendar term (⚠ confirm with [[Adam]] / [[The Calendar]]).
+- *(S03)* Works at the [[X Marks the Spot Inn]] in [[Sunroute Crossing|Sunroot Crossing]]. Mentioned that **"the first of vent was yesterday"** — a first-seen calendar term, almost certainly the Bloommonth **Veriden** (see [[The Calendar]]).
 - *(S06, per the written recap)* Has **heard of dragon-like creatures, but only in fairy tales from her childhood.**
 
 ## Personality

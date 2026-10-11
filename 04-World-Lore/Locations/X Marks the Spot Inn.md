@@ -20,7 +20,7 @@ The central **inn / tavern / tower** at [[Sunroute Crossing|Sunroot Crossing]] w
 - **[[Delilah]]** — half-elf server who waited the party's table. *(S05)* Still serving; the party's favorite server.
 
 ## History
-- *(S03)* Festival season is approaching; per [[Delilah]], **"the first of vent was yesterday"** (unconfirmed calendar term).
+- *(S03)* Festival season is approaching; per [[Delilah]], **"the first of vent was yesterday"** (almost certainly [[The Calendar|Veriden]]).
 
 ## Events
 | Session | Event |

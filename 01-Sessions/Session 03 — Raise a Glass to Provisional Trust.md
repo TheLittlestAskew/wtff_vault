@@ -337,7 +337,7 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | New NPC (≤60%) | **Derek** — tinkerer from the Bloom (architectural agency); train staff. DM art `06-Media/Derek_Bloom_Artificer.jpeg`. | Transcript [staff car] | Convo 2: seed NPC page; confirm spelling. |
 | New NPC (≤60%) | **Delilah** — half-elf server at the X Marks the Spot Inn. | Transcript [inn] | Convo 2: seed NPC page; confirm spelling. |
 | New location (≤60%) | **The Verdant Blossom** (green lounge train) and **"X Marks the Spot" Inn** (Sunroot Crossing). DM art `Verdant_Blossom_Interior.png`. | Transcript | Convo 2: seed location pages. |
-| Calendar term | **"vent"** — Delilah: "the first of vent was yesterday." Likely an in-world Petal-Cycle month; unconfirmed on `The Calendar.md`. | Transcript [~01:38] | Confirm with Adam / add to `The Calendar.md`. |
+| Calendar term | **"vent"** — Delilah: "the first of vent was yesterday." Likely an in-world Petal-Cycle month. | Transcript [~01:38] | ✅ resolved 2026-10-11: almost certainly **Veriden** (see [[The Calendar]]). |
 | Ambiguous roll value | Tobias's Sunroot-Crossing History roll ("point a two") — value unclear. | Transcript [~01:40] | Logged as ~2 [Unknown/Ambiguous]; low result regardless. |
 | Ambiguous roll | A DM-prompted "quick" roll for Derek noticing Artie — no number stated (Artie unnoticed). | Transcript [staff car] | Logged as [Unknown/Ambiguous]; outcome clear (unnoticed). |
 | Reading nuance | **Bruin abstained from the hand-pile gesture** but verbally affirmed trust — record as participation-in-substance, not refusal. | Transcript [~01:55] | Captured in Reputation & POV. |

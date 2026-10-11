@@ -19,7 +19,7 @@ The **capital city of the [[Rhus Valley]]** — the first city named in play. It
 Valley folk: farmers, herbalists, traders, and community elders. During [[Session 01 — Winds in the East]] the city drew candidates from across the continent for [[The Uprooters]]' recruitment.
 
 ## History
-It is the **75th year post-Heroes**, the first of [[The Petal Cycle|Veriden]], with a **Bloom Festival** approaching at the time of the session. (Regional history: see [[Rhus Valley]] — the Covenant of Seven Harvests.)
+It is the **75th year post-Heroes**, the first of [[The Calendar|Veriden]], with a **Bloom Festival** approaching at the time of the session. (Regional history: see [[Rhus Valley]] — the Covenant of Seven Harvests.)
 
 ## Events
 | Session | Event |
