@@ -8,7 +8,7 @@ session_date_display: 06/28/2026
 site_location: rhusatatiam
 session_type: Joint / crossover (Group K orientation + joint tavern social + morning platform)
 spelling_checked: true
-rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
+rolls_source: transcript (physical/verbal) + DDB roll archive (7 digital, cross-referenced 2026-10-11)
 tags:
   - session
   - wtff
@@ -41,7 +41,7 @@ pov_character: "Isla 'Bruin' Kaplan"
 | Party Present (WtFF)     | [[Isla 'Bruin' Kaplan\|Bruin]], [[Artie (Art) Veyr\|Artie]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Eliza Duskbloom\|Eliza]], [[Tobias Wolfe\|Tobias]], [[Zarna Morganach\|Zarna]] · DM [[Adam]] (voicing [[Aiphrumfite 'Aiph'\|Aiph]]) |
 | Crossover Present (WtFR) | [[Lute]], [[Nyx]], [[Rowan]], [[Kidu]], [[Auriron]], [[Dolm]] · DM [[Alec]] (voicing [[Margaret "Mags" HoneyThatcher\|Mags]])                                                                                                                           |
 | Absent Players (WtFF)    | None — all six present                                                                                                                                                                                                                                  |
-| Total Rolls Logged       | 31 (transcript-only; physical/verbal — DDB archive not yet wired)                                                                                                                                                                                       |
+| Total Rolls Logged       | 31 from the transcript, plus 7 digital rolls in the DDB archive (see Full Roll Log)                                                                                                                                                                                       |
 | Party Level              | 1                                                                                                                                                                                                                                                       |
 | Spelling Checked         | Yes                                                                                                                                                                                                                                                     |
 
@@ -385,7 +385,20 @@ No combat encounters occurred. Two significant non-combat crisis moments:
 | 30 | Auriron | Insight | nat 1 | [02:02:07–04:30] Mags on the balcony; Auriron tries to read how powerful Mags actually is; result: believes she could persuade a God | physical/verbal |
 | 31 | Dolm | Arcana (Druidcraft) | 17 | [03:00:11] Sitting in dark room with a wilted orange plant; Druidcraft to revive it; hands glow, pot glows, plant slowly blooms | physical/verbal |
 
-> **Roll archive status:** WtFF DDB roll archive not yet wired (`wtff_session_rolls` view does not exist; `game_id 7853407` / `campaign_id 4`). All 31 rolls are transcript-sourced and marked `physical/verbal`. Supabase was not queried this session.
+#### DDB Roll Archive
+7 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-11. Only rolls made on DDB's dice roller land here; physical dice never do. **Est. audio** is the DDB clock minus a recording start of ~19:41:00 ET, worked out from the matched rolls; treat it as ±30 s.
+
+| DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
+|---|---|---|---|---|---|---|
+| 19:36 | before recording | [[Artie (Art) Veyr\|Artie]] | Intelligence save | 1d20+5 | 13 | ➕ Before the recording starts (see below). |
+| 19:37 | before recording | [[Artie (Art) Veyr\|Artie]] | Initiative | 1d20+2 | 4 | ➕ Before the recording starts (see below). |
+| 19:37 | before recording | [[Artie (Art) Veyr\|Artie]] | Intelligence check | 1d20+3 | 5 | ➕ Before the recording starts (see below). |
+| 19:37 | before recording | [[Artie (Art) Veyr\|Artie]] | Intelligence save | 1d20+5 | 8 | ➕ Before the recording starts (see below). |
+| 20:01 | ~[00:20:17] | [[Isla 'Bruin' Kaplan\|Bruin]] | History check | 1d20 | 18 | ✓ History 18 [00:20:12] |
+| 20:41 | ~[01:00:10] | [[Eliza Duskbloom\|Eliza]] | Healing Word | 1d4+2 | 4 | ✓ Healing Word die 4 [01:00:15] |
+| 21:34 | ~[01:53:00] | [[Isla 'Bruin' Kaplan\|Bruin]] | Medicine check | 1d20+1 | nat 20 → 21 | ➕ Not in the log. A natural 20 Medicine check; what it was for is [Unknown/Ambiguous]. |
+
+> The four Artie rolls at 19:36–19:37 come about four minutes before the recording starts: a save, initiative, a check and a save inside 52 seconds, which looks like someone testing the sheet. His Intelligence check (2+3=5) has the same numbers as his History roll at [00:19:54], but that roll is ~24 minutes later, so they are not treated as the same roll.
 
 ---
 
@@ -468,7 +481,7 @@ No combat encounters occurred. Two significant non-combat crisis moments:
 | Diarization | Raw STT transcript detected 7 speakers (SPEAKER A–G). With ~14 speakers post-break (both groups + both DMs), attribution is approximate. SPEAKER A pre-break / SPEAKER A post-break are different people (Lydia/Eliza pre-break, Alec/Mags post-break). Some short lines have uncertain attribution. | Throughout | Noted in corrected transcript; uncertain attributions flagged inline |
 | Continuity | Mags's burning-tavern vision on the balcony — no in-world explanation offered. No DM notes entry. | [02:04:58–02:06:47] | Record in Mags's crossover reference; flag as unexplained |
 | Continuity | The identity of "he" referenced by both Aiph and Mags ("would you do what he did?") — no source. | [01:44:37–01:45:00], [02:54:56] | Open mystery; flag for future resolution |
-| Roll archive | WtFF DDB roll archive not yet wired. All 31 rolls are transcript-sourced (physical/verbal). No Supabase query or write occurred. | Throughout | Standing flag — resolved when `wtff_session_rolls` view exists |
+| Roll archive | ✅ Resolved 2026-10-11: the DDB archive holds 7 digital rolls for this session; 2 match logged rows, 1 (Bruin's nat 20 Medicine) is new, 4 predate the recording. | Throughout | None. |
 | Pending | Nyx's deity name — revealed symbolically via Zarna's nat 20 but Adam deferred to Holly/Alec on what exactly to name. "God of Justice" per in-session description. | [02:13:42–02:15:01] | Unresolved; do not invent a deity name; flag for future session |
 | Pending | Physical-dice players — still unknown. All roll results were verbally announced; cannot determine from transcript alone whether each was physical or DDB. | Throughout | Still pending |
 

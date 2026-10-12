@@ -8,7 +8,7 @@ session_date_display: 08/09/2026
 site_location: sunrootcrossing
 session_type: Regular WtFF session (solo party; 6 PCs + DM)
 spelling_checked: true
-rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
+rolls_source: transcript (physical/verbal) + DDB roll archive (14 digital, cross-referenced 2026-10-11)
 tags:
   - session
   - wtff
@@ -296,7 +296,7 @@ Initiative carried over unchanged from [[Session 04 — Four Blooms, Five Petals
 **Implications:** The test is passed, but neither creature is known to Aiph. The dragon's heart, the gems and the spheres leave the dungeon with the party.
 
 ### Full Roll Log
-All rolls are **physical/verbal** (announced at the table; the DDB roll archive is not yet wired for WtFF, so no archive cross-reference was possible). Values as stated in the transcript. "Dirty 20" = 19.
+All rolls are **physical/verbal** (announced at the table). Values as stated in the transcript. Digital rolls from the DDB roll archive are cross-referenced in **DDB Roll Archive** below (2026-10-11). "Dirty 20" = 19.
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
@@ -317,13 +317,13 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | [[Artie (Art) Veyr\|Artie]] | Investigation (chest) | 26 (19+7) | Untouched; 600 gp; Aiph's reward; no link to the creature. [00:23:08] |
 | [[Zarna Morganach\|Zarna]] | Maul attack | 11 | Miss. [00:24:45] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Fire damage 3d6 (grease + embers) | [Unknown/Ambiguous] ("a six, a three and a three... that one's a two... Six, eleven. Three.") | Both insectoids ignite. [00:28:04] |
-| Unattributed (Seth's label) | Dexterity save | 20 ("I should not be 30. 20 persons.") | Success. [00:29:27] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] (DDB archive; heard on Seth's label) | Dexterity save | 20 ("I should not be 30. 20 persons.") | Success. [00:29:27] |
 | [[Tobias Wolfe\|Tobias]] | Dexterity save | 17 | Success (DM: "Tobias."). [00:29:34] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Dexterity save | 16 | Success. [00:29:38] |
 | [[Artie (Art) Veyr\|Artie]] | Dexterity save | 13 | Fail; prone. [00:29:43] |
 | [[Eliza Duskbloom\|Eliza]] | Dexterity save | 15 | Success. [00:29:44] |
 | [[Zarna Morganach\|Zarna]] | Dexterity save | [Unknown/Ambiguous] (not stated) | Fail; prone. [00:29:55] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] | Dexterity save | [Unknown/Ambiguous] (not stated) | Not among those who fell. [00:29:54] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Dexterity save | 20 (the row above, per the DDB archive) | Not among those who fell. [00:29:54] |
 | [[Tobias Wolfe\|Tobias]] | Performance (turn ice to fire) | 21 (14+7) | It works. [00:31:51] |
 | [[Tobias Wolfe\|Tobias]] | Spell attack (fire-flavored) | 25 | Hit. [00:32:03] |
 | [[Tobias Wolfe\|Tobias]] | Damage | 10 | Left one; limbs fall. [00:33:07] |
@@ -344,10 +344,10 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | [[Zarna Morganach\|Zarna]] | Athletics | 24 (19 raw) | Lifts the chest alone. [00:57:29] |
 | [[Tobias Wolfe\|Tobias]] | Sleight of Hand | 19 | Cuts a piece of tail bone. [00:59:57] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Nature | 21 | Cherry blossom; good luck. [01:02:47] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] | Investigation or Nature | 4 | "I think it was eaten by something." [01:03:55] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Nature (DDB archive) | 4 | "I think it was eaten by something." [01:03:55] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Investigation | nat 20 | Finds the glowing exit. [01:06:19] |
 | [[Tobias Wolfe\|Tobias]] | Investigation | 22 ([Unknown/Ambiguous]: "natural 24, 22") | A heart in the chest; takes it. [01:07:03] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] | Perception | 13 | Sees Tobias take the heart. [01:08:41] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Perception | 13 (⚠️ DDB archive: 12) | Sees Tobias take the heart. [01:08:41] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Perception | 22 | Sees Tobias take the heart. [01:08:46] |
 | [[Tobias Wolfe\|Tobias]] | Performance (drawing for Aiph) | 17 | Sketch of the creatures. [01:28:28] |
 | [[Isla 'Bruin' Kaplan\|Bruin]] | d20 (scent recall) | 11 | One creature "rang a bell." [01:42:55] |
@@ -370,6 +370,26 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Insight (advantage) vs Tobias | 25 (19+6) | Beats the deception. [02:42:46] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | History (the drawing) | 25 (as settled on-air) | "Something made it blank." [02:43:36]–[02:44:04] |
 | [[Tobias Wolfe\|Tobias]] | Charisma save | Fail (value not stated) | The tavern freezes. [02:49:41] |
+
+#### DDB Roll Archive
+14 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-11. Only rolls made on DDB's dice roller land here; physical dice never do. **Est. audio** is the DDB clock minus a recording start of ~19:36:03 ET, worked out from the matched rolls; treat it as ±30 s.
+
+| DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
+|---|---|---|---|---|---|---|
+| 19:51 | ~[00:15:13] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe attack | 2d20+6 | 21 (advantage: 15, 5) | ✓ Greataxe (reckless) 21 [00:15:09] |
+| 19:51 | ~[00:15:30] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 13 | ➕ Not in the log. A second Greataxe damage roll (10) follows a minute later and is the one the table used; why this 13 was set aside is [Unknown/Ambiguous]. |
+| 19:52 | ~[00:16:13] | [[Isla 'Bruin' Kaplan\|Bruin]] | Custom roll | 1d6 | 6 | ✓ Longtooth bite die 6 ("6 plus 6") [00:15:40] |
+| 19:52 | ~[00:16:25] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 10 | ✓ Greataxe damage 10 [00:16:31] |
+| 20:05 | ~[00:29:24] | [[Isla 'Bruin' Kaplan\|Bruin]] | Dexterity save | 2d20+3 | 20 (advantage: 17, 3) | Fills a gap: almost certainly the unattributed Dexterity save "20" on Seth's label [00:29:27]; the log had Bruin's own save as not stated. |
+| 20:10 | ~[00:34:13] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe attack | 2d20+6 | 16 (advantage: 10, 8) | ✓ Greataxe 16 [00:34:12] |
+| 20:10 | ~[00:34:26] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 13 | ✓ Damage 13 [00:34:33] |
+| 20:10 | ~[00:34:48] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 13 | ✓ Savage Attacker reroll 13 ("I rolled a 13 again") [00:34:33] |
+| 20:11 | ~[00:34:57] | [[Isla 'Bruin' Kaplan\|Bruin]] | Longtooth Strike attack | 1d20+6 | 21 | ✓ Longtooth bite 21 to hit [00:34:33] |
+| 20:11 | ~[00:35:02] | [[Isla 'Bruin' Kaplan\|Bruin]] | Longtooth Strike damage | 1d6+4 | 5 | ✓ Longtooth bite damage 5 [00:34:33] |
+| 20:16 | ~[00:40:22] | [[Isla 'Bruin' Kaplan\|Bruin]] | Nature check | 1d20+2 | 13 | ✓ Nature 13 [00:40:25] |
+| 20:39 | ~[01:03:44] | [[Isla 'Bruin' Kaplan\|Bruin]] | Nature check | 1d20+2 | 4 | Settles it: the "Investigation or Nature" 4 at [01:03:55] was Nature. |
+| 20:44 | ~[01:08:32] | [[Isla 'Bruin' Kaplan\|Bruin]] | Perception check | 1d20+1 | 12 | ⚠️ The log has 13 [01:08:41]; DDB recorded 12. |
+| 21:19 | ~[01:42:57] | [[Isla 'Bruin' Kaplan\|Bruin]] | Custom roll | 1d20 | 11 | ✓ Scent-recall d20 11 [01:42:55] |
 
 **Roll trends:** **Tobias** dominated: 17 roll rows, including a natural 20 (the emerald) and a 27 Performance, and Seth's own "Oh, my dice. I love you tonight so much," before the failed Charisma save that ends the session ("My luck is turned"). **Bebo** rolled high on knowledge (nat 20 Investigation, 21 Nature, 24 and 25 History, 25 Insight). **Zarna** ran cold (11 miss, History 5 and 10; Rachel: "I'm not rolling great tonight") apart from the 24 Athletics. **Bruin** hit everything she swung at (21, 16, 21) but rolled 4 on her investigation. **Eliza** hit with both slings (16, 16) and landed a kill. No party member took damage in the fight. Two player natural 20s plus Tobias's announced "natural 24" (as stated); "dirty 20s" (19) twice.
 
@@ -486,7 +506,7 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | Crossover identity | Bebo's friend (gave Zarna the journal) and the two armored figures Tobias describes are **not identified** from WtFR knowledge; recorded only as Group K heard them. | [02:02:22]–[02:02:57], [02:09:23] | No inference. |
 | Player speculation (excluded from canon) | While the vision players were away, the table theorized about who the vision figures were. That is player speculation and is not recorded. Adam ruled neither figure is Aiph or Mags. | [02:19:46]–[02:27:47], [02:34:51], [02:41:35]–[02:41:46] | Not recorded as fact. |
 | Speaker labels | Re-split / reattributed lines (labels left as diarized in the transcript): "Roll me a D. 20 colors of the wind" (DM call + Rachel's joke) [01:42:25]; "And Bebo, roll a history." is Adam's call [02:42:08]; "Why?" on Lydia's label is likely Tobias, and "Kitty, please don't make it cold" mixes Adam (to his cat) and Will [02:17:58]–[02:17:59]; "I guess we could split up the / gold now" is likely all Rachel [01:48:59]; "Can I see the heart thing / later?" is all Will [01:47:10]–[01:47:29]; "started going for / her hammer" begins Rachel's line [02:44:42]; "He emerges from the chest just Covered in blood" (Evan or Seth) [01:08:06]. | as cited | Attribution in this note follows the reattribution. |
-| Unattributed / unclear rolls | Dex save "20" on Seth's label [00:29:27]; the "2" d4 on Seth's label [00:38:48]; Arcana "10" on Lydia's label (roller unclear) [02:12:49]; Artie's "16" (check type not stated) [02:42:44]. | as cited | Logged as stated. |
+| Unattributed / unclear rolls | the "2" d4 on Seth's label [00:38:48]; Arcana "10" on Lydia's label (roller unclear) [02:12:49]; Artie's "16" (check type not stated) [02:42:44]. | as cited | Logged as stated. |
 | Garbled roll values | Bebo's 3d6 fire total; Eliza's damage "6B ball"; Tobias's "Natural. 24" (Shocking Grasp), "natural 24, 22" (Investigation), "a natural. 24, 27" (Performance); Bebo's History "17 plus 6 for 20... 26... 25" (DM settled on 25). | [00:28:04], [00:38:36], [00:10:28], [01:07:03], [02:36:48], [02:43:36]–[02:44:04] | Logged as stated; no recalculation. |
 | Missing roll values | Zarna's and Bruin's Dex saves; Bebo's Insight vs Zarna; Zarna's History on the gods; Tobias's CHA save value; whether Eliza rolled Perception at the heart harvest. | as listed | [Unknown/Ambiguous]. |
 | Counts | Ribs taken by Zarna: one confirmed ("a. A rib"), but Bruin says "Everyone's gonna get two" and carries Zarna's ribs; count [Unknown/Ambiguous]. Spheres remaining: 7 inferred, not stated. Final holder of the emerald [Unknown/Ambiguous]. | [00:48:03], [00:55:05], [00:58:00], [02:18:15] | Convo 2: Loot Tracker, flagged. |
@@ -497,7 +517,7 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | Next-session framing | Adam told Evan "You're frozen"; in this session's fiction everyone melted free. Whether Bebo remains frozen is next session's canon, not asserted here. | [02:51:15], [02:52:26]–[02:52:52] | No action. |
 | ⚠ Location spelling | **Sunroot vs Sunroute Crossing** still unresolved; the map pin is "Sunroot Crossing." | `Sunroute Crossing.md`; `Map Locations.json` | Confirm with Adam. |
 | Physical dice | **Still ❓.** Adam rolls physical dice (DM). Lydia rolls through D&D Beyond. No player identified as rolling physical dice. The party also uses D&D Beyond's party inventory for the gold pool. | [00:18:48], [00:19:22], [01:49:53] | Pending input unchanged. |
-| Roll archive status | **WtFF DDB roll archive not yet wired** (no `wtff_session_rolls` view; game_id `7853407`, campaign_id `4`). No Supabase queried or written. All rolls transcript-only (physical/verbal). | `Project_Instructions.md` | Wire later. |
+| Roll archive status | ✅ Resolved 2026-10-11: the DDB archive holds 14 digital rolls for this session. 10 match logged rows, 2 fill gaps, 1 is new (a set-aside 13 damage roll), and 1 disagrees (Perception: 13 in the log, 12 on DDB). | `Project_Instructions.md` | None. |
 | Personal-info redaction | Above-table personal conversation omitted throughout, per the redaction policy (see `_pipeline/S05/flags.md` F42–F45). | — | Applied. |
 | Title | Chosen by the automated run; Adam never named the session aloud. Kept per Taylor's standing rule (2026-10-10). | — | Resolved. |
 

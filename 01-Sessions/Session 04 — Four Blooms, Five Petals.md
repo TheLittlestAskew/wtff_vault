@@ -8,7 +8,7 @@ session_date_display: 07/26/2026
 site_location: sunrootcrossing
 session_type: Regular WtFF session (solo party; 6 PCs + DM)
 spelling_checked: true
-rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
+rolls_source: transcript (physical/verbal) + DDB roll archive (20 digital, cross-referenced 2026-10-11)
 tags:
   - session
   - wtff
@@ -272,7 +272,7 @@ The session takes place entirely inside **Aiph's five-layer test dungeon** benea
 **Implications:** The first head is "dead," but the creature now has two separate bodies [02:28:53]; the party enters phase two at level 2 without a long rest, and the chest is still unopened.
 
 ### Full Roll Log
-All rolls are **physical/verbal** (announced at the table; the DDB roll archive is not yet wired for WtFF, so no archive cross-reference was possible). Values as stated in the transcript. "Dirty 20" = 19.
+All rolls are **physical/verbal** (announced at the table). Values as stated in the transcript. Digital rolls from the DDB roll archive are cross-referenced in **DDB Roll Archive** below (2026-10-11). "Dirty 20" = 19.
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
@@ -288,7 +288,7 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | [[Eliza Duskbloom\|Eliza]] | Dexterity save | 21 | Success. [00:19:30] |
 | [[Tobias Wolfe\|Tobias]] (label; second result) | Dexterity save | 9 | Fail. Second SETH-labeled result; true roller [Unknown/Ambiguous]. [00:19:34] |
 | [[Zarna Morganach\|Zarna]] | Dexterity save | [Unknown/Ambiguous] (not stated) | Hit; "already at half HP." [00:20:48] |
-| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] / [[Artie (Art) Veyr\|Artie]] | Dexterity save | [Unknown/Ambiguous] (not stated) | Outcome not stated. [00:19:07] |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] / [[Artie (Art) Veyr\|Artie]] | Dexterity save | Bebo 9 (DDB archive); Artie [Unknown/Ambiguous] (not stated) | Outcome not stated. [00:19:07] |
 | DM (trap) | Damage d6 | 6 | 6 piercing to each who failed. [00:20:57] |
 | [[Artie (Art) Veyr\|Artie]] | Perception | 19 ("1919") | Projectiles came straight from the pillars (a second, unnamed PC also noticed). [00:20:08] |
 | [[Isla 'Bruin' Kaplan\|Bruin]] | Insight | 5 | Unsure whether her answer was right. [00:22:57] |
@@ -319,7 +319,7 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | [[Tobias Wolfe\|Tobias]] | Stealth | 19 ("Dirty 20") | Reaches the last orb. [00:58:30] |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Nature | 22 | Feels gratitude from the merged tree. [01:01:08] |
 | [[Tobias Wolfe\|Tobias]] | d4 healing (orb) | 3 | "Three for Tobias." [01:03:13] |
-| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] / [[Zarna Morganach\|Zarna]] / [[Isla 'Bruin' Kaplan\|Bruin]] | d4 healing (orb) | [Unknown/Ambiguous] (3 rolls; not stated) | Healing or temp HP. [01:02:57] |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] / [[Zarna Morganach\|Zarna]] / [[Isla 'Bruin' Kaplan\|Bruin]] | d4 healing (orb) | Bruin 1 (DDB archive); Bebo and Zarna [Unknown/Ambiguous] (not stated) | Healing or temp HP. [01:02:57] |
 | [[Tobias Wolfe\|Tobias]] | Investigation (flowers) | 2 | Nothing. [01:23:28] |
 | [[Zarna Morganach\|Zarna]] | Investigation (flowers) | 6 | The flowers have different petal counts. [01:23:29] |
 | [[Eliza Duskbloom\|Eliza]] | Nature (soil) | 17 | Healthy, well-kept soil. [01:24:40] |
@@ -361,9 +361,9 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | The creature | INT save vs Tobias's Mind Sliver | 15 (18−3) | "It beats it." [02:14:09] |
 | [[Isla 'Bruin' Kaplan\|Bruin]] | Strength save | 25 | Breaks the grapple, tearing the claw out (DM: bonus action). [02:15:05] |
 | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe attack | 17 | Hit. [02:15:25] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] | Damage (Savage Attacks reroll, no improvement) | 9 ("Nine." on WILL's label; Taylor confirms "nine points of damage") | Chops off a limb. [02:15:46]–[02:15:47] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] | Opportunity attack | 19 ("dirty 20") | Hit as it flees. [02:16:41] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] | Damage | 6 (Savage Attacks allowed on the OA; any reroll result not stated) | It screeches and barrels behind the dragon. [02:17:06] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Damage (Savage Attacks reroll, no improvement) | 9 ("Nine." on WILL's label; Taylor confirms "nine points of damage"; the reroll was 7, per the DDB archive) | Chops off a limb. [02:15:46]–[02:15:47] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Opportunity attack | 19 ("dirty 20"); ⚠️ DDB archive: 20 (14+6) | Hit as it flees. [02:16:41] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Damage | 6 (Savage Attacks allowed on the OA; the reroll was 5, per the DDB archive, so she kept the 6) | It screeches and barrels behind the dragon. [02:17:06] |
 | [[Eliza Duskbloom\|Eliza]] | Healing Word | 3 | Bruin healed 3 more. [02:18:43] |
 | [[Artie (Art) Veyr\|Artie]] | Athletics (throw ~45 ft) | 17 (18−1) | Device lands behind the corpse. [02:21:03] |
 | [[Artie (Art) Veyr\|Artie]] | Derek's device damage (4d4) | 11 | Explosion; red flesh flies; part of the corpse blown off. [02:21:53] |
@@ -372,6 +372,32 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Medicine | 18 | The dragon's flesh is fresh; killed or near death, then eaten. [02:27:05] |
 | [[Tobias Wolfe\|Tobias]] | Perception | 17 | Hears movement; two heads emerge and claw at him. [02:28:12] |
 | [[Isla 'Bruin' Kaplan\|Bruin]] | Shift (no roll) | 4 temporary HP | First shift seen by the party. [02:05:01] |
+
+#### DDB Roll Archive
+20 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-11. Only rolls made on DDB's dice roller land here; physical dice never do. **Est. audio** is the DDB clock minus a recording start of ~19:39:45 ET, worked out from the matched rolls; treat it as ±30 s.
+
+| DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
+|---|---|---|---|---|---|---|
+| 19:45 | ~[00:05:35] | [[Isla 'Bruin' Kaplan\|Bruin]] | Perception check | 1d20+1 | 5 | ✓ Perception 5 [00:05:41] |
+| 19:58 | ~[00:19:10] | [[Isla 'Bruin' Kaplan\|Bruin]] | Dexterity save | 2d20+3 | 10 (advantage: 7, 2) | ✓ Dexterity save 10 [00:19:11] |
+| 19:58 | ~[00:19:12] | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Dexterity save | 1d20+3 | 9 | Fills a gap: the log had Bebo's save as not stated [00:19:07]. Possibly the unattributed "9" at [00:19:34]. |
+| 20:02 | ~[00:22:54] | [[Isla 'Bruin' Kaplan\|Bruin]] | Insight check | 1d20+1 | 5 | ✓ Insight 5 [00:22:57] |
+| 20:35 | ~[00:55:48] | [[Isla 'Bruin' Kaplan\|Bruin]] | Stealth check | 1d20+3 | 16 | ✓ Stealth 16 [00:55:49] |
+| 20:43 | ~[01:03:16] | [[Isla 'Bruin' Kaplan\|Bruin]] | Custom roll | 1d4 | 1 | Fills a gap: Bruin's orb d4 healing was a 1 (log: not stated [01:02:57]). |
+| 21:26 | ~[01:46:51] | [[Isla 'Bruin' Kaplan\|Bruin]] | Perception check | 1d20+1 | 6 | ✓ Perception 6 [01:46:52] |
+| 21:32 | ~[01:52:44] | [[Isla 'Bruin' Kaplan\|Bruin]] | Nature check | 1d20+2 | 4 | ✓ Nature 4 [01:52:57] |
+| 21:38 | ~[01:59:14] | [[Isla 'Bruin' Kaplan\|Bruin]] | Initiative | 1d20+3 | 18 | ✓ Initiative 18 [01:59:54] |
+| 21:45 | ~[02:05:39] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe attack | 1d20+6 | 8 | ✓ Greataxe 8, miss [02:05:34] |
+| 21:47 | ~[02:07:41] | [[Isla 'Bruin' Kaplan\|Bruin]] | Constitution save | 1d20+4 | 8 | ✓ Constitution save 8 [02:07:44] |
+| 21:50 | ~[02:10:52] | [[Eliza Duskbloom\|Eliza]] | Healing Word | 1d4+2 | 3 | ✓ Healing Word 3 [02:10:53] |
+| 21:54 | ~[02:15:05] | [[Isla 'Bruin' Kaplan\|Bruin]] | Strength save | 2d20+6 | 25 (advantage: 19, 4) | ✓ Strength save 25 [02:15:05] |
+| 21:55 | ~[02:15:36] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe attack | 1d20+6 | 17 | ✓ Greataxe 17 [02:15:25] |
+| 21:55 | ~[02:15:43] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 9 | ✓ Damage 9 [02:15:46] |
+| 21:55 | ~[02:16:02] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 7 | Fills a gap: the Savage Attacks reroll was 7; she kept the 9. |
+| 21:56 | ~[02:16:47] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe attack | 1d20+6 | 20 | ⚠️ The log has this opportunity attack as 19 ("dirty 20") [02:16:41]; DDB recorded 20. |
+| 21:56 | ~[02:16:53] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 6 | ✓ Opportunity attack damage 6 [02:17:06] |
+| 21:57 | ~[02:17:30] | [[Isla 'Bruin' Kaplan\|Bruin]] | Greataxe damage | 1d12+4 | 5 | Fills a gap: the opportunity attack's Savage Attacks reroll was 5; she kept the 6. |
+| 21:58 | ~[02:18:47] | [[Eliza Duskbloom\|Eliza]] | Healing Word | 1d4+2 | 3 | ✓ Healing Word 3 [02:18:43] |
 
 **Roll trends:** A check-heavy session (Stealth, Investigation, Perception, Arcana) followed by one two-round fight. **Eliza** was the most-called roller of the delve (stealth, investigation, arcana, nature, three dodges) and the party's healer in the fight. **Tobias** ran hot on stealth and sleight of hand (22, 19, 23) and opened combat with a nat 20. **Bebo** rolled a nat 20 Investigation and a 24 Arcana but a 9 on the orchids. **Taylor** ran cold early (5, 10, 5, 6, 4 and a miss on 8; "my second five today already") before a 25 STR save, a 17 and a 19 to hit. **Zarna** sat out most of the fight on movement and then landed the crit finisher. Both Mind Sliver casts failed against identical 15s. Three player nat 20s (Bebo's Investigation, Tobias's spell attack, Zarna's maul) plus the creature's crit; "dirty 20s" (19) five times.
 
@@ -478,7 +504,7 @@ All rolls are **physical/verbal** (announced at the table; the DDB roll archive 
 | The dragon | Adam called the corpse "the dragon" ("Cat's out of the bag") [02:17:36]; Zarna "That thing looks like a dragon" [02:26:18]. Its nature beyond that, and why it is in the dungeon, are unconfirmed. "It's a hydra" (Seth) is player speculation. | as cited | No inference. |
 | Spell flavor | Tobias: "Nat20 with an ice bolt, which is a firebolt" (an ice-flavored Fire Bolt, as stated). Recorded as stated, not as a ruling. | [02:01:47] | Left as stated. |
 | Physical dice | **Still ❓.** Taylor: "It's going fully off my screen. I have no idea what's happening until the number pops up" (a digital roller); Rachel "I saw that" suggests shared visible rolls. Nobody identified as rolling physical dice. | [02:16:53], [02:16:50] | Pending input unchanged. |
-| Roll archive status | **WtFF DDB roll archive not yet wired** (no `wtff_session_rolls` view; game_id `7853407`, campaign_id `4`). No Supabase queried or written. All rolls transcript-only (physical/verbal). | `_Campaign_Setup.md`; `Project_Instructions.md` | Wire later. |
+| Roll archive status | ✅ Resolved 2026-10-11: the DDB archive holds 20 digital rolls for this session. 16 match logged rows, 3 fill gaps, and 1 disagrees (the opportunity attack: 19 in the log, 20 on DDB). | `_Campaign_Setup.md`; `Project_Instructions.md` | None. |
 | Session numbering history | Three files once claimed "04"; only `04-072626` is the real WtFF S04 (the `080226` recording is a Sky Is The Limit session; see `_Campaign_Setup.md` 2026-08-02). This note is built only from the corrected 072626 transcript. | `_Campaign_Setup.md` Decisions Log | No action. |
 | Title | Chosen by the automated run; Adam never named the session aloud. Approved by Taylor 2026-10-10. | — | Resolved. |
 

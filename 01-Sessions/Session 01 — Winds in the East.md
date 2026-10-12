@@ -8,7 +8,7 @@ session_date_display: 06/14/2026
 site_location: rhusatatiam
 session_type: Joint / crossover launch (both parties, both DMs)
 spelling_checked: true
-rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
+rolls_source: transcript (physical/verbal) + DDB roll archive (3 digital, cross-referenced 2026-10-11)
 tags:
   - session
   - wtff
@@ -216,7 +216,7 @@ The session opens in the evening at the **[[Hearthread Hall]]** in **[[Rhusatati
 No combat occurred. The session was social/roleplay: an interview gauntlet, open mingling, and a recruiters' negotiation. The only physical altercation was between two NPC candidates and was resolved instantly by Aiph's magic.
 
 ### Full Roll Log
-> **WtFF roll archive is NOT yet wired** (no live `wtff_session_rolls` view for `game_id 7853407`). All rolls below are **transcript-only (`physical/verbal`)**. Where a result was not spoken aloud, it is marked accordingly. Attribution follows the inferred speaker map in `_pipeline/S01/flags.md`; ambiguous rows are flagged.
+> Rolls below are from the **transcript (`physical/verbal`)**. Digital rolls from the DDB roll archive are cross-referenced in **DDB Roll Archive** below (2026-10-11). Where a result was not spoken aloud, it is marked accordingly. Attribution follows the inferred speaker map in `_pipeline/S01/flags.md`; ambiguous rows are flagged.
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
@@ -254,6 +254,15 @@ No combat occurred. The session was social/roleplay: an interview gauntlet, open
 | [[Isla 'Bruin' Kaplan\|Bruin]] | Insight | **Natural 1** → 2 | Final party Insight — fail (she had walked back into the building). `physical/verbal` |
 | [[Eliza Duskbloom\|Eliza]] | Insight | 15 | Final party Insight. `physical/verbal` |
 | [[Tobias Wolfe\|Tobias]] | Insight | 24 | Final party Insight — sees the charged intensity/"common desire" between Mags and Aiph. `physical/verbal` |
+
+#### DDB Roll Archive
+3 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-11. Only rolls made on DDB's dice roller land here; physical dice never do. This log has no audio timestamps, so rolls are matched by character, roll and result.
+
+| DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
+|---|---|---|---|---|---|---|
+| 20:29 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Insight check | 1d20+1 | 6 | ✓ Insight 6 |
+| 20:48 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Nature check | 1d20+2 | 15 | ✓ Nature 15 |
+| 21:54 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Insight check | 1d20+1 | nat 1 → 2 | ✓ Insight, natural 1 → 2 |
 
 **Roll trends:** Heavy on **Insight, Perception, and Nature** (a social/observation session, no combat). [[Isla 'Bruin' Kaplan|Bruin]] rolled poorly on reads (Insight 6, nat-1) but high on her scent/Nature (15). [[Kidu]] and [[Auriron]] (crossover) produced the session's natural 20s. [[Tobias Wolfe|Tobias]] was the WtFF party's strongest perceiver (16, 17, 24).
 
@@ -313,7 +322,7 @@ No combat occurred. The session was social/roleplay: an interview gauntlet, open
 ### Continuity Flags, Missing Info & Ambiguities
 | Flag Type | Description | Source/Location | Resolution |
 |---|---|---|---|
-| Roll archive not wired | WtFF `wtff_session_rolls` view does not exist yet; `game_id 7853407`. All rolls are transcript-only (`physical/verbal`). | Step 3 / roll log | **Open** — wire archive, then back-fill exact values. |
+| Roll archive | ✅ Resolved 2026-10-11: the DDB archive holds 3 digital rolls for this session (all Bruin's) and all 3 match logged rows. | Step 3 / roll log | None. |
 | Unapproved STT variants left verbatim | "Eeth" (L658/662), "Eighth" (L352/354), "Ava" (L366), "Eiff" (L822), "8th" (L252) all refer to **Aiph** but are not among the 17 approved spell-check variants. Left uncorrected per "apply only approved corrections." | Corrected transcript | **Open** — needs Taylor's approval to add to the spelling table. |
 | Auriron spelling vs. DM pronunciation | Roster card = **Auriron**; at L628 [[Adam]] spells "A-U-Roran" (kept verbatim). Card spelling used for corrections. | spellcheck.md / flags §5 | **Open** — confirm card vs. pronunciation authority. |
 | Bebo acronym discrepancy | In-session "Botanical **Engineering** Balance Operator" (L254) vs. roster "Botanical **Energy** Balance Operator." Both preserved. | flags §5 | **Open** — DM/player to settle. |

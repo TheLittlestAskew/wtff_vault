@@ -194,9 +194,9 @@ No encounters this session. Pre-campaign OOC character creation call.
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
-| — | — | — | No rolls. OOC session. DDB roll archive not yet wired (game_id 7853407; `wtff_session_rolls` view does not exist). Physical/verbal: 0 rolls confirmed. |
+| — | — | — | No rolls. OOC session. The DDB roll archive has no rolls on this date either (checked 2026-10-11). Physical/verbal: 0 rolls confirmed. |
 
-**Roll archive status:** NOT WIRED. No rolls exist for this session regardless of archive status — this was a non-play OOC call.
+**Roll archive status:** checked 2026-10-11; no rolls on this date. This was a non-play OOC call.
 
 ---
 
@@ -262,7 +262,7 @@ No encounters this session. Pre-campaign OOC character creation call.
 | 🟡 Garbled | Line at [00:20:55]: "Download" replaced with [unclear/garbled]; location list may be incomplete or contain errors | flags.md FLAG 6 | Corrected transcript marks it; original preserved in raw |
 | 🟡 Inaudible | "Viral M" at [00:21:38] — marked [inaudible/garbled]; possibly a garbled location or region name | flags.md FLAG 7 | Cannot determine; left marked |
 | 🟢 Pending | Physical-dice players — not revealed this session (no rolls, OOC call) | _Campaign_Setup.md | Still unknown |
-| 🟢 Pending | DDB roll archive — NOT WIRED; game_id 7853407; `wtff_session_rolls` view does not exist | Project_Instructions.md | No action this session |
+| ✅ Resolved | DDB roll archive is wired (Supabase `ddb_rolls`, campaign 4); no rolls on this date (checked 2026-10-11) | Project_Instructions.md | None |
 | 🟢 Verify | Bruin's PC page (`03-Characters/01 PCs/Isla 'Bruin' Kaplan.md`) — verify which backstory elements from this call (shifter physiology reacting to Overgrowth, Liriope River Net origin, inciting incident concept) are already recorded. Flag any new details for user to add (not auto-written by pipeline). | flags.md FLAG 9 | Convo 2 task |
 
 ---

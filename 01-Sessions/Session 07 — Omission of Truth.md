@@ -8,7 +8,7 @@ session_date_display: 09/20/2026
 site_location: rhusatatiam
 session_type: Joint / crossover session (WtFF Group K + WtFR Group J; both DMs)
 spelling_checked: true
-rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
+rolls_source: transcript (physical/verbal) + DDB roll archive (3 digital, cross-referenced 2026-10-11)
 tags:
   - session
   - wtff
@@ -285,7 +285,7 @@ The session opens at the **Common Fire inside the [[Hearthread Hall]]** in **[[R
 No combat encounter occurred. All tension was social: Aiph's request, the recruiters' argument, Lute's handover of her weapons, and the stab that closes the session. The stab was narrated as the final beat, without initiative, attack or damage rolls. Whether any Group K member saw it is not established (Bruin, Tobias and Artie had all left the table; Zarna and Bebo were in conversation with Nyx).
 
 ### Full Roll Log
-All rolls are **physical/verbal** (announced at the table; DDB roll archive not yet wired for WtFF). Values as stated in the transcript. **Scope:** "K" = Group K (WtFF); "J" = Group J (WtFR) roll, logged as table data only; rows marked *J-internal* belong to scenes not witnessed by Group K.
+All rolls are **physical/verbal** (announced at the table). Values as stated in the transcript. Digital rolls from the DDB roll archive are cross-referenced in **DDB Roll Archive** below (2026-10-11). **Scope:** "K" = Group K (WtFF); "J" = Group J (WtFR) roll, logged as table data only; rows marked *J-internal* belong to scenes not witnessed by Group K.
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
@@ -319,7 +319,16 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | [[Nyx]] (J) | Perception | 11 | Overheard fragments: told not to tell; something went wrong in the dungeon. [01:51:00] |
 | [[Lute]] (J) | Constitution save (advantage) | 3 | *J-internal*: Lux emerges. [01:57:25] (F20: "Three." mislabeled on Rachel; Jordan confirms "Three only.") |
 | [[Lute]] / Lux (J) | d20 (unspecified) | 14 | *J-internal*: Alec "Jordan, roll me a d20. 14." [02:01:21] |
-| [[Isla 'Bruin' Kaplan\|Bruin]] (K) | Perception (called by Alec) | [Unknown/Ambiguous] (no result stated) | Outcome not narrated; Adam then says Bruin saw Artie run out. [02:01:35] |
+| [[Isla 'Bruin' Kaplan\|Bruin]] (K) | Perception (called by Alec) | 13 (DDB archive) | Outcome not narrated; Adam then says Bruin saw Artie run out. [02:01:35] |
+
+#### DDB Roll Archive
+3 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-11. Only rolls made on DDB's dice roller land here; physical dice never do. **Est. audio** is the DDB clock minus a recording start of ~19:32:49 ET, worked out from the matched rolls; treat it as ±30 s.
+
+| DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
+|---|---|---|---|---|---|---|
+| 20:44 | ~[01:12:06] | [[Isla 'Bruin' Kaplan\|Bruin]] | Perception check | 1d20+1 | 15 | ✓ Perception 15 [01:12:06] |
+| 21:01 | ~[01:28:33] | [[Isla 'Bruin' Kaplan\|Bruin]] | Nature check | 1d20+2 | 6 | ✓ Nature 6 [01:28:34] |
+| 21:34 | ~[02:01:44] | [[Isla 'Bruin' Kaplan\|Bruin]] | Perception check | 1d20+1 | 13 | Fills a gap: Bruin's Perception at [02:01:35] was 13. Whether she saw Lux is still [Unknown/Ambiguous]. |
 
 **Roll trends:** A Perception- and Insight-heavy social session with no attack or damage rolls. Group K's two nat 20s went to its information-gatherers (Bebo's Arcana, Artie's Perception). Zarna's run of low Perception rolls drove a running gag in which she missed Nyx sitting at her own table for most of an hour. Everyone who read the recruiters' argument got only "tense," whether on a 4 or a 24. Bruin's single outdoor Nature check (6) produced the session's most atmospheric line about the city. Seven rolls were called with no value stated (logged as [Unknown/Ambiguous]).
 
@@ -416,7 +425,7 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | 🛑 Unconfirmed backstory (F65) | **Artie and Lux may share a past.** Not confirmed by Taylor; recorded **only here**, NOT on [[Artie (Art) Veyr\|Artie]]'s page or any other page. Verbatim, with labels as diarized (F21: K/C/A interleave; "Artie." on RACHEL is likely Lux naming Artie): [02:05:13] WILL (Artie): "It's so good to see you again," · [02:05:17] RACHEL (Zarna): "Artie." · [02:05:20] WILL (Artie): "Walk up and you" · [02:05:25] JORDAN (Lute): "been so long," · [02:05:28] WILL (Artie): "it's what, two, three years now?" · [02:05:31] JORDAN (Lute): "Something like that. She rarely lets me out." · [02:05:35] WILL (Artie): "Yeah, I know. She doesn't like me that much. So I'm. I'm glad you're here." · [02:05:40] JORDAN (Lute): "Yeah. He's still down to pick up where we left off." · [02:16:06] WILL (Artie): "...Probably don't kill them. I. I know we've done that in the past, but these are pretty cool people." · [02:16:56] JORDAN (Lute): "Well, I'll see you upstairs later." · [02:17:02] WILL (Artie): "Yeah, I know where to go." Adam's framing [02:01:44]: "a certain person in my party, was watching this, saw something happen, kind of knew what was happening and started charging towards it." | Transcript lines 1990, 2016–2030, 2114–2128; `_pipeline/S07/flags.md` F21, F65 | **Taylor (and Will/Adam) to confirm** the reading before any page write. |
 | Fate unknown | **Mags is stabbed; no death recorded.** Above-table, both sides: "We don't know that she's dead. She just got stabbed" (Jordan); "we don't know if she's dead" (Adam). | [02:30:54], [02:41:53], [02:42:11] (F63) | Carry to S08 (10/04/2026, joint). |
 | Pending soft ruling | **Could Bruin have smelled Lux?** Post-session, Adam: "I think in hindsight, Bruin will be like, no, you're right. I smelled something different." Above-table and pending, **not** recorded as fact or in the POV Journal. | [02:35:53]–[02:36:56] (F64) | Confirm at the start of S08. |
-| Missing roll value | Bruin's Perception (called by Alec) has no stated result; whether she saw Lux is unknown. | [02:01:35] | [Unknown/Ambiguous]. |
+| Missing roll value | ✅ Resolved 2026-10-11: the DDB archive has Bruin's Perception as 13. Whether she saw Lux is still unknown. | [02:01:35] | [Unknown/Ambiguous] (what she saw). |
 | Excluded (above-table) | Adam's planned-but-unused ending; Alec on Lux's eyes reverting to red when the blade goes in; scheduling; personal pre/post-session chat. | [02:33:26], [02:34:13], (F62, F64) | Excluded from in-world sections. |
 | Above-table dedication | The Nana-letter scene carried a personal, above-table dedication cleared between the DMs. The OOC context is **intentionally not recorded** and is kept entirely out of the POV Journal; the letter is recorded only as an in-world document. | [00:11:38]; [02:40:27]–[02:41:23] (F61) | No action. |
 | Crossover scope | **Group J–internal scenes not summarized** (no Group K witness): Mags's briefing to Group J outside the tavern [00:34:48–00:44:49]; Group J drink orders at the bar [00:46:32–00:52:43]; Lute and the voice inside her, incl. the restroom [00:48:35–00:49:43, 00:56:03–00:56:24, 01:04:17–01:06:36]; the Auriron/Rowan/Kidu table talk [01:00:30–01:04:17]; Lute and Auriron's walk and pipe [01:36:11–01:42:46, 01:55:06–02:05:08]. Lux's emergence is recorded only as Artie encountered it. | `_Campaign_Setup.md` → Campaign structure | Not built out here (WtFR is crossover-only). |
@@ -434,7 +443,7 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | STT-dropped words | Expletive-shaped gaps (see Profanity Record note). Aiph's request reads "mine was the one that up." | [00:18:16] | Treated as [inaudible/cut off]. |
 | Group naming (F3) | On-air: Group K = Adam's party (WtFF), Group J = Alec's party (WtFR). | [00:13:07], [00:34:48] | Already in Campaign Dashboard; noted in `_Campaign_Setup.md` Decisions Log this run. |
 | S04–S05 gap; S06 filename | ✅ Resolved 2026-10-10: [[Session 04 — Four Blooms, Five Petals\|S04]], [[Session 05 — The Bloody Truth\|S05]] and [[Session 06 — The Art of Staying Cool\|S06]] now exist with frontmatter. The dungeon events referenced here (dragon, "creepy crawler," centipede) come from S04–S05. | `01-Sessions/` | Resolved. |
-| Roll archive status | **WtFF DDB roll archive not yet wired** (no `wtff_session_rolls` view; game_id `7853407`, campaign_id `4`). No Supabase queried or written. All rolls transcript-only (physical/verbal). | `_Campaign_Setup.md`; `Project_Instructions.md` | Wire later; add `ddb_sessions` registration then. |
+| Roll archive status | ✅ Resolved 2026-10-11: the DDB archive holds 3 digital rolls for this session (all Bruin's); 2 match logged rows and 1 fills the missing Perception value. | `_Campaign_Setup.md`; `Project_Instructions.md` | None. |
 | Pending input | **Physical-dice players still ❓.** Taylor's rolls ran through D&D Beyond ("We just wait for D and D beyond to want to roll"); Rachel's "D20s" remark is ambiguous (F56). Not a full resolution. | [01:12:01], [01:28:04], [00:26:13] | Remains ❓. |
 
 *— END OF SESSION NOTES —*

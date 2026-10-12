@@ -8,7 +8,7 @@ session_date_display: 07/12/2026
 site_location: sunrootcrossing
 session_type: Regular WtFF session (solo party — 6 PCs + DM; first non-crossover session)
 spelling_checked: true
-rolls_source: transcript (physical/verbal — DDB roll archive not yet wired)
+rolls_source: transcript (physical/verbal) + DDB roll archive (5 digital, cross-referenced 2026-10-11)
 tags:
   - session
   - wtff
@@ -41,7 +41,7 @@ pov_character: "Isla 'Bruin' Kaplan"
 | End Location | First chamber of the five-layer test dungeon beneath the ruins at [[Sunroute Crossing\|Sunroot Crossing]] |
 | Party Present | [[Isla 'Bruin' Kaplan\|Bruin]], [[Artie (Art) Veyr\|Artie]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Eliza Duskbloom\|Eliza]], [[Tobias Wolfe\|Tobias]], [[Zarna Morganach\|Zarna]] · DM [[Adam]] (voicing [[Aiphrumfite 'Aiph'\|Aiph]], Constance, Derek, Delilah, the dining-car server) |
 | Absent Players | None — all six present |
-| Total Rolls Logged | 30 (transcript-only; physical/verbal — DDB archive not yet wired) |
+| Total Rolls Logged | 30 from the transcript; the 5 DDB-archive rolls all match logged rows |
 | Party Level | 1 |
 | Spelling Checked | Yes |
 
@@ -236,7 +236,7 @@ The session begins aboard the **[[The Verdant Blossom]]** shortly after Group K'
 No combat encounters occurred. The session's tension is entirely social and atmospheric: the Aiph/Bruin confidence, the trust debate, and the cliffhanger descent. The only "danger" surfaced is anticipatory — the dungeon's stated lethality and the two mysterious long-rest d100 checks (both passed). Combat, if any, will begin next session inside the dungeon.
 
 ### Full Roll Log
-All rolls are **physical/verbal** (announced at the table; DDB roll archive not yet wired for WtFF). Values are as stated in the transcript.
+All rolls are **physical/verbal** (announced at the table). Values are as stated in the transcript. Digital rolls from the DDB roll archive are cross-referenced in **DDB Roll Archive** below (2026-10-11).
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
@@ -271,6 +271,17 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Insight (nat 20) | 23 | Studies the party; **gains advantage on the next Insight check vs. any of the five others.** |
 | [[Eliza Duskbloom\|Eliza]] | d100 (long rest, DM-prompted) | 75 | "You're okay." |
 | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | d100 (long rest, DM-prompted) | 14 | "Remarkably, you're okay." |
+
+#### DDB Roll Archive
+5 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-11. Only rolls made on DDB's dice roller land here; physical dice never do. This log has no audio timestamps, so rolls are matched by character, roll and result.
+
+| DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
+|---|---|---|---|---|---|---|
+| 20:36 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Nature check | 1d20+2 | nat 20 → 22 | ✓ Nature (nat 20) 22 |
+| 20:42 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Persuasion check | 1d20-1 | 13 | ✓ Persuasion 13 |
+| 20:48 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Constitution save | 2d20+4 | 15 (advantage: 11, 3) | ✓ Constitution save (advantage) 15 |
+| 21:36 | — | [[Isla 'Bruin' Kaplan\|Bruin]] | Perception check | 1d20+1 | 7 | ✓ Perception 7 |
+| 21:53 | — | [[Eliza Duskbloom\|Eliza]] | Custom roll | 1d100 | 75 | ✓ d100 (long rest) 75 |
 
 **Roll trends:** A perception-heavy, investigation-heavy social session — no attack or damage rolls. Nat-20s clustered on the party's information-gatherers (**Bruin** Nature, **Bebo** History & Insight, **Zarna** Perception). **Bruin** notably rolled a 7 at the trust pact (in-fiction: "checked out"), consistent with her abstaining from the gesture. Two DM-prompted long-rest **d100** checks with unstated thresholds both passed — an unexplained overnight beat to watch.
 
@@ -342,7 +353,7 @@ All rolls are **physical/verbal** (announced at the table; DDB roll archive not 
 | Ambiguous roll value | Tobias's Sunroot-Crossing History roll ("point a two") — value unclear. | Transcript [~01:40] | Logged as ~2 [Unknown/Ambiguous]; low result regardless. |
 | Ambiguous roll | A DM-prompted "quick" roll for Derek noticing Artie — no number stated (Artie unnoticed). | Transcript [staff car] | Logged as [Unknown/Ambiguous]; outcome clear (unnoticed). |
 | Reading nuance | **Bruin abstained from the hand-pile gesture** but verbally affirmed trust — record as participation-in-substance, not refusal. | Transcript [~01:55] | Captured in Reputation & POV. |
-| Roll archive status | **WtFF DDB roll archive not yet wired** (no live `wtff_session_rolls` view; game_id `7853407`). No Supabase queried or written this run. All rolls transcript-only (physical/verbal). | `_Campaign_Setup.md`; `Project_Instructions.md` | Wire the archive later; add `ddb_sessions` registration then. |
+| Roll archive status | ✅ Resolved 2026-10-11: the DDB archive holds 5 digital rolls for this session and all 5 match logged rows. | `_Campaign_Setup.md`; `Project_Instructions.md` | None. |
 | Pending input | **Physical-dice players still unknown.** Every roll this session was announced verbally; can't yet tag physical vs. digital. | `_Campaign_Setup.md` Pending Inputs | Remains ❓ — surface again next session. |
 | OOC excluded | Mid-session break (~01:15–01:32: jobs/college), pre-game housekeeping, and wrap-up scheduling excluded from the record and POV Journal; the pet "Odin" and "Taylor Swift cardigan" asides are OOC. | Transcript; `_pipeline/S03/flags.md` | No action; noted for completeness. |
 

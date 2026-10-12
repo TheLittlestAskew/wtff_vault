@@ -15,8 +15,8 @@
 | 04 (072626) | 07/26/2026 | ✅ Corrected (`04 - 072626_corrected.md`) | ✅ (`072626_Spell_Check_Log.md`) | ✅ (markdown-first; Session 04 — Four Blooms, Five Petals; title approved by Taylor) | ✅ Full — 2 new creature pages ([[Centipede-Snail-Fly Creature]], [[The Dungeon Dragon]]); 6 PCs + Aiph, Orin, Nero, Derek updated; trackers, dashboard, indexes, House Rules (first rulings), Spell_Usage, Sunroute Crossing (dungeon layers) updated. Headmistress Vale: no page (pending confirmation). Website `ARC` entry ➖ not done (separate repo). | ✅ (Bruin — S04 collapsible entry) | ➖ 98 rolls; transcript-only (physical/verbal; DDB archive not wired) | ✅ Synced (uncommitted; orchestrator to review + commit) |
 | 03 (071226) | 07/12/2026 | ✅ Corrected (`03 - 071226_corrected.md`) | ✅ (`071226_Spell_Check_Log.md`) | ✅ (markdown-first; Session 03 — Raise a Glass to Provisional Trust) | ✅ Full — 5 new pages (Constance, Derek, Delilah, The Verdant Blossom, X Marks the Spot Inn); 6 PCs + Aiph/Orin/Nero updated; trackers, dashboards, indexes, Sunroute Crossing lore updated. **Aiph page S02 catch-up also applied** (Unicode block cleared under native FS). | ✅ (Bruin — S03 collapsible entry) | ➖ 30 rolls; transcript-only (physical/verbal; DDB archive not wired) | ✅ Synced |
 | 02 (062826) | 06/28/2026 | ⚠️ Missing (`02 - 062826_corrected.md` not found) | ➖ (no corrected transcript) | ✅ (markdown-first; Session 02 — Something's Changing) | ✅ Aiph page S02 content now added (in the S03 pass — Unicode filename edit succeeded under native filesystem access) | ✅ (Bruin — S02 collapsible entry) | ➖ 31 rolls per handoff; transcript-only (DDB archive not wired) | ✅ Synced |
-| 02 (050426) | 05/04/2026 | ✅ Corrected | ✅ | ✅ (markdown-first; no .docx) | ✅ | ✅ (no IC entry; archivist stub logged — OOC session) | ➖ 0 rolls; OOC session; DDB archive not wired | ✅ Synced |
-| 01 | 06/14/2026 | ✅ Corrected | ✅ | ✅ (markdown-first; no .docx) | ✅ | ✅ (Bruin) | ➖ transcript-only (DDB archive not wired) | ✅ Synced |
+| 02 (050426) | 05/04/2026 | ✅ Corrected | ✅ | ✅ (markdown-first; no .docx) | ✅ | ✅ (no IC entry; archivist stub logged — OOC session) | ➖ 0 rolls; OOC session (archive checked 2026-10-11: none) | ✅ Synced |
+| 01 | 06/14/2026 | ✅ Corrected | ✅ | ✅ (markdown-first; no .docx) | ✅ | ✅ (Bruin) | ✅ transcript + DDB archive (3 rolls, cross-referenced 2026-10-11) | ✅ Synced |
 
 ## Setup Checklist
 | Item | Status |
@@ -27,7 +27,7 @@
 | Mechanics scaffolds | ✅ |
 | Player-character pages | ✅ created (6 PCs, descriptors filed S01) |
 | DM identified / DM Notes file named | ✅ DM = Adam; file already named `DND_Sources/Notes from Adam.md` (confirmed present S03 — still a bare-headings stub, no content authored by Adam yet). Note: its internal header still reads "DM Notes — Where the Flowers Forget." |
-| DDB roll archive wired (game_id) | ⏳ game_id `7853407` known; `wtff_session_rolls` view not yet created |
+| DDB roll archive wired | ✅ `wtff_session_rolls` view exists and holds 52 rolls (S01–S05, S07; none for S06). Cross-referenced into each session note 2026-10-11 |
 | World-lore pages (pre-launch lore) | ✅ S01 seeds created (Uprooters, Hearthread Hall, Rhusatatiam, Petal Line, Hollow King, Pistil) |
 
 ## Change Log
