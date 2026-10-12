@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-11 17:55 ET · Claude Code
+- **Changed:** Cross-referenced all 52 WtFF DDB-archive rolls (`wtff_session_rolls` view, which already existed) into the session notes. Each note with rolls (S01–S05, S07) has a `#### DDB Roll Archive` table under its Full Roll Log, with est. audio time from a per-session recording-start offset. 41 match logged rows; 7 fill gaps in place (S04 Bebo Dex save 9, orb d4 1, two Savage Attacks rerolls; S05 the unattributed Dex save "20" is Bruin's, "Investigation or Nature" = Nature; S07 Bruin Perception 13); 2 disagree and are flagged, not overwritten (S04 OA 19 vs 20; S05 Perception 13 vs 12); 2 are new (S02 Bruin nat 20 Medicine; S05 a set-aside 13 damage roll). S02's four Artie rolls predate the recording. No rolls exist for S00 or S06. Stale "not wired" lines removed from the notes and Vault Sync Status, along with the DDB game ID in those lines.
+- **Commit:** `b0c4603`
+- **Next:** Update the pipeline instructions (`Project_Instructions.md`, `Convo_1_Instructions.md`, `Convo_2_Instructions.md`, `convo1_phaseB_apply.md`, `convo2_propagate.md`, `Convo2_Handoff_Template.md`, `05-Mechanics/Roll_Statistics.md`): they still say the view doesn't exist and tell future runs NOT to query it.
+- **Watch out:** The DDB game ID still appears in ~15 other tracked files (workflow docs, Dashboard, `_pipeline/` handoffs). Taylor's rule is no DDB IDs in this public repo; scrubbing them needs her call (history keeps them either way).
+
 ### 2026-10-11 17:25 ET · Claude Code
 - **Changed:** no vault change. Supabase `Rectrix_Caedere` `ddb_campaigns` row 4 was already `status: active` with a real `game_id` (last synced 2026-09-21); only its stale note ("Future campaign — paused…") was updated to "Active campaign (started June 2026)." (Taylor approved). `ddb_rolls` holds 52 WtFF rolls, 2026-06-16 → 2026-09-21.
 - **Commit:** —
@@ -115,10 +121,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Taylor approves S04 title/note → move note back to `01-Sessions/`, Convo 2, regenerate index, add ARC entry; then S05 rulings.
 - **Watch out:** Ruleset conflict: `_Campaign_Setup` says 2014 (player-stated 10/10/26), but Adam on-air [02:30:48] says they'll "chart an in between that makes sense of like 2014 and 2024."
 
-### 2026-10-10 16:50 ET · Claude Code
-- **Changed:** S05 Phase A done: `_pipeline/S05/` spellcheck.md (78 rows, 9 ≤60%), flags.md (F1–F59), summary.md, READY_FOR_REVIEW (gitignored, awaiting Taylor). Committed parallel-session lore fixes: "remember" wording that had been corrupted to "forget" in 4 Pantheon pages, Key Story per Region and Liriope River Net; `_Campaign_Setup` ruleset = D&D 5e 2014 (player-stated 10/10/26).
-- **Commit:** `0da1cd9`
-- **Next:** Taylor rules on S05 (Elias, unrecorded Discord vision scenes, ≤60% rows); S04 note still generating, review before push.
-- **Watch out:** `Music  Art Literature.md:5` "meant to be forgotten" may be the same remember→forget damage; not changed.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 16:50 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 17:05 ET.
