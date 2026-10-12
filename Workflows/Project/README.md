@@ -49,7 +49,7 @@ These are the inputs the bootstrap file is waiting on:
 
 - **Player names + DDB user IDs** → roster, roll attribution, physical-dice players
 - **DM identity** → source-authority references, `DND_Sources/DM Notes.md` rename
-- **Live DDB `game_id`** → roll archive wiring (`wtff_session_rolls` view, currently not live)
+- **Live DDB `game_id`** → roll archive wiring ✅ done (`wtff_session_rolls` view is live)
 - **POV character (your PC)** → POV journal voice + the POV section of Convo 1
 - **Campaign canonical spellings** → a WTFF spelling reference for spell check
 - **Notes output format** → markdown via `Templates/Session Notes Template.md`, or a `.docx` generator

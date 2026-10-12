@@ -1,5 +1,4 @@
 ---
-game_id: "7853407"
 start_date: 2026-06-14
 session_count: 7
 dm: Adam

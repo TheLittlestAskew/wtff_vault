@@ -27,7 +27,7 @@ Session [##], Convo 2: Vault updates
 
 **Flags from Convo 1:**
 - [Any continuity issues, ambiguities, or items needing the user's input]
-- [Any DDB archive discrepancies — note that WtFF roll archive is not wired until a live game_id exists]
+- [Any DDB archive discrepancies (rolls that disagree with the transcript, or a date with no archived rolls)]
 - [Anything the Archivist flagged for follow-up]
 
 **DDB Roll Archive status:** [X rolls cross-referenced / or: roll archive not yet live for WtFF — physical/verbal results only]

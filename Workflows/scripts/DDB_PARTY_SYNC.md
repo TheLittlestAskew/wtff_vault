@@ -22,7 +22,7 @@ node ddb_party_sync.js               # 2. fetch every PC's sheet
 
 ## Setup (do this now)
 
-1. **`selfCharacterId`** is already set to your PC (`165368339`); `gameId` is `7853407`.
+1. **`selfCharacterId`** (your PC) and **`gameId`** are already set in the gitignored `ddb_party.json`. Don't copy them into tracked files.
 2. Add your Cobalt token to the vault `.env`:  `DDB_COBALT=<value>`
    (F12 → Application → Cookies → dndbeyond.com → `CobaltSession`; account-wide, same value as
    your other vaults). `.env` is gitignored.

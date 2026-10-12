@@ -16,7 +16,7 @@ Convo 1 turns a raw session transcript (plus roll data and source files) into ac
 
 1. **The raw transcript** — from `Session_Sources/Transcripts/Raw_Unedited/` or pasted in. Filename: `[##]-[MMddyy]_raw_transcript.md`.
 2. **Session identity** — session number, real-world play date, party present, absent players.
-3. **Roll data** — see Step 3. *WTFF's DDB roll archive is not wired until a live `game_id` exists; until then, rolls come from the transcript (physical/verbal).*
+3. **Roll data** — see Step 3. *The `wtff_session_rolls` view is live (Supabase, `campaign_id = 4`, Eastern-Time `session_date`). Query it; rolls only the transcript has are physical/verbal.*
 4. **The notes template/generator** — see Step 6. WTFF currently uses `Templates/Session Notes Template.md`.
 
 If the transcript is missing, say so immediately. Do not draft from memory.
@@ -39,7 +39,7 @@ Spell check always precedes notes generation. Log progress to `/home/claude/conv
 Step 0  Consult & Update Campaign Setup       ← read _Campaign_Setup.md; capture any newly-revealed inputs
 Step 1  Intake & Session Identification
 Step 2  Spell Check & Transcript Correction   ← review-before-apply, then save corrected transcript
-Step 3  Roll Data Cross-Reference             ← roll archive once game_id is live; transcript until then
+Step 3  Roll Data Cross-Reference             ← wtff_session_rolls + transcript
 Step 4  Session Notes Drafting                ← sections per the Section Breakdown
 Step 5  Title Selection                       ← 5 options, confirm final
 Step 6  Notes Generation                      ← build from the WTFF notes template
@@ -88,31 +88,30 @@ Read `_Campaign_Setup.md` first. It holds this campaign's specifics (DM, roster,
 
 ## STEP 3 — ROLL DATA CROSS-REFERENCE
 
-**The DDB roll archive is the gold standard for roll verification — once WTFF has a live `game_id`.** Until then, this step relies on the transcript.
-
-**When the archive is live** — the queries below are a COMMENTED template; **they are NOT wired until a `game_id` roll-archive exists for WtFF.** WtFF's `game_id` is `7853407` and the view will be `wtff_session_rolls` (pre-filtered to `campaign_id = 4`, with `session_date` derived in Eastern Time). Do not run these until the view exists.
+**The DDB roll archive is the gold standard for roll verification.** The `wtff_session_rolls` view is live (Supabase, `campaign_id = 4`, Eastern-Time `session_date`). Run these with the Supabase MCP `execute_sql` tool (project `Rectrix_Caedere`), read-only.
 
 ```sql
--- NOT WIRED YET — template only. Enable once the wtff_session_rolls view exists (game_id 7853407, campaign_id 4).
 -- 1. Confirm sync (latest synced roll):
--- SELECT MAX(timestamp_iso) FROM wtff_session_rolls;
+SELECT MAX(timestamp_iso) FROM wtff_session_rolls;
 -- 2. Pull the session's rolls (Eastern Time session_date):
--- SELECT * FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD';
+SELECT * FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' ORDER BY timestamp_iso;
 -- per character:
--- SELECT * FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' AND character = 'Isla ''Bruin'' Kaplan';
+SELECT * FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' AND character = 'Isla ''Bruin'' Kaplan';
 -- counts:
--- SELECT character, COUNT(*) AS rolls FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' GROUP BY character ORDER BY rolls DESC;
+SELECT character, COUNT(*) AS rolls FROM wtff_session_rolls WHERE session_date = 'YYYY-MM-DD' GROUP BY character ORDER BY rolls DESC;
 ```
 
+Only rolls made on D&D Beyond's dice roller are archived (as of 2026-10-11 that is Bruin, Artie, Eliza and Bebo, and mostly Bruin). Most of the table rolls physical dice, so most rows in the Full Roll Log still come from the transcript.
+
 1. Confirm sync: `SELECT MAX(timestamp_iso) FROM wtff_session_rolls;` — if the session date isn't covered, flag the gap and ask before assuming. Do not fabricate.
-2. Pull the session's rolls by `session_date` (Eastern Time) via the `wtff_session_rolls` view (pre-filtered to WTFF's `game_id` 7853407 / `campaign_id` 4).
+2. Pull the session's rolls by `session_date` (Eastern Time) via the `wtff_session_rolls` view (pre-filtered to `campaign_id` 4).
 3. **Cross-reference rules:** use the archive for exact values/timing/who-rolled; the transcript for narrative context, DM rulings, in-fiction outcomes, dialogue.
    - Roll in transcript but not archive → flag "transcript-only."
    - Roll in archive but not transcript → likely a quick mechanical roll.
    - **Physical dice** (players who roll real dice won't appear in DDB): if the transcript confirms a result, include it in the Roll Log marked `physical dice roll`. **[PENDING ROSTER]** note which players use physical dice — zero archive entries for them is expected, not an error.
 4. **Data quirks:** DM-controlled creatures appear in the log (monsters, not party members); `action = "custom"` with no name is usually a freeform DM-prompted roll; attribute empty-character rows via transcript and `user_id` mapping (**[PENDING: player → character map]**); summoned creatures get their own entries.
 
-**Until the archive is live:** log every roll result confirmed in the transcript, marked `physical/verbal`. Note in the handoff that the archive is not yet wired.
+5. **Where it goes:** log every roll in the **Full Roll Log** (transcript rolls marked `physical/verbal`; fill gaps and flag disagreements from the archive), then add a `#### DDB Roll Archive` table under it listing each archived roll and how it matches the log. S01–S07 show the format. Never write `user_id` values or DDB usernames into the note.
 
 ---
 

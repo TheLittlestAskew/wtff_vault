@@ -34,17 +34,18 @@
 
 const SUPABASE_URL = 'https://vtrtyagltwdrbastpppl.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0cnR5YWdsdHdkcmJhc3RwcHBsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNTY5NTAsImV4cCI6MjA5MTkzMjk1MH0.hnpwjHGIqiUN_VmmIkOAAFGGCKsyYgl7AO3FW5vDIeM';
-const DDB_USER_ID = 107965379;  // Taylor's DDB userId
+// Fill in after pasting; kept out of this public repo.
+const DDB_USER_ID = 0;  // your DDB userId
 
 // ─── Campaign Registry ───────────────────────────────────────────
-// game_id values: Replace the 0s with your actual DDB campaign IDs.
+// game_id values: left as 0 in this public repo. Fill them in after pasting.
 // Find them in the URL: dndbeyond.com/campaigns/XXXXXXX
 // Or in the _config sheet of your existing Excel file.
 const CAMPAIGNS = {
-  'Sky Is The Limit':           { supabaseId: 1, gameId: 6907990, status: 'active' },
-  'Pacts & Power':              { supabaseId: 2, gameId: 3661522, status: 'active' },
-  'Ashfall Brittania':          { supabaseId: 3, gameId: 7170962, status: 'active' },
-  'Where the Flowers Forget':   { supabaseId: 4, gameId: 7853407, status: 'active' },
+  'Sky Is The Limit':           { supabaseId: 1, gameId: 0, status: 'active' },
+  'Pacts & Power':              { supabaseId: 2, gameId: 0, status: 'active' },
+  'Ashfall Brittania':          { supabaseId: 3, gameId: 0, status: 'active' },
+  'Where the Flowers Forget':   { supabaseId: 4, gameId: 0, status: 'active' },
 };
 
 // ─── Supabase helpers ────────────────────────────────────────────
@@ -244,6 +245,10 @@ async function syncCampaign(campaignName, bearerToken) {
   }
   if (!cfg.gameId || cfg.gameId === 0) {
     console.error(`❌ No gameId set for "${campaignName}". Update the CAMPAIGNS object with the DDB campaign ID.`);
+    return;
+  }
+  if (!DDB_USER_ID) {
+    console.error('❌ DDB_USER_ID is 0. Set it to your DDB userId at the top of the script.');
     return;
   }
 

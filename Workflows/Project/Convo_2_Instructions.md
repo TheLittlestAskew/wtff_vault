@@ -93,7 +93,7 @@ Draft every update as a structured block, organized by file. Present the full pl
 8. **NPC pages** → `03-Characters/02 NPCs/[Name].md` (EDIT/APPEND existing; CREATE new from `Templates/NPC Template.md`). Same descriptor-filing rule. Attribute DM-voiced quotes only when the speaker is clearly identified.
 9. **World-Lore** → `04-World-Lore/Locations|Regions|Factions/` (CREATE from templates / APPEND).
 10. **Flora & Fauna** → `07-Flora_Fauna/Creatures|Plants_Fungi/` (CREATE/APPEND). Skip if none.
-11. **Mechanics** → `05-Mechanics/Spell_Usage.md` (spells cast); `Roll_Statistics.md` **only once a live `game_id` exists** — until then skip and note the gap.
+11. **Mechanics** → `05-Mechanics/Spell_Usage.md` (spells cast); `Roll_Statistics.md` (add the session's DDB-archive rolls from the note's DDB Roll Archive table).
 12. **Website session sync (rectrixcaedere.com)** — **SEPARATE REPO** (`TheLittlestAskew/rectrixcaedere`), *not* the vault; deploy on its own. The WtFF reader holds a hardcoded registry, so a new session does NOT appear on the site until added in **two** places:
     - **`where-the-flowers-forget/session.html` → the `ARC` array.** Append an entry:
       ```js
@@ -103,7 +103,7 @@ Draft every update as a structured block, organized by file. Present the full pl
       ```
       `f` must be the **exact** `01-Sessions/` filename, URL-encoded (`%20`=space, `%E2%80%94`=em dash) — a mismatch makes the note body fail to load. `t` is a curated display title (may differ from the note title). `tags` is optional; valid `c` classes: `subdm` (crossover / guest DM), `rp` (roleplay), `combat`, `cliff` (cliffhanger), `level` (level-up), `sun`. **WtFF uses no `rec` audio field** (that's SITL) — omit it.
     - **`where-the-flowers-forget/archive.html` → the map's location→sessions list.** Add `{n:'##',title:'<title>',date:'MM/DD/YYYY',href:'/where-the-flowers-forget/session.html?n=##'}` under the `at:` location where the session happens. If that location isn't on the map yet, first add it to the `L` locations dict (`key:{x,y,name,region}`, `x`/`y` as map-relative %).
-    - The reader fetches the note body live from `raw.githubusercontent.com/.../wtff_vault/main`; the vault must stay public (it is). Rolls pull from `wtff_session_rolls` by date — **none exist yet**, so the site shows "roll archive pending"; nothing to wire here until the DDB game is live.
+    - The reader fetches the note body live from `raw.githubusercontent.com/.../wtff_vault/main`; the vault must stay public (it is). Rolls pull live from `wtff_session_rolls` by date; nothing to wire here.
     - The automated `convo2_propagate` runner pushes **only the vault repo** — this website step is manual / a separate deploy. SHA-verify the push to `rectrixcaedere`.
 13. **Vault Sync Status** (EDIT — always last): matrix row + change-log entry.
 
@@ -122,7 +122,7 @@ Present the plan (Creates / Appends / Edits / Skipped) and wait for confirmation
   - [list each file + brief description of what changes]
 
 **Skipped (N/A this session):**
-  - [list any skipped items and why — e.g. Roll_Statistics.md (roll archive not yet wired)]
+  - [list any skipped items and why — e.g. Roll_Statistics.md (no DDB rolls this session)]
 
 Ready to execute writes?
 ```
@@ -175,7 +175,7 @@ A session is fully synced when ALL of the following are ✅ (or ➖ if not appli
 | 4 | Loot Tracker | `00-Campaign-Hub/Loot Tracker.md` | Newest-first session section added (or "No new loot — [reason]") |
 | 5 | Quote Board | `00-Campaign-Hub/Quote Board Master.md` | Newest-first section with all verbatim quotes, tagged |
 | 6 | Profanity Ledger | `00-Campaign-Hub/Profanity Ledger.md` | Newest-first section added, running totals updated |
-| 7 | Roll Stats | `05-Mechanics/Roll_Statistics.md` | ➖ until a live `game_id` / `wtff_session_rolls` view exists; note the gap |
+| 7 | Roll Stats | `05-Mechanics/Roll_Statistics.md` | Session row + per-character totals updated from the note's DDB Roll Archive table |
 | 8 | POV Journal | `02-Character_Journal/[POV Character] Journal.md` | Collapsible section added for this session (Hard Limits respected) |
 | 9 | PC Pages | `03-Characters/01 PCs/*.md` | All present PCs updated; descriptors APPEND-only |
 | 10 | NPC Pages | `03-Characters/02 NPCs/*.md` | New NPCs created from template, existing NPCs updated |
@@ -192,4 +192,4 @@ A session is fully synced when ALL of the following are ✅ (or ➖ if not appli
 
 - Does not re-read transcripts, generate `.docx`, or spell-check (all Convo 1).
 - Does not modify vault content from memory — only from the Convo 1 note and handoff. The **one** file it touches outside the vault is the website registry in the `rectrixcaedere` repo (Step 12 / checklist 14), deployed separately.
-- May query the DDB roll archive if/when WTFF's `game_id` is live (separate connection; does not affect MCP stability).
+- May query the DDB roll archive (`wtff_session_rolls`, read-only; separate connection; does not affect MCP stability).

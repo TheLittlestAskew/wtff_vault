@@ -76,11 +76,10 @@ script/diarized format. Save via the vault to
 `Session_Sources/Transcripts/Corrected/[##] - [MMddyy]_corrected.md`.
 
 ### Step 4: Roll Data Cross-Reference
-Take rolls from the transcript (marked `physical/verbal`) until the DDB roll
-archive is wired. WtFF's live `game_id` is `7853407`; once the
-`wtff_session_rolls` view exists, query it instead (see
-`Convo_1_Instructions.md` Step 3). Cross-reference transcript rolls against
-archive rolls when available; flag discrepancies. Do not fabricate.
+Query the `wtff_session_rolls` view for the session date (see
+`Convo_1_Instructions.md` Step 3) and cross-reference it against the rolls
+in the transcript. Rolls only the transcript has are `physical/verbal`;
+flag discrepancies; do not fabricate.
 
 ### Step 5: Generate Session Notes
 Generate all sections per `Session_Notes_Section_Breakdown.md`. Tables must have
@@ -285,43 +284,34 @@ The spell-check log for the session is saved separately to
 
 ---
 
-## D&D BEYOND ROLL ARCHIVE — SYSTEM REFERENCE (⚠️ NOT YET WIRED / PENDING)
+## D&D BEYOND ROLL ARCHIVE — SYSTEM REFERENCE
 
-> **STATUS: NOT LIVE.** WtFF's roll archive is **not wired yet.** This whole
-> section describes what to do **ONCE the archive is wired** — it is forward
-> reference, not current procedure.
->
-> **Until then:** rolls are taken from the **transcript** only, marked
-> `physical/verbal`. **No Supabase query happens, and no Supabase write happens.**
-> Do not query, do not write, do not fabricate archive data. The current sync
-> state is: live `game_id` is `7853407`, `campaign_id` is `4`, and the target
-> view `wtff_session_rolls` **does NOT exist yet.**
+> **STATUS: LIVE** (confirmed 2026-10-11: 52 rolls across S01–S05 and S07).
+> The `wtff_session_rolls` view is live (Supabase, `campaign_id = 4`, Eastern-Time `session_date`). Convo 1 **reads** it; it never writes roll data.
+> Only rolls made on D&D Beyond's dice roller appear; physical dice never do.
 
-### What This System Will Be (once wired)
+### What This System Is
 
 The DDB roll archive is a Postgres database hosted on Supabase containing the
-complete D&D Beyond dice roll history across all of the user's campaigns. Once
-wired, Claude will access it directly via the Supabase MCP tools — no file
+complete D&D Beyond dice roll history across all of the user's campaigns.
+Claude accesses it directly via the Supabase MCP tools — no file
 downloads, no Drive permissions, no spreadsheet parsing.
 
-WtFF's slice will be exposed as a campaign-filtered view, `wtff_session_rolls`,
+WtFF's slice is the campaign-filtered view `wtff_session_rolls`,
 pre-filtered to `campaign_id = 4` and carrying a `session_date` column derived
-from the roll timestamp in Eastern Time (the user's timezone). **This view does
-not exist yet.** Until it does, skip all archive steps and use the transcript.
+from the roll timestamp in Eastern Time (the user's timezone).
 
-> **PUBLIC-REPO PII:** even once wired, the `user_id` column carries numeric DDB
+> **PUBLIC-REPO PII:** the `user_id` column carries numeric DDB
 > player IDs — never write those (or DDB usernames) into tracked files. They map
 > to first names only via the gitignored `Workflows/scripts/ddb_party.json`.
 
-### Session Registry Row (`ddb_sessions`) — once wired
+### Session Registry Row (`ddb_sessions`): not enabled for WtFF
 
-When the archive is live, the **only** Supabase write Convo 1 performs is a
-single session-registry row in `ddb_sessions`: it records that a session
-occurred (session number + real-world play date for `game_id 7853407`). This is
-a registration write, not roll data — Convo 1 remains read-only on the rolls
-themselves. **Until the archive is wired, this write does NOT happen either.**
+SITL writes one session-registry row to `ddb_sessions` per session. WtFF does
+not, and no WtFF step writes to Supabase until Taylor turns this on. The
+`wtff_session_rolls` view already derives `session_date` without it.
 
-### How To Query Rolls — once wired
+### How To Query Rolls
 
 Use the Supabase MCP `execute_sql` tool. The most common queries:
 
@@ -338,14 +328,14 @@ SELECT character, COUNT(*) AS rolls FROM wtff_session_rolls WHERE session_date =
 
 For raw cross-campaign access, query `ddb_rolls` filtered to `campaign_id = 4`.
 
-### Database Structure — once wired
+### Database Structure
 
 | Object | Type | Purpose |
 |---|---|---|
-| `ddb_campaigns` | table | Campaign registry (`game_id 7853407` = WtFF, `campaign_id 4`) |
+| `ddb_campaigns` | table | Campaign registry (WtFF = `campaign_id 4`) |
 | `ddb_rolls` | table | All roll data across all campaigns |
-| `ddb_sessions` | table | Session registry — one row per session (Convo 1's only write) |
-| `wtff_session_rolls` | view | WtFF-only, `campaign_id = 4`, with Eastern-Time `session_date` (**does not exist yet**) |
+| `ddb_sessions` | table | Session registry (SITL only; not written for WtFF) |
+| `wtff_session_rolls` | view | WtFF-only, `campaign_id = 4`, with Eastern-Time `session_date` |
 
 ### Roll Data Schema (`ddb_rolls`)
 
@@ -396,15 +386,13 @@ attack = a "to hit" row + a "damage" row, linked by the same `roll_id`).
   result (player announces, DM acknowledges), include it and mark it
   `physical/verbal`. **This is the ONLY roll source until the archive is wired.**
 
-### Sync Gap Warning — once wired
+### Sync Gap Warning
 
 If the archive seems to be missing data the user is asking about, surface it
 immediately — never fabricate. Check
 `SELECT MAX(timestamp_iso) FROM wtff_session_rolls;` to confirm the latest synced
 roll. Possible causes: sync not run, or campaign not marked active in
 `ddb_campaigns`. Flag the gap and ask whether the user wants to sync first.
-(Until the view exists, treat every session as a full gap and fall back to the
-transcript by default.)
 
 ---
 
@@ -433,10 +421,8 @@ Keep encounter records separate from narrative summaries.
 
 - **Does not update the Obsidian vault** beyond the canonical session note —
   full vault propagation is Convo 2's job.
-- **Does not write to or query a roll archive that isn't wired yet.** WtFF's roll
-  archive is not live until a `game_id` view (`wtff_session_rolls`, game_id
-  `7853407`) exists; until then, roll data is transcript-only (`physical/verbal`).
-  When live, it is read-only on the roll archive (query, never write).
+- **Does not write to the roll archive.** It queries `wtff_session_rolls`
+  read-only; it never writes roll data or session-registry rows.
 - **Does not pull from prior sessions to rewrite history.** Sessions are
   delineated by real-world play date. Preserve and flag discrepancies; never
   contaminate.

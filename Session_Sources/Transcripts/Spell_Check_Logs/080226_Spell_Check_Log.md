@@ -74,8 +74,8 @@ noun in *any* WtFF transcript currently caps at ≤60% by rule.
 
 ## Roll archive
 
-**Not wired. Nothing queried, nothing written.** `wtff_session_rolls` does not exist; live
-`game_id` is `7853407`, `campaign_id` is `4`. Every roll in this transcript belongs to a
+**Not wired. Nothing queried, nothing written.** WtFF's archive is
+`campaign_id` `4`. Every roll in this transcript belongs to a
 different campaign's D&D Beyond game — ingesting any of it would corrupt WtFF's archive.
 
 ---

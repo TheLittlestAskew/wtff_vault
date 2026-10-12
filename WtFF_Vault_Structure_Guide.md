@@ -196,7 +196,7 @@ The player character's in-character POV journal, one growing file with a collaps
 - **Factions/** — political/religious/social groups. Sections: Overview · Leadership · Members · Territory · Relationship to Party · Key Events · Related.
 
 ### `05-Mechanics/`
-- **Roll_Statistics.md** — roll trends from the DDB archive. **Not wired until a live `game_id` exists** (see file).
+- **Roll_Statistics.md** — roll trends from the DDB archive. Sourced from the `wtff_session_rolls` view (live).
 - **Spell_Usage.md** — spells cast, by caster/session.
 - Also for: first-time class features, multiclass interactions, homebrew, attunement tracking.
 

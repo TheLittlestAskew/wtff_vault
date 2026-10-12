@@ -25,7 +25,7 @@ Update Status to ✅ and fill Value the moment the campaign reveals it. Note the
 | DM identity | ✅ known | **Adam** runs WtFF (this campaign). **Alec** runs the parallel campaign *Where the Flowers Remember* (WtFR). | Source authority; rename `DND_Sources/DM Notes.md` → `Notes from Adam.md` | Session 1 (2026-06-14) |
 | Player roster (names) | ✅ known | Taylor (Isla "Bruin"), Lydia (Eliza), Rachel (Zarna), **Will (Artie), Evan (BE-BO), Seth (Tobias)** | PC pages; party-present lists | Session 1 (2026-06-14) |
 | DDB user IDs (per player) | ✅ captured | _local only — all 6 PCs' usernames/userIds + characterIds are in gitignored `Workflows/scripts/ddb_party.json` (Artie's characterId still missing). Do NOT record IDs/usernames in this PUBLIC file (first names only)._ | Roll attribution; `user_id` → character map | Session 1 (2026-06-14) |
-| Live DDB `game_id` | ✅ known | `7853407` | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | Session 1 (2026-06-14) |
+| Live DDB `game_id` | ✅ known | stored in Supabase `ddb_campaigns` row 4 and the gitignored `ddb_party.json` (kept out of this public repo) | Roll archive wiring; `wtff_session_rolls` view; rectrixcaedere page | Session 1 (2026-06-14) |
 | Your POV character (your PC) | ✅ known | Isla 'Bruin' Kaplan — Shifter Barbarian (Path of the Totem Warrior) | POV journal voice; Convo 1 POV section; `02-Character_Journal/[POV] Journal.md` | Session 1 (2026-06-14) |
 | System / ruleset | ✅ known | D&D 5e, **2014 and 2024 sources both allowed** (DM Adam; Taylor confirmed 10/10/26). Adam on-air in S04: "we are going to try to chart an in between that makes sense of like 2014 and 2024," with the DM as "the final arbiter of what feels the most fair" [02:30:48]. Supersedes the earlier "2014 rules, not 2024" value. D&D Beyond back-end; ability checks, advantage/disadvantage, classes/subclasses. | Rules references in notes | Session 1 (2026-06-14) |
 | Setting basics | ❓ partial | (lore lives in `04-World-Lore/`) | Locations / Regions / Factions seeding | |
@@ -83,5 +83,5 @@ This world is told as **two full, parallel campaigns** that occasionally **cross
 - **Campaign:** Where the Flowers Forget. Launch **2026-06-14**. (Parallel campaign: *Where the Flowers Remember*, DM Alec — crossover-only; see "Campaign structure" above.)
 - **Vault:** `wtff_vault`; structure per `WtFF_Vault_Structure_Guide.md`.
 - **Your role:** player — you have a POV character / your own PC page; the DM is someone else (identity pending). *(Confirm if this changes.)*
-- **Roll archive:** live `game_id` is `7853407` (captured Session 1, 2026-06-14). Update the roll-archive registration / rectrixcaedere wiring from the paused `game_id 0` placeholder to `7853407`.
+- **Roll archive:** ✅ done. `ddb_campaigns` row 4 is active with the real `game_id`, and the `wtff_session_rolls` view is live (confirmed 2026-10-11).
 - **World lore + your character info** already exist in the vault; everything else accrues from play.

@@ -19,7 +19,7 @@ Inputs:
 
 Do all of the following without stopping:
 
-1. Read the handoff and the session note. Do NOT re-read transcripts — all content comes from those two sources. (The WtFF roll archive is not yet wired, so there is no Supabase to consult; roll data is already in the session note.)
+1. Read the handoff and the session note. Do NOT re-read transcripts — all content comes from those two sources. (Roll data, including the DDB archive cross-reference, is already in the session note; do not query Supabase.)
 
 2. Propagate per the Convo_2_Instructions Phase-2 checklist. The session note itself is already created (Phase B) — your job is to propagate it across the vault:
    - **00-Campaign-Hub/Campaign Dashboard.md** (EDIT): Sessions row; NPCs / Key Antagonists; Locations; Open Threads; In-Game Timeline.
@@ -31,7 +31,7 @@ Do all of the following without stopping:
    - **03-Characters/02 NPCs/[Name].md** (EDIT/APPEND existing; CREATE new from Templates/NPC Template.md). Same descriptor-filing rule. Attribute DM-voiced quotes only when the speaker is clearly identified.
    - **04-World-Lore/Locations | Regions | Factions/** (CREATE from the matching template / APPEND).
    - **07-Flora_Fauna/Creatures | Plants_Fungi/** (CREATE/APPEND). Skip if none.
-   - **05-Mechanics/Spell_Usage.md** (spells cast). **Roll_Statistics.md** ONLY once a live game_id exists — until then SKIP it and note the gap.
+   - **05-Mechanics/Spell_Usage.md** (spells cast). **Roll_Statistics.md**: add the session's DDB-archive rolls (from the note's DDB Roll Archive table) to the per-session and per-character tables.
    New pages are always built from the matching file in Templates/.
 
 3. SURGICAL EDITS ONLY. Before appending to any file, read its tail to confirm the anchor. Use targeted oldText/newText edits. NEVER full-rewrite a large file (this kind of mistake previously destroyed a journal in SITL). Backstory sections and the journal are append-only with session-tagged entries.
