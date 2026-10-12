@@ -35,6 +35,11 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-11 18:40 ET · Claude Code
+- **Changed:** Pipeline now uses the live roll archive: Project/Convo 1/Convo 2 instructions, both automation prompts, the handoff template, Section Breakdown, `_Campaign_Setup.md`, READMEs and Structure Guide say `wtff_session_rolls` is live, query it read-only, and add the `#### DDB Roll Archive` table (the `ddb_sessions` registry write stays off for WtFF). `Roll_Statistics.md` filled from the 52 archived rolls. Every DDB game ID, user ID and character ID removed from tracked files (sync script uses 0 placeholders and errors explicitly if unset; party-sync doc points to the gitignored `ddb_party.json`). Old values remain in git history; Taylor accepted that, so the DDB-ID item is **closed**, not open.
+- **Commit:** `bb75707`
+- **Next:** Taylor asks Adam whether Bebo thaws in S05 or S06.
+
 ### 2026-10-11 17:55 ET · Claude Code
 - **Changed:** Cross-referenced all 52 WtFF DDB-archive rolls (`wtff_session_rolls` view, which already existed) into the session notes. Each note with rolls (S01–S05, S07) has a `#### DDB Roll Archive` table under its Full Roll Log, with est. audio time from a per-session recording-start offset. 41 match logged rows; 7 fill gaps in place (S04 Bebo Dex save 9, orb d4 1, two Savage Attacks rerolls; S05 the unattributed Dex save "20" is Bruin's, "Investigation or Nature" = Nature; S07 Bruin Perception 13); 2 disagree and are flagged, not overwritten (S04 OA 19 vs 20; S05 Perception 13 vs 12); 2 are new (S02 Bruin nat 20 Medicine; S05 a set-aside 13 damage roll). S02's four Artie rolls predate the recording. No rolls exist for S00 or S06. Stale "not wired" lines removed from the notes and Vault Sync Status, along with the DDB game ID in those lines.
 - **Commit:** `b0c4603`
@@ -115,10 +120,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Commit the S04 Convo 2 propagation (agent running), regenerate the index; S05 Phase B once Taylor answers the vision-scene + ≤60% questions.
 - **Watch out:** Transcripts pushed before 2026-10-10 are still in git history; scrubbing needs a history rewrite + force-push, awaiting Taylor's yes.
 
-### 2026-10-10 17:05 ET · Claude Code
-- **Changed:** S04 note "Four Blooms, Five Petals" generated from the approved corrected transcript; removed Taylor's real-life OOC pain quote from it; parked at `_pipeline/S04/REVIEW_Session 04 — Four Blooms, Five Petals.md` (gitignored) until she approves. Committed the 072626 spell-check log. `_pipeline/S04/handoff.md` ready for Convo 2.
-- **Commit:** `a976adf`
-- **Next:** Taylor approves S04 title/note → move note back to `01-Sessions/`, Convo 2, regenerate index, add ARC entry; then S05 rulings.
-- **Watch out:** Ruleset conflict: `_Campaign_Setup` says 2014 (player-stated 10/10/26), but Adam on-air [02:30:48] says they'll "chart an in between that makes sense of like 2014 and 2024."
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 17:05 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 17:45 ET.
