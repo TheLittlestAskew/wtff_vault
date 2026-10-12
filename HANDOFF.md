@@ -21,7 +21,7 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - [x] ✅ **DONE 2026-10-10: Taylor confirmed both 2014 and 2024 sources allowed; recorded in `_Campaign_Setup.md`.** **Verify Adam's 2014/2024 rules ruling against the real S04 transcript** (`04-072626`) before recording it anywhere. Taylor recounts it twice in the SITL transcript ("if there's anything from 2014 rules that you like better, you can just apply that to 2024 rules") and invokes it for Bruin's Path of the Totem Warrior bear resistance — but that is second-hand, from another table, so it is capped ≤60% and was **not** written to `_Campaign_Setup.md`.
 - [x] ✅ **DONE 2026-10-11 (`3a4c779`).** Migrate 3 session notes to the unified schema: add `type: session`, convert `session_number` from string to int — without `type: session` `DnD.base`'s Sessions view stays empty
 - [ ] Run `Workflows/scripts/Publish-WTFF.cmd` to commit + push note changes (push = publish; the site reads notes straight from this repo)
-- [ ] In Supabase, flip `ddb_campaigns` row 4 `status` from `paused` to `active` (set a real `game_id` only if WTFF starts using DDB rolls)
+- [x] ✅ **DONE (found already active 2026-10-11; stale note fixed).** In Supabase, flip `ddb_campaigns` row 4 `status` from `paused` to `active` (set a real `game_id` only if WTFF starts using DDB rolls)
 - [x] ✅ **DONE 2026-10-11 (`3a4c779`; bare-name embeds, so a shell `git mv` was safe).** Inside Obsidian (not shell), create `06-Media/` and move the 13 loose root images into it
 - [x] ✅ **DONE 2026-08-31 (half of it) — the MAP is now generated from this vault.** `where-the-flowers-forget/archive.html` fetches the `map` block of `00-Campaign-Hub/Public Session Index.json` instead of hardcoding blooms, travel line and party pin (vault `2bd2674`, site `0f69051`). ✅ **DONE 2026-10-11 — `session.html` now reads the index too** (rectrixcaedere `7c93b94`); ARC remains only as fallback + tags.
 - [x] ✅ **DONE 2026-08-31 — all six rings named by Taylor.** Floravale (E13) · Tidecross (G12) · Current's Rest (H10) · Thornmere (H5) · Silvaroot (D9) · Bramblequiet (E8). `unnamed_markers` is empty; the block and its ring/grid scheme are kept for reuse. Map Locations now holds **27** named towns.
@@ -34,6 +34,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+
+### 2026-10-11 17:25 ET · Claude Code
+- **Changed:** no vault change. Supabase `Rectrix_Caedere` `ddb_campaigns` row 4 was already `status: active` with a real `game_id` (last synced 2026-09-21); only its stale note ("Future campaign — paused…") was updated to "Active campaign (started June 2026)." (Taylor approved). `ddb_rolls` holds 52 WtFF rolls, 2026-06-16 → 2026-09-21.
+- **Commit:** —
+- **Next:** Taylor asks Adam whether Bebo thaws in S05 or S06.
+- **Watch out:** All 8 session notes say `rolls_source: transcript (… DDB roll archive not yet wired)`, but the archive IS wired and has rolls. Not changed: the notes' roll tables came from transcripts, so the field is still accurate about where *their* numbers came from.
 
 ### 2026-10-11 17:10 ET · Claude Code
 - **Changed:** S00–S03 migrated to the unified session schema (`type: session`, int `session_number`), so `DnD.base`'s Sessions view lists all eight notes. S00 also lost its stale `session_number: "02"` and "Session 02"/"S02" aliases (leftovers from its rename) and gained `title`/`campaign`; the generator's comment about that mismatch was removed. The 15 loose root PNGs moved to `06-Media/` with `git mv`; every embed uses the bare filename and each name is unique, so links still resolve. Public Session Index regenerated: no content change.
@@ -115,10 +121,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Taylor rules on S05 (Elias, unrecorded Discord vision scenes, ≤60% rows); S04 note still generating, review before push.
 - **Watch out:** `Music  Art Literature.md:5` "meant to be forgotten" may be the same remember→forget damage; not changed.
 
-### 2026-10-10 16:25 ET · Claude Code
-- **Changed:** Taylor asked to work forward from the earliest unwritten session. S05 transcribed (174 min, 7 speakers, WtFF-only, ends "Tobias is gone") and committed; Phase A spell-check running into `_pipeline/S05/`. S04 note generation running from the approved `04 - 072626_corrected.md`. Committed Taylor's player-stated OOC backstory on Bruin's page (father/brother missing, trainer became family).
-- **Commit:** `4ed79a0`, `9520434`
-- **Next:** Review the S04 note, then the S05 spell-check table; S06 has no recording (prose recap only), needs frontmatter + em-dash filename.
-- **Watch out:** S04 "Kelly, you're here, right?" [01:21:34] answered by Taylor's label; identity unresolved.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 16:25 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-10 16:50 ET.
