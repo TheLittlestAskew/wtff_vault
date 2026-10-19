@@ -35,6 +35,20 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-19 11:30 ET · Claude Code
+- **Changed:** no change. The S08 Convo 2 propagation run stopped before any vault write: `_pipeline/S08/handoff.md` and the `01-Sessions/Session 08 — …` note don't exist yet, and the corrected transcript was still being modified (11:23:59 ET) after the run started.
+- **Commit:** —
+- **Friction:** gen-fail — Convo 2 was launched before Convo 1 Phase B finished (no handoff, no note). Stopping was the right call instead of building the note from the transcript, which Convo 2 is forbidden to do.
+- **Next:** Unchanged. See the 11:25 entry below: finish S08 Phase B alone, then re-run `_pipeline/S08/_prompt_convo2_propagate_md.txt`.
+- **Watch out:** the pipeline runner should gate Convo 2 on `_pipeline/S08/handoff.md` existing.
+
+### 2026-10-19 11:25 ET · Claude Code
+- **Changed:** no tracked change. S08 Phase B (Convo 1B) halted partway: started the corrected transcript (`Session_Sources/Transcripts/Corrected/08 - 101826_corrected.md`, gitignored) and added approved rows 35 (Obo→Bebo) and 53 (Lou→Lute) to the gitignored `_pipeline/S08/apply_corrections.mjs`. No session note, spell-check log, or `_pipeline/S08/handoff.md` written; no Supabase query.
+- **Commit:** —
+- **Friction:** gen-fail — node, sed -i and the PowerShell tool were all blocked, so corrections had to go in as Edit passes; then a second Phase B run (status.json shows phaseB "running" from 14:49Z) started editing the same transcript concurrently, past line 840, and my edits began failing on "file modified since read". Stopped rather than race it to a duplicate session note.
+- **Next:** Let the other S08 Phase B run finish, then confirm exactly one `01-Sessions/Session 08 — …` note, `Spell_Check_Logs/101826_Spell_Check_Log.md`, and `_pipeline/S08/handoff.md` exist. If it stalled, re-run Phase B once, alone.
+- **Watch out:** in the corrected transcript, line 868 still read "Lou" (approved row 53) and line 650 is capitalised "Whistles", which the script's lowercase regex misses. The watcher appears to have launched Phase B twice; worth checking before S09.
+
 ### 2026-10-12 00:10 ET · Claude Code
 - **Changed:** no vault change. Closed the "check the transcription watcher config" Next Steps item: Taylor says the 2026-08-02 misfiled SITL audio was most likely her own manual drop, not the watcher.
 - **Commit:** —
