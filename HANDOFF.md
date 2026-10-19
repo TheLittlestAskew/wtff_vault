@@ -36,8 +36,8 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 ### 2026-10-19 15:58 ET · Claude Code
-- **Changed:** Pipeline guards on branch `lithotripsy/wtff-pipeline-guards` (not merged): `_pipeline/approve.lock` stops a second approve while one runs; Convo 2 waits for `SNN/handoff.md` + exactly one note; the watcher pre-fetches DDB rolls read-only into `SNN/ddb_rolls.json` (Phase B no longer needs Supabase); headless claude may git add/commit and push main (no force). 11 node:test cases pass; live fetch for 10/18 returned the 3 S08 rolls.
-- **Commit:** `a18342f`
+- **Changed:** Pipeline guards on branch `lithotripsy/wtff-pipeline-guards` (not merged): `_pipeline/approve.lock` stops a second approve while one runs; Convo 2 waits for `SNN/handoff.md` + exactly one note; the watcher pre-fetches DDB rolls read-only into `SNN/ddb_rolls.json` (Phase B no longer needs Supabase); headless claude may git add/commit but never push (`a98aa7d` narrowed it; the publish step now always pushes, even with nothing new to commit). 11 node:test cases pass; live fetch for 10/18 returned the 3 S08 rolls.
+- **Commit:** `a18342f`, `a98aa7d`
 - **Next:** Taylor merges the branch into main, then restarts the "WTFF Pipeline Watcher" scheduled task so it loads the new script.
 - **Watch out:** the scheduled watcher keeps running the OLD script until restarted. Backup tag `lithotripsy-backup-20261019-1546`.
 ### 2026-10-19 14:20 ET · Claude Code
