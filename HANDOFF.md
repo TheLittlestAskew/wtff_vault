@@ -34,6 +34,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+### 2026-10-19 14:20 ET · Claude Code
+- **Changed:** S08 published and finished. The three "NOT BANKED" entries below were banked by the pipeline's own publish commit `ff10092` (note, 31 propagated files, index with S08). Then filled what the headless run could not: DDB Roll Archive (3 rolls; Bruin's Insight 16 disagrees with the announced "17" at [00:58:01], flagged), Roll_Statistics S08 row and totals, and Taylor's answers: tavern = Hearthread Hall (Adam misspoke), Dolm spelling, Obo→Bebo, Lou→Lute, Kevin not present, 10/04 skipped. S08 was re-transcribed at 14 speakers first (Taylor's call; 7-speaker run collapsed ~13 people onto 3 labels).
+- **Commit:** `0d08d5a`
+- **Friction:** gen-fail — the review toast's Approve button launched one run (10:49) and Claude Code launched a second (11:01); they raced on the transcript. Every headless stage also hit permission blocks (node, git commit, Supabase read) and the handoff Stop hook, so each stage ended asking Taylor to commit.
+- **Next:** Give the headless pipeline the permissions it lacked (node, git commit, read-only Supabase `execute_sql`) and gate Convo 2 on `_pipeline/S08/handoff.md`; until then, approve only via the toast OR a session, never both.
+- **Watch out:** joint sessions need `joint` (or `14sp`) in the mp3 filename, or diarization collapses.
 
 ### 2026-10-19 13:30 ET · Claude Code
 - **Changed:** S08 Convo 2 propagation done in the working tree (31 files staged): trackers, Dashboard, Open Threads, Location Index, House Rules (3), Spell_Usage, Roll_Statistics (pending row), Bruin's journal, 6 PCs + Aiph/Bloom/Nero, new NPC `Sage.md`, 6 lore pages, `_Campaign_Setup.md`, Vault Sync Status. Removed one possibly personal STT fragment from the S08 note. Includes the Convo 1 files from the entry below.
