@@ -14,6 +14,17 @@
  *     5. runs Convo 1 — Phase B (apply corrections + generate the markdown note)
  *     6. runs Convo 2 (propagate across the vault + git commit/push)
  *
+ *   Guards (added 2026-10-19 after S08, when a toast approve and a manual approve
+ *   ran at the same time and the headless runs couldn't commit or read Supabase):
+ *     - only one approve runs at a time (_pipeline\approve.lock)
+ *     - this script pre-fetches the session's DDB rolls (read-only GET) into
+ *       <pipeline>\SNN\ddb_rolls.json, so headless Claude never touches Supabase
+ *     - Convo 2 refuses to start until Phase B wrote SNN\handoff.md and the note
+ *     - headless Claude may run git add/commit/push (main only, no force) so it
+ *       can bank its handoff
+ *
+ * TESTS:  node --test wtff_pipeline_watch.test.js
+ *
  * Processes one session at a time. Markdown-only — no .docx is produced.
  *
  * Scaffolded 1:1 from ashfall_pipeline_watch.js (WTFF paths/branding).
@@ -31,7 +42,6 @@
 const path = require('path');
 const fs = require('fs');
 const { spawnSync, spawn } = require('child_process');
-const chokidar = require('chokidar');
 
 // ══════════════════════════════════════════════════════════════════
 //  CONFIG
@@ -64,8 +74,25 @@ const STATUS_WIN_PS = path.join(__dirname, 'wtff_status_window.ps1');
 
 const LOG_FILE = path.join(PIPELINE_DIR, 'watcher.log');
 const STATUS_FILE = path.join(PIPELINE_DIR, 'status.json');
+const LOCK_FILE = path.join(PIPELINE_DIR, 'approve.lock');
 
-const CLAUDE_FLAGS = '--permission-mode acceptEdits';
+// Headless runs can't answer permission prompts, so anything not pre-allowed is
+// silently denied. These let Phase B / Convo 2 bank their own work. Push is exact
+// match only (no --force); Supabase is NOT allowed (rolls are pre-fetched below).
+const ALLOWED_TOOLS = [
+  'Bash(git status:*)', 'Bash(git diff:*)', 'Bash(git log:*)', 'Bash(git rev-parse:*)',
+  'Bash(git add:*)', 'Bash(git commit:*)',
+  'Bash(git pull --rebase origin main)', 'Bash(git push)', 'Bash(git push origin main)',
+];
+const CLAUDE_FLAGS = '--permission-mode acceptEdits --allowedTools ' +
+  ALLOWED_TOOLS.map((t) => `"${t}"`).join(' ');
+
+// Public anon key (already published in ddb_sync_supabase.js). The view is read
+// with a GET only; this script never writes to Supabase.
+const SUPABASE_URL = 'https://vtrtyagltwdrbastpppl.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0cnR5YWdsdHdkcmJhc3RwcHBsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNTY5NTAsImV4cCI6MjA5MTkzMjk1MH0.hnpwjHGIqiUN_VmmIkOAAFGGCKsyYgl7AO3FW5vDIeM';
+// Columns copied into ddb_rolls.json. user_id / roll_id / id are left out on purpose.
+const ROLL_COLUMNS = 'timestamp_iso,character,action,roll_type,roll_kind,dice_notation,individual_values,modifier,total,source';
 // ══════════════════════════════════════════════════════════════════
 
 const isWin  = process.platform === 'win32';
@@ -317,9 +344,108 @@ function publishToSite(nn) {
   return true;
 }
 
-function approve() {
+// ── Approve guards ──────────────────────────────────────────────────────
+// One approve at a time. The toast button and a manual run collided on S08
+// (2026-10-19): two Phase B runs edited the same transcript.
+function isAlive(pid) {
+  try { process.kill(pid, 0); return true; }
+  catch (e) { return e.code === 'EPERM'; } // EPERM = exists, owned by someone else
+}
+
+function acquireApproveLock(lockFile = LOCK_FILE, pid = process.pid) {
+  fs.mkdirSync(path.dirname(lockFile), { recursive: true });
+  const body = (extra) => JSON.stringify({ pid, startedAt: nowIso(), ...extra });
+  try {
+    fs.writeFileSync(lockFile, body(), { flag: 'wx' });
+    return { ok: true };
+  } catch (e) {
+    if (e.code !== 'EEXIST') throw e;
+  }
+  let holder = null;
+  try { holder = JSON.parse(fs.readFileSync(lockFile, 'utf8')); } catch { holder = null; }
+  if (holder && Number.isInteger(holder.pid) && holder.pid !== pid && isAlive(holder.pid)) {
+    return { ok: false, holder };
+  }
+  // Holder is gone (crash, closed window) or the file is unreadable: take it over.
+  fs.writeFileSync(lockFile, body({ replacedStale: holder }));
+  return { ok: true, staleReplaced: true, previous: holder };
+}
+
+function releaseApproveLock(lockFile = LOCK_FILE, pid = process.pid) {
+  let holder = null;
+  try { holder = JSON.parse(fs.readFileSync(lockFile, 'utf8')); } catch { return false; }
+  if (!holder || holder.pid !== pid) return false; // someone else's lock: leave it
+  fs.unlinkSync(lockFile);
+  return true;
+}
+
+// The DDB archive stores individual_values as a JSON string ("[20, 7]").
+function parseRollValues(v) {
+  if (typeof v !== 'string') return v;
+  try { return JSON.parse(v); } catch { return v; }
+}
+
+// Read-only GET of this session's DDB rolls. Throws on any failure; the caller
+// records the error in ddb_rolls.json so Phase B reports it instead of guessing.
+async function fetchSessionRolls(iso, fetchImpl = fetch) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(iso))) throw new Error(`bad session date "${iso}"`);
+  const url = `${SUPABASE_URL}/rest/v1/wtff_session_rolls?session_date=eq.${iso}` +
+              `&select=${ROLL_COLUMNS}&order=timestamp_iso.asc`;
+  const res = await fetchImpl(url, {
+    method: 'GET',
+    headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
+  });
+  if (!res.ok) throw new Error(`Supabase returned HTTP ${res.status}`);
+  const rows = await res.json();
+  if (!Array.isArray(rows)) throw new Error('Supabase returned a non-array body');
+  return rows.map((r) => ({ ...r, individual_values: parseRollValues(r.individual_values) }));
+}
+
+async function writeRollsFile(pdir, iso, fetchImpl = fetch) {
+  const out = path.join(pdir, 'ddb_rolls.json');
+  let payload;
+  try {
+    const rolls = await fetchSessionRolls(iso, fetchImpl);
+    payload = { ok: true, session_date: iso, fetchedAt: nowIso(), count: rolls.length, rolls };
+  } catch (e) {
+    payload = { ok: false, session_date: iso, fetchedAt: nowIso(), error: e.message };
+  }
+  fs.mkdirSync(pdir, { recursive: true });
+  fs.writeFileSync(out, JSON.stringify(payload, null, 2));
+  return payload;
+}
+
+// Convo 2 needs Phase B's handoff plus exactly one session note. Missing either
+// means Phase B didn't finish; two notes means two runs wrote one each.
+function convo2Ready(pdir, nn, sessionsDir = SESSIONS_DIR) {
+  const problems = [];
+  const handoff = path.join(pdir, 'handoff.md');
+  if (!fs.existsSync(handoff) || fs.statSync(handoff).size === 0) {
+    problems.push(`no ${path.basename(pdir)}\\handoff.md from Phase B`);
+  }
+  const re = new RegExp(`^Session\\s+0*${parseInt(nn, 10)}\\b.*\\.md$`, 'i');
+  const notes = fs.existsSync(sessionsDir) ? fs.readdirSync(sessionsDir).filter((f) => re.test(f)) : [];
+  if (notes.length === 0) problems.push(`no "Session ${nn} — …" note in 01-Sessions`);
+  if (notes.length > 1) problems.push(`${notes.length} Session ${nn} notes (${notes.join(', ')}); keep one`);
+  return { ok: problems.length === 0, problems, notes };
+}
+
+async function approve() {
   const statePath = path.join(PIPELINE_DIR, 'state.json');
   if (!fs.existsSync(statePath)) return log('No pending session to approve.');
+
+  const lock = acquireApproveLock();
+  if (!lock.ok) {
+    process.exitCode = 1;
+    return notify(`Approve is already running (pid ${lock.holder.pid}, started ${lock.holder.startedAt}). ` +
+                  'Not starting a second one.');
+  }
+  if (lock.staleReplaced) log(`Replaced a stale approve lock (${JSON.stringify(lock.previous)}).`);
+  try { await runApproval(statePath); }
+  finally { releaseApproveLock(); }
+}
+
+async function runApproval(statePath) {
   const st = JSON.parse(fs.readFileSync(statePath, 'utf8'));
   const pdir = st.pendingFolder;
 
@@ -334,6 +460,11 @@ function approve() {
 
   banner(`Approving Session ${st.nn} — Phase B (apply + notes), then Convo 2`);
 
+  log(`Fetching the DDB roll archive for ${st.iso} (read-only)…`);
+  const rolls = await writeRollsFile(pdir, st.iso);
+  if (rolls.ok) log(`DDB rolls: ${rolls.count} for ${st.iso} -> ${path.join(pdir, 'ddb_rolls.json')}`);
+  else log(`⚠️ DDB roll fetch FAILED (${rolls.error}). Phase B will flag the archive as unchecked.`);
+
   log('Convo 1 — Phase B: applying corrections + generating the session note…');
   setStage('phaseB', 'running', 'Applying corrections + writing the note…');
   const pB = buildPrompt('convo1_phaseB_apply.md', {
@@ -342,6 +473,13 @@ function approve() {
   });
   if (!runClaude(pB)) { setStage('phaseB', 'failed', 'See console output above'); return notify('Phase B FAILED — see console output above.'); }
   setStage('phaseB', 'done');
+
+  const ready = convo2Ready(pdir, st.nn);
+  if (!ready.ok) {
+    setStage('convo2', 'failed', ready.problems.join('; '));
+    process.exitCode = 1;
+    return notify(`Convo 2 NOT started: ${ready.problems.join('; ')}. Finish Phase B, then re-run approve.`);
+  }
 
   log('Convo 2: propagating across the vault + git push…');
   setStage('convo2', 'running', 'Propagating across the vault + git push…');
@@ -365,9 +503,24 @@ function approve() {
   notify(`Session ${st.nn} fully synced to the vault and pushed to GitHub.`);
 }
 
-// ── MAIN ──
-if (process.argv.includes('--approve')) { approve(); process.exit(0); }
+module.exports = {
+  detectSpeakers, nextSession, analyzeSpellcheck, isAlive, acquireApproveLock,
+  releaseApproveLock, parseRollValues, fetchSessionRolls, writeRollsFile, convo2Ready,
+  CLAUDE_FLAGS,
+};
 
+// ── MAIN ──
+if (require.main === module) main();
+
+function main() {
+if (process.argv.includes('--approve')) {
+  approve()
+    .then(() => process.exit())
+    .catch((e) => { log(`approve crashed: ${e.stack || e.message}`); process.exit(1); });
+  return;
+}
+
+const chokidar = require('chokidar');
 fs.mkdirSync(PIPELINE_DIR, { recursive: true });
 banner('WTFF Pipeline Watcher — Option B  (watching for new .mp3)');
 log(`Watching: ${RECORDINGS}`);
@@ -386,3 +539,4 @@ chokidar
     seen.add(p);
     processRecording(p);
   });
+}
