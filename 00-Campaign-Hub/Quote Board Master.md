@@ -16,6 +16,122 @@
 
 ---
 
+## Session 08 — There Is Another You (10/18/2026)
+
+_Joint crossover session. Group J (WtFR) lines are included only where Group K or Aiph witnessed them._
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] (WtFR, crossover) · [Important to Story]**
+> "There is another you, Lute. There's another you that sometimes gets out. Do you know anything about that?"
+
+**[[Lute]] (WtFR, crossover) · [Funny] [Poignant]**
+> "Everybody hears voices in their head. That's called your thoughts."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Serious]**
+> "No, Lute, not everyone hears voices in their head."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] (as narrated by [[Adam]]) · [Serious]**
+> "now is the moment in which you supply a good explanation." / "or beg for your life."
+
+**[[Margaret “Mags” HoneyThatcher\|Mags]] (WtFR, crossover) · [Serious]**
+> "I can't let you do this to someone else. To me is one thing."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "Lute. I like Lute. I don't like whoever the fuck that was that stabbed my mags."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Funny]**
+> "I'd ask somebody to set it on fire."
+
+**[[Zarna Morganach\|Zarna]] · [Funny]**
+> "We've already frozen a tavern."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] & [[Margaret “Mags” HoneyThatcher\|Mags]] · [Important to Story]**
+> "Did you know she had this issue when you chose her." / "That's why I chose her, Aiph. You know about mine. Is that why you chose me?"
+
+_(The "Aiph" in Mags's line is a 50% spelling correction.)_
+
+**[[Tobias Wolfe\|Tobias]] · [Funny] [Poignant]**
+> "Are all relationships that traumatic?"
+
+**Taylor (OOC) & [[Adam]] (DM) · [Funny]**
+> "Who taught him that word?" / "Probably Bruin,"
+
+**[[Tobias Wolfe\|Tobias]] · [Serious]**
+> "She looks like she's trying to assess what you're worth, what you can do, how to take you out. And how to make use of you."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "Go ahead, Tobias. She doesn't look like that. That's exactly what she's doing."
+
+**[[Artie (Art) Veyr\|Artie]] · [Funny] [Important to Story]**
+> "It required me to just clock her in the back of the head, and she would go back to normal."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Important to Story]**
+> "Bebo believes provisional trust should be extended."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Why not both?"
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Serious]**
+> "I will not extend such a threat. I'm not forcing you to do this, but I believe it's the best course of action. And I believe in all of you."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "We, all of us now are uprooters."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Boy, am I glad you asked. Top hat and cufflinks, baby."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Funny]**
+> "Bebo did not shower."
+
+**[[Nyx]] (WtFR, crossover) · [Poignant]**
+> "just so you know, I would die for you."
+
+**[[Tobias Wolfe\|Tobias]] (his drawing) · [Poignant]**
+> "Be careful. I'm getting used to you being my friend."
+
+**[[Tobias Wolfe\|Tobias]] · [Poignant]**
+> "Well, the people of the, the town I came from called me a demon. But mine apparently likes to freeze things."
+
+**[[Tobias Wolfe\|Tobias]] · [Funny]**
+> "I've not. You know, I am a fan of blueberries."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Banter]**
+> "No, I mean, it's going to be really difficult either way, so no need to warm up."
+
+**[[Isla 'Bruin' Kaplan\|Bruin]] · [Banter]**
+> "I could do this all night."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Poignant]**
+> "Bebo believes Bebo was once specific. Bebo believes in more as of this moment in Bebo's life."
+
+**Sage ([[Adam]]) · [Funny]**
+> "Sage does not know if designation includes dance floors."
+
+**[[Dolm]] (WtFR, crossover) · [Funny]**
+> "Mags, I need help now."
+
+**[[BE-BO (Botanical Energy Balance Operator)\|Bebo]] · [Poignant]**
+> "Bebo would also die for Nyx, But Bebo will also live for Nyx, too."
+
+**[[Lute]] (WtFR, crossover) · [Poignant]**
+> "don't let anyone else call you a monster, because you're not. You're my best friend."
+
+**[[Eliza Duskbloom\|Eliza]] · [Poignant]**
+> "Always make sure you look for the good stuff and take care of yourself and stay alive."
+
+**Taylor (on Bruin's goodbyes) · [Serious]**
+> "No. Most of the people that she's bonded with are in her group."
+
+**[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**
+> "I don't know if we'll ever be the same, but we will always be one."
+
+**[[Alec]] (DM) · [DM Quip]**
+> "Cj, stop. I can't handle any of you. You're all grounded."
+
+**[[Alec]] (DM) · [DM Quip]**
+> "As this conversation of slushies happens on the dance floor, cancel the campaign."
+
+---
+
 ## Session 07 — Omission of Truth (09/20/2026)
 
 **[[Aiphrumfite ‘Aiph‘\|Aiph]] · [Important to Story]**

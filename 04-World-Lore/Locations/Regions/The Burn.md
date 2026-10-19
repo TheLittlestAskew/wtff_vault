@@ -12,3 +12,7 @@ Long before [Zelkova City] stood as it does now, the Burn was a raging, unending
 
 **Notable individuals (from play):**
 - **[[Constance]]** *(S03)* — an elven arcane-goods shopkeeper whose "hip, lesser-known" magic shop (also named "Constance") is based in the Burn. Met aboard [[The Verdant Blossom]] in [[Session 03 — Raise a Glass to Provisional Trust]]; offered the party a future finders-fee discount "if we survive." ⚠ First-seen, ≤60% — confirm with [[Adam]].
+
+**From play: Group K's next destination ([[Session 08 — There Is Another You|S08]], 10/18/2026):**
+- [[Aiphrumfite ‘Aiph‘|Aiph]]: "We are pivoting... we are going to go to the Burn, and I'm going to direct you to the really only remaining dungeon that I know of, not created by either Mags nor I... And then after that, it's wandering Artemesia looking." The dungeon itself is not named or described. Group K leaves [[Rhusatatiam]] by train the next morning.
+- Bebo released its snail [[Bloom]] because it "will not be able to thrive" in the Burn.

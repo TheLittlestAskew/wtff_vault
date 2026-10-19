@@ -1,6 +1,6 @@
 ---
 start_date: 2026-06-14
-session_count: 7
+session_count: 8
 dm: Adam
 ---
 # Campaign Dashboard — Where the Flowers Forget
@@ -37,6 +37,7 @@ dm: Adam
 | 05 | 08/09/2026 | The Bloody Truth | [[Session 05 — The Bloody Truth]] | **Solo WtFF session.** Phase two: Bruin and Eliza kill the two insectoids spawned from the [[Centipede-Snail-Fly Creature]]; the chest yields 600 gold, two gems, a jar of spheres and a black dagger; the party harvests [[The Dungeon Dragon\|the dragon]] (Tobias takes its heart). Aiph: "Congrats. You passed the test," but she has **never seen either creature**. At the [[X Marks the Spot Inn]], a sapphire and an emerald pull Tobias (then Artie and Eliza) into a vision of a real moment (off-recording; retold). Bebo's chest stone: "Friend in danger." **Cliffhanger: Tobias's backstory freezes the whole tavern; he runs.** *(Propagated out of order, 2026-10-10.)* |
 | 06 | 08/23/2026 | The Art of Staying Cool | [[Session 06 — The Art of Staying Cool]] | **Solo WtFF session; no recording (written recap only; date inferred).** Tobias flees the frozen tavern to a pond near [[Sunroute Crossing\|Sunroot Crossing]], sees someone dear to him in the water, and is talked down by Zarna, Eliza and Artie (Artie will teach him control). Bruin guards the frozen Bebo (fire whisky); Tobias apologizes to Aiph, who calls his ice an asset; Bebo thaws; [[Delilah]] knows dragons only from fairy tales. Overnight train: [[Derek]]'s explosive gifts (Zarna's "Explosive Field-Testers"); Tobias confides in Aiph about his home town, and Aiph proposes a deal to go to each other's places; Artie's Identify on the dragon heart fails. Aiph and Mags exchange messages as the train heads for [[Rhusatatiam]]. *(Propagated out of order, 2026-10-10.)* |
 | 07 | 09/20/2026 | Omission of Truth | [[Session 07 — Omission of Truth]] | **Joint/crossover** (both DMs; Lydia and CJ absent) at the [[Hearthread Hall]], [[Rhusatatiam]], after both test dungeons. **No combat.** Aiph asks Group K to hide her dungeon's failure from Group J ("We are now Uprooters"); the secret is half-kept. Bebo's bag of holding becomes the party bank; Bebo's snail named [[Bloom]]. Aiph and Mags argue openly ("We are not in control anymore"); Mags gives Aiph a letter from Nana. **Cliffhanger: Lux (Lute's alternate persona) stabs Mags in front of Aiph; Mags's fate unknown.** *(S04–S06 propagated out of order 2026-10-10.)* |
+| 08 | 10/18/2026 | There Is Another You | [[Session 08 — There Is Another You]] | **Joint/crossover** (both DMs; all six Group K players). **No combat.** Mags survives the S07 stab inside her bramble dome (Aiph heals her; Mags tells [[Lute]] "There is another you"). At the riverbank Group K agrees to keep "our business our business" (Bebo conditionally) and Aiph names the next destination: **[[The Burn]]**, the last dungeon neither recruiter made. Festivus of Warmth in the main greenhouse: Bruin breaks an arm-wrestling table (43 gold), Bebo releases [[Bloom]], goodbyes; Aiph leaves Mags a ring. Last joint session for an unknown stretch. *(Title chosen by the automated run; Taylor to confirm. DDB roll archive not yet queried.)* |
 | Pre-Campaign | 05/04/2026 | I Can Feel It In My Bones | [[Session 00 — I Can Feel It In My Bones]] | Pre-campaign OOC 1-on-1 (Adam + Taylor only). Bruin's character concept established: [[The Overgrowth]]-reactive physiology; [[Liriope River Net]] / [[Mouth that Feeds]] origin. [[The Overgrowth]] named for the first time. No IC events. ⚠️ Pipeline label "S02"; audio prefix "00" — session number unconfirmed (pending Taylor's input). |
 
 ## NPC Companions
@@ -44,19 +45,20 @@ dm: Adam
 |---|---|---|---|
 | [[Nero]] | Active | Pre-existing | White-fox companion of [[Tobias Wolfe\|Tobias]]. |
 | [[Orin]] | Active | Pre-existing (S02 confirmed) | Crow familiar of [[Artie (Art) Veyr\|Artie]]. Permanent; cannot die permanently. Identify (S02) confirmed innate Find Familiar without training. ⚠️ Spelling unconfirmed ("Orin" vs "Oren"). |
-| [[Bloom]] | Active | S07 (named; with Bebo since before S07) | Snail companion of [[BE-BO (Botanical Energy Balance Operator)\|Bebo]]; named by [[Nyx]] (WtFR) because both are "from Bloom." Name ≤60% first-seen. |
+| [[Bloom]] | Released (S08) | S07 (named; with Bebo since before S07) | Snail companion of [[BE-BO (Botanical Energy Balance Operator)\|Bebo]]; named by [[Nyx]] (WtFR) because both are "from Bloom." Name ≤60% first-seen. **S08:** left on a tree in the Festivus greenhouse in [[Rhusatatiam]]; it "will not be able to thrive" in the Burn. |
 
 ## Key Antagonists
 | Name | Affiliation | Status | Last Seen | Notes |
 |---|---|---|---|---|
-| _(none confirmed yet)_ | | | | The crater "growing stronger," Bug Island stirring, and the rumored "acting alone" [[The Pistil|Pistil]] are open mysteries, not yet antagonists. *(S07)* An unnamed "he" who is "getting stronger" and whom Aiph wants to kill; identity [Unknown/Ambiguous], not yet an antagonist on record. |
+| _(none confirmed yet)_ | | | | The crater "growing stronger," Bug Island stirring, and the rumored "acting alone" [[The Pistil|Pistil]] are open mysteries, not yet antagonists. *(S07)* An unnamed "he" who is "getting stronger" and whom Aiph wants to kill; identity [Unknown/Ambiguous], not yet an antagonist on record. *(S08)* Adam (above-table DM framing): whatever is in the crater "in the center" is "ruining Artemesia"; still not a named antagonist. Lux (Lute's other self, WtFR) stabbed Mags but is "Group J's problem" per Aiph; not listed as a WtFF antagonist. |
 | [[Centipede-Snail-Fly Creature]] | [Unknown/Ambiguous] (found in Aiph's test dungeon) | Dead (S05) | [[Session 05 — The Bloody Truth\|S05]] (Layer 5) | Red centipede/snail/fly monster eating [[The Dungeon Dragon\|a dead dragon]]. Head smashed by Zarna; two new heads emerged ("phase two"). **S05:** two smaller insectoid bodies spawned; Bruin decapitated one, Eliza's sling exploded the other's head. "A natural pest of draconic beings" that feeds on physical manifestations of magic. Aiph has never seen it. |
 
 ## Locations
 | Location | Region | First Visited | Status | Notes |
 |---|---|---|---|---|
-| [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — Winds in the East\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. Revisited [[Session 07 — Omission of Truth\|S07]] (joint; Mags stabbed at the bar). ⚠ "Hearthread Tavern" (Alec, F59). |
-| [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — Winds in the East\|S01]] | Explored | Valley capital. Revisited [[Session 07 — Omission of Truth\|S07]]: "a city of overgrowth" (Alec). |
+| [[Hearthread Hall]] | [[Rhus Valley]] | [[Session 01 — Winds in the East\|S01]] | Explored | Three-tiered tavern; the never-dying Common Fire. Launch site. Revisited [[Session 07 — Omission of Truth\|S07]] (joint; Mags stabbed at the bar). ⚠ "Hearthread Tavern" (Alec, F59). **S08:** the bramble dome. ⚠ Adam calls the tavern "Brindleberry Hollow" (F13); not relinked. |
+| [[Rhusatatiam]] | [[Rhus Valley]] | [[Session 01 — Winds in the East\|S01]] | Explored | Valley capital. Revisited [[Session 07 — Omission of Truth\|S07]]: "a city of overgrowth" (Alec). **S08:** the riverbank (Aiph's talk) and the main greenhouse at the city's center (the Festivus of Warmth); both unnamed sub-locations. **Party's current location** (leaving by train next morning). |
+| [[The Burn]] | — (region) | [[Session 08 — There Is Another You\|S08]] (referenced) | Known But Unvisited | **Group K's next destination:** "the really only remaining dungeon that I know of, not created by either Mags nor I" (Aiph). [[Constance]]'s shop is there (S03). |
 | [[The Petal Line]] | Continent-wide | [[Session 01 — Winds in the East\|S01]] (referenced) | Known But Unvisited | The unifying railway; campaign thesis. |
 | [[Liriope River Net]] | — (region) | [[Session 00 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Bruin's home region; gulf-adjacent. Shifters may have historically gravitated toward water. |
 | [[Mouth that Feeds]] | [[Liriope River Net]] | [[Session 00 — I Can Feel It In My Bones\|S02]] (OOC) | Known But Unvisited | Capital of [[Liriope River Net]]; Bruin's origin city (OOC concept). Built on stilts and canals over converging waterways. |
@@ -96,12 +98,12 @@ dm: Adam
 | Lute's dark compulsion (escalated) | S02 | Open (crossover) | [[Lute]] |
 | Nyx's deity name unknown | S02 | Open (crossover) | [[Nyx]], [[Zarna Morganach\|Zarna]] |
 | What fate befell Groups A–I? | S02 | Open | [[The Uprooters]] |
-| Mags stabbed by Lux (cliffhanger; **fate unknown**) | S07 | Open | [[Margaret “Mags” HoneyThatcher\|Mags]], [[Lute]], [[Aiphrumfite ‘Aiph‘\|Aiph]] |
+| Mags stabbed by Lux (cliffhanger) | S07 | Completed (S08): Mags survives | [[Margaret “Mags” HoneyThatcher\|Mags]], [[Lute]], [[Aiphrumfite ‘Aiph‘\|Aiph]] |
 | Something "getting stronger"; Aiph wants to kill "him" | S07 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]], [[Margaret “Mags” HoneyThatcher\|Mags]] |
 | The recruiters have lost control ("We are not in control anymore") | S07 | Open | [[The Uprooters]] |
 | Keep the dungeon's events from Group J (Aiph's request) | S07 | Open (partly broken) | Group K, [[Nyx]] |
 | Aiph–Mags rift escalates (open argument; the Nana letter) | S07 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]], [[Margaret “Mags” HoneyThatcher\|Mags]] |
-| ❓ Unconfirmed question: do Artie and Lux share a past? (F65) | S07 | Open (unconfirmed) | [[Artie (Art) Veyr\|Artie]], [[Lute]] |
+| ❓ Do Artie and Lux share a past? (F65) | S07 | Answered on air (S08): Artie worked with Lute for six months years ago and knew Lux | [[Artie (Art) Veyr\|Artie]], [[Lute]] |
 | Eliza's sudden exit upstairs | S07 | Open | [[Eliza Duskbloom\|Eliza]] |
 | Bebo's goggles of night | S07 | In Progress | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
 | Bag of holding as party bank | S07 | Completed (S07) | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
@@ -126,6 +128,19 @@ dm: Adam
 | Aiph and Tobias's deal (each goes to the other's place) | S06 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]], [[Tobias Wolfe\|Tobias]] |
 | Derek and the "Explosive Field-Testers" | S06 | Open | [[Derek]], [[Zarna Morganach\|Zarna]] |
 | The dragon in fairy tales; the heart resists Identify | S06 | Open | [[The Dungeon Dragon]], [[Artie (Art) Veyr\|Artie]], [[Delilah]] |
+| **Go to [[The Burn]]** (Aiph's pivot; the last dungeon neither recruiter made) | S08 | Open | Group K, [[Aiphrumfite ‘Aiph‘\|Aiph]] |
+| Keep "our business our business" (Bebo: unless lives are at stake) | S08 | Open (agreed) | Group K, [[Aiphrumfite ‘Aiph‘\|Aiph]] |
+| Will Aiph travel with Group K? | S08 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]] |
+| Aiph's items (to help; to communicate with her) | S08 | Open | [[Aiphrumfite ‘Aiph‘\|Aiph]], Group K |
+| What is in the crater "in the center"? (DM framing: "ruining Artemesia") | S08 | Open | [[Isla 'Bruin' Kaplan\|Bruin]], [[The Uprooters]] |
+| Something similar happened in Group J's dungeon | S08 | Open (crossover) | [[The Uprooters]] |
+| The Festivus of Warmth and the valley's link to warmth (F16) | S08 | Open | [[Rhusatatiam]], [[Rhus Valley]] |
+| Tobias and Lute's matching wrist symbol | S08 | Open (crossover) | [[Tobias Wolfe\|Tobias]], [[Lute]] |
+| Bebo, [[Sage]] and "designation" | S08 | Open | [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Sage]] |
+| Artie's missing acquaintance at the festival | S08 | Open (minor) | [[Artie (Art) Veyr\|Artie]] |
+| "Orion would be pissed" (referent unknown, F12) | S08 | Open | [[Margaret “Mags” HoneyThatcher\|Mags]] |
+| Bloom released | S08 | Completed (S08) | [[Bloom]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] |
+| Joint arc with Group J | S01 | Completed (S08, for now) | Group K, Group J |
 
 ## In-Game Timeline
 | Phase                                                  | Sessions  | In-Game Time                                                                                         | Notes                                                                                                                                                                                     |
@@ -135,4 +150,5 @@ dm: Adam
 | Group K Orientation / Joint Social / Morning Departure | S02       | The following day — 2nd of [[The Calendar\|Veriden]] (estimated)                                  | Group K briefing in Aiph's private room; joint tavern social with Group J; train platform departure. Group K → [[Sunroute Crossing]] (green), Group J → [[Brindleberry Hollow]] (purple). |
 | Green train to Sunroot Crossing / the Inn / into the dungeon | S03 | ~1.5 days — a few hours' ride to a just-after-midday arrival, an overnight long rest, then the next morning. Festival season near ("the first of **vent** was yesterday": 2nd of [[The Calendar\|Veriden]]). | Group K rides [[The Verdant Blossom]] from [[Rhusatatiam]] to [[Sunroute Crossing\|Sunroot Crossing]]; lodges at the [[X Marks the Spot Inn]]; adopts "provisional trust"; descends into Aiph's five-layer test dungeon (trap door shuts — cliffhanger). No combat. |
 | The test dungeon | S04–S06 | **S04:** the morning of the third day since setting out ("the third of Ven / Vedin / Verdin," 75th year post hero: the 3rd of [[The Calendar\|Veriden]]). One delve, hours at most; ends mid-fight. **S05:** the same day, from the end of the fight through one evening at the inn (exact span [Unknown/Ambiguous]); "early evening" at the table, Aiph will see them "in the morning." **S06:** after the frozen tavern, then an overnight train ride; exact span [Unknown/Ambiguous] (written recap only). | **S04:** Group K solves Layers 1 to 4 of Aiph's dungeon at [[Sunroute Crossing\|Sunroot Crossing]], finds the chest and a dead dragon in Layer 5, and fights the [[Centipede-Snail-Fly Creature]] (two new heads; cliffhanger); level 2 at the close. **S05:** phase two won; chest looted; dragon harvested; test passed; back to the [[X Marks the Spot Inn]] for the visions and the frozen tavern (Tobias flees). **S06:** Tobias talked down at a pond near town; Bebo thaws; Group K takes an overnight train back toward [[Rhusatatiam]] (Derek's gifts; the Aiph/Tobias deal; Identify fails on the dragon heart). |
-| Back at the Common Fire | S07 | A single afternoon ("close to the afternoon," Adam), after both trains return to [[Rhusatatiam]] (Group K first). Calendar date [Unknown/Ambiguous]. | Joint session at the [[Hearthread Hall]]; no combat. Ends on Lux stabbing Mags at the bar. Next session (10/04/2026) is joint. |
+| Back at the Common Fire | S07 | A single afternoon ("close to the afternoon," Adam), after both trains return to [[Rhusatatiam]] (Group K first). Calendar date [Unknown/Ambiguous]. | Joint session at the [[Hearthread Hall]]; no combat. Ends on Lux stabbing Mags at the bar. Next session (10/04/2026) is joint. *(10/04 was skipped; the next session was S08 on 10/18.)* |
+| The dome, the river and the Festivus of Warmth | S08 | The same evening as S07, from the stab through one night ("Tonight is the Festivus of Warmth"; both groups leave by train "tomorrow morning"). Calendar date [Unknown/Ambiguous]. | Joint session in [[Rhusatatiam]]; no combat. Mags survives inside her bramble dome; Aiph's riverbank talk with Group K (the agreement; the pivot to [[The Burn]]); the festival in the main greenhouse; goodbyes between the groups. Next session: the groups are separate. |

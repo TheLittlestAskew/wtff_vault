@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T15:26:08.976Z",
+  "generated_at": "2026-10-19T16:41:25.095Z",
   "first_published_session": "01",
   "map": {
     "party": "rhusatatiam",
@@ -230,6 +230,12 @@
             "title": "Omission of Truth",
             "date": "09/20/2026",
             "href": "/where-the-flowers-forget/session.html?n=07"
+          },
+          {
+            "n": "08",
+            "title": "There Is Another You",
+            "date": "10/18/2026",
+            "href": "/where-the-flowers-forget/session.html?n=08"
           }
         ]
       },
@@ -292,6 +298,10 @@
     {
       "n": "07",
       "d": "2026-09-20"
+    },
+    {
+      "n": "08",
+      "d": "2026-10-18"
     }
   ],
   "sessions": [
@@ -371,6 +381,17 @@
       "at": "rhusatatiam",
       "f": "01-Sessions/Session%2007%20%E2%80%94%20Omission%20of%20Truth.md",
       "href": "/where-the-flowers-forget/session.html?n=07"
+    },
+    {
+      "n": "08",
+      "t": "There Is Another You",
+      "d": "2026-10-18",
+      "lbl": "October 18, 2026",
+      "lbl_short": "Oct 18, 2026",
+      "lbl_us": "10/18/2026",
+      "at": "rhusatatiam",
+      "f": "01-Sessions/Session%2008%20%E2%80%94%20There%20Is%20Another%20You.md",
+      "href": "/where-the-flowers-forget/session.html?n=08"
     }
   ]
 }

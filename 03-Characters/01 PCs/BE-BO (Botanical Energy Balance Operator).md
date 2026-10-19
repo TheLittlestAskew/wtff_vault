@@ -20,6 +20,7 @@ sub_class:
 - *(S04)* **Multiple limbs** ("three of his hands," "all of their limbs"); **no darkvision**.
 - *(S04)* Moves fast in **"a scurry"**; has a crab / **"sport mode."**
 - *(S05)* **Its wrists open to spew grease** when casting [00:26:29].
+- *(S08)* Festival look: a **top hat and cuffs** (cuffs only, "not connected to anything," no shirt); [[Bloom]] rode under the hat [01:34:30]–[01:34:56], [01:55:15]. "Top hat and cufflinks, baby." "Bebo did not shower."
 
 ## Backstory
 - *(S01)* Self-built/self-repaired over time; the kintsugi seams are the record of that.
@@ -52,6 +53,11 @@ sub_class:
 - *(S05)* **Studies the party's tics** and uses it: Insight with advantage against Tobias (25), seeing that his "very own body rejects that premise."
 - *(S05)* **Knits with three hands**, including on top of the gold chest while Zarna carried it; the insectoid-hide bag was about 80% done by the evening.
 - *(S05)* **Plans infusions:** a bag of holding, an alchemy jug ("full of mayonnaise at all times"), and goggles of night.
+- *(S08)* **Ponders "for what seems to be far too long for many others"** before deciding [01:00:19].
+- *(S08)* **"Bebo believes Bebo was once specific. Bebo believes in more"** (to [[Sage]], on "designation") [02:25:02].
+- *(S08)* **Conditional loyalty, for everyone:** "Bebo believes provisional trust should be extended... If foreseeable consequences outweigh possibilities of death, Bebo must let others know." For which group? "Why not both?"
+- *(S08)* **Swears, politely:** raised its hand, "Respectfully, Aiph. What the." (expletive dropped by STT). Adam: Bruin probably taught it the word.
+- *(S08)* **Lets go of what can't thrive:** released [[Bloom]] because the snail "will not be able to thrive" in [[The Burn]].
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
@@ -66,7 +72,8 @@ sub_class:
 | Insectoid hide (backpack-size), being knitted into a bag (~80% done) | Crafting (S07: the bag of holding) | [[Session 05 — The Bloody Truth]] |
 | One dragon tooth | Held | [[Session 05 — The Bloody Truth]] |
 | Sending stone (Nyx holds the other half) | Equipped | Used [[Session 07 — Omission of Truth]] |
-| Wood-chip name tag "Bloom" (mended to its body where the snail rests) | Equipped | [[Session 07 — Omission of Truth]] |
+| Wood-chip name tag "Bloom" (mended to its body where the snail rests) | Equipped (S08: [[Bloom]] itself released; whether the tag stayed on Bebo is not stated) | [[Session 07 — Omission of Truth]] |
+| Top hat; cuffs (festival wear) | Held | [[Session 08 — There Is Another You]] |
 | Used cooking grease (small wooden bowl) | Consumed (joints, snail, bag threads) | [[Session 07 — Omission of Truth]] |
 | Small light sphere that explodes with "healing dust" (gift from [[Derek]]) | Held | [[Session 06 — The Art of Staying Cool]] |
 | Pebble (thrown into the illusory hole and thrown back out) | Held | [[Session 04 — Four Blooms, Five Petals]] |
@@ -92,10 +99,16 @@ sub_class:
 - **↔ [[Isla 'Bruin' Kaplan|Bruin]] (S06):** Bruin stayed to guard it while it was frozen and poured fire whisky on it, hoping to thaw it.
 - **↔ [[Derek]] (S06):** Artie led it to Derek's staff car on the overnight train; Derek gave it a small light sphere that explodes with "healing dust."
 - **↔ Its friend in the other group (S05, crossover):** Tapped "Dungeon clear" on its chest stone; the reply "goes to your brain": "Friend in danger," "was told running for my life." Zarna: the friend who gave her the journal. **Friend not identified** here.
+- **↔ [[Nyx]] (S08, crossover):** By sending stone, Nyx: "just so you know, I would die for you." At the festival Bebo found a healthy tree (Investigation 17) and released [[Bloom]] with Nyx present; Nyx set it on "the greenest, most vegetative leaf." Goodbye by stone: Nyx asked it to take care of itself and make sure its team "handles your transfusions"; Bebo: "Bebo would also die for Nyx, But Bebo will also live for Nyx, too."
+- **↔ [[Bloom]] (S08):** Released onto a tree in the festival greenhouse; it "will not be able to thrive" in the Burn.
+- **↔ [[Sage]] (S08):** Danced near Sage (Adam's NPC) after a conversation about "designation" (its start lost in an audio gap): "Sage does not know if designation includes dance floors."
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S08):** Last to answer her request; agreed on condition it may speak if lives are at stake, for either group. Aiph: "That's fair."
+- **↔ [[Isla 'Bruin' Kaplan|Bruin]] (S08):** Bruin shushed everyone who spoke before Bebo had finished thinking.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | Joint crossover in [[Rhusatatiam]]; no combat. Floated grease against the dome (readied action; whether it was Bebo or Artie who prepared Grease is unclear, F8). Adam: Bebo "froze" "two sessions ago" (supports the S06 recap; F41). At the riverbank swore at Aiph, politely; pondered at length, then gave conditional agreement ("Why not both?"). Festival: top hat and cuffs; Nyx's "I would die for you"; **released [[Bloom]]** on a greenhouse tree with Nyx; met and danced near [[Sage]] ("Bebo believes Bebo was once specific"); goodbye to Nyx by sending stone ("will also live for Nyx"). |
 | [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]; unfrozen. Checked its snail (Arcana nat 20); read Eliza's exit as abnormal (Insight 18). Objected to Aiph's request ("Omission of truth is still not truth"). Ordered used cooking grease; greased its joints. **Unveiled a knitted bag of holding**, adopted as the party bank (600 gold, the emerald). Began extracting the centipede eyeball's iris for goggles of night. Messaged [[Nyx]] by sending stone; Nyx named the snail **[[Bloom]]** and Bebo engraved a wood-chip tag. Showed Nyx dungeon spoils. Stayed at the table with Zarna and Nyx to the end. |
 | [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap. Who played Bebo is not stated.)* **Still frozen** in the tavern at the start; guarded by Bruin, who poured fire whisky on it. **Thawed out** while Zarna talked with [[Delilah]]. ⚠️ S05 records everyone melting free when Tobias left; the S06 recap has Bebo still frozen. Both preserved as written. On the overnight train went with Artie and Zarna to [[Derek]] and received a light sphere that explodes with "healing dust." |
 | [[Session 05 — The Bloody Truth]] | Climbed onto the dragon and cast **Grease** around both insectoids; the embers lit it and both burned. Studied the bodies: the insectoid feeds on physical manifestations of magic, "a natural pest of draconic beings" (Arcana 17); the dragon is "a strand of blood of dragon you have never ever heard of before" (History 24); cherry-blossom scales, good luck (Nature 21). Harvested hide, blood, an eyeball, a tooth and five scales. Found the glowing exit (Investigation nat 20); saw Tobias take the heart (22). Knitted on top of the gold chest. At the inn, tapped "Dungeon clear" on its chest stone and got back "Friend in danger." Insight 25 and History 25 on Tobias and his drawing; pressed for the truth, and was frozen with the rest of the tavern when Tobias's frost broke loose. |
@@ -105,6 +118,15 @@ sub_class:
 | [[Session 01 — Winds in the East]] | Interviewed for [[The Uprooters]]; danced badly but joyfully during the mingling. Selected into the WtFF party (Group K). |
 
 ## Key Quotes
+> **[[Session 08 — There Is Another You]]**
+> "Bebo believes provisional trust should be extended." — *Important to story*
+>
+> "Why not both?" — *Funny*
+>
+> "Bebo believes Bebo was once specific. Bebo believes in more as of this moment in Bebo's life." — *Poignant*
+>
+> "Bebo would also die for Nyx, But Bebo will also live for Nyx, too." — *Poignant*
+
 > **[[Session 07 — Omission of Truth]]**
 > "Omission of truth is still not truth." — *Important to story*
 >
@@ -135,3 +157,6 @@ sub_class:
 ## Related
 - [[Campaign Dashboard]]
 - [[The Uprooters]]
+- [[Bloom]]
+- [[Sage]]
+- [[Session 08 — There Is Another You]]

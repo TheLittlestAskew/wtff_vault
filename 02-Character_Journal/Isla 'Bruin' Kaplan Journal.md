@@ -15,6 +15,49 @@ tags:
 
 ---
 
+> [!quote]- Session 08 — There Is Another You (10/18/2026)
+> *[[Session 08 — There Is Another You|Brambles, a river, and a table that broke]]*
+>
+> She put a knife in the dragon lady. Right there at the bar, in front of all of us, the one who looks like Lute. And the dragon lady snapped her fingers on the way down, and the floor came up.
+>
+> Brambles. Vines and branches tearing through the boards so fast the tables went flying, and then a dome of them, shut tight, with three of them inside: the dragon lady, Aiph, and the one with the knife. The cold one's legs were frozen to the floor where he stood, and a table sailed right over his head while he was looking down at them. Lucky, the way he gets lucky.
+>
+> I'd been wondering about the smell. When she came back as somebody else, did she smell different? She did. I don't know yet whether it's the smell I've been following my whole life or something of its own. I'll find out.
+>
+> I knocked on the dome. It was like knocking on a tree, no give at all, no sound anyone inside was going to hear. The tall one swung her sword at it and the bark grew right back where she'd cut it. I asked if somebody could set it on fire. The machine started talking about grease. The cold one said no fire inside, there could be families asleep upstairs, and he's right, I hadn't thought of that. The rest of the patrons decided they'd seen enough and poured out the door.
+>
+> Then it opened by itself. Cracked like an egg. And inside, Lute was holding the dragon lady, and the dragon lady was holding her back, and Aiph was just standing there, not ready to fight anybody. The tall one said what we were all thinking: didn't she just stab her?
+>
+> Aiph called us out. Our group with her, theirs with the dragon lady. On my way out I looked at the dragon lady and pointed at my nose. She nodded. Whatever she thinks I meant, she knows I noticed. The tall one chipped the ice off the cold one's legs and we went.
+>
+> Aiph walked us through the city along the river. Everybody else was dressed up, carrying crates toward the middle of town for something. She took us down a hill to the water and stood there with her hands in her pockets and asked how we were. The cold one asked if all relationships are like that. Aiph said she thinks so, just in different ways. Then the machine raised its hand, very politely, and swore at her. I am fairly sure it learned that word from me. I'll take it.
+>
+> She said she'd seen a bruise on the dragon lady's arm, that the dome takes something out of her to hold, and that she figured the tall one and I had been hacking at it. So we did do something. I asked how you take a thing like that down next time. It looks like wood, she said, but it's more magic than anything. Break the spell, not the branches.
+>
+> Then the part she brought us down there for. Tonight is the last night we'll see the other group for a long while. They go all the way across the continent, and we go the other way. She doesn't want us turning their trouble into ours: our business is our business, theirs is theirs. The cold one said the dragon lady looks at people like she's working out what they're worth and how to take them out, and Aiph didn't argue. She said that's exactly what she's doing.
+>
+> The wizard knew the one with the knife. Worked with Lute for six months, years back, and when the other one came out he'd knock her on the back of the head and she'd come back. He didn't know more than that, and nobody caught a lie on him.
+>
+> I said yes to Aiph. Easy. The machine took longer. It thought so long the others started to talk, and I shushed every one of them, because it was thinking and it deserved to finish. What it decided: trust, provisionally, and silence, unless keeping quiet means somebody dies. Ours or theirs. Aiph said that was fair. The dragon lady is threatening to throw her group out if they talk. Aiph won't do that to us. She asked, and she meant it as asking.
+>
+> And then she told us where we're going. The Burn. The last dungeon she knows of that neither she nor the dragon lady made. She doesn't know yet if she's coming with us. She'll have things for us in the morning, to help, and to reach her. The heart stays with us. "We, all of us now are uprooters," she said, and then she went to wash, because she was covered in the dragon lady's blood.
+>
+> There's a festival tonight. A celebration of warmth, of all things, in a city that feels wrong to me. I put on the sailor's coat over my clothes and stuck flowers and weeds in my hair, and I washed. That's as dressed up as I get.
+>
+> It's a greenhouse in the middle of the city, enormous, flowers everywhere, banners hanging, everyone in town crammed inside. A band playing fast, the kind of dancing where you grab whoever is closest and spin them off. Too loud. Too many people. So I went looking for the one thing every party like this has, and found it: a table of big men arm wrestling, and two Goliaths running it, and one nobody could beat.
+>
+> I set my drink down hard and asked, sweet as anything, if I could try. Grabbed his hand wrong on purpose. He laughed and fixed my grip for me. They all crowded in close because they thought it was going to be funny.
+>
+> I let the bear up. The table broke. His arm went down and he ran.
+>
+> I took a flower out of my hair and left it on what was left of the table, for whoever comes next. There was a bag of gold on the floor where the table used to be. I took it. Nobody is going to wrestle me again tonight, and that's fine. I could do this all night.
+>
+> When it came time for goodbyes I didn't have any to make. The people I'm bound to are the ones I came with, and after what we agreed down at the river, that feels right. Everyone has a train in the morning.
+>
+> *She smelled different. Somebody in that bar smelled different, and I'm going to remember it.*
+
+---
+
 > [!quote]- Session 07 — Omission of Truth (09/20/2026)
 > *[[Session 07 — Omission of Truth|Back at the fire, and the city that smells wrong]]*
 >

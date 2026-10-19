@@ -22,6 +22,7 @@ The home village of [[Tobias Wolfe]]. First named during Group K orientation whe
 ## Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | *(Referenced.)* Tobias on Mags: "She looks like the people in Cardona. Little. Little dead behind the eyes." |
 | [[Session 02 — It Follows Me, So I Followed It]] | Named by [[Tobias Wolfe|Tobias]] during Group K orientation as his home village. His friends called him "sparrow" there. |
 
 ## Related

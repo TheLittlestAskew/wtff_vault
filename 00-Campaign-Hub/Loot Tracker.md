@@ -8,6 +8,37 @@
 
 ---
 
+## Session 08 — There Is Another You (10/18/2026)
+
+> Joint crossover session in [[Rhusatatiam]]; no combat, so no combat loot. The S07 holdings above (bag of holding, 600 gold, gems, rib, etc.) are not re-listed; S08 does not say they changed hands. The **dragon heart** stays with the party (Aiph: "it's possible you'll collect more and it's possible you could do something with it"); which PC holds it is not restated in S08.
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Bag of **43 gold** | NEW. Arm-wrestling winnings; fell from the table she broke at the Festivus of Warmth. Held. Session 08. |
+| [[Isla 'Bruin' Kaplan\|Bruin]] | Sailor's dress coat | Worn over her clothes to the festival. First recorded S08; source [Unknown/Ambiguous]. Held. |
+| Party | Dragon heart | Stays with the party; [[Aiphrumfite ‘Aiph‘\|Aiph]] keeps a sketch and her notes from their identification and will share any research. Holder not restated (S07: [[Tobias Wolfe\|Tobias]] at ~80%). Held. |
+| [[Aiphrumfite ‘Aiph‘\|Aiph]] → Group K | Items "to help you on your journey" and to "communicate with me" | PROMISED, not yet given; to be handed over before departure in the morning. Session 08. |
+| [[Tobias Wolfe\|Tobias]] | Ink and a little paintbrush | Used to paint the matching wrist symbols on himself and [[Lute]]. Held. Session 08. |
+| [[Tobias Wolfe\|Tobias]] | Marigold crown | Festival wear; one flower pulled out and tucked behind Lute's ear. Held. Session 08. |
+| [[Tobias Wolfe\|Tobias]] | Festival clothes | Bought for him by "his friend's parents." Held. Session 08. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Top hat; cuffs ("not connected to anything") | Festival outfit; [[Bloom]] rode under the hat. Held. Session 08. |
+| [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] | Sending stone (Nyx holds the other half) | Used for Nyx's message and the goodbye. Equipped. |
+| [[Eliza Duskbloom\|Eliza]] | Green corset dress; dangly necklaces and bracelets | Festival outfit. Held. Session 08. |
+| [[Zarna Morganach\|Zarna]] | Mug of mead | At the festival. Consumed (assumed; flagged). Session 08. |
+
+*Crossover / NPC items (not party loot, recorded for completeness):*
+
+| Character/Owner | Item/Artifact | State/Context |
+|---|---|---|
+| [[Aiphrumfite ‘Aiph‘\|Aiph]] → [[Margaret “Mags” HoneyThatcher\|Mags]] | Ring | "in the center of the diamond is a blooming flower"; left in Mags's hand as Aiph walked away. Given Away. Session 08. |
+| [[Aiphrumfite ‘Aiph‘\|Aiph]] | The knife (Lux's blade) | Removed from Mags and set on the tavern bar. Current holder [Unknown/Ambiguous]. Session 08. |
+| [[Lute]] (WtFR) | Tobias's drawing | Delivered by [[Nyx]]: "Be careful. I'm getting used to you being my friend." Session 08. |
+| [[Dolm]] (WtFR) | Mags's glass (red liquid) with Aiph's conjured petal garnish | Carried to Daffodil. Session 08. |
+
+> *Do not infer additional properties of these items beyond what was shown.*
+
+---
+
 ## Session 07 — Omission of Truth (09/20/2026)
 
 > Loot from the test dungeon at [[Sunroute Crossing|Sunroot Crossing]] (dragon heart, scale, eyeball, rib) was **acquired in S05** (see the S05 section below; propagated 2026-10-10); it is recorded here as it was **held and shown in S07**. The source of the gold, the emerald, the sapphire and the vial of blood is not stated in S07 ([Unknown/Ambiguous]); quantities are as stated in S07 only.

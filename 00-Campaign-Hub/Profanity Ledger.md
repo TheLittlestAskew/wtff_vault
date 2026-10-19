@@ -5,28 +5,63 @@
 ## Running Totals
 | Speaker | Campaign Total | Most Common |
 |---|---|---|
-| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] (IC) | Several (S01) + 6 (S05) | fuck / fucking / God |
-| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) + 2 (S04) + 1 (S05) + 4 (S07) | fuck / shit / gosh |
+| [[Aiphrumfite ‘Aiph’\|Aiph]] / [[Adam]] (IC) | Several (S01) + 6 (S05) + 1 (S08) | fuck / fucking / God |
+| [[Adam]] (OOC) | Several (S01) + 3 (S02 062826) + 2 (S04) + 1 (S05) + 4 (S07) + 1 (S08) | fuck / shit / gosh / hell |
 | [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) | fucked up / the fuck |
-| [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | 3 (1 S01 + 2 S02 062826) | fucking / shitless / fuck |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] (IC) | 3 (1 S01 + 2 S02 062826) + 1 (S08) | fucking / shitless / fuck / pissed |
 | [[Alec]] (DM, OOC) | 1 (S02 062826) | shit |
 | [[Artie (Art) Veyr\|Artie]] / Will (OOC) | 2 (1 S01 + 1 S02 062826) + 4 (S05; 1 IC) | fuck / God |
-| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) + 3 (S04) + 20 (S05; mixed IC/OOC) + 2 (S07) | God / fuck / hell |
+| [[Tobias Wolfe\|Tobias]] / Seth (OOC) | 1 (S02 062826) + 3 (S04) + 20 (S05; mixed IC/OOC) + 2 (S07) + 7 (S08) | God / fuck / hell |
 | [[Tobias Wolfe\|Tobias]] (IC) | 1 (S02 062826) + 1 (S07) | ass |
 | Aldin Forgehill (NPC, S01) | 1 (S01) | fucking |
-| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) + 8 (S04; 2 of them IC) + 4 (S05) + 2 (S07) | God / damn / shit |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | 4 (S03) + 8 (S04; 2 of them IC) + 4 (S05) + 2 (S07) + 5 (S08) | God / damn / shit / hell |
 | [[Adam]] (DM — roleplay / narrator) | 2 (S02 pre-campaign) + 3 (S03) + 2 (S04) + 4 (S05) | God / heck / "smart asses" |
-| Rachel / [[Zarna Morganach\|Zarna]] (OOC / table) | 6 (S04) + 16 (S05; mixed IC/OOC) + 6 (S07) | shit / hell / God |
-| Evan / [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (table) | 2 (S05) | Lord |
-| Huey / [[Auriron]] (WtFR, crossover table) | 3 (S07; 1 IC) | ass / damn / gosh |
-| Jordan / [[Lute]] (WtFR, crossover table) | 3 (S07) | damn / heck / gosh |
+| Rachel / [[Zarna Morganach\|Zarna]] (OOC / table) | 6 (S04) + 16 (S05; mixed IC/OOC) + 6 (S07) + 6 (S08) | shit / hell / God |
+| Evan / [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (table) | 2 (S05) + 2 (S08) | Lord / damn / BS |
+| Huey / [[Auriron]] (WtFR, crossover table) | 3 (S07; 1 IC) + 1 (S08) | ass / damn / gosh / fuck |
+| Jordan / [[Lute]] (WtFR, crossover table) | 3 (S07) + 1 (S08) | damn / heck / gosh |
 | Holly / [[Nyx]] (WtFR, crossover table) | 1 (S07) | damn |
+| Josh / [[Rowan]] (WtFR, crossover table) | 3 (S08) | God / Lord |
+| CJ / [[Dolm]] (WtFR, crossover table) | 1 (S08) | God |
 
 _Counts marked “Several” are not exactly enumerable from the transcript; totals are qualitative until the roll/transcript archive supports exact counts._
 
 **Per-session header format:** `## Session [##] — [Title] ([MM/DD/YYYY])`
 
 **Per-session columns:** Speaker · Curse Word · Frequency · Context
+
+---
+
+## Session 08 — There Is Another You (10/18/2026)
+
+_Joint crossover session (both tables). Mostly OOC exclamations, plus two in-character lines (Aiph, Mags). Group J (WtFR) players are listed by first name as table data only._
+
+| Speaker | Curse Word | Frequency | Context |
+|---|---|---|---|
+| Seth / [[Tobias Wolfe\|Tobias]] (table) | "goddamn" | 1 | Opening recap ("Lost her goddamn shit"). |
+| Seth / [[Tobias Wolfe\|Tobias]] (table) | "shit" | 1 | Same line. |
+| Seth / [[Tobias Wolfe\|Tobias]] (table / OOC) | "God" ("Oh, God" / "Oh, my God") | 3 | Reacting to his save; OOC break; return from break. |
+| Seth / [[Tobias Wolfe\|Tobias]] (OOC) | "fucking" | 1 | OOC break ("It's a fucking mess," about D&D Beyond). |
+| Seth / [[Tobias Wolfe\|Tobias]] (OOC) | "hell" | 1 | "Where the hell did it go?" |
+| Huey / [[Auriron]] (table) | "fuck" | 1 | "Where the fuck is Dolm?" |
+| Rachel / [[Zarna Morganach\|Zarna]] (table) | "God" ("Oh, God") | 1 | Reacting to Tobias's save. |
+| Rachel / [[Zarna Morganach\|Zarna]] (table) | "hell" ("Hell, yeah") | 3 | Dome attack; the nat 1; the close. |
+| Rachel / [[Zarna Morganach\|Zarna]] (table) | "pissed" | 2 | Her die showing a 2. |
+| [[Aiphrumfite ‘Aiph‘\|Aiph]] ([[Adam]], IC) | "fuck" | 1 | "whoever the fuck that was that stabbed my mags." |
+| [[Adam]] (DM, OOC) | "hell" | 1 | Closing banter ("who the hell knows"). |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (table) | "God" ("Oh, my God") | 1 | Reacting to Nyx's message. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC / table) | "hell" | 2 | OOC break; "Hell yeah" at the 43 gold. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (OOC) | "shits" | 1 | OOC break. |
+| Taylor / [[Isla 'Bruin' Kaplan\|Bruin]] (table) | "Lord" ("Oh Lord") | 1 | Reacting to Auriron's Insight roll. |
+| Evan / [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (OOC) | "damn" | 1 | OOC break. |
+| Evan / [[BE-BO (Botanical Energy Balance Operator)\|Bebo]] (OOC) | "BS" | 1 | OOC break (about D&D Beyond). |
+| Josh / [[Rowan]] (table / OOC) | "God" ("Oh, God") | 2 | Pulled onto the dance floor; the bridesmaid joke. |
+| Josh / [[Rowan]] (OOC) | "Lord" ("Oh, Lord") | 1 | OOC break. |
+| [[Margaret “Mags” HoneyThatcher\|Mags]] ([[Alec]], IC) | "pissed" | 1 | "Orion would be pissed." |
+| CJ / [[Dolm]] (table) | "God" ("Oh, God") | 1 | Reacting to table innuendo. |
+| Jordan / [[Lute]] (table) | "heck" | 1 | "Heck yeah," dancing with Tobias. |
+
+_STT appears to have dropped several expletives, leaving gaps: "Respectfully, Aiph. What the." [00:50:44, Bebo], "she doesn't know what the. Is going on" [00:31:26, Rachel], "what the. Is happening" [00:01:48, Alec], "what the are you" [02:20:10, Alec], "It still hurts like a mother" [00:24:40, Alec]. Not counted._
 
 ---
 

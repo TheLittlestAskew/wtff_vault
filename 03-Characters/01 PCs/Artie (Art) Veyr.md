@@ -14,6 +14,7 @@ sub_class:
 - *(S01)* Reads as a **"mobile scholar-investigator."**
 - *(S05)* **Eyes are gold** (Will, answering Evan) [02:22:23].
 - *(S05)* Under **detect magic** his lens flares and **his eyes glow greenish** [00:21:13].
+- *(S08)* For the festival, robes that are **"already pretty expensive"** [01:40:17].
 
 ## Backstory
 - *(S01)* Studied the arcane **at school and with tutors**.
@@ -22,6 +23,8 @@ sub_class:
 - *(S02)* His stated reason for joining [[The Uprooters]]: he is **seeking Malus Thornwake** (≤55% confidence on compound surname). [[Aiphrumfite 'Aiph'|Aiph]] visibly reacted to this name (paused, wrote a note).
 - *(S05)* **Has been to the Crater** (Will: "The thing that I rolled a very low number for? But I've been there.") [02:11:08]. *(≤60%, first-seen; confirm with Will.)*
 - *(S05)* **"You've been into visions before"** (Adam, on Artie's Arcana read of the emerald vision) [02:35:41].
+- *(S08)* **"comes from, you know, more well off family"** [01:40:17].
+- *(S08)* **Worked with [[Lute]] for six months "several years ago"** and knew Lux: "I only worked with her for six months, you know, several years ago"; primarily with Lute, "but occasionally Lux would come out," and to bring her back "It required me to just clock her in the back of the head, and she would go back to normal" [00:56:51]–[00:57:34]. On his roll of 1 against the table's Insight, Adam: "you're getting no deception at all from Artie... He believes what he says to be true." *(Answers the S07 open question F65 from Artie's own statement.)*
 
 ## Personality
 - *(S01)* **Calm, composed, intensely observant**; a truth-seeker ("if I have to do a couple bad things to find that answer…").
@@ -36,6 +39,8 @@ sub_class:
 - *(S04)* **Theorizes aloud:** "we were supposed to fight this thing, and then somehow that thing got here."
 - *(S05)* **Experiments on himself and others:** ate one of the unknown spheres on the spot; imbued magic into the emerald in Tobias's hand to see what it would do.
 - *(S05)* **Party treasurer:** keeps track of the pooled gold.
+- *(S08)* **Owns his inaction:** "She lied to me, and I probably should have done something about it, but I didn't." Given the chance to change his readied action when the dome opened, he did nothing.
+- *(S08)* **Watches from above:** looked for someone "he had met previously, but he couldn't find him," then watched Lute and Tobias dance from an upper level; said goodbye to no one.
 
 ## Abilities & Class Features
 - *(S04)* **Languages:** Common, Elvish, Giant.
@@ -85,10 +90,13 @@ sub_class:
 - **↔ [[Tobias Wolfe|Tobias]] (S06):** With Zarna and Eliza, found him at the pond and talked him down; **agreed to teach him some magic** and how to possibly control it better; went with him to find Aiph.
 - **↔ [[Derek]] (S06):** Met him again in the staff car of the overnight train; Derek was **overjoyed Artie was able to use the explosive** he gave him, and gifted him explosive ink with an activator quill.
 - **↔ [[Lute]] (S07, crossover):** Caught Lute slipping a drawing into his bag (Perception nat 20) and passed it to Tobias. Later bolted out of the tavern to where Lute's alternate persona (Lux) was.
+- **↔ [[Lute]] / Lux (S08, crossover):** Came down the stairs into the chaos after waiting for Lute upstairs (S07); [[Auriron]] pointed him out ("that's one"; "So are you? Also a problem to be solved"). Artie: "She lied to me." At the riverbank stated he worked with Lute for six months several years ago and knew Lux; the table read no deception. Watched Lute and Tobias dance; no goodbye.
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S08):** Agreed to keep "our business our business"; Aiph on Lute: "It is whatever it is. Group J's problem. It's not our problem." Asked how the recruiters' approaches differ (Adam answered above-table about the crater).
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | Joint crossover in [[Rhusatatiam]]; no combat. Came downstairs into the stab's aftermath; questioned by [[Auriron]]. Readied an action at the dome (Grease attribution unclear, F8); did nothing when it opened. At the riverbank said he worked with [[Lute]] for six months several years ago and knew Lux ("clock her in the back of the head"); rolled a 1, and Adam ruled no deception (he believes it). Agreed to keep "our business our business." Festival: his already-expensive robes; looked for someone he'd met before and couldn't find him; watched Lute and Tobias dance from an upper level; said goodbye to no one. |
 | [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Writing in his book at the start, still stunned his magic failed (the S06 Identify). Recognized Bebo's bag of holding (Arcana 22) and gave Bebo the party's 600 gold. Noticed Eliza missing. Told [[Kidu]] that [[Dolm]] was three blocks down following a bug. Caught [[Lute]] slipping a drawing into his bag (Perception nat 20); passed it to Tobias. Read the Aiph/Mags argument as tense (Insight 4; attribution tangle F49). Prompted "Tobias, show the heart." Bolted out of the tavern toward Lux; Bruin saw him run out. End-of-session whereabouts [Unknown/Ambiguous]. |
 | [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* With Zarna and Eliza found Tobias at the pond and talked him down; agreed to teach him magic control; went with him to apologize to Aiph. On the overnight train led Bebo and Zarna to [[Derek]] in the staff car and received explosive ink with an activator quill. Found a book with an obscure fairy tale about the "Cherry-Blossom looking Dragon" ([[The Dungeon Dragon]]). **Cast Identify on the dragon's heart: it gives off magic, but his powers are "currently unable to comprehend this object fully."** |
 | [[Session 05 — The Bloody Truth]] | Under detect magic, walked to the chest and investigated it (26): untouched, 600 gp, Aiph's reward, no link to the creature. Knocked prone when the dragon's skeleton fell (DEX 13). Flipped the chest: gold, emerald, sapphire, the jar of spheres (3d4 = 8) and a black dagger. **Ate a sphere** (d100 69): 4 hours of bonus-action healing; healed Zarna and Bruin. "Probably a loving father. We're just desecrating his body." Became keeper of the 600 gp party pool; gave Tobias the sapphire; **Identify** on the dagger (+1, +2 thrown; a weird taste). Ran the emerald experiment with Tobias (17) and went into the vision (off-recording; "I got kicked out"). Arcana 17: the vision was true, "none of it created by the magic itself." Said he has been to the Crater (≤60%). |
@@ -98,6 +106,11 @@ sub_class:
 | [[Session 01 — Winds in the East]] | Interviewed first ("why the fuck do I have to go first?"); gave his reason for joining (magic misbehaving). Selected into Group K. |
 
 ## Key Quotes
+> **[[Session 08 — There Is Another You]]**
+> "It required me to just clock her in the back of the head, and she would go back to normal." — *Funny / Important to story*
+>
+> "She lied to me, and I probably should have done something about it, but I didn't." — *Serious*
+
 > **[[Session 05 — The Bloody Truth]]**
 > "Probably a loving father. We're just desecrating his body." — *Funny*
 >
@@ -109,3 +122,5 @@ sub_class:
 ## Related
 - [[Campaign Dashboard]]
 - [[The Uprooters]]
+- [[Lute]]
+- [[Session 08 — There Is Another You]]

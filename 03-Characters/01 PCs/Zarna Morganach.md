@@ -15,6 +15,7 @@ sub_class:
 - *(S07)* Carries a **giant curved rib** (dungeon loot) on her back.
 - *(S07)* The dwarven waiter calls her a "big armor scary woman."
 - *(S04)* **"A giant half orc," not stealthy;** fights with a **maul ("a giant hammer")**.
+- *(S08)* For the festival: **a skirt thrown over her normal outfit**; hair **usually in a ponytail, now down with a couple of braids** [01:38:42]; "**a very tall person**" [02:47:45].
 
 ## Backstory
 - *(S01)* Only learned of [[The Uprooters]] **that morning, from a flyer**.
@@ -39,6 +40,9 @@ sub_class:
 - *(S05)* **Wants dragon bone for a weapon**; a "loot goblin without being a rogue" ("we are tearing this good luck dragon apart").
 - *(S05)* **Fascinated by Bebo's craft:** "From one craftsman to a craftsman to another."
 - *(S05)* **Lectures on upkeep:** told Aiph "regular dungeon maintenance is important."
+- *(S08)* **"not very light footed when it comes to dancing"**; watches from the edge of the floor with a mug of mead [02:47:45].
+- *(S08)* **Says the obvious out loud:** "didn't she just stab her?"; "We've already frozen a tavern."
+- *(S08)* **Draws the line at shared problems:** "It's only a problem when it becomes your problem or our problem."
 
 ## Abilities & Class Features
 - *(S04)* **Languages:** Common and Orc.
@@ -57,6 +61,7 @@ sub_class:
 | Share of the party gold pool (600 gp, tracked by [[Artie (Art) Veyr\|Artie]]); she carried the chest to the inn | Party funds | [[Session 05 — The Bloody Truth]] |
 | Exploding ball bearings | Held — kept out of Bebo's bag | Gift from [[Derek]], [[Session 06 — The Art of Staying Cool]] ("explosive ball-berings" in the recap); shown [[Session 07 — Omission of Truth]] |
 | Healing potion (lifted from Artie by [[Tobias Wolfe\|Tobias]] and given to her) | Held (pocketed, not drunk) | [[Session 04 — Four Blooms, Five Petals]] |
+| Mug of mead (festival) | Consumed (assumed; flagged) | [[Session 08 — There Is Another You]] |
 
 ## Relationships
 - **↔ [[Nyx]]:** tried (and failed) to identify the symbol on Nyx’s chest during the interviews (S01); *(S02)* succeeded at Religion nat 20/21 — saw deity of justice illumination; accepted Bebo caretaker notebook from Nyx.
@@ -76,10 +81,14 @@ sub_class:
 - **↔ [[Delilah]] (S06):** Talked with "their favorite server" about the strange dragon-like creature; Delilah had heard of such things only in childhood fairy tales.
 - **↔ [[Derek]] (S06):** On hearing he may have more explosives, **offered the group's services as "Explosive Field-Testers"** (working title); he gave her explosive ball-bearings.
 - **↔ [[Nyx]] (S07, crossover):** Finally noticed Nyx at the table (Perception 18 on a re-roll); compared notes on the groups' dungeons ("Uneventful. We completed it... but we only got to keep one thing," Nyx). Nyx checked her armor for an emblem.
+- **↔ [[Tobias Wolfe|Tobias]] (S08):** Chipped the ice off his frozen legs after the dome opened.
+- **↔ [[Isla 'Bruin' Kaplan|Bruin]] (S08):** Both hacked at Mags's dome; Aiph credited their hacking for the bruise on Mags's arm.
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S08):** Agreed to keep "our business our business": "It's only a problem when it becomes your problem or our problem." Aiph watched her from the bar.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | Joint crossover in [[Rhusatatiam]]; no combat. **Attacked Mags's bramble dome** (7; Rachel: it "looked like it was a nat 20, but it said it was a 2"): the blow glanced off and the bark re-formed (each scrape bruised Mags, unseen). "We've already frozen a tavern"; "didn't she just stab her?" Chipped Tobias free. At the riverbank agreed to keep "our business our business." Festival: a skirt over her outfit, hair down with braids; watched from the edge with a mug of mead. |
 | [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Agreed with Bebo that omission isn't truth but saw no choice. Asked for the bottle of red. Spotted Aiph at the bar watching the entrance and checking a wrist device (Perception 12). Recognized Bebo's bag of holding (Arcana 17); kept her exploding ball bearings out of it. Absorbed in Bebo's goggle-crafting; a run of low Perception rolls kept her from noticing [[Nyx]] until an 18. Read the Aiph/Mags argument as tense (Insight 12). Showed Nyx the giant curved rib. Stayed at the table with Bebo and Nyx to the end. |
 | [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* With Eliza and Artie found Tobias at the pond and talked him down. Back at the tavern told [[Delilah]] about the dragon-like creature (fairy tales only, per Delilah). On the overnight train went with Artie and Bebo to [[Derek]], offered the group as "Explosive Field-Testers," and received explosive ball-bearings. |
 | [[Session 05 — The Bloody Truth]] | Phase two: insectoids missed her; her maul missed (11); knocked prone when the dragon's skeleton fell. Ripped out a **dragon rib** "the size of a long sword" for a future weapon (History 5 at advantage: almost connected some dots, then forgot). Lifted the whole gold chest alone (Athletics 24) and carried it, Bebo knitting on top, to the inn. Healed by Artie's sphere power. Told Aiph dungeon maintenance is important. Shared her background with Tobias (mentor, traveling museum, old weaponry). Couldn't place the vision figure (History 10). Frozen in place with the whole tavern when Tobias's frost broke loose. |
@@ -89,6 +98,11 @@ sub_class:
 | [[Session 01 — Winds in the East]] | Interviewed; tried to read Nyx’s chest symbol (failed). Read the Mags/Aiph eye-contact moment successfully. Selected into Group K. |
 
 ## Key Quotes
+> **[[Session 08 — There Is Another You]]**
+> "We've already frozen a tavern." — *Funny*
+>
+> "It's only a problem when it becomes your problem or our problem." — *Serious*
+
 > **[[Session 07 — Omission of Truth]]**
 > "Truth is a complicated thing." — *Serious*
 
@@ -103,3 +117,4 @@ sub_class:
 ## Related
 - [[Campaign Dashboard]]
 - [[The Uprooters]]
+- [[Session 08 — There Is Another You]]

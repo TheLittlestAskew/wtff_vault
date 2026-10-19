@@ -26,6 +26,7 @@ first_appearance: "[[Session 01 — Winds in the East]]"
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | Sent behind the bar by [[Tobias Wolfe\|Tobias]] when Mags's brambles erupted; later jumped onto Tobias's shoulders. |
 | [[Session 07 — Omission of Truth]] | With [[Tobias Wolfe\|Tobias]] at the [[Hearthread Hall]]; jumped up onto him as he left to find somewhere in [[Rhusatatiam]] to sell his art. |
 | [[Session 05 — The Bloody Truth]] | Sent to hide at the start of phase two (Stealth 22); whistled back after the fight and fed cookies. With Tobias at the [[X Marks the Spot Inn]]; whereabouts after Tobias ran from the frozen tavern [Unknown/Ambiguous]. |
 | [[Session 04 — Four Blooms, Five Petals]] | Rode on [[Tobias Wolfe\|Tobias]]'s shoulders through Aiph's test dungeon and shared his cookie (half a cookie). Told to stay on Tobias's shoulders and to go to [[Zarna Morganach\|Zarna]] if anything happens to him. With Tobias in Layer 5 when the creature's two new heads clawed at him. |

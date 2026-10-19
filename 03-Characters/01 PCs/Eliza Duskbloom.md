@@ -11,6 +11,7 @@ sub_class:
 ## Description / Appearance
 - *(S01)* A **very young elf**; **curly brown hair** braided to one side.
 - *(S01)* **Gray/tan vine-covered robes**; covered in **trinkets, necklaces, and bracelets**.
+- *(S08)* For the festival: a **green corset dress**, her dangly necklaces and bracelets, and her **hair out of its braid, down, with all of her flowers in it** [01:35:24]–[01:35:37].
 
 ## Backstory
 - *(S01)* **Forest-raised**, unused to people. Senses the world changing and wants answers.
@@ -28,6 +29,8 @@ sub_class:
 - *(S04)* **Reads Druidic** (one of two in the party, with Bruin).
 - *(S05)* **Horrified at the harvesting** of the dragon [01:01:25].
 - *(S05)* **Writes nonstop in her journal when shaken** (after the vision) [02:36:25].
+- *(S08)* **Chooses the shy one:** picked out a shy, frozen-in-indecision Air Genasi to dance with ("Would you like to dance with me?") and had to take the lead ("the I'm leading position") [02:03:27]–[02:04:33].
+- *(S08)* **Cries at goodbyes:** at Lute's farewell, "Always make sure you look for the good stuff and take care of yourself and stay alive" [02:48:46].
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
@@ -40,6 +43,7 @@ sub_class:
 | Pitch-black dagger with some red on it (+1, +2 when thrown, per Artie's Identify) | Held (in her bag) | [[Session 05 — The Bloody Truth]] |
 | Journal (the vision written down) | Carried | Seen [[Session 05 — The Bloody Truth]] |
 | Share of the party gold pool (600 gp, tracked by [[Artie (Art) Veyr\|Artie]]) | Party funds | [[Session 05 — The Bloody Truth]] |
+| Green corset dress (festival wear) | Held | [[Session 08 — There Is Another You]] |
 
 ## Relationships
 - **↔ [[Lute]]:** Lute declared the two of them “best friends” and compared trinkets (a cross-party WtFR↔WtFF bond); Eliza was alarmed watching Lute “talk to herself.” *(S02)* Gave Lute a butterfly trinket from her belt before going upstairs.
@@ -52,11 +56,15 @@ sub_class:
 - **↔ [[Artie (Art) Veyr|Artie]] (S05):** Artie identified the black dagger, which went to her.
 - **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S05):** Aiph downed Eliza's untouched shot before leaving. Eliza: Aiph "Didn't even seem like she was so prepared."
 - **↔ [[Tobias Wolfe|Tobias]] (S06):** With Zarna and Artie, found him at the pond and talked him down. Remarked that things not going "according to plan" is probably a good thing, since what lies ahead won't be "planned" either.
+- **↔ [[Lute]] (S08, crossover):** A huge goodbye hug; Lute talked her ear off with a list of dangers ("don't stub your toe... If someone offers you some, like, candy or something, don't take it"); Lute: "She's my buddy too." Eliza, crying: "look for the good stuff."
+- **↔ Air Genasi (unnamed; possibly "Echo," F19) (S08):** Her festival dance partner; shy, white-haired, finely dressed; she led, and they floated for a moment to keep from falling. Later joined near Bebo and [[Sage]].
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S08):** Agreed (thumbs up) to keep "our business our business." Aiph watched her dance from the bar.
 - **↔ [[Constance]]:** *(S03)* Met the magic-shop owner in the conservatory car while harvesting carrots (identified the window-bed stalks, Nature 17; growth magically aided, Nature 13).
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | *(Lydia back.)* Joint crossover in [[Rhusatatiam]]; no combat. Outside the dome with the party at the stab; went with Aiph to the riverbank and agreed (thumbs up) to keep "our business our business." Festival: green corset dress, hair down with her flowers; spotted a shy Air Genasi (Perception 16) and led the dance. Tearful goodbye with [[Lute]]. Whether her S07 exit upstairs was addressed is not stated. |
 | [[Session 07 — Omission of Truth]] | *(Player absent; DM-run briefly.)* At the start of the session at the Common Fire ([[Hearthread Hall]]), **bolted up and ran upstairs without a word.** Bebo (Insight 18): "It's very clear something happened." Cause [Unknown/Ambiguous]. Did not return in the session; Lute's search for her (Perception 8) found Tobias instead. |
 | [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* With Zarna and Artie found Tobias at the pond and talked him down; her "according to plan" remark. On the overnight train settled into the Observatory car to journal. |
 | [[Session 05 — The Bloody Truth]] | Phase two: her sling hit the left insectoid in the eye (5), then hit again (16) and **its head exploded**, the second kill. Horrified by the harvest. At the inn, "You really shouldn't" (on Tobias's "see the other guy"); received the black dagger. Followed Tobias and Artie into the emerald vision (Arcana 19; off-recording, known only as retold); held hands with Tobias across the table; wrote the vision down, shaking (Sleight of Hand 18). Frozen in place with the whole tavern when Tobias's frost broke loose. |
@@ -66,6 +74,9 @@ sub_class:
 | [[Session 01 — Winds in the East]] | Interviewed; both recruiters felt they knew her. Watched Lute’s inner-voice moment. Selected into the WtFF party (Group K). |
 
 ## Key Quotes
+> **[[Session 08 — There Is Another You]]**
+> "Always make sure you look for the good stuff and take care of yourself and stay alive." — *Poignant*
+
 > **[[Session 05 — The Bloody Truth]]**
 > "You should see the other guy." / "You really shouldn't." *(Tobias / Eliza)* — *Banter*
 
@@ -76,3 +87,4 @@ sub_class:
 - [[Campaign Dashboard]]
 - [[The Uprooters]]
 - [[Lute]]
+- [[Session 08 — There Is Another You]]

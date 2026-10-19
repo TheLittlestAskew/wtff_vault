@@ -77,6 +77,16 @@
 **Session:** [[Session 05 — The Bloody Truth]] [02:42:33]
 **Context:** Tobias claiming he knows nothing about love (Deception 25); Bebo's Insight (25) beat it.
 
+### Social — A low roll on a true statement still reads as true
+**Ruling:** Artie rolled a 1 (persuasion or deception, kept hidden) on his account of working with Lute and Lux; Adam: "you're getting no deception at all from Artie... He believes what he says to be true."
+**Session:** [[Session 08 — There Is Another You]] [00:57:56]
+**Context:** The riverbank; the table's Insight on Artie (17) read him as truthful. Recorded as stated for this case.
+
+### Social — Bruin can smell a difference on Lux
+**Ruling:** Asked whether Lute, "as a different person," smells different, Alec: "I think there is a different smell." Resolves the S07 pending soft ruling (F64). Whether it is the scent Bruin has followed her whole life is **not established**.
+**Session:** [[Session 08 — There Is Another You]] [00:09:10]
+**Context:** Right after the stab, outside the bramble dome. Alec's ruling (Lux is his NPC/PC-side content).
+
 ## Other
 
 ### Other — "Don't ask for a roll if you didn't want them to succeed"
@@ -88,6 +98,11 @@
 **Ruling:** Adam: "we are going to try to chart an in between that makes sense of like 2014 and 2024. D&D... I will end up being the final arbiter of what feels the most fair. But more often than not, I'm probably gonna let it slide because I want to be able to, like, make very challenging combats." Taylor confirmed 10/10/26: both 2014 and 2024 sources are allowed, with the DM as the final arbiter.
 **Session:** [[Session 04 — Four Blooms, Five Petals]] [02:30:48]–[02:31:39]
 **Context:** End-of-session OOC talk. Earlier, Taylor cited keeping rage up as a bonus action "with 2024 rules" and Adam accepted it ("Oh, okay.") [00:36:34]. Supersedes the earlier "2014 rules, not 2024" value in `_Campaign_Setup.md`.
+
+### Other — Joint sessions: the DM who cast it rules on it
+**Ruling:** Asked what Bruin's knock on Mags's bramble dome achieves, Adam deferred: "It's Alec's spell." Alec then ruled on the dome (no initiative; it opens on its own).
+**Session:** [[Session 08 — There Is Another You]] (scene [00:27–00:37]; exact timestamp not in the note)
+**Context:** Joint session; Mags is Alec's NPC. Recorded as the working practice shown, not a stated general rule.
 
 ### Other — Sylvan allowed for Bruin
 **Ruling:** Bruin may know Sylvan even though D&D Beyond won't let it be selected.

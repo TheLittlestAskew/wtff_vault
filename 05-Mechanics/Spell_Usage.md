@@ -26,7 +26,11 @@
 | [[Artie (Art) Veyr\|Artie]] | Identify | 1st level | [[Session 05 — The Bloody Truth]] | On the pitch-black dagger from the chest (Arcana 18): +1, +2 when thrown; a "weird taste" in his mouth after casting [01:51:36]. |
 | [[Artie (Art) Veyr\|Artie]] | Identify | 1st level | [[Session 06 — The Art of Staying Cool]] | On the dragon's heart ([[The Dungeon Dragon]]) aboard the overnight train: it gives off magic, but "his powers are currently unable to comprehend this object fully." *No recording; per the written recap; no roll recorded.* |
 
+| [[Lute]] (WtFR, crossover) | Cure Wounds | 1st level | [[Session 08 — There Is Another You]] | Inside Mags's bramble dome (witnessed by [[Aiphrumfite ‘Aiph‘\|Aiph]]): cast on the bruise the dome cost [[Margaret “Mags” HoneyThatcher\|Mags]], after Aiph had healed the stab wound. Amount not stated. |
+
 ---
+
+> **S08 ([[Session 08 — There Is Another You]]):** one named spell (Lute's Cure Wounds, above). Descriptive magic not logged as named spells: [[Margaret “Mags” HoneyThatcher|Mags]]'s snap raising the bramble dome (Adam: "It's Alec's spell"; no spell named; Aiph: "more magical than anything"); [[Aiphrumfite ‘Aiph‘|Aiph]] removing the knife and healing the wound with green magic, holding Lute frozen, and conjuring a daisy or daffodil petal as a garnish; Tobias's legs freezing (a failed save, not a cast). Grease was named as a **readied** action (Bebo or Artie, unattributed, F8) but never cast; the dome opened first.
 
 > S01 was a social/roleplay session; few spells were cast by name. Most magic was descriptive (e.g. [[Aiphrumfite ‘Aiph‘|Aiph]]'s color-changing igniting sand; floating the brawling candidates apart) and is **not** logged here as named spells to avoid invention.
 

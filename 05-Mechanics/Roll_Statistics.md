@@ -23,5 +23,6 @@ Avg d20 uses the die kept (the higher die on advantage), before modifiers.
 | S04 | 2026-07-26 | 20 | Bruin, Bebo, Eliza |
 | S05 | 2026-08-09 | 14 | Bruin |
 | S07 | 2026-09-20 | 3 | Bruin |
+| S08 | 2026-10-18 | ⚠️ not queried | Pending: the DDB archive was not read for S08 (Supabase permission denied in Convo 1; this run was told not to query). Per-character totals above exclude S08. |
 
-S00 (OOC) and S06 (no recording) have no archived rolls.
+S00 (OOC) and S06 (no recording) have no archived rolls. **S08:** 17 transcript roll events (13 with values) are in the session note's Full Roll Log; digital rolling is evident (Rachel's die "said it was a 2," Taylor "moved it to my other screen"), so archived rows probably exist. Fill this row and the totals once `SELECT * FROM wtff_session_rolls WHERE session_date = '2026-10-18' ORDER BY timestamp_iso;` is run.

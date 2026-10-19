@@ -35,6 +35,20 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
 
+### 2026-10-19 13:30 ET · Claude Code
+- **Changed:** S08 Convo 2 propagation done in the working tree (31 files staged): trackers, Dashboard, Open Threads, Location Index, House Rules (3), Spell_Usage, Roll_Statistics (pending row), Bruin's journal, 6 PCs + Aiph/Bloom/Nero, new NPC `Sage.md`, 6 lore pages, `_Campaign_Setup.md`, Vault Sync Status. Removed one possibly personal STT fragment from the S08 note. Includes the Convo 1 files from the entry below.
+- **Commit:** — (NOT BANKED: `git commit` is permission-gated in this non-interactive run; everything is staged, nothing committed or pushed)
+- **Friction:** gen-fail — `git commit` blocked again (Bash, PowerShell and `-F` forms all need approval); same block as Convo 1 Phase B.
+- **Next:** Taylor: `git commit -m "S08 — automated session sync"` then `git push` from the vault root (push = publish; confirm the title "There Is Another You" first), then run the read-only `wtff_session_rolls` query for 2026-10-18.
+- **Watch out:** Rolls for S08 are still unqueried; Roll_Statistics has a ⚠️ pending row and the per-character totals exclude S08.
+
+### 2026-10-19 12:15 ET · Claude Code
+- **Changed:** S08 Convo 1 (Phase B) done in the working tree: corrected transcript (local only, gitignored), `Spell_Check_Logs/101826_Spell_Check_Log.md`, note `01-Sessions/Session 08 — There Is Another You.md`, a `_Campaign_Setup.md` Decisions Log row, and `_pipeline/S08/handoff.md`.
+- **Commit:** — (NOT BANKED: `git commit` needs approval this automated run can't grant; 3 files uncommitted)
+- **Friction:** gen-fail — node, sed -i, PowerShell, Supabase `execute_sql` and `git commit` all blocked by permissions in the non-interactive run; corrections were applied with line-scoped Edit passes instead (verified by full-file search), and the roll archive was left unqueried and flagged.
+- **Next:** Taylor: commit + push the 3 files (or run `Workflows/scripts/Publish-WTFF.cmd`), then run the read-only `wtff_session_rolls` query for 2026-10-18 and fill the note's DDB Roll Archive table before Convo 2.
+- **Watch out:** Title "There Is Another You" was picked by the run; Taylor to confirm before publishing (push = publish).
+
 ### 2026-10-19 11:30 ET · Claude Code
 - **Changed:** no change. The S08 Convo 2 propagation run stopped before any vault write: `_pipeline/S08/handoff.md` and the `01-Sessions/Session 08 — …` note don't exist yet, and the corrected transcript was still being modified (11:23:59 ET) after the run started.
 - **Commit:** —

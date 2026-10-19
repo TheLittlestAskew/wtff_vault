@@ -17,6 +17,7 @@ sub_class: Frost Sorcery
 - *(S05)* His **arm tattoos glow faintly blue, turning orange** as he manipulates a spell [00:33:33].
 - *(S05)* **Black hair** and **"very deep sapphire" blue eyes** (his own account of standing out in a town of blond and red-haired humans) [02:16:22], [02:47:17].
 - *(S05)* **Left-handed** [00:11:02].
+- *(S08)* Festival clothes **"his friend's parents bought him"** [01:39:29]; a **marigold crown** [02:46:54].
 
 ## Backstory
 - *(S01)* His **village thought him strange**; he never felt the communal belonging others did — a self-described outsider / **"odd duck."**
@@ -43,6 +44,9 @@ sub_class: Frost Sorcery
 - *(S06, per the written recap)* **Treated poorly in his home town "for who he was."** He told Aiph so and asked whether she and Mags were ever looked down upon for loving one another.
 - *(S06, per the written recap)* There is **someone in his home town he loves very deeply and misses**; still, he says **he will never again set foot there.**
 - *(S06, per the written recap)* At a pond near [[Sunroute Crossing|Sunroot Crossing]] he saw in the water **not his own reflection but that of someone dear to him**, and spoke aloud to those from his past: how he hates them, loves them, misses them. The reflection dissolved back to his own. Who he saw is not stated.
+- *(S08)* The Festivus of Warmth is **"the first time he celebrated the festival without his little family"** [01:39:29].
+- *(S08)* "the people of the, the town I came from **called me a demon**" [02:09:16].
+- *(S08, Seth OOC)* Created as "an outsider in a place that only like values" (cut off [01:15:37]; nothing inferred).
 
 ## Personality
 - *(S01)* **Naive, gentle**; an artist who wants to "see it all… live it all" and to **"find home."**
@@ -70,6 +74,10 @@ sub_class: Frost Sorcery
 - *(S06, per the written recap)* **Doesn't really know how the ice happens**, but it "always seems to occur at moments of heightened emotion."
 - *(S06)* **Seeks water to calm down** (fled the tavern for a pond; cf. S07 "look for the water").
 - *(S06)* **Apologizes for the harm his magic does:** went to find Aiph to apologize for freezing the tavern's patrons.
+- *(S08)* **"extremely sheltered. This is the first time he's seen violence against another humanoid"** [00:14:32].
+- *(S08)* **Thinks of bystanders first:** "fire inside is a non starter... There could be families that sleep upstairs."
+- *(S08)* **"I am a fan of blueberries"** [02:09:49].
+- *(S08)* **Marks his bonds:** painted a matching symbol on his and Lute's wrists ("when things are hard, someone's in your corner"); left theirs "next to mine in the dungeon we cleared" (cf. his S02 sparrow-mark tradition).
 
 ## Inventory / Loot
 | Item | Status | Session Acquired |
@@ -93,6 +101,10 @@ sub_class: Frost Sorcery
 | Emerald (from the test chest; placed in his hand by Artie for the vision experiment) | S05 final holder [Unknown/Ambiguous]; deposited in the bag in S07 (row above) | [[Session 05 — The Bloody Truth]] |
 | Drawings: the creatures and the dead dragon (one given to Aiph); Zarna carrying Bebo on the chest (given to Zarna); the vision | Held / Given Away | [[Session 05 — The Bloody Truth]] |
 | Share of the party gold pool (600 gp, tracked by [[Artie (Art) Veyr\|Artie]]) | Party funds | [[Session 05 — The Bloody Truth]] |
+| Festival clothes (bought for him by his friend's parents) | Held | [[Session 08 — There Is Another You]] |
+| Marigold crown (one flower given to [[Lute]], behind her ear) | Held | [[Session 08 — There Is Another You]] |
+| Ink and a little paintbrush (painted the matching wrist symbols) | Carried | [[Session 08 — There Is Another You]] |
+| Drawing for [[Lute]] ("Be careful. I'm getting used to you being my friend."), delivered by [[Nyx]] | Given Away | [[Session 08 — There Is Another You]] |
 
 ## Relationships
 - **↔ [[Nero]]:** his white-fox companion, who fetched him food during the mingling. Nero served as perimeter lookout outside the tavern (S02); detected Lute approaching at Perception 17.
@@ -123,10 +135,16 @@ sub_class: Frost Sorcery
 - **↔ [[Artie (Art) Veyr|Artie]] (S06):** Artie **agreed to teach him some magic** and how he might control it better; went with him to find Aiph. *(Distinct from S07's "teacher, a mentor" Aiph is arranging; not merged.)*
 - **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S06):** Apologized for freezing the tavern's patrons. Aiph: his powers aren't a burden nor a liability but an asset; if he stops running from it and lets it flow through him he may find a power he didn't know he had, one [[The Uprooters]] may need one day. On the overnight train he confided how his home town treated him; Aiph struck **a deal**: "You can go to my place for me and I to your place for you."
 - **↔ [[Nero]] (S05):** Sent Nero to hide during the fight (Stealth 22); whistled him back and fed him cookies.
+- **↔ [[Lute]] (S08, crossover):** Now "my best friend" (Lute). Slow dance ("Why don't we forget about today"; "no rhythm, just fun"); "I have something I can't control, and I have hurt some people with it. I know where you're coming from, and I know you're a good person." Matching painted wrist symbols; tucked a flower from his marigold crown behind her ear. Lute: "don't let anyone else call you a monster, because you're not."
+- **↔ [[Margaret “Mags” HoneyThatcher|Mags]] (S08):** "She looks like she's trying to assess what you're worth, what you can do, how to take you out. And how to make use of you." "She looks like the people in [[Cardona]]. Little. Little dead behind the eyes." Aiph: "That's exactly what she's doing."
+- **↔ [[Aiphrumfite ‘Aiph‘|Aiph]] (S08):** At the stab, tried to breathe because Aiph told him "not to fight his magic so much"; agreed to keep "our business our business." "Are all relationships that traumatic?" / "honestly, I think so, just in different ways."
+- **↔ [[Zarna Morganach|Zarna]] (S08):** She chipped the ice off his frozen legs.
+- **↔ [[Nero]] (S08):** Sent Nero behind the bar at the stab; Nero later jumped onto his shoulders.
 
 ## Key Events
 | Session | Event |
 |---|---|
+| [[Session 08 — There Is Another You]] | Joint crossover in [[Rhusatatiam]]; no combat. At the stab, gripped the bar and kept from freezing the whole tavern; failed CON save (8): **his lower legs froze in place** and a catapulted table flew over his head. Sent [[Nero]] behind the bar. Perception 22: Auriron's prayer is a Primordial dialect he can't place. Vetoed fire in the tavern. Zarna chipped him free. At the riverbank: "Are all relationships that traumatic?"; read Mags as assessing them (Aiph agreed); agreed to keep "our business our business." Festival clothes, marigold crown; slow-danced with [[Lute]] and talked about the parts of themselves they can't control; painted matching wrist symbols and gave her a flower from his crown. |
 | [[Session 07 — Omission of Truth]] | Joint crossover at the [[Hearthread Hall]]. Recapped the dungeon ("The dragon killed what she put in and then the creepy crawler killed the dragon"); pledged to keep Aiph's secret. Ordered a round; fire whiskey (Insight 15 on the dwarf's grease reaction); hands went cold mid-drink (CON 19). Apologized to Bebo again. Put the emerald in Bebo's bag, kept the sapphire; claimed the dragon heart ("That is mine"; ~80%, F66). Reunited with [[Lute]]; received her drawing via Artie. Read the Aiph/Mags argument as heated (Insight 24). Introduced himself to [[Nyx]], left a sketch for Lute with her, and went into [[Rhusatatiam]] to sell his art, [[Nero]] jumping onto him. |
 | [[Session 06 — The Art of Staying Cool]] | *(No recording; per the written recap.)* Fled the tavern to a small pond near [[Sunroute Crossing\|Sunroot Crossing]]; saw the reflection of someone dear to him and spoke to those from his past until it dissolved. Talked down by Zarna, Eliza and Artie; said the ice comes at moments of heightened emotion; Artie agreed to teach him. Apologized to Aiph for freezing the patrons; she called his power an asset. On the overnight train confided in Aiph about his home town, asked whether she and Mags were looked down upon for loving one another, vowed never to return home despite someone he loves there, and Aiph struck a deal: each would go to the other's place (his answer not stated). |
 | [[Session 05 — The Bloody Truth]] | Dodged both surprise attacks "like Spider man"; sent Nero to hide; a frost-flavored Shocking Grasp (15) on the left insectoid; stepped back behind Zarna. Reflavored his frost as fire (Performance 21) for a 10-damage hit, tattoos turning orange; Silvery Barbs saved Bruin. Harvested flesh, blood, six teeth and a tail bone, and secretly took **the dragon's heart** (seen by Bruin and Bebo). Drew the creatures for Aiph. Received the sapphire; made Delilah an ice rose; told Zarna about the archaeologist who taught him Elvish. **Sapphire vision** (off-recording; as retold): the Crater, then an elvish man writing "because it does"; the man's eyes "A deep emerald green." **Emerald vision** with Artie and Eliza (nat 20; off-recording; as retold): the green-eyed man ready to "sacrifice everything and everyone" for someone he loved. Drew it (Performance 27). Denied knowing love (Deception 25); Bebo saw through it. Told "the bloody truth" of his past, **failed a Charisma save and froze the whole tavern**, said "I'm sorry, I'm sorry" and ran. "Tobias is gone." |
@@ -136,6 +154,13 @@ sub_class: Frost Sorcery
 | [[Session 01 — Winds in the East]] | Interviewed; tracked down food (Nero fetched a bowl) and sketched the room. The WtFF party’s strongest perceiver — and the **only** WtFF PC to read the charged look between the recruiters at the split. Selected into Group K. |
 
 ## Key Quotes
+> **[[Session 08 — There Is Another You]]**
+> "Are all relationships that traumatic?" — *Funny / Poignant*
+>
+> "Well, the people of the, the town I came from called me a demon. But mine apparently likes to freeze things." — *Poignant*
+>
+> "Be careful. I'm getting used to you being my friend." *(his drawing for Lute)* — *Poignant*
+
 > **[[Session 07 — Omission of Truth]]**
 > "If it's the only person who's not looked at me like I'm broken. So if she needs me to tell a lie, I will tell whatever lie she needs." — *Poignant*
 >
@@ -177,3 +202,4 @@ sub_class: Frost Sorcery
 - [[Campaign Dashboard]]
 - [[The Uprooters]]
 - [[Nero]]
+- [[Session 08 — There Is Another You]]
