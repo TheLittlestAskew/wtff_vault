@@ -8,7 +8,7 @@ session_date_display: 10/18/2026
 site_location: rhusatatiam
 session_type: Joint / crossover session (WtFF Group K + WtFR Group J; both DMs); billed as the last joint session for an unknown stretch
 spelling_checked: true
-rolls_source: transcript (physical/verbal) only; DDB roll archive NOT queried this run (Supabase permission denied), see Continuity Flags
+rolls_source: transcript (physical/verbal) + DDB roll archive (3 digital rolls, cross-referenced 2026-10-19)
 tags:
   - session
   - wtff
@@ -40,7 +40,7 @@ pov_character: "Isla 'Bruin' Kaplan"
 | Campaign Name | Where the Flowers Forget |
 | Session Number | 08 |
 | Session Date | 10/18/2026 |
-| Start Location | The tavern in [[Rhusatatiam]] where Lux stabbed Mags (S07: [[Hearthread Hall]]; Adam calls it "Brindleberry Hollow" at [00:48:42], see Continuity Flags) |
+| Start Location | [[Hearthread Hall]], [[Rhusatatiam]], where Lux stabbed Mags (Adam misspoke "Brindleberry Hollow" at [00:48:42]; Taylor confirmed Hearthread Hall) |
 | End Location | The Festivus of Warmth in the main greenhouse, center of [[Rhusatatiam]] (Aiph and Mags part at the bar; both groups saying goodbye before their trains) |
 | Party Present | **WtFF (Group K):** [[Isla 'Bruin' Kaplan\|Bruin]], [[Artie (Art) Veyr\|Artie]], [[BE-BO (Botanical Energy Balance Operator)\|Bebo]], [[Eliza Duskbloom\|Eliza]], [[Tobias Wolfe\|Tobias]], [[Zarna Morganach\|Zarna]] · **WtFR (Group J, crossover):** [[Lute]] (and Lux), [[Nyx]], [[Auriron]], [[Rowan]], [[Dolm]]; [[Kidu]] narration-only · DMs [[Adam]] (voicing [[Aiphrumfite ‘Aiph‘\|Aiph]], Sage, the Goliaths, the Air Genasi) and [[Alec]] (voicing [[Margaret “Mags” HoneyThatcher\|Mags]], Lux, and Group J's NPCs) |
 | Absent Players | None from Group K. Kevin ([[Kidu]]): presence unconfirmed (Taylor, 2026-10-19) |
@@ -144,12 +144,12 @@ Session 08 is a **joint crossover session** (both DMs, both parties) set entirel
 **Table culture.** Big, warm farewell energy: the "deep freeze" jokes about Bebo, "Top hat and cufflinks, baby," the round-robin outfit photos, Alec's "Cj, stop. I can't handle any of you. You're all grounded," the slushie conversation ("cancel the campaign"), Rachel's dice showing a nat 20 that "said it was a 2," Bruin's arm-wrestling hustle, and the closing joke that the Uprooters will be the bridal party at a future wedding (treated as banter, not canon or foreshadowing).
 
 ### Setting
-The session opens in **the tavern in [[Rhusatatiam]]**, capital of the [[Rhus Valley]], at the moment of the S07 stab (S07 placed it in the [[Hearthread Hall]]; Adam names the tavern "Brindleberry Hollow" here, a conflict, see Continuity Flags). It is the same evening as S07. Alec's recap describes "the city of Rhusatatiam"; Taylor's OOC lore reading describes the valley's "Seasonal festivals... deep rooted traditions and communal spirit." In-game time covers a single evening into night. Both groups board trains the next morning: Group K toward [[The Burn]], Group J "all the way across the continent" in the other direction.
+The session opens in **the tavern in [[Rhusatatiam]]**, capital of the [[Rhus Valley]], at the moment of the S07 stab (the [[Hearthread Hall]], as in S07; Adam misspoke "Brindleberry Hollow" here, and Taylor confirmed Hearthread Hall). It is the same evening as S07. Alec's recap describes "the city of Rhusatatiam"; Taylor's OOC lore reading describes the valley's "Seasonal festivals... deep rooted traditions and communal spirit." In-game time covers a single evening into night. Both groups board trains the next morning: Group K toward [[The Burn]], Group J "all the way across the continent" in the other direction.
 
 ### Locations Visited
 | Location | Description | Notable Details |
 |---|---|---|
-| The tavern, [[Rhusatatiam]] ([[Hearthread Hall]] per S07) | Where Lux stabbed Mags. | Mags's bramble dome; Tobias's frozen legs; Zarna's attack on the dome; the dome opens on Lute hugging Mags. Adam: "Brindleberry Hollow" (conflict, F13). |
+| [[Hearthread Hall]], [[Rhusatatiam]] | Where Lux stabbed Mags. | Mags's bramble dome; Tobias's frozen legs; Zarna's attack on the dome; the dome opens on Lute hugging Mags. Adam misspoke "Brindleberry Hollow" (F13, resolved). |
 | The tavern — upstairs rooms | Rooms above the bar. | Group J goes up with Mags; the groups "freshen up" before the festival. |
 | The riverbank, [[Rhusatatiam]] | Down a hill off the stone path along "the river that runs through the main city." | Aiph's talk with Group K: the agreement, the Burn, the dragon heart. |
 | [[Rhusatatiam]] streets | The city "preparing for something": people in finer garb carrying crates toward the center. | Group K walks with Aiph. |
@@ -315,7 +315,7 @@ The session opens in **the tavern in [[Rhusatatiam]]**, capital of the [[Rhus Va
 No combat encounter occurred. The two physical tests were the dome (which no one from outside could breach; Zarna's swing only scraped bark that re-formed, and each scrape cost Mags a bruise she couldn't see) and Bruin's arm-wrestling match, which she won outright while raging. Nobody took damage on screen except Mags (the stab, carried over from S07, healed by Aiph; the bruise, healed by Lute). Tobias's frozen legs were chipped free by Zarna.
 
 ### Full Roll Log
-All rolls are **physical/verbal** (announced at the table); values as stated in the transcript. **The DDB roll archive was not queried this run** (Supabase permission denied), so no digital roll could be cross-referenced. **Scope:** "K" = Group K (WtFF); "J" = Group J (WtFR), logged as table data only; *J-internal* = a scene with no Group K witness.
+Rolls as announced at the table; values as stated in the transcript. The 3 digital rolls from the DDB archive are cross-referenced in the table below. **Scope:** "K" = Group K (WtFF); "J" = Group J (WtFR), logged as table data only; *J-internal* = a scene with no Group K witness.
 
 | Character/NPC | Roll/Check | Result | Context/Outcome |
 |---|---|---|---|
@@ -338,11 +338,13 @@ All rolls are **physical/verbal** (announced at the table); values as stated in 
 | [[Auriron]] (J) | Insight | 10 (7+3) | *J-internal*: hesitant, though the stranger gives nothing to fear. [02:56:47] |
 
 #### DDB Roll Archive
-**Not queried this run.** The `wtff_session_rolls` view could not be read (Supabase MCP permission was not granted to this automated run), so the archived roll count for 2026-10-18 is unknown and nothing above has been cross-checked. Rachel's "it said it was a 2" [00:32:04] and Taylor's "I moved it to my other screen" [02:19:09] indicate digital rollers, so archived rows are likely to exist (at least Bruin's Athletics). **Convo 2 (or a rerun with Supabase access):** run `SELECT * FROM wtff_session_rolls WHERE session_date = '2026-10-18' ORDER BY timestamp_iso;` read-only and add the table here.
+3 digital rolls made on D&D Beyond this session, from the roll archive (Supabase view `wtff_session_rolls`), cross-referenced against the log above on 2026-10-19. Only rolls made on DDB's dice roller land here; physical dice never do. **Est. audio** is the DDB clock minus a recording start of ~19:44:43 ET, worked out from the two matched rolls (they agree within 46 s); treat it as ±30 s.
 
 | DDB time (ET) | Est. audio | Character | Roll | Dice | Result | Against the log |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | — | Archive not queried (see above) |
+| 20:16 | ~[00:32:01] | [[Zarna Morganach\|Zarna]] | Maul, to hit | 1d20+5 | 7 (rolled 2) | ✓ Attack 7 [00:32:24]; confirms Rachel's "it said it was a 2" |
+| 20:43 | ~[00:58:26] | [[Isla 'Bruin' Kaplan\|Bruin]] | Insight check | 1d20+1 | 16 | Disagrees: the unattributed Insight on Artie at [00:58:01] was announced as "17." Either a second roller (Bebo was asked) or a misheard value; flagged, not overwritten. |
+| 22:04 | ~[02:19:50] | [[Isla 'Bruin' Kaplan\|Bruin]] | Athletics check, advantage | 2d20+6 | 26 (20, 7) | ✓ Athletics 26, nat 20 [02:19:27] |
 
 **Roll trends:** A light, social roll session: no attack or damage rolls against a creature, no initiative. The session's two natural 20s went to a Group J deception (Lute vs Aiph) and to Bruin's arm-wrestle; Artie's roll of 1 was turned by Adam into proof he was telling the truth. Insight was the most-called check (four calls), fitting a session about who is who. Four rolls were called with no value stated.
 
@@ -440,12 +442,12 @@ All rolls are **physical/verbal** (announced at the table); values as stated in 
 ### Continuity Flags, Missing Info & Ambiguities
 | Flag Type | Description | Source/Location | Resolution |
 |---|---|---|---|
-| 🛑 Roll archive not queried | Supabase `execute_sql` permission was denied in this automated run, so `wtff_session_rolls` for 2026-10-18 was not read. Archived roll count unknown; no transcript rolls cross-checked. Nothing was written to Supabase. | Convo 1 Step 3 | Rerun the read-only query (Convo 2 or a manual pass) and fill the DDB Roll Archive table. |
-| Venue name (F13) | Adam: "The tavern. Why do I always forget what it is? Brindleberry Hollow, you mean not New York City, where Delilah's at." S07 placed the stab at [[Hearthread Hall]]; the vault's `Brindleberry Hollow.md` (≤60%) is Group J's test dungeon; Delilah works at the [[X Marks the Spot Inn]]. Not renamed or relinked. | [00:48:42]–[00:48:59] | Confirm with Adam/Taylor. |
+| Roll archive vs log | DDB shows Bruin's Insight 16 at ~[00:58:26]; the unattributed Insight announced as "17" at [00:58:01] does not match. Zarna's 7 and Bruin's 26 match. Archive read-only; nothing written to Supabase. | DDB Roll Archive | Flagged; 17 not overwritten. |
+| Venue name (F13) | Adam: "The tavern. Why do I always forget what it is? Brindleberry Hollow, you mean not New York City, where Delilah's at." S07 placed the stab at [[Hearthread Hall]]; the vault's `Brindleberry Hollow.md` (≤60%) is Group J's test dungeon; Delilah works at the [[X Marks the Spot Inn]]. Adam misspoke. | [00:48:42]–[00:48:59] | Resolved: Taylor confirmed **Hearthread Hall** (2026-10-19). Brindleberry Hollow stays Group J's test dungeon. |
 | Spelling not corrected | "aef" at line 618 ("you look in upon aef, watching") is an Aiph STT variant but is not cited by the approved table. Left verbatim in the transcript. | Raw line 618 | Next spell-check pass. |
-| Ambiguous approved rows | "Obo" (110: Bebo or Tobias) and "Lou" (868: Lute or Lux) carried two alternatives and were left verbatim. "uef" (802) was applied as its primary value "Aiph" (45%); the alternative "Mags" stands as a flag. | Spell-check log | Taylor to confirm. |
+| Ambiguous approved rows | "Obo" (110), "Lou" (868) and "uef" (802) carried two alternatives. | Spell-check log | Taylor approved the first option for each (2026-10-19): Obo→Bebo, Lou→Lute, uef→Aiph. |
 | First-seen names (≤60%) | **Festivus of Warmth** (55%; Adam self-corrected from "Festival of Warmth"), **Sage**, **Daffodil**, **voxberry / voxberry punch**, **"the Grand Hall"**, **"Echo"** (2122, uncorrected), **Galium Major** (85%, canon spelling from `Artemesia.md`; no page). "Orro" corrected to Auriron at 60% (could be a nickname, F22). | F16, F19, F20, F22 | Convo 2 to decide; WtFR names stay crossover-only. |
-| Dolm vs "Dom" (F23) | Roster card says **Dolm**; CJ and Alec say "Dom," and CJ's pun "it's Dolm. It's dumb" depends on it. Corrected per the card (pun line at 60%). | [02:30:43] | Confirm in-game pronunciation with Taylor. |
+| Dolm vs "Dom" (F23) | Roster card says **Dolm**; CJ and Alec say "Dom," and CJ's pun "it's Dolm. It's dumb" depends on it. Corrected per the card (pun line at 60%). | [02:30:43] | Resolved: Taylor confirmed **Dolm** (2026-10-19). |
 | Attribution (F8) | Who prepared Grease: Evan (Bebo) says "I would prepare grease as an action"; Will: "Art's preparing an action." | [00:36:09]–[00:37:01] | Logged as both readied; grease unattributed. |
 | Mislabeled rolls (F9) | "15." (Seth's label, Auriron's Insight), "17." (Seth's label, roller unclear), "16." (Alec's label, Eliza's Perception), "A nat one." (Rachel's label, roller unknown). | [00:43:19], [00:58:01], [02:03:10], [02:19:44] | Attributed by context in the roll log. |
 | Unclear roll value | Lute's Wisdom save: "17 the fail." Whether 17 is the roll or the DC is unclear. | [00:21:20] | Logged as a fail. |

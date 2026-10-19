@@ -22,7 +22,7 @@ The test dungeon assigned to **Group J** (the WtFR party) by [[The Uprooters]]. 
 | Session | Event |
 |---|---|
 | [[Session 02 — It Follows Me, So I Followed It]] | Named by [[Aiphrumfite 'Aiph'|Aiph]] during Group K orientation as Group J's (WtFR) first test dungeon destination. Group J boarded the purple train to Brindleberry Hollow at the morning platform in [[Rhusatatiam]]. (Crossover reference — WtFR internal.) |
-| [[Session 08 — There Is Another You]] | ⚠️ *(Name conflict, F13.)* Adam called the Rhusatatiam tavern "Brindleberry Hollow" [00:48:42] ("Why do I always forget what it is?"), while S07 places that tavern at the [[Hearthread Hall]]. Not relinked; this page stays Group J's test dungeon until Adam/Taylor confirm. |
+| [[Session 08 — There Is Another You]] | ⚠️ *(Name conflict, F13.)* Adam called the Rhusatatiam tavern "Brindleberry Hollow" [00:48:42] ("Why do I always forget what it is?"), while S07 places that tavern at the [[Hearthread Hall]]. ✓ Resolved 2026-10-19: Taylor confirmed the tavern is Hearthread Hall; Adam misspoke. This page stays Group J's test dungeon. |
 
 ## Related
 - [[Campaign Dashboard]]

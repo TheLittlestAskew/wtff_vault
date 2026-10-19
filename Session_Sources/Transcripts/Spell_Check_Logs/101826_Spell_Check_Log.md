@@ -95,8 +95,8 @@ Row = line number of the row in `_pipeline/S08/spellcheck.md`. Lines = raw trans
 
 | Row | Heard (raw) | Proposed | Why not applied | Line |
 |---|---|---|---|---|
-| 35 | Obo ("Don't let Obo hear that") | Bebo *or* Tobias | Two alternatives with no single value; applying either would be a guess. Left verbatim. | 110 |
-| 53 | Lou ("Her name is Lou.") | Lute *or* Lux | Same. Left verbatim. | 868 |
+| 35 | Obo ("Don't let Obo hear that") | Bebo *or* Tobias | Taylor approved the first option (2026-10-19). Applied: Bebo. | 110 |
+| 53 | Lou ("Her name is Lou.") | Lute *or* Lux | Taylor approved the first option (2026-10-19). Applied: Lute. | 868 |
 
 ## Left Verbatim (not in the table)
 
