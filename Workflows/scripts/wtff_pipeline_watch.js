@@ -20,8 +20,8 @@
  *     - this script pre-fetches the session's DDB rolls (read-only GET) into
  *       <pipeline>\SNN\ddb_rolls.json, so headless Claude never touches Supabase
  *     - Convo 2 refuses to start until Phase B wrote SNN\handoff.md and the note
- *     - headless Claude may run git add/commit/push (main only, no force) so it
- *       can bank its handoff
+ *     - headless Claude may run git add/commit (never push; the publish step
+ *       pushes), so it can commit its handoff
  *
  * TESTS:  node --test wtff_pipeline_watch.test.js
  *
@@ -77,12 +77,12 @@ const STATUS_FILE = path.join(PIPELINE_DIR, 'status.json');
 const LOCK_FILE = path.join(PIPELINE_DIR, 'approve.lock');
 
 // Headless runs can't answer permission prompts, so anything not pre-allowed is
-// silently denied. These let Phase B / Convo 2 bank their own work. Push is exact
-// match only (no --force); Supabase is NOT allowed (rolls are pre-fetched below).
+// silently denied. These let Phase B / Convo 2 commit their own work locally.
+// No push: publishToSite() pushes deterministically after Convo 2. No Supabase:
+// rolls are pre-fetched below.
 const ALLOWED_TOOLS = [
   'Bash(git status:*)', 'Bash(git diff:*)', 'Bash(git log:*)', 'Bash(git rev-parse:*)',
   'Bash(git add:*)', 'Bash(git commit:*)',
-  'Bash(git pull --rebase origin main)', 'Bash(git push)', 'Bash(git push origin main)',
 ];
 const CLAUDE_FLAGS = '--permission-mode acceptEdits --allowedTools ' +
   ALLOWED_TOOLS.map((t) => `"${t}"`).join(' ');
@@ -333,11 +333,13 @@ function publishToSite(nn) {
 
   const git = (...a) => spawnSync('git', a, { cwd: VAULT_ROOT, stdio: 'inherit' });
   git('add', '-A');
+  // Nothing staged is normal now: Convo 2 commits its own work but can't push, so
+  // always fall through to the push below.
   if (spawnSync('git', ['diff', '--cached', '--quiet'], { cwd: VAULT_ROOT }).status === 0) {
-    log('publish: nothing to commit — site already current');
-    return true;
+    log('publish: nothing new to commit — pushing any local commits');
+  } else if (git('commit', '-m', `notes: publish session ${nn}`).status !== 0) {
+    log('publish: commit FAILED'); return false;
   }
-  if (git('commit', '-m', `notes: publish session ${nn}`).status !== 0) { log('publish: commit FAILED'); return false; }
   if (git('pull', '--rebase', 'origin', 'main').status !== 0) { log('publish: pull --rebase FAILED — resolve conflicts and rerun'); return false; }
   if (git('push', 'origin', 'main').status !== 0) { log('publish: push FAILED — check network/credentials'); return false; }
   log('publish: pushed — site reflects the change within ~5 minutes');

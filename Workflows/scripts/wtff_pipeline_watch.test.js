@@ -113,9 +113,9 @@ test('convo2Ready: needs handoff.md and exactly one note', () => {
   assert.match(r.problems[0], /2 Session 08 notes/);
 });
 
-test('CLAUDE_FLAGS: git banking allowed, no force push, no Supabase', () => {
+test('CLAUDE_FLAGS: git commit allowed, no push, no Supabase', () => {
   assert.match(w.CLAUDE_FLAGS, /--permission-mode acceptEdits/);
   assert.match(w.CLAUDE_FLAGS, /"Bash\(git commit:\*\)"/);
-  assert.ok(!/git push:\*/.test(w.CLAUDE_FLAGS));
+  assert.ok(!/push|pull/.test(w.CLAUDE_FLAGS));
   assert.ok(!/supabase/i.test(w.CLAUDE_FLAGS));
 });
