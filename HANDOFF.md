@@ -10,7 +10,7 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Next Steps
 
-- [ ] **Merge `lithotripsy/wtff-pipeline-guards` (2026-10-19), then restart the WTFF Pipeline Watcher task.** Adds the approve lock, the Convo 2 gate, pre-fetched DDB rolls and headless git permissions (see the 15:58 log entry).
+- [x] ✅ **DONE 2026-10-20: merged `lithotripsy/wtff-pipeline-guards` (fast-forward to `90e42ae`) and restarted the WTFF Pipeline Watcher.** Adds the approve lock, the Convo 2 gate, pre-fetched DDB rolls and headless git permissions (see the 15:58 log entry).
 - [x] ✅ **DONE 2026-10-10 — S07 fully published.** Re-transcribed with 12 speakers (`7b82324`), Phase A rerun approved, corrected transcript rebuilt (`62f38fc`), note "Omission of Truth" approved by Taylor (`bf5561e`), Convo 2 propagated (`0bfa8a0`), index regenerated + pushed (`2e187ab`), site ARC entry added (rectrixcaedere `6654194`). ⚠️ Still open: Artie/Lux shared past (F65) unconfirmed; ~15 [Unknown/Ambiguous] items in the note's Continuity Flags. ⚑ Future joint sessions: put `12sp` in the mp3 filename.
 - [x] ✅ **DONE 2026-08-24 — deleted `Session_Sources/Transcripts/Raw_Unedited/04-080226_raw_transcript.md`** — its header names its audio `080226 SITL Recording.mp3`, and the **authoritative copy already exists** at `sitl_vault/.../21-080226_raw_transcript.md` (byte-for-byte the same dialogue, with proper nouns already corrected: `Velkynvelve` not "Belkin Valve", `Gracklstugh` not "Gracklestug"), plus a fully-processed `sitl_vault/_pipeline/S21/`, corrected transcript, and session note. Deleting it loses nothing. Command: `Remove-Item "Session_Sources\Transcripts\Raw_Unedited\04-080226_raw_transcript.md"`. **Do not run `Approve-WTFF.cmd` against it** — applying its corrections would import published Forgotten Realms lore into WtFF canon. Evidence: `_pipeline/S04/flags_SITL-080226-WRONGCAMPAIGN.md` #1.
 - [x] ⚠️ **CORRECTION 2026-08-24 — `04-UNKNOWN_raw_transcript.md` was NOT a duplicate and must NOT be deleted.** The 08-02 entries below claim it is "a 7-minute partial capture of that same audio." **That is wrong.** Verified by search: `Form of Demogorgon`, `madness check`, `year anniversary` and `level 5 level up` return **zero matches** anywhere in `sitl_vault` — not in `21-080226` (the 233-min main capture), not in `20-071926`. It is ~7 minutes of unique SITL audio: the tail of the Sloobludop Demogorgon fight (Indigo leading northwest, Jimjar fleeing north-by-northeast, Demogorgon inbound west-southwest), the DM confirming the madness check was already rolled, and the request for level-5 level-up narratives. The 233-min file opens **later**, already past the battle and into Neverlight Grove travel planning. Rerouted verbatim (body diffed, 51/51 lines identical) to `sitl_vault/Session_Sources/Transcripts/Raw_Unedited/21-080226-opening_partial_raw_transcript.md` with a provenance header. The wtff copy is now safe to remove: `Remove-Item "Session_Sources\Transcripts\Raw_Unedited\04-UNKNOWN_raw_transcript.md"`.
@@ -35,6 +35,12 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+### 2026-10-20 10:36 ET · Claude Code
+- **Changed:** Fast-forwarded main to `lithotripsy/wtff-pipeline-guards` (11 tests pass on main) and restarted the watcher; it now runs the guarded script (new node process 10:35).
+- **Commit:** `90e42ae`
+- **Next:** S09 is the first live run of the approve lock, Convo 2 gate and pre-fetched rolls; watch that it ends with one note and one publish commit.
+- **Watch out:** Stop-ScheduledTask does NOT kill the watcher's node process (it outlives the task); kill the node PID before Start-ScheduledTask or the old script keeps running.
+
 ### 2026-10-19 15:58 ET · Claude Code
 - **Changed:** Pipeline guards on branch `lithotripsy/wtff-pipeline-guards` (not merged): `_pipeline/approve.lock` stops a second approve while one runs; Convo 2 waits for `SNN/handoff.md` + exactly one note; the watcher pre-fetches DDB rolls read-only into `SNN/ddb_rolls.json` (Phase B no longer needs Supabase); headless claude may git add/commit but never push (`a98aa7d` narrowed it; the publish step now always pushes, even with nothing new to commit). 11 node:test cases pass; live fetch for 10/18 returned the 3 S08 rolls.
 - **Commit:** `a18342f`, `a98aa7d`
@@ -120,9 +126,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Next:** Wait for GitHub Support reply on the transcript purge.
 - **Watch out:** Profanity Ledger and Quote Board Master still have plain-text headings with the old S01 title "A Railway Requires Everyone" (not links; left alone).
 
-### 2026-10-11 13:00 ET · Claude Code
-- **Changed:** Extracted the 26 inline base64 PNGs from the 13 Pantheon pages into `06-Media/Pantheon/<God> N.png` (66 MB of real PNGs) and replaced each data URI with `![[06-Media/Pantheon/<God> N.png|width]]`, widths preserved. Pages went from 1.6–10.4 MB to 1–10 KB. Each image checked: PNG signature + exact base64 round-trip. Old blobs remain in git history (own lore art, not private; no rewrite).
-- **Commit:** `491dd46`
-- **Next:** Taylor opens a Pantheon page in Obsidian to confirm the images render; still waiting on GitHub Support for the transcript purge.
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-11 13:00 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-11 14:10 ET.
