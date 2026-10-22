@@ -35,6 +35,11 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 
 ## Log
 <!-- newest first · one entry per logical task/session · timestamp · source · changed · commit · next -->
+### 2026-10-22 15:55 ET · Claude (cloud, via device shell)
+- **Changed:** Added Taylor's player-written backstory to `03-Characters/01 PCs/Isla 'Bruin' Kaplan.md` as `Backstory > Origin (player-written, 10/22/26)`; existing session bullets moved under `As revealed in play`. Named Calder Wynn and Soren/Wren in Relationships. Backup in `.lithotripsy-backup/20261022-1954/`.
+- **Commit:** none (bridge shell can't clean git lock files). Commit with the next `Publish-WTFF.cmd` run.
+- **Then:** created `03-Characters/02 NPCs/Calder Wynn.md` (backstory NPC, not yet in play) and linked it from Bruin's note.
+- **Next:** commit both with `Publish-WTFF.cmd`.
 ### 2026-10-20 10:36 ET · Claude Code
 - **Changed:** Fast-forwarded main to `lithotripsy/wtff-pipeline-guards` (11 tests pass on main) and restarted the watcher; it now runs the guarded script (new node process 10:35).
 - **Commit:** `90e42ae`
@@ -120,10 +125,4 @@ Vault-consistency work order from the 2026-07-04 audit is open: handoff enabled 
 - **Commit:** `455df2b`
 - **Next:** Taylor asks Adam: does Bebo thaw in S05 or S06, and what is the in-game month (Ven / Vedin / Verdin)?
 
-### 2026-10-11 14:10 ET · Claude Code
-- **Changed:** (1) `Bloom.md`: the snail's origin traced to the S02 escargot bowl (inferred ~85%: Bebo in S07 [00:58:41] "Is from before we left. He was on the salad, remember?"); `first_appearance` → S02 (inferred), S04–S06 coverage noted as table-talk only. (2) Repointed **92 broken session wikilinks in 29 files** that used pre-rename titles and resolved to nothing: S01 "Winds in the East, Mist comin' in..." and "A Railway Requires Everyone" → `Session 01 — Winds in the East`; "Session 02 — I Can Feel It In My Bones" → `Session 00 — …`; S02 "Something's Changing" (both apostrophes) → `Session 02 — It Follows Me, So I Followed It`. Only template placeholders ("Session 01 — Title", "Session 11 — Long_Title") remain unresolved. (3) Site: `session.html` now builds its session list from this vault's `Public Session Index.json` (rectrixcaedere `7c93b94`), so the per-session ARC entry is no longer a publish step; it only holds tags.
-- **Commit:** `761eec1` (vault), `7c93b94` (site)
-- **Next:** Wait for GitHub Support reply on the transcript purge.
-- **Watch out:** Profanity Ledger and Quote Board Master still have plain-text headings with the old S01 title "A Railway Requires Everyone" (not links; left alone).
-
-> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-11 14:10 ET.
+> Older entries archived to `handoff-archive/2026-07.md`, `handoff-archive/2026-08.md`, `handoff-archive/2026-09.md`, `handoff-archive/2026-10.md` - everything before 2026-10-11 14:40 ET.
